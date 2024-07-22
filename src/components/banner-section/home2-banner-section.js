@@ -1,4 +1,5 @@
 import React from "react";
+import { contactInformation, heroData } from "../../../data/data";
 
 const Home2BannerSection = () => {
   return (
@@ -8,9 +9,7 @@ const Home2BannerSection = () => {
           <div className="row">
             <div className="col-xxl-8 col-xl-7 col-lg-7 d-flex align-items-center">
               <div className="banner-content-wrap">
-                <h1 className="text-animation2">
-                  We are a <span>Full-Service</span> Agency.
-                </h1>
+                {heroData.heading}
                 <div className="banner-content">
                   {/* <div className="vector-and-review  text-animation">
                     <div className="vector">
@@ -63,14 +62,9 @@ const Home2BannerSection = () => {
                     </a>
                   </div> */}
                   <div className="content-and-btn text-animation">
-                    <p>
-                      Your business deserves the best—service without
-                      restrictions. We're here to facilitate <span>growth</span>{" "}
-                      with <span>attractive</span> and <span>practical</span>{" "}
-                      solutions.
-                    </p>
+                    {heroData.description}
                     <div className="banner-btn">
-                      <a href="tel:+990737621432">
+                      <a href={contactInformation.phoneNo.numberLink}>
                         <span className="icon">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +94,7 @@ const Home2BannerSection = () => {
             </div>
             <div className="col-xxl-4 col-xl-5 col-lg-5 d-lg-flex d-none">
               <div className="banner-img magnetic-item">
-                <img src="assets/img/home2/banner-img.png" alt="" />
+                <img src={heroData.heroImgSrc} alt="" />
               </div>
             </div>
           </div>
@@ -108,220 +102,39 @@ const Home2BannerSection = () => {
       </div>
       <div className="text-slider-section two mb-130">
         <div className="marquee">
-          <div className="marquee__group">
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>{" "}
-              UI/UX DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              WEBSITE DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              SOFTWARE DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              FRONTEND DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              BACKEND DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              FULLSTACK DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              CLOUD DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              NO CODE SOLUTIONS
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              SEO
-            </span>
-          </div>
-          <div className="marquee__group">
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>{" "}
-              UI/UX DESIGN
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              WEBSITE DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              SOFTWARE DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              FRONTEND DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              BACKEND DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              FULLSTACK DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={40}
-                height={40}
-                viewBox="0 0 40 40"
-              >
-                <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
-              </svg>
-              CLOUD DEVELOPMENT
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              NO CODE SOLUTIONS
-            </span>
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width={17}
-                height={17}
-                viewBox="0 0 17 17"
-                fill="none"
-              >
-                <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
-              </svg>
-              SEO
-            </span>
-          </div>
+          {Array.from({ length: 2 }).map((_, index) => {
+            return (
+              <div key={index} className="marquee__group">
+                {heroData.marqueeText.map((data, serIndex) => {
+                  return (
+                    <span key={serIndex} style={{ textTransform: "uppercase" }}>
+                      {serIndex % 2 === 0 ? (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width={40}
+                          height={40}
+                          viewBox="0 0 40 40"
+                        >
+                          <path d="M20 9.47811L26.1809 0L25.8767 11.4983L36.1889 7.6431L29.5116 16.7508L40 20L29.5116 23.2492L36.1889 32.3569L25.8767 28.5017L26.1809 40L20 30.5219L13.8191 40L14.1233 28.5017L3.82706 32.3569L10.4884 23.2492L0 20L10.4884 16.7508L3.82706 7.6431L14.1233 11.4983L13.8191 0L20 9.47811Z" />
+                        </svg>
+                      ) : (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width={17}
+                          height={17}
+                          viewBox="0 0 17 17"
+                          fill="none"
+                        >
+                          <circle cx="8.5" cy="8.5" r={8} stroke="#1A1A1A" />
+                        </svg>
+                      )}
+                      {data}
+                    </span>
+                  );
+                })}
+              </div>
+            );
+          })}
         </div>
       </div>
     </>

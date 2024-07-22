@@ -7,11 +7,12 @@ import Home2ProcessSection from "@/components/process-section/home2-process-sect
 import Home2ServicesSection from "@/components/services-section/home2-services-section";
 import Home2TechnologySection from "@/components/technology-section/home2-technology-section";
 import Home2TestimonialSection from "@/components/testimonial-section/home2-testimonial-section";
+import { logoUrl } from "../../data/data";
 
 export const metadata = {
   title: "Axleo - Digital Agency Creative Portfolio Template",
   icons: {
-    icon: "/assets/img/rudisn-logo.svg",
+    icon: logoUrl,
   },
 };
 export default function Home() {

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { contactInformation, logoUrl } from "../../../data/data";
 
 const Footer2 = () => {
   return (
@@ -14,24 +15,23 @@ const Footer2 = () => {
                     <div className="footer-logo-contact-wrap">
                       <div className="footer-logo">
                         <Link href="/">
-                          <img
-                            src="assets/img/rudisn-logo.svg"
-                            alt="footer-logo"
-                          />
+                          <img src={logoUrl} alt="footer-logo" />
                         </Link>
                       </div>
                       <ul className="footer-contact">
                         <li className="single-contact">
                           <span>Phone</span>
                           <h5>
-                            <a href="tel:+919075274002">+91 90752 74002</a>
+                            <a href={contactInformation.phoneNo.numberLink}>
+                              {contactInformation.phoneNo.number}
+                            </a>
                           </h5>
                         </li>
                         <li className="single-contact">
-                          <span>Email Now</span>
+                          <span>Email</span>
                           <h5>
-                            <a href="mailto:rudisn2002@gmail.com">
-                              rudisn2002@gmail.com
+                            <a href={contactInformation.email.emailLink}>
+                              {contactInformation.email.email}
                             </a>
                           </h5>
                         </li>

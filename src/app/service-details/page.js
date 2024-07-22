@@ -1,11 +1,12 @@
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
 import ServiceDetails from "@/components/services-section/service-details";
+import { logoUrl } from "../../../data/data";
 
 export const metadata = {
   title: "Axleo - Digital Agency Creative Portfolio Template",
   icons: {
-    icon: "/assets/img/rudisn-logo.svg",
+    icon: logoUrl,
   },
 };
 

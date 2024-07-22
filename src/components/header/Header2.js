@@ -2,6 +2,15 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import Sidebar from "../common/Sidebar";
+import { contactInformation, logoUrl, navBarData } from "../../../data/data";
+
+const Menu = () => {
+  return (
+    <li key={index}>
+      <Link href={data.path}>{data.name}</Link>
+    </li>
+  );
+};
 
 const Header2 = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -19,7 +28,7 @@ const Header2 = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/rudisn-logo.svg"
+                src={logoUrl}
                 style={{ height: "43px" }}
               />
             </Link>
@@ -28,52 +37,38 @@ const Header2 = () => {
             <div className="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
               <div className="mobile-logo-wrap">
                 <Link href="/">
-                  <img alt="image" src="assets/img/rudisn-logo.svg" />
+                  <img alt="image" src={logoUrl} />
                 </Link>
               </div>
             </div>
             <ul className="menu-list">
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-
-              <li className="menu-item-has-children">
-                <Link href="#" className="drop-down">
-                  Services
-                </Link>
-                <i className="bi bi-plus dropdown-icon" />
-                <ul className="sub-menu">
-                  <li>
-                    <Link href="/service-details">UI/UX</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">App Development</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">SEO</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">Web Development</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">Cloud</Link>
-                  </li>
-                  <li>
-                    <Link href="/service-details">Cyber Security</Link>
-                  </li>
-                </ul>
-              </li>
-
-              <li>
-                <Link href="/portfolio-manonery">Our Work</Link>
-              </li>
-
-              <li>
-                <Link href="/our-team">Our Team</Link>
-              </li>
-              <li>
-                <Link href="/contact">Contact Us</Link>
-              </li>
+              {navBarData.map((data, index) => {
+                if (data?.subPaths) {
+                  return (
+                    <li className="menu-item-has-children">
+                      <Link href="#" className="drop-down">
+                        {data.name}
+                      </Link>
+                      <i className="bi bi-plus dropdown-icon" />
+                      <ul className="sub-menu">
+                        {data.subPaths.map((subData, subIndex) => {
+                          return (
+                            <li key={subIndex}>
+                              <Link href={subData.path}>{subData.name}</Link>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </li>
+                  );
+                } else {
+                  return (
+                    <li key={index}>
+                      <Link href={data.path}>{data.name}</Link>
+                    </li>
+                  );
+                }
+              })}
             </ul>
           </div>
         </div>
@@ -122,7 +117,9 @@ const Header2 = () => {
             <div className="content">
               <span>To More Inquiry</span>
               <h6>
-                <a href="tel:+919075274002">+91 90752 74002</a>
+                <a href={contactInformation.phoneNo.numberLink}>
+                  {contactInformation.phoneNo.number}
+                </a>
               </h6>
             </div>
           </div>

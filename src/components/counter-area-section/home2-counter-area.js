@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import CountUp from "react-countup";
+import { counterData } from "../../../data/data";
 
 const Home2CounterArea = () => {
   return (
@@ -10,42 +11,22 @@ const Home2CounterArea = () => {
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="row g-4">
-                <div className="col-lg-4">
-                  <div className="single-counter">
-                    <div className="content">
-                      <div className="number">
-                        <h2 className="counter">
-                          <CountUp end={15} />+
-                        </h2>
+                {counterData.map((data, index) => {
+                  return (
+                    <div key={index} className="col-lg-4">
+                      <div className="single-counter">
+                        <div className="content">
+                          <div className="number">
+                            <h2 className="counter">
+                              <CountUp end={data.value} />+
+                            </h2>
+                          </div>
+                          <p>{data.title}</p>
+                        </div>
                       </div>
-                      <p>Professional Experts</p>
                     </div>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="single-counter two">
-                    <div className="content">
-                      <div className="number">
-                        <h2 className="counter">
-                          <CountUp end={25} />+
-                        </h2>
-                      </div>
-                      <p>Completed Projects</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-4">
-                  <div className="single-counter">
-                    <div className="content">
-                      <div className="number">
-                        <h2 className="counter">
-                          <CountUp end={6} />+
-                        </h2>
-                      </div>
-                      <p>Year of Experienece</p>
-                    </div>
-                  </div>
-                </div>
+                  );
+                })}
               </div>
             </div>
           </div>

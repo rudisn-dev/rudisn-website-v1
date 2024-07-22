@@ -1,10 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import { logoUrl } from "../../../data/data";
 
 export const metadata = {
   title: "Axleo - Digital Agency Creative Portfolio Template",
   icons: {
-    icon: "/assets/img/rudisn-logo.svg",
+    icon: logoUrl,
   },
 };
 

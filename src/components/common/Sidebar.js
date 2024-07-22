@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useReducer, useRef } from "react";
+import { contactInformation, logoUrl, navBarData } from "../../../data/data";
 
 const initialState = {
   activeMenu: "",
@@ -53,7 +54,7 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
             <img
               alt="image"
               className="img-fluid"
-              src="/assets/img/rudisn-logo.svg"
+              src={logoUrl}
               style={{ height: "43px" }}
             />
           </Link>
@@ -61,7 +62,7 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
             <img
               alt="image"
               className="img-fluid"
-              src="/assets/img/rudisn-logo.svg"
+              src={logoUrl}
               style={{ height: "43px" }}
             />
           </Link>
@@ -114,7 +115,9 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                     <div className="contact">
                       <span>Phone</span>
                       <h6>
-                        <a href="tel:+919075274002">+91 90752 74002</a>
+                        <a href={contactInformation.phoneNo.numberLink}>
+                          {contactInformation.phoneNo.number}
+                        </a>
                       </h6>
                     </div>
                   </li>
@@ -132,8 +135,8 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                     <div className="contact">
                       <span>Email Now</span>
                       <h6>
-                        <a href="mailto:rudisn2002@gmail.com">
-                          rudisn2002@gmail.com
+                        <a href={contactInformation.email.emailLink}>
+                          {contactInformation.email.email}
                         </a>
                       </h6>
                     </div>
@@ -151,11 +154,10 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                       </svg>
                     </div>
                     <div className="contact">
-                      <span>Canada Office</span>
+                      <span>Office</span>
                       <h6>
-                        <a href="https://www.google.com/maps/place/Bhagwati+Sugar+Sales/@19.616699,74.6563539,20.42z/data=!4m6!3m5!1s0x3bdc8bf65b2c50e1:0xec2894f6dd7dc7bb!8m2!3d19.6170315!4d74.6561317!16s%2Fg%2F11vt2zxnd1?entry=ttu">
-                          Harikamal Plaza, First Floor, Shrirampur Maharashtra,
-                          413709
+                        <a href={contactInformation.address.addressLink}>
+                          {contactInformation.address.address}
                         </a>
                       </h6>
                     </div>
@@ -175,44 +177,15 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                   </svg>
                 </h6>
                 <ul className="social-area">
-                  <li>
-                    <a
-                      href="https://instagram.com/rudisn__/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="bi bi-instagram" /> Inatagram
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://www.behance.net/rudisn"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="bi bi-behance" /> Behance
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://dribbble.com/rudisn"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="bi bi-dribbble" />
-                      Dribble
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://twitter.com/rudisn_twi"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      <i className="bi bi-twitter-x" />
-                      Twitter
-                    </a>
-                  </li>
+                  {contactInformation.socialLinks.map((data, index) => {
+                    return (
+                      <li key={index}>
+                        <a href={data.link} target="_blank" rel="noreferrer">
+                          {data.icon} {data.type}
+                        </a>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             </div>
@@ -220,21 +193,56 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
           <div className="col-lg-8 order-lg-2 order-1">
             <div className="sidebar-menu-wrap">
               <ul className="main-menu">
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
-                <li>
-                  <Link href="/">Services</Link>
-                </li>
-                <li>
-                  <Link href="/portfolio-manonery">Our Work</Link>
-                </li>
-                <li>
-                  <Link href="/our-team">Our Team</Link>
-                </li>
-                <li>
-                  <Link href="/contact">Contact Us</Link>
-                </li>
+                {navBarData.map((data, index) => {
+                  if (data?.subPaths) {
+                    return (
+                      <li
+                        className={
+                          state.activeMenu === "service" ? "active" : ""
+                        }
+                      >
+                        <a href="#"> {data.name}</a>
+                        <span
+                          className={`dropdown-icon2 ${
+                            state.activeMenu === "service" ? "active" : ""
+                          } `}
+                        >
+                          <i
+                            className={`bi ${
+                              state.activeMenu === "service"
+                                ? "bi-dash"
+                                : "bi-plus"
+                            }`}
+                            onClick={() => collapseMenu("service")}
+                          />
+                        </span>
+                        <ul
+                          className={`submenu-list ${
+                            state.activeMenu === "service" ? "active" : ""
+                          }`}
+                        >
+                          {data.subPaths.map((subData, subIndex) => {
+                            return (
+                              <li key={subIndex}>
+                                <Link href={subData.path} onClick={toggleMenu}>
+                                  {subData.name}
+                                </Link>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </li>
+                    );
+                  } else {
+                    return (
+                      <li key={index}>
+                        <Link href={data.path} onClick={toggleMenu}>
+                          {data.name}
+                        </Link>
+                      </li>
+                    );
+                  }
+                })}
               </ul>
             </div>
           </div>

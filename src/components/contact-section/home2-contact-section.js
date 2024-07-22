@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import { contactInformation, footerData } from "../../../data/data";
 
 const Home2ContactSection = () => {
   return (
@@ -9,17 +10,11 @@ const Home2ContactSection = () => {
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-8">
               <div className="section-title text-animation">
-                <h2>
-                  Let’s <span>TALK</span>
-                </h2>
+                {footerData.title}
                 <div className="dash-and-paragraph">
                   <div className="dash" />
                   <div className="content-and-social">
-                    <p>
-                      Crafting a contact text for a digital agency involves
-                      providing essential information for potential clients or
-                      collaborators to reach out.
-                    </p>
+                    <p>{footerData.description}</p>
                     <div className="social-area">
                       <h6>Connect Us</h6>
                       <svg
@@ -31,42 +26,20 @@ const Home2ContactSection = () => {
                         <path d="M50 3L45 0.113249V5.88675L50 3ZM0 3.5H45.5V2.5H0V3.5Z" />
                       </svg>
                       <ul>
-                        <li>
-                          <a
-                            href="https://instagram.com/rudisn__/"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <i className="bx bxl-instagram" />
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://www.behance.net/rudisn"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <i className="bi bi-behance" />
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://dribbble.com/rudisn"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <i className="bi bi-dribbble" />
-                          </a>
-                        </li>
-                        <li>
-                          <a
-                            href="https://twitter.com/rudisn_twi"
-                            target="_blank"
-                            rel="noreferrer"
-                          >
-                            <i className="bi bi-twitter-x" />
-                          </a>
-                        </li>
+                        {contactInformation.socialLinks.map((data, index) => {
+                          return (
+                            <li key={index}>
+                              <a
+                                href={data.link}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="p-3"
+                              >
+                                {data.icon}
+                              </a>
+                            </li>
+                          );
+                        })}
                       </ul>
                     </div>
                   </div>

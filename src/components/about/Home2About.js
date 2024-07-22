@@ -3,6 +3,7 @@ import useScrollZoomAnimationImg from "@/hooks/useScrollZoomAnimationImg";
 import Link from "next/link";
 import React from "react";
 import CountUp from "react-countup";
+import { aboutUsData } from "../../../data/data";
 
 const Home2About = () => {
   useScrollZoomAnimationImg();
@@ -23,10 +24,7 @@ const Home2About = () => {
                     <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM475 3L475.255 3.42984L476.82 2.5H475V3ZM438.668 65L441.872 60.197L436.111 59.8239L438.668 65ZM3 3.5H475V2.5H3V3.5ZM474.745 2.57016C459.928 11.3742 441.341 27.8789 438.461 60.47L439.457 60.5581C442.3 28.3895 460.613 12.1303 475.255 3.42984L474.745 2.57016Z" />
                   </svg>
                   <div className="btn-and-paragraph">
-                    <p>
-                      Rudisn Agency is a full-service digital agency dedicated
-                      to helping businesses grow and thrive in the digital age.
-                    </p>
+                    <p>{aboutUsData.aboutUs}</p>
                   </div>
                 </div>
               </div>
@@ -59,7 +57,7 @@ const Home2About = () => {
                     <div className="content">
                       <div className="number">
                         <h3 className="counter">
-                          <CountUp end={25} />
+                          <CountUp end={aboutUsData.totalProjects} />
                         </h3>
                         <span>+</span>
                       </div>
@@ -172,11 +170,7 @@ const Home2About = () => {
                     <div className="about-img animet-images magnetic-item">
                       <img src="assets/img/home2/about-02.jpg" alt="" />
                     </div>
-                    <p className="text-animation2">
-                      Our mission is to deliver exceptional service without
-                      restrictions, ensuring our clients receive attractive and
-                      practical solutions tailored to their unique needs.
-                    </p>
+                    <p className="text-animation2">{aboutUsData.aboutUs2}</p>
                   </div>
                 </div>
                 <div className="col-sm-7 d-sm-flex  d-none">
