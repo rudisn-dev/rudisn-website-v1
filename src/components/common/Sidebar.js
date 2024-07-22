@@ -197,6 +197,7 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                   if (data?.subPaths) {
                     return (
                       <li
+                        key={index}
                         className={
                           state.activeMenu === "service" ? "active" : ""
                         }

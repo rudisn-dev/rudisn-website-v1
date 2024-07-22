@@ -45,7 +45,7 @@ const Header2 = () => {
               {navBarData.map((data, index) => {
                 if (data?.subPaths) {
                   return (
-                    <li className="menu-item-has-children">
+                    <li key={index} className="menu-item-has-children">
                       <Link href="#" className="drop-down">
                         {data.name}
                       </Link>

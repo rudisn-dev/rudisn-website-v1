@@ -1,9 +1,10 @@
-export const logoUrl = "assets/img/rudisn-logo.svg";
+export const logoUrl = "/assets/img/rudisn-logo.svg";
 
 export const allServices = [
   {
+    slug: "ui-ux",
     name: "UI/UX Design",
-    path: "/service-details",
+    path: "/service/ui-ux",
     description:
       "Creating intuitive and engaging user interfaces and experiences through research and design.",
     tags: [
@@ -13,10 +14,84 @@ export const allServices = [
       "Wireframing",
       "Visual Design",
     ],
+    heroImages: [
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+    ],
+    serviceOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    keyFeatures: [
+      "Comprehensive user research, detailed wireframing and prototyping, and interactive design focus on understanding target audience needs, visualizing concepts, and creating seamless user journeys.",
+      "High-fidelity visual design and continuous iteration ensure the final product is functional, aesthetically pleasing, and refined based on user feedback.",
+    ],
+    process: [
+      {
+        heading: "Discovery",
+        description:
+          "Gathering relevant information through interviews and user research to understand project requirements and user needs.",
+      },
+      {
+        heading: "Design",
+        description:
+          "Creating wireframes, prototypes, and visual designs to map out user flows and interface layouts.",
+      },
+      {
+        heading: "Development",
+        description:
+          "Collaborating with developers to ensure the design is implemented accurately and efficiently.",
+      },
+      {
+        heading: "Testing & Iteration",
+        description:
+          "Conducting usability tests and gathering feedback to make necessary adjustments and improvements.",
+      },
+    ],
+    descriptionImages: [
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+    ],
+    faqs: [
+      {
+        question: "What is UI/UX Design?",
+        answer:
+          "UI/UX Design involves creating intuitive and engaging user interfaces and experiences through research and design.",
+      },
+      {
+        question: "What services do you offer in UI/UX Design?",
+        answer:
+          "We offer comprehensive user research, prototyping, interaction design, wireframing, and visual design to create seamless and engaging digital experiences.",
+      },
+      {
+        question: "How does your UI/UX design process work?",
+        answer:
+          "Our process includes discovery through user research, designing wireframes and prototypes, collaborating with developers for accurate implementation, and continuous testing and iteration to refine the design.",
+      },
+      {
+        question: "Why is user research important in UI/UX Design?",
+        answer:
+          "User research helps us understand the needs and preferences of the target audience, ensuring that the designs we create are user-centered and effective.",
+      },
+      {
+        question:
+          "How do you ensure the designs are both functional and aesthetically pleasing?",
+        answer:
+          "We use high-fidelity visual design and continuous iteration based on user feedback to ensure the final product is both functional and visually appealing.",
+      },
+      {
+        question: "Can you work with our development team?",
+        answer:
+          "Yes, we collaborate closely with developers to ensure the design is implemented accurately and efficiently.",
+      },
+    ],
   },
   {
+    slug: "web-development",
     name: "Web Development",
-    path: "/service-details",
+    path: "/service/web-development",
     description:
       "Building and maintaining websites to ensure optimal performance and user experience.",
     tags: [
@@ -26,10 +101,83 @@ export const allServices = [
       "E-Commerce",
       "Custom solutions",
     ],
+    heroImages: [
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+    ],
+    serviceOverview: [
+      "Our Web Development services cover the full spectrum of development needs, from frontend and backend development to full-stack solutions and e-commerce platforms. We focus on creating custom solutions that meet the unique requirements of each client.",
+      "Our team is dedicated to ensuring that every website we build is optimized for performance, scalability, and user experience. We pride ourselves on delivering high-quality web solutions that drive results and enhance online presence.",
+    ],
+    keyFeatures: [
+      "Responsive frontend development, robust backend capabilities, and full-stack services ensure a seamless and comprehensive web development process, tailored to meet specific client needs.",
+      "Custom e-commerce solutions and bespoke web designs address unique business challenges, providing optimized, scalable, and high-performance websites.",
+    ],
+    process: [
+      {
+        heading: "Discovery & Planning",
+        description:
+          "Gathering relevant information through interviews and research to understand project requirements and goals.",
+      },
+      {
+        heading: "Design & Prototyping",
+        description:
+          "Creating detailed designs and prototypes to visualize the website layout and user experience before development.",
+      },
+      {
+        heading: "Development & Testing",
+        description:
+          "Developing the website using best practices and testing thoroughly to ensure optimal performance and functionality.",
+      },
+      {
+        heading: "Launch & Maintenance",
+        description:
+          "Launching the website and providing ongoing maintenance and support to keep it running smoothly and up-to-date.",
+      },
+    ],
+    descriptionImages: [
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+    ],
+    faqs: [
+      {
+        question: "What is web development?",
+        answer:
+          "Web development involves building and maintaining websites to ensure optimal performance and user experience.",
+      },
+      {
+        question: "What services do you offer in web development?",
+        answer:
+          "We offer frontend, backend, and full-stack development, custom solutions, and e-commerce platforms to meet the unique requirements of each client.",
+      },
+      {
+        question: "How does your web development process work?",
+        answer:
+          "Our process includes discovery and planning through interviews and research, design and prototyping, development and testing, and finally, launch and maintenance.",
+      },
+      {
+        question: "Why is responsive frontend development important?",
+        answer:
+          "Responsive frontend development ensures that websites function well across various devices and screen sizes, providing a seamless user experience.",
+      },
+      {
+        question: "Do you offer custom e-commerce solutions?",
+        answer:
+          "Yes, we provide custom e-commerce solutions tailored to address unique business challenges, ensuring optimized, scalable, and high-performance websites.",
+      },
+      {
+        question: "What kind of ongoing support do you provide after launch?",
+        answer:
+          "We offer ongoing maintenance and support to keep your website running smoothly and up-to-date, ensuring it remains optimized and secure.",
+      },
+    ],
   },
   {
+    slug: "app-development",
     name: "App Development",
-    path: "/service-details",
+    path: "/service/app-development",
     description:
       "Developing mobile applications for various platforms to enhance user engagement and functionality.",
     tags: [
@@ -39,17 +187,164 @@ export const allServices = [
       "Maintenance",
       "User Testing",
     ],
+    heroImages: [
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+    ],
+    serviceOverview: [
+      "Our App Development services cover the full lifecycle of mobile app development, from concept to launch and beyond. We specialize in creating high-quality iOS, Android, and cross-platform apps that engage users and provide a seamless experience.",
+      "Our experienced team is committed to delivering apps that not only meet but exceed client expectations. We focus on functionality, performance, and user-centric design to ensure that every app we develop adds significant value to our clients' businesses.",
+    ],
+    keyFeatures: [
+      "Native iOS and Android app development, along with cross-platform solutions using frameworks like Flutter and React Native, to ensure apps leverage the full potential of each platform and work seamlessly across devices.",
+      "Comprehensive maintenance, rigorous user testing, and custom app solutions tailored to specific client needs to keep apps performing optimally and providing an engaging user experience.",
+    ],
+    process: [
+      {
+        heading: "Discovery & Planning",
+        description:
+          "Gathering relevant information through interviews and research to understand project requirements and goals.",
+      },
+      {
+        heading: "Design & Prototyping",
+        description:
+          "Creating detailed designs and prototypes to visualize the app layout and user experience before development.",
+      },
+      {
+        heading: "Development & Testing",
+        description:
+          "Developing the app using best practices and testing thoroughly to ensure optimal performance and functionality.",
+      },
+      {
+        heading: "Launch & Maintenance",
+        description:
+          "Launching the app and providing ongoing maintenance and support to keep it running smoothly and up-to-date.",
+      },
+    ],
+    descriptionImages: [
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+    ],
+    faqs: [
+      {
+        question: "What is app development?",
+        answer:
+          "App development involves creating mobile applications for various platforms to enhance user engagement and functionality.",
+      },
+      {
+        question: "What services do you offer in app development?",
+        answer:
+          "We offer native iOS and Android app development, cross-platform app solutions, maintenance, and user testing to ensure high-quality apps that meet client needs.",
+      },
+      {
+        question: "How does your app development process work?",
+        answer:
+          "Our process includes discovery and planning through interviews and research, design and prototyping, development and testing, and finally, launch and maintenance.",
+      },
+      {
+        question: "Do you develop cross-platform apps?",
+        answer:
+          "Yes, we develop cross-platform apps using frameworks like Flutter and React Native to ensure they work seamlessly across different devices.",
+      },
+      {
+        question: "Why is user testing important in app development?",
+        answer:
+          "User testing ensures that the app meets user expectations and functions correctly, providing a smooth and engaging user experience.",
+      },
+      {
+        question: "What kind of ongoing support do you provide after launch?",
+        answer:
+          "We offer comprehensive maintenance and support to keep your app running smoothly and up-to-date, ensuring it remains optimized and secure.",
+      },
+    ],
   },
   {
+    slug: "cloud",
     name: "Cloud Service",
-    path: "/service-details",
+    path: "/service/cloud",
     description:
       "Providing scalable cloud solutions to enhance business agility and performance.",
     tags: ["Migration", "Management", "Security", "DevOps"],
+    heroImages: [
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+    ],
+    serviceOverview: [
+      "Our Cloud Service offerings are designed to provide businesses with scalable and reliable cloud solutions. We help organizations migrate to the cloud, manage their cloud infrastructure, ensure security, and implement DevOps practices to streamline operations.",
+      "Our team of experts is dedicated to delivering cloud solutions that enhance business agility and performance. We work closely with clients to understand their specific needs and create custom solutions that drive growth and innovation.",
+    ],
+    keyFeatures: [
+      "Comprehensive migration services for a smooth transition to the cloud, along with effective cloud management to ensure performance, cost-efficiency, and reliability.",
+      "Robust security solutions, DevOps practices for automation and improved collaboration, and custom cloud solutions tailored to meet unique business needs.",
+    ],
+    process: [
+      {
+        heading: "Discovery & Planning",
+        description:
+          "Gathering relevant information through interviews and assessments to understand project requirements and goals.",
+      },
+      {
+        heading: "Design & Architecture",
+        description:
+          "Creating detailed designs and architectures to visualize the cloud infrastructure and ensure it meets business needs.",
+      },
+      {
+        heading: "Migration & Implementation",
+        description:
+          "Executing the migration plan and implementing the cloud solutions while minimizing disruption to business operations.",
+      },
+      {
+        heading: "Management & Optimization",
+        description:
+          "Providing ongoing management and optimization of cloud infrastructure to ensure it remains efficient and secure.",
+      },
+    ],
+    descriptionImages: [
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+    ],
+    faqs: [
+      {
+        question: "What is cloud service?",
+        answer:
+          "Cloud service involves providing scalable cloud solutions to enhance business agility and performance.",
+      },
+      {
+        question: "What services do you offer in cloud service?",
+        answer:
+          "We offer cloud migration, management, security solutions, and DevOps practices to streamline operations and ensure optimal performance.",
+      },
+      {
+        question: "How does your cloud service process work?",
+        answer:
+          "Our process includes discovery and planning through interviews and assessments, design and architecture, migration and implementation, and ongoing management and optimization.",
+      },
+      {
+        question: "Why is cloud migration important for businesses?",
+        answer:
+          "Cloud migration provides businesses with scalability, cost-efficiency, and enhanced performance, allowing them to focus on growth and innovation.",
+      },
+      {
+        question: "How do you ensure cloud security?",
+        answer:
+          "We implement robust security solutions to protect cloud infrastructure, ensuring data integrity and compliance with industry standards.",
+      },
+      {
+        question:
+          "What kind of ongoing support do you provide after cloud migration?",
+        answer:
+          "We offer continuous management and optimization of your cloud infrastructure to ensure it remains efficient, cost-effective, and secure.",
+      },
+    ],
   },
   {
+    slug: "seo",
     name: "SEO",
-    path: "/service-details",
+    path: "/service/seo",
     description:
       "Optimizing websites to rank higher on search engines and attract more organic traffic.",
     tags: [
@@ -59,10 +354,83 @@ export const allServices = [
       "Content Optimization",
       "Technical SEO",
     ],
+    heroImages: [
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+    ],
+    serviceOverview: [
+      "Our SEO services are designed to help businesses improve their online visibility and attract more organic traffic. We use a combination of keyword research, on-page optimization, and off-page strategies to boost search engine rankings.",
+      "Our team of SEO experts is committed to delivering results that drive growth and enhance online presence. We work closely with clients to understand their goals and create customized SEO strategies that deliver long-term success.",
+    ],
+    keyFeatures: [
+      "Comprehensive keyword research and on-page SEO techniques to identify high-traffic keywords, optimize website content, and improve search engine visibility.",
+      "Off-page SEO strategies, content optimization, and technical SEO to enhance your website's authority, engagement, and overall performance.",
+    ],
+    process: [
+      {
+        heading: "Keyword Research",
+        description:
+          "Identifying the most relevant and high-traffic keywords for your business through comprehensive research.",
+      },
+      {
+        heading: "On-Page Optimization",
+        description:
+          "Optimizing website content, meta tags, and structure to improve search engine visibility.",
+      },
+      {
+        heading: "Content Creation",
+        description:
+          "Developing high-quality, relevant content that is optimized for search engines and engages your target audience.",
+      },
+      {
+        heading: "Link Building",
+        description:
+          "Implementing strategies to acquire high-quality backlinks that enhance your website's authority and ranking.",
+      },
+    ],
+    descriptionImages: [
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+    ],
+    faqs: [
+      {
+        question: "What is SEO?",
+        answer:
+          "SEO involves optimizing websites to rank higher on search engines and attract more organic traffic.",
+      },
+      {
+        question: "What services do you offer in SEO?",
+        answer:
+          "We offer keyword research, on-page SEO, off-page SEO, content optimization, and technical SEO to boost search engine rankings.",
+      },
+      {
+        question: "How does your SEO process work?",
+        answer:
+          "Our process includes keyword research, on-page optimization, content creation, and link building to improve search engine visibility and website authority.",
+      },
+      {
+        question: "Why is keyword research important in SEO?",
+        answer:
+          "Keyword research helps identify the most relevant and high-traffic keywords for your business, which is essential for optimizing content and improving search engine rankings.",
+      },
+      {
+        question: "How do you optimize website content for SEO?",
+        answer:
+          "We optimize website content by adjusting meta tags, improving structure, and ensuring that content is relevant and high-quality to enhance search engine visibility.",
+      },
+      {
+        question: "What kind of off-page SEO strategies do you use?",
+        answer:
+          "We use strategies such as acquiring high-quality backlinks to enhance your website's authority and improve its ranking on search engines.",
+      },
+    ],
   },
   {
+    slug: "cyber-security",
     name: "Cyber Security",
-    path: "/service-details",
+    path: "/service/cyber-security",
     description:
       "Protecting systems, networks, and programs from digital attacks.",
     tags: [
@@ -72,6 +440,78 @@ export const allServices = [
       "Security Audits",
       "Incident Response",
     ],
+    heroImages: [
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+    ],
+    serviceOverview: [
+      "Our Cyber Security services are designed to protect your systems, networks, and programs from digital attacks. We offer a range of services including vulnerability assessments, penetration testing, and threat intelligence to ensure your business is secure.",
+      "Our team of security experts is committed to safeguarding your digital assets. We provide comprehensive security audits and incident response services to identify and mitigate risks, ensuring your organization remains protected.",
+    ],
+    keyFeatures: [
+      "Comprehensive vulnerability assessments and penetration testing to identify weaknesses and simulate cyber attacks, ensuring robust protection of your systems.",
+      "Threat intelligence, detailed security audits, and rapid incident response to stay ahead of potential threats, maintain compliance, and minimize the impact of security breaches.",
+    ],
+    process: [
+      {
+        heading: "Assessment & Planning",
+        description:
+          "Gathering relevant information through interviews and assessments to understand security needs and goals.",
+      },
+      {
+        heading: "Implementation",
+        description:
+          "Deploying security measures and technologies to protect systems and data.",
+      },
+      {
+        heading: "Monitoring & Management",
+        description:
+          "Continuously monitoring systems for threats and managing security protocols to ensure ongoing protection.",
+      },
+      {
+        heading: "Response & Recovery",
+        description:
+          "Providing rapid response to security incidents and assisting with recovery efforts to minimize impact.",
+      },
+    ],
+    descriptionImages: [
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img1.jpg",
+    ],
+    faqs: [
+      {
+        question: "What is cyber security?",
+        answer:
+          "Cyber security involves protecting systems, networks, and programs from digital attacks to ensure data integrity and privacy.",
+      },
+      {
+        question: "What services do you offer in cyber security?",
+        answer:
+          "We offer vulnerability assessments, penetration testing, threat intelligence, security audits, and incident response to safeguard your digital assets.",
+      },
+      {
+        question: "How does your cyber security process work?",
+        answer:
+          "Our process includes assessment and planning, implementation of security measures, continuous monitoring and management, and response and recovery to handle security incidents.",
+      },
+      {
+        question: "Why are vulnerability assessments important?",
+        answer:
+          "Vulnerability assessments identify weaknesses in your systems, allowing us to address potential security risks before they can be exploited.",
+      },
+      {
+        question: "What is penetration testing?",
+        answer:
+          "Penetration testing simulates cyber attacks to assess the effectiveness of your security measures and identify vulnerabilities that could be exploited by attackers.",
+      },
+      {
+        question: "How do you handle security incidents?",
+        answer:
+          "We provide rapid response to security incidents and assist with recovery efforts to minimize the impact and restore normal operations as quickly as possible.",
+      },
+    ],
   },
 ];
 
@@ -80,28 +520,28 @@ export const allProjects = [
     name: "Smart Design, Smarter Solutions.",
     tags: ["Logs", "Color", "Typography"],
     path: "/portfolio-details",
-    mainImgSrc: "assets/img/home2/portfolio-01.jpg",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
     showCaseColumnWidth: "col-lg-6",
   },
   {
     name: "Smart Design, Smarter Solutions.",
     tags: ["Logs", "Color", "Typography"],
     path: "/portfolio-details",
-    mainImgSrc: "assets/img/home2/portfolio-01.jpg",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
     showCaseColumnWidth: "col-lg-5",
   },
   {
     name: "Smart Design, Smarter Solutions.",
     tags: ["Logs", "Color", "Typography"],
     path: "/portfolio-details",
-    mainImgSrc: "assets/img/home2/portfolio-01.jpg",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
     showCaseColumnWidth: "col-lg-5",
   },
   {
     name: "Smart Design, Smarter Solutions.",
     tags: ["Logs", "Color", "Typography"],
     path: "/portfolio-details",
-    mainImgSrc: "assets/img/home2/portfolio-01.jpg",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
     showCaseColumnWidth: "col-lg-6",
   },
 ];
@@ -113,7 +553,7 @@ export const allTeamMembers = Array.from({ length: 12 }).map((_, index) => {
 });
 
 export const allPartners = Array.from({ length: 12 }).map(
-  () => "assets/img/home1/partner-01.png"
+  () => "/assets/img/home1/partner-01.png"
 );
 
 export const navBarData = [
@@ -186,7 +626,7 @@ export const contactInformation = {
 export const heroData = {
   heading: (
     <h1 className="text-animation2">
-      We are a <span>Full-Service</span> Agency.
+      We are a <span>Full-Service</span> Company.
     </h1>
   ),
   description: (
@@ -196,13 +636,13 @@ export const heroData = {
       <span>practical</span> solutions.
     </p>
   ),
-  heroImgSrc: "assets/img/home2/banner-img.png",
+  heroImgSrc: "/assets/img/home2/banner-img.png",
   marqueeText: allServices.map((data) => data.name),
 };
 
 export const aboutUsData = {
   aboutUs:
-    "Rudisn Agency is a full-service digital agency dedicated to helping businesses grow and thrive in the digital age.",
+    "Rudisn is a full-service digital company dedicated to helping businesses grow and thrive in the digital age.",
   aboutUs2:
     "Our mission is to deliver exceptional service without restrictions, ensuring our clients receive attractive and practical solutions tailored to their unique needs.",
   totalProjects: allProjects.length,
@@ -340,34 +780,34 @@ export const projectsData = {
 
 export const testimonalsData = [
   {
-    imageSrc: "assets/img/home2/testimonial-img-01.png",
-    heading: "Great Agency!",
+    imageSrc: "/assets/img/home2/testimonial-img-01.png",
+    heading: "Great Company!",
     description:
-      "By actively seeking, analyzing, and acting upon feedback, a digital agency can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
+      "By actively seeking, analyzing, and acting upon feedback, a digital company can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
     person: "Mr. Daniel Scoot",
     post: "Catch, CEO",
   },
   {
-    imageSrc: "assets/img/home2/testimonial-img-01.png",
-    heading: "Great Agency!",
+    imageSrc: "/assets/img/home2/testimonial-img-01.png",
+    heading: "Great Company!",
     description:
-      "By actively seeking, analyzing, and acting upon feedback, a digital agency can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
+      "By actively seeking, analyzing, and acting upon feedback, a digital company can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
     person: "Mr. Daniel Scoot",
     post: "Catch, CEO",
   },
   {
-    imageSrc: "assets/img/home2/testimonial-img-01.png",
-    heading: "Great Agency!",
+    imageSrc: "/assets/img/home2/testimonial-img-01.png",
+    heading: "Great Company!",
     description:
-      "By actively seeking, analyzing, and acting upon feedback, a digital agency can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
+      "By actively seeking, analyzing, and acting upon feedback, a digital company can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
     person: "Mr. Daniel Scoot",
     post: "Catch, CEO",
   },
   {
-    imageSrc: "assets/img/home2/testimonial-img-01.png",
-    heading: "Great Agency!",
+    imageSrc: "/assets/img/home2/testimonial-img-01.png",
+    heading: "Great Company!",
     description:
-      "By actively seeking, analyzing, and acting upon feedback, a digital agency can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
+      "By actively seeking, analyzing, and acting upon feedback, a digital company can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
     person: "Mr. Daniel Scoot",
     post: "Catch, CEO",
   },
@@ -381,20 +821,20 @@ export const technologyData = {
       id: "front",
       title: "Front-end",
       technologies: [
-        { name: "HTML", icon: "assets/img/home2/icon/html.svg", big: true },
-        { name: "CSS", icon: "assets/img/home2/icon/css.svg" },
-        { name: "JavaScript", icon: "assets/img/home2/icon/javascript.svg" },
-        { name: "Vue Js", icon: "assets/img/home2/icon/vue.svg" },
-        { name: "React Js", icon: "assets/img/home2/icon/react.svg" },
+        { name: "HTML", icon: "/assets/img/home2/icon/html.svg", big: true },
+        { name: "CSS", icon: "/assets/img/home2/icon/css.svg" },
+        { name: "JavaScript", icon: "/assets/img/home2/icon/javascript.svg" },
+        { name: "Vue Js", icon: "/assets/img/home2/icon/vue.svg" },
+        { name: "React Js", icon: "/assets/img/home2/icon/react.svg" },
         {
           name: "Angular Js",
-          icon: "assets/img/home2/icon/angular.svg",
+          icon: "/assets/img/home2/icon/angular.svg",
           big: true,
         },
-        { name: "D3 Js", icon: "assets/img/home2/icon/d3.svg" },
-        { name: "JQuery", icon: "assets/img/home2/icon/jquery.svg" },
-        { name: "TypeScript", icon: "assets/img/home2/icon/typescript.svg" },
-        { name: "GraphQL", icon: "assets/img/home2/icon/graphql.svg" },
+        { name: "D3 Js", icon: "/assets/img/home2/icon/d3.svg" },
+        { name: "JQuery", icon: "/assets/img/home2/icon/jquery.svg" },
+        { name: "TypeScript", icon: "/assets/img/home2/icon/typescript.svg" },
+        { name: "GraphQL", icon: "/assets/img/home2/icon/graphql.svg" },
       ],
     },
     {
@@ -403,19 +843,19 @@ export const technologyData = {
       technologies: [
         {
           name: "Node Js",
-          icon: "assets/img/home2/icon/node-js.svg",
+          icon: "/assets/img/home2/icon/node-js.svg",
           big: true,
         },
-        { name: "Ruby", icon: "assets/img/home2/icon/ruby.svg" },
-        { name: "Django", icon: "assets/img/home2/icon/django.svg" },
-        { name: "Express Js", icon: "assets/img/home2/icon/express-js.svg" },
-        { name: "ASP.net", icon: "assets/img/home2/icon/asp.svg" },
+        { name: "Ruby", icon: "/assets/img/home2/icon/ruby.svg" },
+        { name: "Django", icon: "/assets/img/home2/icon/django.svg" },
+        { name: "Express Js", icon: "/assets/img/home2/icon/express-js.svg" },
+        { name: "ASP.net", icon: "/assets/img/home2/icon/asp.svg" },
         {
           name: "Laravel",
-          icon: "assets/img/home2/icon/laravel.svg",
+          icon: "/assets/img/home2/icon/laravel.svg",
           big: true,
         },
-        { name: "Firebase", icon: "assets/img/home2/icon/firebase.svg" },
+        { name: "Firebase", icon: "/assets/img/home2/icon/firebase.svg" },
       ],
     },
     {
@@ -424,16 +864,16 @@ export const technologyData = {
       technologies: [
         {
           name: "Flutter",
-          icon: "assets/img/home2/icon/flutter.svg",
+          icon: "/assets/img/home2/icon/flutter.svg",
           big: true,
         },
-        { name: "Android", icon: "assets/img/home2/icon/android.svg" },
-        { name: "IOS App", icon: "assets/img/home2/icon/ios.svg" },
-        { name: "Firebase", icon: "assets/img/home2/icon/firebase.svg" },
-        { name: "React Native", icon: "assets/img/home2/icon/react.svg" },
-        { name: "Swift", icon: "assets/img/home2/icon/swift.svg", big: true },
-        { name: "Java", icon: "assets/img/home2/icon/java.svg" },
-        { name: "Kotlin", icon: "assets/img/home2/icon/kotlin.svg" },
+        { name: "Android", icon: "/assets/img/home2/icon/android.svg" },
+        { name: "IOS App", icon: "/assets/img/home2/icon/ios.svg" },
+        { name: "Firebase", icon: "/assets/img/home2/icon/firebase.svg" },
+        { name: "React Native", icon: "/assets/img/home2/icon/react.svg" },
+        { name: "Swift", icon: "/assets/img/home2/icon/swift.svg", big: true },
+        { name: "Java", icon: "/assets/img/home2/icon/java.svg" },
+        { name: "Kotlin", icon: "/assets/img/home2/icon/kotlin.svg" },
       ],
     },
   ],
@@ -446,5 +886,5 @@ export const footerData = {
     </h2>
   ),
   description:
-    " Crafting a contact text for a digital agency involves providing essential information for potential clients or collaborators to reach out.",
+    " Crafting a contact text for a digital company involves providing essential information for potential clients or collaborators to reach out.",
 };
