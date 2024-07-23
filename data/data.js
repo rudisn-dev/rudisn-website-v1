@@ -1339,15 +1339,99 @@ export const allProjects = [
   },
 ];
 
-export const allTeamMembers = Array.from({ length: 12 }).map((_, index) => {
-  return {
-    key: index + 1,
-  };
-});
+export const allTeamMembers = [
+  {
+    name: "Kushal Gohil",
+    designation: "Founder & CEO",
+    socialLinks: [],
+    imageSrc: "assets/img/innerpage/team-img1.png",
+  },
+  {
+    name: "Kushal Gohil",
+    designation: "Founder & CEO",
+    socialLinks: [],
+    imageSrc: "assets/img/innerpage/team-img1.png",
+  },
+  {
+    name: "Kushal Gohil",
+    designation: "Founder & CEO",
+    socialLinks: [],
+    imageSrc: "assets/img/innerpage/team-img1.png",
+  },
+  {
+    name: "Kushal Gohil",
+    designation: "Founder & CEO",
+    socialLinks: [],
+    imageSrc: "assets/img/innerpage/team-img1.png",
+  },
+  {
+    name: "Kushal Gohil",
+    designation: "Founder & CEO",
+    socialLinks: [],
+    imageSrc: "assets/img/innerpage/team-img1.png",
+  },
+  {
+    name: "Kushal Gohil",
+    designation: "Founder & CEO",
+    socialLinks: [],
+    imageSrc: "assets/img/innerpage/team-img1.png",
+  },
+  {
+    name: "Kushal Gohil",
+    designation: "Founder & CEO",
+    socialLinks: [],
+    imageSrc: "assets/img/innerpage/team-img1.png",
+  },
+  {
+    name: "Kushal Gohil",
+    designation: "Founder & CEO",
+    socialLinks: [],
+    imageSrc: "assets/img/innerpage/team-img1.png",
+  },
+];
 
 export const allPartners = Array.from({ length: 12 }).map(
   () => "/assets/img/home1/partner-01.png"
 );
+
+export const contactInformation = {
+  phoneNo: {
+    number: "+91 90752 74002",
+    numberLink: "tel:+919075274002",
+  },
+  email: {
+    email: "rudisn2002@gmail.com",
+    emailLink: "mailto:rudisn2002@gmail.com",
+  },
+  address: {
+    city: "Shrirampur, Maharashtra",
+    address: "Harikamal Plaza, First Floor, Shrirampur Maharashtra, 413709",
+    addressLink:
+      "https://www.google.com/maps/place/Bhagwati+Sugar+Sales/@19.616699,74.6563539,20.42z/data=!4m6!3m5!1s0x3bdc8bf65b2c50e1:0xec2894f6dd7dc7bb!8m2!3d19.6170315!4d74.6561317!16s%2Fg%2F11vt2zxnd1?entry=ttu",
+  },
+  socialLinks: [
+    {
+      type: "Instagram",
+      link: "https://instagram.com/rudisn__/",
+      icon: <i className="bi bi-instagram" />,
+    },
+    {
+      type: "Behance",
+      link: "https://www.behance.net/rudisn",
+      icon: <i className="bi bi-behance" />,
+    },
+    {
+      type: "Dribble",
+      link: "https://dribbble.com/rudisn",
+      icon: <i className="bi bi-dribbble" />,
+    },
+    {
+      type: "Twitter",
+      link: "https://twitter.com/rudisn_twi",
+      icon: <i className="bi bi-twitter-x" />,
+    },
+  ],
+};
 
 export const navBarData = [
   {
@@ -1377,44 +1461,6 @@ export const navBarData = [
     path: "/contact",
   },
 ];
-
-export const contactInformation = {
-  phoneNo: {
-    number: "+91 90752 74002",
-    numberLink: "tel:+919075274002",
-  },
-  email: {
-    email: "rudisn2002@gmail.com",
-    emailLink: "mailto:rudisn2002@gmail.com",
-  },
-  address: {
-    address: "Harikamal Plaza, First Floor, Shrirampur Maharashtra, 413709",
-    addressLink:
-      "https://www.google.com/maps/place/Bhagwati+Sugar+Sales/@19.616699,74.6563539,20.42z/data=!4m6!3m5!1s0x3bdc8bf65b2c50e1:0xec2894f6dd7dc7bb!8m2!3d19.6170315!4d74.6561317!16s%2Fg%2F11vt2zxnd1?entry=ttu",
-  },
-  socialLinks: [
-    {
-      type: "Instagram",
-      link: "https://instagram.com/rudisn__/",
-      icon: <i className="bi bi-instagram" />,
-    },
-    {
-      type: "Behance",
-      link: "https://www.behance.net/rudisn",
-      icon: <i className="bi bi-behance" />,
-    },
-    {
-      type: "Dribble",
-      link: "https://dribbble.com/rudisn",
-      icon: <i className="bi bi-dribbble" />,
-    },
-    {
-      type: "Twitter",
-      link: "https://twitter.com/rudisn_twi",
-      icon: <i className="bi bi-twitter-x" />,
-    },
-  ],
-};
 
 export const heroData = {
   heading: (
@@ -1680,4 +1726,15 @@ export const footerData = {
   ),
   description:
     " Crafting a contact text for a digital company involves providing essential information for potential clients or collaborators to reach out.",
+};
+
+export const teamsData = {
+  backgroundSrc: "/assets/img/innerpage/breadcrumb-bg6.jpg",
+  heading: (
+    <h1>
+      We Have <span>Dynamic Teams.</span>
+    </h1>
+  ),
+  description: "Offer a wide range of services to help businesses establish.",
+  allTeamMembers: allTeamMembers,
 };
