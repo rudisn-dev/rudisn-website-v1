@@ -71,6 +71,33 @@ const Home2PortfolioSection = () => {
             );
           })}
         </div>
+
+        <div
+          className="row mt-70"
+          style={{
+            width: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <Link
+            className="primary-btn3 btn-hover"
+            href="/our-work"
+            style={{ width: "165px" }}
+          >
+            View all
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width={12}
+              height={12}
+              viewBox="0 0 12 12"
+            >
+              <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
+            </svg>
+            <span style={{ top: "50.5px", left: "83.75px" }} />
+          </Link>
+        </div>
       </div>
     </div>
   );

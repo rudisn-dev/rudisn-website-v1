@@ -1503,8 +1503,8 @@ export const counterData = [
     value: allProjects.length,
   },
   {
-    title: "Year of Experienece",
-    value: 6,
+    title: "Years of Experience",
+    value: new Date().getFullYear() - 2017,
   },
 ];
 
@@ -1613,7 +1613,7 @@ export const solutionData = {
 export const projectsData = {
   totalProjects: allProjects.length,
   description:
-    "Offer a wide range of services to help businesses establish and enhance their online presence.",
+    "Our success today is a testament to our clients, partners, and enduring business relationships, as well as the dedication of our team. We owe it all to them.",
   allProjects: allProjects,
 };
 
@@ -1660,20 +1660,57 @@ export const technologyData = {
       id: "front",
       title: "Front-end",
       technologies: [
-        { name: "HTML", icon: "/assets/img/home2/icon/html.svg", big: true },
-        { name: "CSS", icon: "/assets/img/home2/icon/css.svg" },
-        { name: "JavaScript", icon: "/assets/img/home2/icon/javascript.svg" },
-        { name: "Vue Js", icon: "/assets/img/home2/icon/vue.svg" },
-        { name: "React Js", icon: "/assets/img/home2/icon/react.svg" },
         {
-          name: "Angular Js",
-          icon: "/assets/img/home2/icon/angular.svg",
+          name: "Figma",
+          icon: "/assets/img/home2/icon/figma.svg",
           big: true,
         },
-        { name: "D3 Js", icon: "/assets/img/home2/icon/d3.svg" },
-        { name: "JQuery", icon: "/assets/img/home2/icon/jquery.svg" },
+        { name: "HTML", icon: "/assets/img/home2/icon/html.svg" },
+        { name: "CSS", icon: "/assets/img/home2/icon/css.svg" },
+        {
+          name: "Tailwind CSS",
+          icon: "/assets/img/home2/icon/tailwindCSS.svg",
+        },
+        {
+          name: "Bootstrap",
+          icon: "/assets/img/home2/icon/bootstrap.svg",
+        },
+        {
+          name: "Ant Design",
+          icon: "/assets/img/home2/icon/ant-design.svg",
+          big: true,
+        },
+        {
+          name: "Material-UI",
+          icon: "/assets/img/home2/icon/material-ui.svg",
+        },
+        {
+          name: "shadcn-UI",
+          icon: "/assets/img/home2/icon/shadcn-ui.svg",
+        },
+        {
+          name: "Framer Motion",
+          icon: "/assets/img/home2/icon/framer-motion.svg",
+        },
+        {
+          name: "GSAP",
+          icon: "/assets/img/home2/icon/gsap.svg",
+        },
+        { name: "JavaScript", icon: "/assets/img/home2/icon/javascript.svg" },
         { name: "TypeScript", icon: "/assets/img/home2/icon/typescript.svg" },
-        { name: "GraphQL", icon: "/assets/img/home2/icon/graphql.svg" },
+        { name: "React JS", icon: "/assets/img/home2/icon/react.svg" },
+        {
+          name: "Next JS",
+          icon: "/assets/img/home2/icon/nextjs.svg",
+        },
+        {
+          name: "Redux",
+          icon: "/assets/img/home2/icon/redux.svg",
+        },
+        {
+          name: "Angular JS",
+          icon: "/assets/img/home2/icon/angular.svg",
+        },
       ],
     },
     {
@@ -1685,34 +1722,57 @@ export const technologyData = {
           icon: "/assets/img/home2/icon/node-js.svg",
           big: true,
         },
-        { name: "Ruby", icon: "/assets/img/home2/icon/ruby.svg" },
         { name: "Django", icon: "/assets/img/home2/icon/django.svg" },
         { name: "Express Js", icon: "/assets/img/home2/icon/express-js.svg" },
-        { name: "ASP.net", icon: "/assets/img/home2/icon/asp.svg" },
+        { name: "Nest JS", icon: "/assets/img/home2/icon/nestjs.svg" },
+        { name: "Firebase", icon: "/assets/img/home2/icon/firebase.svg" },
         {
-          name: "Laravel",
-          icon: "/assets/img/home2/icon/laravel.svg",
+          name: "MongoDB",
+          icon: "/assets/img/home2/icon/mongoDB.svg",
           big: true,
         },
-        { name: "Firebase", icon: "/assets/img/home2/icon/firebase.svg" },
+        { name: "MySQL", icon: "/assets/img/home2/icon/mySQL.svg" },
       ],
     },
     {
       id: "mobile",
-      title: "Mobile",
+      title: "Mobile and PWA",
       technologies: [
+        {
+          name: "Android",
+          icon: "/assets/img/home2/icon/android.svg",
+          big: true,
+        },
+        { name: "IOS App", icon: "/assets/img/home2/icon/ios.svg" },
+        { name: "React Native", icon: "/assets/img/home2/icon/react.svg" },
         {
           name: "Flutter",
           icon: "/assets/img/home2/icon/flutter.svg",
+        },
+        { name: "Electron JS", icon: "/assets/img/home2/icon/electronjs.svg" },
+      ],
+    },
+    {
+      id: "no-code",
+      title: "No Code",
+      technologies: [
+        {
+          name: "WordPress",
+          icon: "/assets/img/home2/icon/wordpress.svg",
           big: true,
         },
-        { name: "Android", icon: "/assets/img/home2/icon/android.svg" },
-        { name: "IOS App", icon: "/assets/img/home2/icon/ios.svg" },
-        { name: "Firebase", icon: "/assets/img/home2/icon/firebase.svg" },
-        { name: "React Native", icon: "/assets/img/home2/icon/react.svg" },
-        { name: "Swift", icon: "/assets/img/home2/icon/swift.svg", big: true },
-        { name: "Java", icon: "/assets/img/home2/icon/java.svg" },
-        { name: "Kotlin", icon: "/assets/img/home2/icon/kotlin.svg" },
+        {
+          name: "Shopify",
+          icon: "/assets/img/home2/icon/shopify.svg",
+        },
+        {
+          name: "Webflow",
+          icon: "/assets/img/home2/icon/webflow.svg",
+        },
+        {
+          name: "Framer",
+          icon: "/assets/img/home2/icon/framer.svg",
+        },
       ],
     },
   ],
@@ -1725,7 +1785,7 @@ export const footerData = {
     </h2>
   ),
   description:
-    " Crafting a contact text for a digital company involves providing essential information for potential clients or collaborators to reach out.",
+    "We harvest your requirements into living products!",
 };
 
 export const teamsData = {
