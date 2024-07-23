@@ -187,7 +187,7 @@ const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
           <div className="row g-lg-4 gy-3">
             {projectData.projectOverview.map((data, index) => {
               return (
-                <div className="col-lg-6">
+                <div key={index} className="col-lg-6">
                   <p className={`${index === 0 ? "first-para" : ""}`}>{data}</p>
                 </div>
               );

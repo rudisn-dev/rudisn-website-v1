@@ -1,5 +1,9 @@
 import React from "react";
-import { contactInformation, defaultMetaData, logoUrl } from "../../../data/data";
+import {
+  contactInformation,
+  defaultMetaData,
+  logoUrl,
+} from "../../../data/data";
 
 export const metadata = {
   ...defaultMetaData,
@@ -149,7 +153,7 @@ const ContactPage = () => {
                     </div> */}
                   </div>
                   <div className="form-inner">
-                    <button className="primary-btn3 btn-hover" type="submit">
+                    <button className="primary-btn2 btn-hover" type="submit">
                       Submit Now
                       <svg
                         width={12}

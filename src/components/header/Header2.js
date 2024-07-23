@@ -4,14 +4,6 @@ import React, { useState } from "react";
 import Sidebar from "../common/Sidebar";
 import { contactInformation, logoUrl, navBarData } from "../../../data/data";
 
-const Menu = () => {
-  return (
-    <li key={index}>
-      <Link href={data.path}>{data.name}</Link>
-    </li>
-  );
-};
-
 const Header2 = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 

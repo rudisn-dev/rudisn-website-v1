@@ -98,10 +98,10 @@
 :root {
   --font-fahkwang: "Fahkwang", sans-serif;
   --font-unbounded: "Unbounded", sans-serif;
-  --primary-color: #EC6219;
-  --primary-color2: #F4CB0A;
-  --primary-color3: #1A1A1A;
-  --primary-color4: #78EB54;
+  --primary-color: #BB4430;
+  --primary-color2: #F3DFA2 ;
+  --primary-color3: #7EBDC2;
+  --primary-color4: #EFE6DD;
   --title-color: #1A1A1A;
   --title-color-opc: 26, 26, 26;
   --dark-title-color: #1A1A1A;
@@ -2690,6 +2690,10 @@ body:not(.is-mobile) .tt-style-switch:hover {
   transition: all 0.8s ease-out 0s;
   gap: 30px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background-image: linear-gradient(#1A1A1A, #1A1A1A);
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 @media (max-width: 1699px) {
   .header-area.style-2 {
@@ -19819,7 +19823,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   fill: var(--white-color);
 }
 .contact-page .contact-form-wrap {
-  background-color: #C5D1C3;
+  background-color: var(--primary-color2);
   border-radius: 10px;
   padding: 60px 50px;
 }
