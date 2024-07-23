@@ -7,14 +7,10 @@ import Home2ProcessSection from "@/components/process-section/home2-process-sect
 import Home2ServicesSection from "@/components/services-section/home2-services-section";
 import Home2TechnologySection from "@/components/technology-section/home2-technology-section";
 import Home2TestimonialSection from "@/components/testimonial-section/home2-testimonial-section";
-import { logoUrl } from "../../data/data";
+import { defaultMetaData } from "../../data/data";
 
-export const metadata = {
-  title: "RUDISN",
-  icons: {
-    icon: logoUrl,
-  },
-};
+export const metadata = { ...defaultMetaData };
+
 export default function Home() {
   return (
     <main>

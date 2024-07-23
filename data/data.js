@@ -1738,3 +1738,10 @@ export const teamsData = {
   description: "Offer a wide range of services to help businesses establish.",
   allTeamMembers: allTeamMembers,
 };
+
+export const defaultMetaData = {
+  title: "Rudisn",
+  icons: {
+    icon: logoUrl,
+  },
+};

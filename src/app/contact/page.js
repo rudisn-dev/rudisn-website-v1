@@ -1,5 +1,10 @@
 import React from "react";
-import { contactInformation, logoUrl } from "../../../data/data";
+import { contactInformation, defaultMetaData, logoUrl } from "../../../data/data";
+
+export const metadata = {
+  ...defaultMetaData,
+  title: defaultMetaData.title + " | " + "Contact Us",
+};
 
 const ContactPage = () => {
   return (
