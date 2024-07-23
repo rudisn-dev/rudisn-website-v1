@@ -15,7 +15,7 @@ const Home2PortfolioSection = () => {
               <div className="dash-and-paragraph three">
                 <div className="dash" />
                 <div className="btn-and-paragraph">
-                  <Link href="/portfolio-manonery">
+                  <Link href="/our-work">
                     Explore More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

@@ -2,13 +2,6 @@ import Link from "next/link";
 import React from "react";
 import { logoUrl } from "../../../data/data";
 
-export const metadata = {
-  title: "Axleo - Digital Agency Creative Portfolio Template",
-  icons: {
-    icon: logoUrl,
-  },
-};
-
 const OurTeam3 = () => {
   return (
     <>
@@ -107,7 +100,7 @@ const OurTeam3 = () => {
                 </div>
                 <div className="team-content text-center">
                   <h6>Jorche Milton</h6>
-                  <span>Axleo, CEO</span>
+                  <span>RUDISN, CEO</span>
                 </div>
               </div>
             </div>

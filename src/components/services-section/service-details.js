@@ -13,6 +13,7 @@ const ServiceDetails = ({ heroImages }) => {
   const settings = useMemo(() => {
     return {
       slidesPerView: "auto",
+      slidesPerView: "auto",
       speed: 1500,
       spaceBetween: 25,
       effect: "fade", // Use the fade effect

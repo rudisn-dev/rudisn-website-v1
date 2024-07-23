@@ -437,7 +437,7 @@ const PortfolioDetails = () => {
                 </div>
                 <div className="team-content text-center">
                   <h6>Jorche Milton</h6>
-                  <span>Axleo, CEO</span>
+                  <span>RUDISN, CEO</span>
                 </div>
               </div>
             </div>

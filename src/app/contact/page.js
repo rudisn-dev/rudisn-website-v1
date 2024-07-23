@@ -1,13 +1,6 @@
 import React from "react";
 import { logoUrl } from "../../../data/data";
 
-export const metadata = {
-  title: "Axleo - Digital Agency Creative Portfolio Template",
-  icons: {
-    icon: logoUrl,
-  },
-};
-
 const ContactPage = () => {
   return (
     <div className="contact-page pt-130 mb-130">

@@ -3,7 +3,7 @@ import { technologyData } from "../../../data/data";
 
 const Home2TechnologySection = () => {
   return (
-    <div className="home2-technology-section mb-130">
+    <div className="home2-technology-section">
       <div className="container-lg container-fluid">
         <div className="row mb-60">
           <div className="section-title four white text-animation">

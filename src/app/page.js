@@ -10,7 +10,7 @@ import Home2TestimonialSection from "@/components/testimonial-section/home2-test
 import { logoUrl } from "../../data/data";
 
 export const metadata = {
-  title: "Axleo - Digital Agency Creative Portfolio Template",
+  title: "RUDISN",
   icons: {
     icon: logoUrl,
   },
@@ -26,7 +26,6 @@ export default function Home() {
       <Home2PortfolioSection />
       <Home2TestimonialSection />
       <Home2TechnologySection />
-      <Home2ContactSection />
     </main>
   );
 }

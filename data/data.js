@@ -517,32 +517,825 @@ export const allServices = [
 
 export const allProjects = [
   {
-    name: "Smart Design, Smarter Solutions.",
+    name: "project-1",
+    slug: "project-1",
     tags: ["Logs", "Color", "Typography"],
-    path: "/portfolio-details",
+    path: "/our-work/project-1",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
     showCaseColumnWidth: "col-lg-6",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
   {
-    name: "Smart Design, Smarter Solutions.",
+    name: "project-2",
+    slug: "project-2",
     tags: ["Logs", "Color", "Typography"],
-    path: "/portfolio-details",
+    path: "/our-work/project-2",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
     showCaseColumnWidth: "col-lg-5",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
   {
-    name: "Smart Design, Smarter Solutions.",
+    name: "project-3",
+    slug: "project-3",
     tags: ["Logs", "Color", "Typography"],
-    path: "/portfolio-details",
+    path: "/our-work/project-3",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
     showCaseColumnWidth: "col-lg-5",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
   {
-    name: "Smart Design, Smarter Solutions.",
+    name: "project-4",
+    slug: "project-4",
     tags: ["Logs", "Color", "Typography"],
-    path: "/portfolio-details",
+    path: "/our-work/project-4",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
     showCaseColumnWidth: "col-lg-6",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-5",
+    slug: "project-5",
+    name: "Smart Design, Smarter Solutions.",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-5",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-6",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-6",
+    slug: "project-6",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-6",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-5",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-7",
+    slug: "project-7",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-7",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-5",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-8",
+    slug: "project-8",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-8",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-6",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-9",
+    slug: "project-9",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-9",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-6",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-10",
+    slug: "project-10",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-10",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-5",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-11",
+    slug: "project-11",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-11",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-5",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-12",
+    slug: "project-12",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-12",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-6",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-13",
+    slug: "project-13",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-13",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-6",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-14",
+    slug: "project-14",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-14",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-5",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-15",
+    slug: "project-15",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-15",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-5",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-16",
+    slug: "project-16",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-16",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-6",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-17",
+    slug: "project-17",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-17",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-6",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-18",
+    slug: "project-18",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-18",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-5",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-19",
+    slug: "project-19",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-19",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-5",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    name: "project-20",
+    slug: "project-20",
+    tags: ["Logs", "Color", "Typography"],
+    path: "/our-work/project-20",
+    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    showCaseColumnWidth: "col-lg-6",
+    metaData: {
+      category: "Fintect",
+      client: "Mr. Marko Paul",
+      url: "https://ui.visual.com",
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
+      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+    ],
+    challanges: {
+      description:
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      points: [
+        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
+        "With a focus on technology, digital agencies have teams skilled in web development.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
+        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
 ];
 
@@ -573,7 +1366,7 @@ export const navBarData = [
   },
   {
     name: "Our Work",
-    path: "/portfolio-manonery",
+    path: "/our-work",
   },
   {
     name: "Our Team",

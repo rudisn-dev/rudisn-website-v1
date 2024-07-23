@@ -5,13 +5,6 @@ import { logoUrl } from "../../../../data/data";
 import Home2ContactSection from "@/components/contact-section/home2-contact-section";
 import ServicesMarquee from "@/components/marquee/ServicesMarquee";
 
-export const metadata = {
-  title: "Axleo - Digital Agency Creative Portfolio Template",
-  icons: {
-    icon: logoUrl,
-  },
-};
-
 const processIcons = [
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -154,7 +147,7 @@ const ServicesWrapper = ({ serviceData, prevData, nextData }) => {
                 </Link>
                 <div className="content">
                   <h6>
-                    <a href="blog-details">{prevData.name}</a>
+                    <Link href={prevData.path}>{prevData.name}</Link>
                   </h6>
                 </div>
               </div>
@@ -166,7 +159,7 @@ const ServicesWrapper = ({ serviceData, prevData, nextData }) => {
               <div className="single-navigation two text-end">
                 <div className="content">
                   <h6>
-                    <a href="blog-details">{nextData.name}</a>
+                    <Link href={nextData.path}>{nextData.name}</Link>
                   </h6>
                 </div>
                 <Link className="arrow" href={nextData.path}>
@@ -232,7 +225,6 @@ const ServicesWrapper = ({ serviceData, prevData, nextData }) => {
           </div>
         </div>
       </div>
-      <Home2ContactSection />
       <div className="text-slider-section two">
         <ServicesMarquee />
       </div>

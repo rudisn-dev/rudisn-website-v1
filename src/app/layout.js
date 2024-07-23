@@ -17,17 +17,20 @@ import { useEffect } from "react";
 import ThemeSwitch from "@/components/common/Theme";
 import Header2 from "@/components/header/Header2";
 import Footer2 from "@/components/Footer/Footer2";
+import Home2ContactSection from "@/components/contact-section/home2-contact-section";
 
 export default function RootLayout({ children }) {
   useMagneticHover();
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
+
   return (
     <html lang="en">
       <body>
         <Header2 />
         {children}
+        <Home2ContactSection />
         <Footer2 />
         <ThemeSwitch />
         <SmoothPageScroll />
