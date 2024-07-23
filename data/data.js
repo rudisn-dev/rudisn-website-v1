@@ -1391,7 +1391,7 @@ export const allTeamMembers = [
 ];
 
 export const allPartners = Array.from({ length: 12 }).map(
-  () => "/assets/img/home1/partner-01.png"
+  () => "/assets/img/home2/partner-01.png"
 );
 
 export const contactInformation = {

@@ -11134,8 +11134,8 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   left: 0;
   animation: qodef-animate-image-out 1s 0.1s cubic-bezier(0.78, 0.2, 0.21, 0.88) forwards;
   z-index: 12;
-  -webkit-mask-image: url(../img/home3/home3-award-bg-shape.png);
-          mask-image: url(../img/home3/home3-award-bg-shape.png);
+  -webkit-mask-image: url(../img/home2/home3-award-bg-shape.png);
+          mask-image: url(../img/home2/home3-award-bg-shape.png);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-size: cover;
@@ -11889,7 +11889,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
  36. Home4 Banner Section
 ========================================*/
 .home4-banner-area {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/home4/home4-banner-img.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/home2/home4-banner-img.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -11936,7 +11936,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   color: var(--primary-color);
 }
 .home4-banner-area .banner-content ul li::before {
-  content: url(../img/home4/icon/right-arrow.svg);
+  content: url(../img/home2/icon/right-arrow.svg);
   position: absolute;
   left: -30px;
   top: 50%;
@@ -12303,7 +12303,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   }
 }
 .home4-work-section .home4-work-slider {
-  cursor: url("../img/home4/cursor.png"), default;
+  cursor: url("../img/home2/cursor.png"), default;
   position: relative;
 }
 .home4-work-section .home4-work-slider .work-fractional-pagi {
@@ -12962,8 +12962,8 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   display: flex;
   z-index: 1;
   justify-content: center;
-  -webkit-mask-image: url(../img/home4/team-bg-shape.png);
-          mask-image: url(../img/home4/team-bg-shape.png);
+  -webkit-mask-image: url(../img/home2/team-bg-shape.png);
+          mask-image: url(../img/home2/team-bg-shape.png);
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-size: cover;
@@ -13416,7 +13416,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
  47. Home5 Banner Section
 ========================================*/
 .home5-banner-area {
-  background-image: url(../img/home5/home5-banner-bg.png), linear-gradient(#1a1a1a, #1a1a1a);
+  background-image: url(../img/home2/home5-banner-bg.png), linear-gradient(#1a1a1a, #1a1a1a);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -13795,7 +13795,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
  49. Home5 Work Section
 ========================================*/
 .home5-work-section {
-  background-image: linear-gradient(#f8f8f8, #f8f8f8), url(../img/home5/home5-award-bg.png);
+  background-image: linear-gradient(#f8f8f8, #f8f8f8), url(../img/home2/home5-award-bg.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14202,7 +14202,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
  51. Home5 Experience Section
 ========================================*/
 .home5-experience-section {
-  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home5/home5-experience-bg.png);
+  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home2/home5-experience-bg.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14592,7 +14592,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
  53. Home5 Award Section
 ========================================*/
 .home5-award-section {
-  background-image: linear-gradient(#f8f8f8, #f8f8f8), url(../img/home5/home5-award-bg.png);
+  background-image: linear-gradient(#f8f8f8, #f8f8f8), url(../img/home2/home5-award-bg.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15171,7 +15171,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 ========================================*/
 .home6-project-management-section {
   scroll-margin-top: 100px;
-  background-image: linear-gradient(#f8f8f8, #f8f8f8), url(../img/home6/project-management-bg.png);
+  background-image: linear-gradient(#f8f8f8, #f8f8f8), url(../img/home2/project-management-bg.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -15629,7 +15629,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
  60. Home6 Performance Section
 ========================================*/
 .home6-performance-section {
-  background-image: linear-gradient(#f8f8f8, #f8f8f8), url(../img/home6/home6-performance-bg.png);
+  background-image: linear-gradient(#f8f8f8, #f8f8f8), url(../img/home2/home6-performance-bg.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16007,7 +16007,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
  63. Home6 Blog Section
 ========================================*/
 .home6-blog-section {
-  background-image: linear-gradient(#f8f8f8, #f8f8f8), url(../img/home6/home6-performance-bg.png);
+  background-image: linear-gradient(#f8f8f8, #f8f8f8), url(../img/home2/home6-performance-bg.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23830,7 +23830,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   background-color: #2f2f2f;
 }
 .dark .home5-work-section {
-  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home5/home5-award-bg.png);
+  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home2/home5-award-bg.png);
 }
 .dark .home5-work-section .verticle-text h2 {
   color: #2f2f2f;
@@ -23851,7 +23851,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   fill: #202020;
 }
 .dark .home5-award-section {
-  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home5/home5-award-bg.png);
+  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home2/home5-award-bg.png);
 }
 .dark .home6-feature-section .feature-card {
   background-color: #202020;
@@ -23863,7 +23863,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   background-color: #202020;
 }
 .dark .home6-blog-section {
-  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home6/home6-performance-bg.png);
+  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home2/home6-performance-bg.png);
 }
 .dark .home-integration-section .integration-wrap .single-integration .light {
   display: none;
@@ -24030,7 +24030,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   fill: #2f2f2f;
 }
 .dark .home6-project-management-section {
-  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home6/project-management-bg.png);
+  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home2/project-management-bg.png);
 }
 .dark .home6-project-management-section .single-project {
   background-color: #202020;
@@ -24040,7 +24040,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   border-bottom: none;
 }
 .dark .home6-performance-section {
-  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home6/home6-performance-bg.png);
+  background-image: linear-gradient(#1a1a1a, #1a1a1a), url(../img/home2/home6-performance-bg.png);
 }
 .dark .home6-performance-section .contact-area .form-inner {
   border-color: rgba(255, 255, 255, 0.2);

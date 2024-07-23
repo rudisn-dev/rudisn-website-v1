@@ -11596,7 +11596,7 @@ footer{
                 left: 0;
                 animation: qodef-animate-image-out 1s 0.1s cubic-bezier(0.78, 0.2, 0.21, 0.88) forwards;
                 z-index: 12;
-                mask-image: url(../img/home3/home3-award-bg-shape.png);
+                mask-image: url(../img/home2/home3-award-bg-shape.png);
                 mask-repeat: no-repeat;
                 mask-size: cover;
             }
@@ -12335,7 +12335,7 @@ footer{
  36. Home4 Banner Section
 ========================================*/
 .home4-banner-area{
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/home4/home4-banner-img.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/home2/home4-banner-img.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -12374,7 +12374,7 @@ footer{
                     }
                 }
                 &::before{
-                    content: url(../img/home4/icon/right-arrow.svg);
+                    content: url(../img/home2/icon/right-arrow.svg);
                     position: absolute;
                     left: -30px;
                     top: 50%;
@@ -12724,7 +12724,7 @@ footer{
         }
     }
     .home4-work-slider{
-        cursor: url("../img/home4/cursor.png"), default;
+        cursor: url("../img/home2/cursor.png"), default;
         position: relative;
          .work-fractional-pagi{
             position: absolute;
@@ -13380,7 +13380,7 @@ footer{
         display: flex;
         z-index: 1;
         justify-content: center;
-        mask-image: url(../img/home4/team-bg-shape.png);
+        mask-image: url(../img/home2/team-bg-shape.png);
         mask-repeat: no-repeat;
         mask-size: cover;
         .social-area{
@@ -13818,7 +13818,7 @@ footer{
  47. Home5 Banner Section
 ========================================*/
 .home5-banner-area{
-    background-image: url(../img/home5/home5-banner-bg.png), linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1));
+    background-image: url(../img/home2/home5-banner-bg.png), linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1));
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14149,7 +14149,7 @@ footer{
  49. Home5 Work Section
 ========================================*/
 .home5-work-section{
-    background-image: linear-gradient(rgba(#F8F8F8, 1), rgba(#F8F8F8, 1)), url(../img/home5/home5-award-bg.png);
+    background-image: linear-gradient(rgba(#F8F8F8, 1), rgba(#F8F8F8, 1)), url(../img/home2/home5-award-bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14514,7 +14514,7 @@ footer{
  51. Home5 Experience Section
 ========================================*/
 .home5-experience-section{
-    background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home5/home5-experience-bg.png);
+    background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home2/home5-experience-bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -14872,7 +14872,7 @@ footer{
  53. Home5 Award Section
 ========================================*/
 .home5-award-section{
-    background-image: linear-gradient(rgba(#F8F8F8, 1), rgba(#F8F8F8, 1)), url(../img/home5/home5-award-bg.png);
+    background-image: linear-gradient(rgba(#F8F8F8, 1), rgba(#F8F8F8, 1)), url(../img/home2/home5-award-bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15445,7 +15445,7 @@ footer{
 ========================================*/
 .home6-project-management-section{
     scroll-margin-top: 100px;
-    background-image: linear-gradient(rgba(#F8F8F8, 1), rgba(#F8F8F8, 1)), url(../img/home6/project-management-bg.png);
+    background-image: linear-gradient(rgba(#F8F8F8, 1), rgba(#F8F8F8, 1)), url(../img/home2/project-management-bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15881,7 +15881,7 @@ footer{
  60. Home6 Performance Section
 ========================================*/
 .home6-performance-section{
-    background-image: linear-gradient(rgba(#F8F8F8, 1), rgba(#F8F8F8, 1)), url(../img/home6/home6-performance-bg.png);
+    background-image: linear-gradient(rgba(#F8F8F8, 1), rgba(#F8F8F8, 1)), url(../img/home2/home6-performance-bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16249,7 +16249,7 @@ footer{
  63. Home6 Blog Section
 ========================================*/
 .home6-blog-section{
-    background-image: linear-gradient(rgba(#F8F8F8, 1), rgba(#F8F8F8, 1)), url(../img/home6/home6-performance-bg.png);
+    background-image: linear-gradient(rgba(#F8F8F8, 1), rgba(#F8F8F8, 1)), url(../img/home2/home6-performance-bg.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23856,7 +23856,7 @@ footer{
         background-color: #2f2f2f;
     }
     .home5-work-section{
-        background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home5/home5-award-bg.png);
+        background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home2/home5-award-bg.png);
         .verticle-text{
             h2{
                 color: #2f2f2f;
@@ -23889,7 +23889,7 @@ footer{
         }
     }
     .home5-award-section{
-        background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home5/home5-award-bg.png);
+        background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home2/home5-award-bg.png);
     }
     .home6-feature-section{
         .feature-card{
@@ -23905,7 +23905,7 @@ footer{
         }
     }
     .home6-blog-section{
-        background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home6/home6-performance-bg.png);
+        background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home2/home6-performance-bg.png);
     }
     .home-integration-section{
         .integration-wrap{
@@ -24155,7 +24155,7 @@ footer{
         }
     }
     .home6-project-management-section{
-        background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home6/project-management-bg.png); 
+        background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home2/project-management-bg.png); 
         .single-project{
             background-color: #202020;
             .single-project-img{
@@ -24165,7 +24165,7 @@ footer{
         }
     }
     .home6-performance-section{
-        background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home6/home6-performance-bg.png);
+        background-image: linear-gradient(rgba(#1A1A1A, 1), rgba(#1A1A1A, 1)), url(../img/home2/home6-performance-bg.png);
         .contact-area{
             .form-inner{
                 border-color: rgba(#fff, 0.2);
