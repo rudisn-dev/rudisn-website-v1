@@ -16,17 +16,6 @@ const Home2ServicesSection = () => {
                 </h2>
                 <div className="dash-and-paragraph three">
                   <div className="btn-and-paragraph">
-                    {/* <Link href="/services3">
-                      Explore More
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                    </Link> */}
                     <p>{servicesData.heading}</p>
                   </div>
                 </div>
@@ -45,7 +34,7 @@ const Home2ServicesSection = () => {
                     {data.tags.map((tag, tagIndex) => {
                       return (
                         <li key={tagIndex}>
-                          <a href="#">{tag}</a>
+                          <span>{tag}</span>
                         </li>
                       );
                     })}

@@ -147,9 +147,9 @@ const Home2TestimonialSection = () => {
                     <Marquee>
                       {allPartners.map((data, index) => {
                         return (
-                          <a key={index} href="#">
+                          <span key={index}>
                             <img src={data} alt="" />
-                          </a>
+                          </span>
                         );
                       })}
                     </Marquee>
@@ -158,9 +158,9 @@ const Home2TestimonialSection = () => {
                     <Marquee>
                       {allPartners.map((data, index) => {
                         return (
-                          <a key={index} href="#">
+                          <span key={index}>
                             <img src={data} alt="" />
-                          </a>
+                          </span>
                         );
                       })}
                     </Marquee>
@@ -191,7 +191,7 @@ const Home2TestimonialSection = () => {
                   </div>
                 </div>
                 <div className="title2">
-                  <h6>Almost {allPartners.length}+ Partner we have</h6>
+                  <h6>We have almost {allPartners.length}+ Partner</h6>
                 </div>
               </div>
             </div>

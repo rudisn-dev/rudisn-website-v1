@@ -7380,7 +7380,7 @@ footer .footer-btm .terms-condition p a:hover {
   color: var(--primary-color);
 }
 footer.style-2 {
-  background: #000;
+  background: #1A1A1A;
 }
 footer.style-2 .footer-top .footer-widget .subscribed-area .form-inner button {
   background-color: var(--primary-color2);
@@ -9060,7 +9060,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   gap: 15px;
   margin-bottom: 50px;
 }
-.home2-services-section .service-card ul li a {
+.home2-services-section .service-card ul li span {
   line-height: 1;
   color: #1A1A1A;
   font-family: var(--font-unbounded);
@@ -9073,7 +9073,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   transition: 0.35s;
   border: 1px solid var(--border-color);
 }
-.home2-services-section .service-card ul li a:hover {
+.home2-services-section .service-card ul li span:hover {
   background-color: var(--dark-title-color);
   color: var(--white-color);
 }
@@ -9628,7 +9628,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .portfolio-card .image-and-tag .tag li {
   transition: 0.35s;
 }
-.portfolio-card .image-and-tag .tag li a {
+.portfolio-card .image-and-tag .tag li span {
   line-height: 1;
   color: var(--white-color);
   font-family: var(--font-unbounded);
@@ -9641,7 +9641,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   display: inline-block;
   transition: 0.35s;
 }
-.portfolio-card .image-and-tag .tag li a:hover {
+.portfolio-card .image-and-tag .tag li span:hover {
   color: var(--dark-title-color);
   background-color: var(--primary-color2);
 }

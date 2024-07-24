@@ -42,7 +42,7 @@ const Home2PortfolioSection = () => {
                       {data.tags.map((tag, index) => {
                         return (
                           <li key={index}>
-                            <Link href="#">{tag}</Link>
+                            <span>{tag}</span>
                           </li>
                         );
                       })}

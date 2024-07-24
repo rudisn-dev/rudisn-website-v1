@@ -7718,7 +7718,7 @@ footer{
         }
     }
     &.style-2{
-        background: #000; 
+        background: #1A1A1A; 
         .footer-top{
             .footer-widget{
                 .subscribed-area{
@@ -9419,7 +9419,7 @@ footer{
             gap: 15px;
             margin-bottom: 50px;
             li{
-                a{
+                span{
                     line-height: 1;
                     color: #1A1A1A;
                     font-family: var(--font-unbounded);
@@ -9943,7 +9943,7 @@ footer{
         transition: 0.35s;
         li{
           transition: 0.35s;
-          a{
+          span{
             line-height: 1;
             color: var(--white-color);
             font-family: var(--font-unbounded);
@@ -23349,7 +23349,7 @@ footer{
         .service-card{
             ul{
                 li{
-                    a{
+                    span{
                         color: #fff;
                         background-color:rgba(0, 0, 0, 0.5);
                         border: 1px solid rgba(255, 255, 255, 0.10);
