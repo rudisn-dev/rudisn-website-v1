@@ -16,9 +16,9 @@ export const allServices = [
     ],
     heroImages: [
       "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img2.jpg",
+      "/assets/img/innerpage/service-details-thumb-img3.jpg",
+      "/assets/img/innerpage/service-details-thumb-img4.jpg",
     ],
     serviceOverview: [
       "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
@@ -52,7 +52,7 @@ export const allServices = [
     ],
     descriptionImages: [
       "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img2.jpg",
     ],
     faqs: [
       {
@@ -99,13 +99,13 @@ export const allServices = [
       "Backend",
       "Full-Stack",
       "E-Commerce",
-      "Custom solutions",
+      "Custom Solutions",
     ],
     heroImages: [
       "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img2.jpg",
+      "/assets/img/innerpage/service-details-thumb-img3.jpg",
+      "/assets/img/innerpage/service-details-thumb-img4.jpg",
     ],
     serviceOverview: [
       "Our Web Development services cover the full spectrum of development needs, from frontend and backend development to full-stack solutions and e-commerce platforms. We focus on creating custom solutions that meet the unique requirements of each client.",
@@ -139,7 +139,7 @@ export const allServices = [
     ],
     descriptionImages: [
       "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img2.jpg",
     ],
     faqs: [
       {
@@ -189,9 +189,9 @@ export const allServices = [
     ],
     heroImages: [
       "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img2.jpg",
+      "/assets/img/innerpage/service-details-thumb-img3.jpg",
+      "/assets/img/innerpage/service-details-thumb-img4.jpg",
     ],
     serviceOverview: [
       "Our App Development services cover the full lifecycle of mobile app development, from concept to launch and beyond. We specialize in creating high-quality iOS, Android, and cross-platform apps that engage users and provide a seamless experience.",
@@ -225,7 +225,7 @@ export const allServices = [
     ],
     descriptionImages: [
       "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img2.jpg",
     ],
     faqs: [
       {
@@ -269,69 +269,69 @@ export const allServices = [
     tags: ["Migration", "Management", "Security", "DevOps"],
     heroImages: [
       "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img2.jpg",
+      "/assets/img/innerpage/service-details-thumb-img3.jpg",
+      "/assets/img/innerpage/service-details-thumb-img4.jpg",
     ],
     serviceOverview: [
-      "Our Cloud Service offerings are designed to provide businesses with scalable and reliable cloud solutions. We help organizations migrate to the cloud, manage their cloud infrastructure, ensure security, and implement DevOps practices to streamline operations.",
-      "Our team of experts is dedicated to delivering cloud solutions that enhance business agility and performance. We work closely with clients to understand their specific needs and create custom solutions that drive growth and innovation.",
+      "Our Cloud Service offerings provide businesses with scalable and reliable cloud solutions. We facilitate cloud migration, manage infrastructure, ensure security, and implement DevOps practices to optimize operations.",
+      "Our experts deliver solutions that boost business agility and performance. We work closely with clients to understand their needs and tailor solutions that drive growth and innovation.",
     ],
     keyFeatures: [
-      "Comprehensive migration services for a smooth transition to the cloud, along with effective cloud management to ensure performance, cost-efficiency, and reliability.",
-      "Robust security solutions, DevOps practices for automation and improved collaboration, and custom cloud solutions tailored to meet unique business needs.",
+      "Seamless migration to the cloud, with ongoing management to ensure performance, cost-efficiency, and reliability.",
+      "Robust security measures, DevOps practices for automation and collaboration, and custom cloud solutions designed to meet specific business requirements.",
     ],
     process: [
       {
         heading: "Discovery & Planning",
         description:
-          "Gathering relevant information through interviews and assessments to understand project requirements and goals.",
+          "Gathering information through interviews and assessments to understand project requirements and goals.",
       },
       {
         heading: "Design & Architecture",
         description:
-          "Creating detailed designs and architectures to visualize the cloud infrastructure and ensure it meets business needs.",
+          "Creating designs and architectures to visualize the cloud infrastructure and ensure it meets business needs.",
       },
       {
         heading: "Migration & Implementation",
         description:
-          "Executing the migration plan and implementing the cloud solutions while minimizing disruption to business operations.",
+          "Executing the migration plan and implementing cloud solutions while minimizing disruption to operations.",
       },
       {
         heading: "Management & Optimization",
         description:
-          "Providing ongoing management and optimization of cloud infrastructure to ensure it remains efficient and secure.",
+          "Providing ongoing management and optimization of cloud infrastructure to ensure efficiency and security.",
       },
     ],
     descriptionImages: [
       "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img2.jpg",
     ],
     faqs: [
       {
         question: "What is cloud service?",
         answer:
-          "Cloud service involves providing scalable cloud solutions to enhance business agility and performance.",
+          "Cloud service provides scalable cloud solutions to enhance business agility and performance.",
       },
       {
         question: "What services do you offer in cloud service?",
         answer:
-          "We offer cloud migration, management, security solutions, and DevOps practices to streamline operations and ensure optimal performance.",
+          "We offer cloud migration, management, security solutions, and DevOps practices for optimized operations and performance.",
       },
       {
         question: "How does your cloud service process work?",
         answer:
-          "Our process includes discovery and planning through interviews and assessments, design and architecture, migration and implementation, and ongoing management and optimization.",
+          "Our process includes discovery and planning, design and architecture, migration and implementation, followed by ongoing management and optimization.",
       },
       {
         question: "Why is cloud migration important for businesses?",
         answer:
-          "Cloud migration provides businesses with scalability, cost-efficiency, and enhanced performance, allowing them to focus on growth and innovation.",
+          "Cloud migration offers scalability, cost-efficiency, and enhanced performance, enabling businesses to focus on growth and innovation.",
       },
       {
         question: "How do you ensure cloud security?",
         answer:
-          "We implement robust security solutions to protect cloud infrastructure, ensuring data integrity and compliance with industry standards.",
+          "We implement robust security measures to protect cloud infrastructure, ensuring data integrity and compliance with industry standards.",
       },
       {
         question:
@@ -356,43 +356,43 @@ export const allServices = [
     ],
     heroImages: [
       "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img2.jpg",
+      "/assets/img/innerpage/service-details-thumb-img3.jpg",
+      "/assets/img/innerpage/service-details-thumb-img4.jpg",
     ],
     serviceOverview: [
-      "Our SEO services are designed to help businesses improve their online visibility and attract more organic traffic. We use a combination of keyword research, on-page optimization, and off-page strategies to boost search engine rankings.",
-      "Our team of SEO experts is committed to delivering results that drive growth and enhance online presence. We work closely with clients to understand their goals and create customized SEO strategies that deliver long-term success.",
+      "Our SEO services are designed to enhance online visibility and drive organic traffic through effective keyword research, on-page optimization, and off-page strategies.",
+      "We deliver customized SEO strategies that align with client goals, ensuring improved search engine rankings and sustained online growth.",
     ],
     keyFeatures: [
-      "Comprehensive keyword research and on-page SEO techniques to identify high-traffic keywords, optimize website content, and improve search engine visibility.",
-      "Off-page SEO strategies, content optimization, and technical SEO to enhance your website's authority, engagement, and overall performance.",
+      "In-depth keyword research and on-page optimization to boost search engine visibility and target high-traffic keywords.",
+      "Effective off-page SEO, content optimization, and technical SEO to enhance website authority, engagement, and performance.",
     ],
     process: [
       {
         heading: "Keyword Research",
         description:
-          "Identifying the most relevant and high-traffic keywords for your business through comprehensive research.",
+          "Identifying high-traffic, relevant keywords to drive content strategy and optimization.",
       },
       {
         heading: "On-Page Optimization",
         description:
-          "Optimizing website content, meta tags, and structure to improve search engine visibility.",
+          "Enhancing website content, meta tags, and structure to improve search engine visibility.",
       },
       {
         heading: "Content Creation",
         description:
-          "Developing high-quality, relevant content that is optimized for search engines and engages your target audience.",
+          "Developing high-quality, search-optimized content that engages your target audience.",
       },
       {
         heading: "Link Building",
         description:
-          "Implementing strategies to acquire high-quality backlinks that enhance your website's authority and ranking.",
+          "Acquiring high-quality backlinks to boost website authority and search engine rankings.",
       },
     ],
     descriptionImages: [
       "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img2.jpg",
     ],
     faqs: [
       {
@@ -403,27 +403,27 @@ export const allServices = [
       {
         question: "What services do you offer in SEO?",
         answer:
-          "We offer keyword research, on-page SEO, off-page SEO, content optimization, and technical SEO to boost search engine rankings.",
+          "We offer keyword research, on-page SEO, off-page SEO, content optimization, and technical SEO to improve search engine rankings.",
       },
       {
         question: "How does your SEO process work?",
         answer:
-          "Our process includes keyword research, on-page optimization, content creation, and link building to improve search engine visibility and website authority.",
+          "Our process includes keyword research, on-page optimization, content creation, and link building to enhance search engine visibility and authority.",
       },
       {
         question: "Why is keyword research important in SEO?",
         answer:
-          "Keyword research helps identify the most relevant and high-traffic keywords for your business, which is essential for optimizing content and improving search engine rankings.",
+          "Keyword research identifies relevant and high-traffic keywords, which are crucial for effective content optimization and improved search rankings.",
       },
       {
         question: "How do you optimize website content for SEO?",
         answer:
-          "We optimize website content by adjusting meta tags, improving structure, and ensuring that content is relevant and high-quality to enhance search engine visibility.",
+          "We optimize content by refining meta tags, improving site structure, and ensuring relevance and quality to enhance search engine visibility.",
       },
       {
         question: "What kind of off-page SEO strategies do you use?",
         answer:
-          "We use strategies such as acquiring high-quality backlinks to enhance your website's authority and improve its ranking on search engines.",
+          "We implement strategies like acquiring high-quality backlinks to strengthen your website's authority and improve search engine rankings.",
       },
     ],
   },
@@ -442,74 +442,74 @@ export const allServices = [
     ],
     heroImages: [
       "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
+      "/assets/img/innerpage/service-details-thumb-img2.jpg",
+      "/assets/img/innerpage/service-details-thumb-img3.jpg",
+      "/assets/img/innerpage/service-details-thumb-img4.jpg",
     ],
     serviceOverview: [
-      "Our Cyber Security services are designed to protect your systems, networks, and programs from digital attacks. We offer a range of services including vulnerability assessments, penetration testing, and threat intelligence to ensure your business is secure.",
-      "Our team of security experts is committed to safeguarding your digital assets. We provide comprehensive security audits and incident response services to identify and mitigate risks, ensuring your organization remains protected.",
+      "Our Cyber Security services protect your systems, networks, and programs from digital threats. We offer comprehensive solutions including vulnerability assessments, penetration testing, and threat intelligence to ensure robust security.",
+      "Our experts deliver thorough security audits and incident response services to identify risks, respond swiftly to threats, and secure your digital assets.",
     ],
     keyFeatures: [
-      "Comprehensive vulnerability assessments and penetration testing to identify weaknesses and simulate cyber attacks, ensuring robust protection of your systems.",
-      "Threat intelligence, detailed security audits, and rapid incident response to stay ahead of potential threats, maintain compliance, and minimize the impact of security breaches.",
+      "In-depth vulnerability assessments and penetration testing to uncover system weaknesses and simulate potential cyber attacks.",
+      "Advanced threat intelligence, security audits, and responsive incident management to proactively address threats and minimize the impact of breaches.",
     ],
     process: [
       {
         heading: "Assessment & Planning",
         description:
-          "Gathering relevant information through interviews and assessments to understand security needs and goals.",
+          "Conducting thorough assessments and planning to understand security needs and establish a protective strategy.",
       },
       {
         heading: "Implementation",
         description:
-          "Deploying security measures and technologies to protect systems and data.",
+          "Deploying security technologies and measures to safeguard systems and data against potential threats.",
       },
       {
         heading: "Monitoring & Management",
         description:
-          "Continuously monitoring systems for threats and managing security protocols to ensure ongoing protection.",
+          "Ongoing monitoring of systems for threats and managing security protocols to maintain continuous protection.",
       },
       {
         heading: "Response & Recovery",
         description:
-          "Providing rapid response to security incidents and assisting with recovery efforts to minimize impact.",
+          "Rapid response to security incidents and support for recovery efforts to mitigate impact and restore operations.",
       },
     ],
     descriptionImages: [
       "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img1.jpg",
+      "/assets/img/innerpage/service-details-page-img2.jpg",
     ],
     faqs: [
       {
         question: "What is cyber security?",
         answer:
-          "Cyber security involves protecting systems, networks, and programs from digital attacks to ensure data integrity and privacy.",
+          "Cyber security involves protecting systems, networks, and programs from digital attacks to maintain data integrity and privacy.",
       },
       {
         question: "What services do you offer in cyber security?",
         answer:
-          "We offer vulnerability assessments, penetration testing, threat intelligence, security audits, and incident response to safeguard your digital assets.",
+          "We provide vulnerability assessments, penetration testing, threat intelligence, security audits, and incident response to protect your digital assets.",
       },
       {
         question: "How does your cyber security process work?",
         answer:
-          "Our process includes assessment and planning, implementation of security measures, continuous monitoring and management, and response and recovery to handle security incidents.",
+          "Our process includes assessment and planning, implementation of security measures, continuous monitoring and management, and response and recovery for handling security incidents.",
       },
       {
         question: "Why are vulnerability assessments important?",
         answer:
-          "Vulnerability assessments identify weaknesses in your systems, allowing us to address potential security risks before they can be exploited.",
+          "Vulnerability assessments identify system weaknesses, enabling us to address potential risks before they can be exploited by attackers.",
       },
       {
         question: "What is penetration testing?",
         answer:
-          "Penetration testing simulates cyber attacks to assess the effectiveness of your security measures and identify vulnerabilities that could be exploited by attackers.",
+          "Penetration testing simulates cyber attacks to evaluate the effectiveness of your security measures and identify vulnerabilities.",
       },
       {
         question: "How do you handle security incidents?",
         answer:
-          "We provide rapid response to security incidents and assist with recovery efforts to minimize the impact and restore normal operations as quickly as possible.",
+          "We provide immediate response to security incidents and assist with recovery efforts to minimize impact and restore normal operations swiftly.",
       },
     ],
   },
@@ -1343,49 +1343,51 @@ export const allTeamMembers = [
   {
     name: "Kushal Gohil",
     designation: "Founder & CEO",
-    socialLinks: [],
     imageSrc: "assets/img/innerpage/team-img1.png",
   },
   {
-    name: "Kushal Gohil",
-    designation: "Founder & CEO",
-    socialLinks: [],
+    name: "Ketan Agwan",
+    designation: "Software Developer",
     imageSrc: "assets/img/innerpage/team-img1.png",
   },
   {
-    name: "Kushal Gohil",
-    designation: "Founder & CEO",
-    socialLinks: [],
+    name: "Abhishek Borker",
+    designation: "Cyber Security Expert",
     imageSrc: "assets/img/innerpage/team-img1.png",
   },
   {
-    name: "Kushal Gohil",
-    designation: "Founder & CEO",
-    socialLinks: [],
+    name: "Vishwas Sankpal",
+    designation: "Software Developer",
     imageSrc: "assets/img/innerpage/team-img1.png",
   },
   {
-    name: "Kushal Gohil",
-    designation: "Founder & CEO",
-    socialLinks: [],
+    name: "Harshal Valesha",
+    designation: "Software Engineer",
     imageSrc: "assets/img/innerpage/team-img1.png",
   },
   {
-    name: "Kushal Gohil",
-    designation: "Founder & CEO",
-    socialLinks: [],
+    name: "Karina Dang",
+    designation: "UI-UX Designer",
     imageSrc: "assets/img/innerpage/team-img1.png",
   },
   {
-    name: "Kushal Gohil",
-    designation: "Founder & CEO",
-    socialLinks: [],
+    name: "Sachin Patel",
+    designation: "Software Engineer",
     imageSrc: "assets/img/innerpage/team-img1.png",
   },
   {
-    name: "Kushal Gohil",
-    designation: "Founder & CEO",
-    socialLinks: [],
+    name: "Atharva Girme",
+    designation: "Software Engineer",
+    imageSrc: "assets/img/innerpage/team-img1.png",
+  },
+  {
+    name: "Tejas Dhokne",
+    designation: "Marketing Consultant",
+    imageSrc: "assets/img/innerpage/team-img1.png",
+  },
+  {
+    name: "Tanay Doshi",
+    designation: "Software Developer",
     imageSrc: "assets/img/innerpage/team-img1.png",
   },
 ];
@@ -1784,18 +1786,18 @@ export const footerData = {
       Let’s <span>TALK</span>
     </h2>
   ),
-  description:
-    "We harvest your requirements into living products!",
+  description: "We harvest your requirements into living products!",
 };
 
 export const teamsData = {
   backgroundSrc: "/assets/img/innerpage/breadcrumb-bg6.jpg",
   heading: (
     <h1>
-      We Have <span>Dynamic Teams.</span>
+      Our Team <span>Members</span>
     </h1>
   ),
-  description: "Offer a wide range of services to help businesses establish.",
+  description:
+    "This is our team—experts, dedicated to delivering innovative and outstanding digital solutions.",
   allTeamMembers: allTeamMembers,
 };
 

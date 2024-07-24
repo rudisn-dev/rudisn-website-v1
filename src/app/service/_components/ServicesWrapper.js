@@ -198,8 +198,8 @@ const ServicesWrapper = ({ serviceData, prevData, nextData }) => {
                   <div className="paragraph-and-btn">
                     <div className="text-animation">
                       <p>
-                        The specific goals can vary depending on the client's
-                        needs, industry.
+                        The specific goals can vary depending on your needs and
+                        industry.
                       </p>
                     </div>
                   </div>

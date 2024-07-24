@@ -21,8 +21,9 @@ const ContactPage = () => {
               <path d="M0.333333 3C0.333333 4.47276 1.52724 5.66667 3 5.66667C4.47276 5.66667 5.66667 4.47276 5.66667 3C5.66667 1.52724 4.47276 0.333333 3 0.333333C1.52724 0.333333 0.333333 1.52724 0.333333 3ZM875 3L875.271 3.42013L876.697 2.5H875V3ZM842.084 64L845.265 59.1819L839.502 58.836L842.084 64ZM3 3.5H875V2.5H3V3.5ZM874.729 2.57987C861.302 11.2438 844.485 27.4669 841.856 59.4675L842.852 59.5494C845.45 27.938 862.03 11.9643 875.271 3.42013L874.729 2.57987Z" />
             </svg>
             <p>
-              Creating a concise and effective design studio brief is crucial
-              for outlining your business, its services.
+              Have questions or need assistance? Reach out to us via email,
+              phone, or the form below, and our team will get back to you
+              promptly!
             </p>
           </div>
         </div>
@@ -127,7 +128,7 @@ const ContactPage = () => {
                       <div className="form-inner mb-30">
                         <label>How can We Help You?</label>
                         <textarea
-                          placeholder="Enrer a short description"
+                          placeholder="How can we help"
                           defaultValue={""}
                         />
                       </div>
@@ -154,7 +155,7 @@ const ContactPage = () => {
                   </div>
                   <div className="form-inner">
                     <button className="primary-btn2 btn-hover" type="submit">
-                      Submit Now
+                      Submit  
                       <svg
                         width={12}
                         height={12}
