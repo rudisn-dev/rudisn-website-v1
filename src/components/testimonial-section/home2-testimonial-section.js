@@ -171,9 +171,9 @@ const Home2TestimonialSection = () => {
                     <Marquee>
                       {allPartners.map((data, index) => {
                         return (
-                          <a key={index} href="#">
+                          <span key={index}>
                             <img src={data} alt="" />
-                          </a>
+                          </span>
                         );
                       })}
                     </Marquee>
@@ -182,9 +182,9 @@ const Home2TestimonialSection = () => {
                     <Marquee>
                       {allPartners.map((data, index) => {
                         return (
-                          <a key={index} href="#">
+                          <span key={index}>
                             <img src={data} alt="" />
-                          </a>
+                          </span>
                         );
                       })}
                     </Marquee>

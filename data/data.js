@@ -1392,9 +1392,15 @@ export const allTeamMembers = [
   },
 ];
 
-export const allPartners = Array.from({ length: 12 }).map(
-  () => "/assets/img/home2/partner-01.png"
-);
+export const allPartners = [
+  "/assets/images/partners/caves-studio.png",
+  "/assets/images/partners/entytle.png",
+  "/assets/images/partners/richee-agrotech.png",
+  "/assets/images/partners/siddhidatri-aahar.png",
+  "/assets/images/partners/ananda-industry.png",
+  "/assets/images/partners/ghughra-wala.png",
+  "/assets/images/partners/penny-wise.png",
+];
 
 export const contactInformation = {
   phoneNo: {
