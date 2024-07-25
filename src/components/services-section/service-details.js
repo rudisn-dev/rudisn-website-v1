@@ -21,7 +21,7 @@ const ServiceDetails = ({ heroImages }) => {
         crossFade: true, // Enable cross-fade transition
       },
       autoplay: {
-        delay: 2500, // Autoplay duration in milliseconds
+        delay: 1500, // Autoplay duration in milliseconds
         disableOnInteraction: false,
       },
       navigation: {

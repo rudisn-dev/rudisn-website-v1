@@ -15,10 +15,9 @@ export const allServices = [
       "Visual Design",
     ],
     heroImages: [
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img2.jpg",
-      "/assets/img/innerpage/service-details-thumb-img3.jpg",
-      "/assets/img/innerpage/service-details-thumb-img4.jpg",
+      "/assets/images/services/ui-ux/banner-1.svg",
+      "/assets/images/services/ui-ux/banner-2.svg",
+      "/assets/images/services/ui-ux/banner-3.svg",
     ],
     serviceOverview: [
       "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
@@ -50,10 +49,7 @@ export const allServices = [
           "Conducting usability tests and gathering feedback to make necessary adjustments and improvements.",
       },
     ],
-    descriptionImages: [
-      "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img2.jpg",
-    ],
+
     faqs: [
       {
         question: "What is UI/UX Design?",
@@ -102,10 +98,11 @@ export const allServices = [
       "Custom Solutions",
     ],
     heroImages: [
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img2.jpg",
-      "/assets/img/innerpage/service-details-thumb-img3.jpg",
-      "/assets/img/innerpage/service-details-thumb-img4.jpg",
+      "/assets/images/services/website-development/banner-1.svg",
+      "/assets/images/services/website-development/banner-2.svg",
+      "/assets/images/services/website-development/banner-3.svg",
+      "/assets/images/services/website-development/banner-4.svg",
+      "/assets/images/services/website-development/banner-5.svg",
     ],
     serviceOverview: [
       "Our Web Development services cover the full spectrum of development needs, from frontend and backend development to full-stack solutions and e-commerce platforms. We focus on creating custom solutions that meet the unique requirements of each client.",
@@ -137,10 +134,7 @@ export const allServices = [
           "Launching the website and providing ongoing maintenance and support to keep it running smoothly and up-to-date.",
       },
     ],
-    descriptionImages: [
-      "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img2.jpg",
-    ],
+
     faqs: [
       {
         question: "What is web development?",
@@ -188,10 +182,11 @@ export const allServices = [
       "User Testing",
     ],
     heroImages: [
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img2.jpg",
-      "/assets/img/innerpage/service-details-thumb-img3.jpg",
-      "/assets/img/innerpage/service-details-thumb-img4.jpg",
+      "/assets/images/services/app-development/banner-1.svg",
+      "/assets/images/services/app-development/banner-2.svg",
+      "/assets/images/services/app-development/banner-3.svg",
+      "/assets/images/services/app-development/banner-4.svg",
+      "/assets/images/services/app-development/banner-5.svg",
     ],
     serviceOverview: [
       "Our App Development services cover the full lifecycle of mobile app development, from concept to launch and beyond. We specialize in creating high-quality iOS, Android, and cross-platform apps that engage users and provide a seamless experience.",
@@ -223,10 +218,7 @@ export const allServices = [
           "Launching the app and providing ongoing maintenance and support to keep it running smoothly and up-to-date.",
       },
     ],
-    descriptionImages: [
-      "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img2.jpg",
-    ],
+
     faqs: [
       {
         question: "What is app development?",
@@ -268,10 +260,10 @@ export const allServices = [
       "Providing scalable cloud solutions to enhance business agility and performance.",
     tags: ["Migration", "Management", "Security", "DevOps"],
     heroImages: [
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img2.jpg",
-      "/assets/img/innerpage/service-details-thumb-img3.jpg",
-      "/assets/img/innerpage/service-details-thumb-img4.jpg",
+      "/assets/images/services/cloud/banner-1.svg",
+      "/assets/images/services/cloud/banner-2.svg",
+      "/assets/images/services/cloud/banner-3.svg",
+      "/assets/images/services/cloud/banner-4.svg",
     ],
     serviceOverview: [
       "Our Cloud Service offerings provide businesses with scalable and reliable cloud solutions. We facilitate cloud migration, manage infrastructure, ensure security, and implement DevOps practices to optimize operations.",
@@ -303,10 +295,7 @@ export const allServices = [
           "Providing ongoing management and optimization of cloud infrastructure to ensure efficiency and security.",
       },
     ],
-    descriptionImages: [
-      "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img2.jpg",
-    ],
+
     faqs: [
       {
         question: "What is cloud service?",
@@ -355,10 +344,10 @@ export const allServices = [
       "Technical SEO",
     ],
     heroImages: [
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img2.jpg",
-      "/assets/img/innerpage/service-details-thumb-img3.jpg",
-      "/assets/img/innerpage/service-details-thumb-img4.jpg",
+      "/assets/images/services/seo/banner-1.svg",
+      "/assets/images/services/seo/banner-2.svg",
+      "/assets/images/services/seo/banner-3.svg",
+      "/assets/images/services/seo/banner-4.svg",
     ],
     serviceOverview: [
       "Our SEO services are designed to enhance online visibility and drive organic traffic through effective keyword research, on-page optimization, and off-page strategies.",
@@ -390,10 +379,7 @@ export const allServices = [
           "Acquiring high-quality backlinks to boost website authority and search engine rankings.",
       },
     ],
-    descriptionImages: [
-      "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img2.jpg",
-    ],
+
     faqs: [
       {
         question: "What is SEO?",
@@ -441,10 +427,10 @@ export const allServices = [
       "Incident Response",
     ],
     heroImages: [
-      "/assets/img/innerpage/service-details-thumb-img1.jpg",
-      "/assets/img/innerpage/service-details-thumb-img2.jpg",
-      "/assets/img/innerpage/service-details-thumb-img3.jpg",
-      "/assets/img/innerpage/service-details-thumb-img4.jpg",
+      "/assets/images/services/cyber-security/banner-1.svg",
+      "/assets/images/services/cyber-security/banner-2.svg",
+      "/assets/images/services/cyber-security/banner-3.svg",
+      "/assets/images/services/cyber-security/banner-4.svg",
     ],
     serviceOverview: [
       "Our Cyber Security services protect your systems, networks, and programs from digital threats. We offer comprehensive solutions including vulnerability assessments, penetration testing, and threat intelligence to ensure robust security.",
@@ -476,10 +462,7 @@ export const allServices = [
           "Rapid response to security incidents and support for recovery efforts to mitigate impact and restore operations.",
       },
     ],
-    descriptionImages: [
-      "/assets/img/innerpage/service-details-page-img1.jpg",
-      "/assets/img/innerpage/service-details-page-img2.jpg",
-    ],
+
     faqs: [
       {
         question: "What is cyber security?",
@@ -1796,7 +1779,7 @@ export const footerData = {
 };
 
 export const teamsData = {
-  backgroundSrc: "/assets/img/innerpage/breadcrumb-bg6.jpg",
+  backgroundSrc: "/assets/images/our-team/banner.png",
   heading: (
     <h1>
       Our Team <span>Members</span>

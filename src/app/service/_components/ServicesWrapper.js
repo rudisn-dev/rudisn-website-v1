@@ -118,7 +118,7 @@ const ServicesWrapper = ({ serviceData, prevData, nextData }) => {
                 );
               })}
             </div>
-            <span className="line-break" />
+            {/* <span className="line-break" />
             <span className="line-break" />
             <span className="line-break" />
             <div className="row g-4">
@@ -129,7 +129,7 @@ const ServicesWrapper = ({ serviceData, prevData, nextData }) => {
                   </div>
                 );
               })}
-            </div>
+            </div> */}
           </div>
           <div className="details-navigation two">
             {prevData ? (
