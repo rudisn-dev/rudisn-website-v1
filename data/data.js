@@ -1,4 +1,4 @@
-export const logoUrl = "/assets/img/rudisn-logo.svg";
+export const logoUrl = "/rudisn-logo.svg";
 
 export const allServices = [
   {

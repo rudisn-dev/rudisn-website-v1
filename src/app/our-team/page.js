@@ -1,11 +1,5 @@
-import Link from "next/link";
 import React from "react";
-import { defaultMetaData, teamsData } from "../../../data/data";
-
-export const metadata = {
-  ...defaultMetaData,
-  title: defaultMetaData.title + " | " + "Our Team",
-};
+import { teamsData } from "../../../data/data";
 
 const OurTeam3 = () => {
   return (

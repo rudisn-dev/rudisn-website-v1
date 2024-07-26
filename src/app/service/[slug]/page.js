@@ -1,11 +1,6 @@
 import React from "react";
 import ServicesWrapper from "../_components/ServicesWrapper";
-import { allServices, defaultMetaData } from "../../../../data/data";
-
-export const metadata = {
-  ...defaultMetaData,
-  title: defaultMetaData.title + " | " + "Service",
-};
+import { allServices } from "../../../../data/data";
 
 function Page({ params: { slug } }) {
   const currentIndex = allServices.findIndex((data) => data.slug === slug);

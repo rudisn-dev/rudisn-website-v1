@@ -1,11 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import { defaultMetaData } from "../../data/data";
-
-export const metadata = {
-  ...defaultMetaData,
-  title: defaultMetaData.title + " | " + "Page Not Found",
-};
 
 export default function NotFound() {
   return (

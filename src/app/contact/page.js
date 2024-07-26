@@ -1,14 +1,5 @@
 import React from "react";
-import {
-  contactInformation,
-  defaultMetaData,
-  logoUrl,
-} from "../../../data/data";
-
-export const metadata = {
-  ...defaultMetaData,
-  title: defaultMetaData.title + " | " + "Contact Us",
-};
+import { contactInformation } from "../../../data/data";
 
 const ContactPage = () => {
   return (
@@ -155,7 +146,7 @@ const ContactPage = () => {
                   </div>
                   <div className="form-inner">
                     <button className="primary-btn2 btn-hover" type="submit">
-                      Submit  
+                      Submit
                       <svg
                         width={12}
                         height={12}
