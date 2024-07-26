@@ -1326,53 +1326,53 @@ export const allTeamMembers = [
   {
     name: "Kushal Gohil",
     designation: "Founder & CEO",
-    imageSrc: "assets/img/innerpage/team-img1.png",
+    imageSrc: "/assets/images/our-team/members/kushal-gohil.png",
   },
   {
     name: "Ketan Agwan",
     designation: "Software Developer",
-    imageSrc: "assets/img/innerpage/team-img1.png",
+    imageSrc: "/assets/images/our-team/members/ketan-agwan.png",
   },
   {
     name: "Abhishek Borker",
     designation: "Cyber Security Expert",
-    imageSrc: "assets/img/innerpage/team-img1.png",
+    imageSrc: "/assets/images/our-team/members/abhishek-borker.png",
   },
   {
     name: "Vishwas Sankpal",
     designation: "Software Developer",
-    imageSrc: "assets/img/innerpage/team-img1.png",
+    imageSrc: "/assets/images/our-team/members/vishwas-sankpal.png",
   },
   {
     name: "Harshal Valesha",
     designation: "Software Engineer",
-    imageSrc: "assets/img/innerpage/team-img1.png",
+    imageSrc: "/assets/images/our-team/members/harshal-valesha.png",
   },
   {
     name: "Karina Dang",
     designation: "UI-UX Designer",
-    imageSrc: "assets/img/innerpage/team-img1.png",
+    imageSrc: "/assets/images/our-team/members/karina-dang.png",
   },
   {
     name: "Sachin Patel",
     designation: "Software Engineer",
-    imageSrc: "assets/img/innerpage/team-img1.png",
+    imageSrc: "/assets/images/our-team/members/sachin-patel.png",
   },
   {
     name: "Atharva Girme",
     designation: "Software Engineer",
-    imageSrc: "assets/img/innerpage/team-img1.png",
+    imageSrc: "/assets/images/our-team/members/atharva-girme.png",
   },
   {
     name: "Tejas Dhokne",
     designation: "Marketing Consultant",
-    imageSrc: "assets/img/innerpage/team-img1.png",
+    imageSrc: "/assets/images/our-team/members/tejas-dhokne.png",
   },
-  {
-    name: "Tanay Doshi",
-    designation: "Software Developer",
-    imageSrc: "assets/img/innerpage/team-img1.png",
-  },
+  // {
+  //   name: "Tanay Doshi",
+  //   designation: "Software Developer",
+  //   imageSrc: "/assets/img/innerpage/team-img1.png",
+  // },
 ];
 
 export const allPartners = [
