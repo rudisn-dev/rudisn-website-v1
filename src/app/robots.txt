@@ -1,0 +1,19 @@
+# robots.txt for Rudisn Agency
+
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /register/
+Disallow: /terms-and-conditions/
+Disallow: /privacy-policy/
+
+# Allow all search engines to crawl the main website
+User-agent: *
+Allow: /
+
+# Disallow specific bots
+User-agent: BadBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://www.rudisn.com/sitemap.xml

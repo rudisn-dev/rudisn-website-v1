@@ -1439,10 +1439,10 @@ export const navBarData = [
       };
     }),
   },
-  {
-    name: "Our Work",
-    path: "/our-work",
-  },
+  // {
+  //   name: "Our Work",
+  //   path: "/our-work",
+  // },
   {
     name: "Our Team",
     path: "/our-team",
@@ -1792,7 +1792,35 @@ export const teamsData = {
 
 export const defaultMetaData = {
   title: "Rudisn",
+  description:
+    "Rudisn is a full-service digital company dedicated to helping businesses grow and thrive in the digital age.",
+  keywords:
+    "web development, UI/UX design, app development, cloud services, SEO, cyber security",
+  author: "Rudisn Agency",
+  canonical: "https://www.rudisn.com",
+  openGraph: {
+    title: "Rudisn",
+    description:
+      "Rudisn is a full-service digital company dedicated to helping businesses grow and thrive in the digital age.",
+    url: "https://www.rudisn.com",
+    site_name: "Rudisn",
+    image: logoUrl, // Replace with your image URL
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rudisn_twi", // Replace with your Twitter handle
+    title: "Rudisn",
+    description:
+      "Rudisn is a full-service digital company dedicated to helping businesses grow and thrive in the digital age.",
+    image: logoUrl, // Replace with your Twitter image URL
+  },
   icons: {
     icon: logoUrl,
+    appleTouchIcon: logoUrl, // Optional, replace if you have a different apple touch icon
+    favicon32: "/favicon-32x32.png",
+    favicon16: "/favicon-16x16.png",
+    maskIcon: "/safari-pinned-tab.svg",
+    themeColor: "#ffffff",
   },
 };

@@ -1,6 +1,11 @@
 import React from "react";
 import ProjectDetailsWrapper from "../_components/ProjectDetailsWrapper";
-import { allProjects } from "../../../../data/data";
+import { allProjects, defaultMetaData } from "../../../../data/data";
+
+export const metadata = {
+  ...defaultMetaData,
+  title: defaultMetaData.title + " | " + "Project",
+};
 
 function Page({ params: { slug } }) {
   const currentIndex = allProjects.findIndex((data) => data.slug === slug);

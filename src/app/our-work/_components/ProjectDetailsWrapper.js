@@ -233,12 +233,7 @@ const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
             <div className="col-md-6">
               <h3>Projects Solution</h3>
               {projectData.solution.points.map((data, index) => {
-                return (
-                  <>
-                    <p key={index}>{data}</p>
-                    <br />
-                  </>
-                );
+                return <p key={index}>{data}</p>;
               })}
             </div>
             <div className="col-md-6">
