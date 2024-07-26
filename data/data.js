@@ -1466,7 +1466,7 @@ export const heroData = {
       <span>practical</span> solutions.
     </p>
   ),
-  heroImgSrc: "/assets/img/home2/banner-img.png",
+  heroImgSrc: "/assets/images/hero/hero.png",
   marqueeText: allServices.map((data) => data.name),
 };
 
