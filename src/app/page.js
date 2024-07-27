@@ -18,7 +18,7 @@ export default function Home() {
       <Home2ServicesSection />
       <Home2CounterArea />
       <Home2ProcessSection />
-      <Home2PortfolioSection />
+      {/* <Home2PortfolioSection /> */}
       {/* <Home2TestimonialSection /> */}
       <Home2TechnologySection />
     </main>
