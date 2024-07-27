@@ -1369,7 +1369,7 @@ export const allTeamMembers = [
     imageSrc: "/assets/images/our-team/members/team-member.png",
   },
   {
-    name: "Tanay Doshi",
+    name: "Tanay",
     designation: "Software Developer",
     imageSrc: "/assets/images/our-team/members/team-member.png",
   },
@@ -1613,35 +1613,43 @@ export const projectsData = {
 export const testimonalsData = [
   {
     imageSrc: "/assets/img/home2/testimonial-img-01.png",
-    heading: "Great Company!",
+    heading: "Website Maintenance",
     description:
-      "By actively seeking, analyzing, and acting upon feedback, a digital company can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
-    person: "Mr. Daniel Scoot",
-    post: "Catch, CEO",
+      "Rudisn Agency has been great at keeping our website running smoothly and improving our SEO.",
+    person: "Dilipkumar Jadhav",
+    post: "Head Of Marketing, Entytle",
   },
   {
     imageSrc: "/assets/img/home2/testimonial-img-01.png",
-    heading: "Great Company!",
+    heading: "Landing Page",
     description:
-      "By actively seeking, analyzing, and acting upon feedback, a digital company can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
-    person: "Mr. Daniel Scoot",
-    post: "Catch, CEO",
+      "Rudisn Agency made a beautiful and responsive landing page for us. Their work is fantastic.",
+    person: "Vinayak Nikam",
+    post: "Founder, Caves Studio",
   },
   {
     imageSrc: "/assets/img/home2/testimonial-img-01.png",
-    heading: "Great Company!",
+    heading: "E-commerce Store",
     description:
-      "By actively seeking, analyzing, and acting upon feedback, a digital company can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
-    person: "Mr. Daniel Scoot",
-    post: "Catch, CEO",
+      "Rudisn Agency created a wonderful e-commerce store for our lights business. We are very happy with their work.",
+    person: "Vinayak More",
+    post: "Owner, Anand Industry",
   },
   {
     imageSrc: "/assets/img/home2/testimonial-img-01.png",
-    heading: "Great Company!",
+    heading: "Online Store",
     description:
-      "By actively seeking, analyzing, and acting upon feedback, a digital company can continuously refine its processes, enhance client satisfaction, and foster a culture of continuous.",
-    person: "Mr. Daniel Scoot",
-    post: "Catch, CEO",
+      "We love the e-commerce store Rudisn Agency built for our organic farm. It's both attractive and easy to use.",
+    person: "Nilesh Bang",
+    post: "CTO, Richee Agrotech",
+  },
+  {
+    imageSrc: "/assets/img/home2/testimonial-img-01.png",
+    heading: "B2B Landing Page",
+    description:
+      "Rudisn Agency made a great landing page for our B2B snacks company. Their work is top-notch.",
+    person: "Prince Kumar",
+    post: "Software Engineer, Service Now",
   },
 ];
 
