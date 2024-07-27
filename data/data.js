@@ -1476,6 +1476,8 @@ export const aboutUsData = {
   aboutUs2:
     "Our mission is to deliver exceptional service without restrictions, ensuring our clients receive attractive and practical solutions tailored to their unique needs.",
   totalProjects: allProjects.length,
+  image1: "/assets/images/about-us/logo.png",
+  image2: "/assets/images/about-us/name.png",
 };
 
 export const servicesData = {

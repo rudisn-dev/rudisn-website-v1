@@ -168,14 +168,14 @@ const Home2About = () => {
                 <div className="col-sm-5">
                   <div className="about-left">
                     <div className="about-img animet-images magnetic-item">
-                      <img src="assets/img/home2/about-02.jpg" alt="" />
+                      <img src={aboutUsData.image1} alt="" />
                     </div>
                     <p className="text-animation2">{aboutUsData.aboutUs2}</p>
                   </div>
                 </div>
                 <div className="col-sm-7 d-sm-flex  d-none">
                   <div className="about-right-img animet-images magnetic-item">
-                    <img src="assets/img/home2/about-01.jpg" alt="" />
+                    <img src={aboutUsData.image2} alt="" />
                   </div>
                 </div>
               </div>
