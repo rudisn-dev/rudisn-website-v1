@@ -1439,10 +1439,10 @@ export const navBarData = [
       };
     }),
   },
-  // {
-  //   name: "Our Work",
-  //   path: "/our-work",
-  // },
+  {
+    name: "Our Work",
+    path: "/our-work",
+  },
   {
     name: "Our Team",
     path: "/our-team",
