@@ -26,19 +26,21 @@ const Home2ServicesSection = () => {
             {servicesData.services.map((data, index) => {
               return (
                 <div key={index} className="service-card">
-                  <h3>
-                    {index + 1}. {data.name}
-                  </h3>
-                  <p>{data.description}</p>
-                  <ul>
-                    {data.tags.map((tag, tagIndex) => {
-                      return (
-                        <li key={tagIndex}>
-                          <span>{tag}</span>
-                        </li>
-                      );
-                    })}
-                  </ul>
+                  <div>
+                    <h3>
+                      {index + 1}. {data.name}
+                    </h3>
+                    <p>{data.description}</p>
+                    <ul>
+                      {data.tags.map((tag, tagIndex) => {
+                        return (
+                          <li key={tagIndex}>
+                            <span>{tag}</span>
+                          </li>
+                        );
+                      })}
+                    </ul>
+                  </div>
                   <Link className="primary-btn2 btn-hover" href={data.path}>
                     Explore More
                     <svg

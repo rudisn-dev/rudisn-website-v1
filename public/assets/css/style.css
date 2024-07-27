@@ -6123,7 +6123,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   }
 }
 .text-slider-section.two {
-  background-color: #E3E5D8;
+  background-color: var(--primary-color4);
 }
 .text-slider-section.three {
   background-color: #D9D2F3;
@@ -9012,6 +9012,10 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   padding: 50px 40px;
   border-bottom: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
 }
 @media (max-width: 1399px) {
   .home2-services-section .service-card {
