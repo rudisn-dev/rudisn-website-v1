@@ -19,6 +19,7 @@ import Header2 from "@/components/header/Header2";
 import Footer2 from "@/components/Footer/Footer2";
 import Home2ContactSection from "@/components/contact-section/home2-contact-section";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function RootLayout({ children }) {
   useMagneticHover();
@@ -36,8 +37,9 @@ export default function RootLayout({ children }) {
         <ThemeSwitch />
         <SmoothPageScroll />
         <ScrollTopBtn />
-        <SpeedInsights />
       </body>
+      <SpeedInsights />
+      <GoogleTagManager gtmId="GTM-PB55LMJW" />
     </html>
   );
 }
