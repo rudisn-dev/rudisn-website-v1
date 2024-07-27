@@ -18,6 +18,7 @@ import ThemeSwitch from "@/components/common/Theme";
 import Header2 from "@/components/header/Header2";
 import Footer2 from "@/components/Footer/Footer2";
 import Home2ContactSection from "@/components/contact-section/home2-contact-section";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function RootLayout({ children }) {
   useMagneticHover();
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         <ThemeSwitch />
         <SmoothPageScroll />
         <ScrollTopBtn />
+        <SpeedInsights />
       </body>
     </html>
   );
