@@ -18,10 +18,10 @@ function ContactForm() {
       message: formData.get("message"),
     };
 
-    sendEmail(data);
+    sendEmail(data, form);
   };
 
-  async function sendEmail(data) {
+  async function sendEmail(data, form) {
     setIsLoading(true);
     try {
       const response = await fetch("/api/contact-us", {
@@ -49,6 +49,8 @@ function ContactForm() {
           description:
             "Our team will review your details and get back to you as soon as possible",
         });
+
+        form.reset();
       } else {
         toast.error("Oops! Something Went Wrong", {
           description:
