@@ -1,8 +1,5 @@
 import Link from "next/link";
-import Marquee from "react-fast-marquee";
 import ServiceDetails from "@/components/services-section/service-details";
-import { logoUrl } from "../../../../data/data";
-import Home2ContactSection from "@/components/contact-section/home2-contact-section";
 import ServicesMarquee from "@/components/marquee/ServicesMarquee";
 
 const processIcons = [
