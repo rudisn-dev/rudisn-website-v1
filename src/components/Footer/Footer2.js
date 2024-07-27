@@ -17,7 +17,7 @@ const Footer2 = () => {
               <div className="footer-top">
                 <div className="row g-lg-4 gy-5 mb-90">
                   <div className="col-xl-6 col-lg-6 col-md-8 d-flex justify-content-lg-start">
-                    <div className="footer-widget">
+                    {/* <div className="footer-widget">
                       <div className="subscribed-area">
                         <h3>Don’t Missed Subscribed!</h3>
                         <form>
@@ -36,7 +36,7 @@ const Footer2 = () => {
                           </div>
                         </form>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="col-xl-3 col-lg-3 col-sm-6 d-flex justify-content-lg-center">
                     <div className="footer-widget">

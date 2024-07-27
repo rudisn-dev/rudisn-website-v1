@@ -1,5 +1,5 @@
-import React from "react";
 import { contactInformation, defaultMetaData } from "../../../data/data";
+import ContactForm from "./_components/ContactForm";
 
 export const metadata = {
   ...defaultMetaData,
@@ -92,78 +92,7 @@ const ContactPage = () => {
             </div>
             <div className="col-xl-8">
               <div className="contact-form-wrap">
-                <form>
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="form-inner mb-30">
-                        <label>Full Name*</label>
-                        <input type="text" placeholder="Enter Full Name" />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-inner mb-30">
-                        <label>Your Email*</label>
-                        <input type="email" placeholder="Enter Email" />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-inner mb-30">
-                        <label>
-                          Phone Number <span>(Optional)</span>
-                        </label>
-                        <input type="text" placeholder="Enter Phone Number" />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="form-inner mb-30">
-                        <label>Subject</label>
-                        <input type="text" placeholder="Enter Subject" />
-                      </div>
-                    </div>
-                    <div className="col-md-12">
-                      <div className="form-inner mb-30">
-                        <label>How can We Help You?</label>
-                        <textarea
-                          placeholder="How can we help"
-                          defaultValue={""}
-                        />
-                      </div>
-                    </div>
-                    {/* <div className="col-md-12 mb-50">
-                      <div className="form-inner2">
-                        <div className="form-check">
-                          <input
-                            className="form-check-input"
-                            type="checkbox"
-                            defaultValue
-                            id="contactCheck"
-                          />
-                          <label
-                            className="form-check-label"
-                            htmlFor="contactCheck"
-                          >
-                            Please save my name, email address for the next time
-                            I message.
-                          </label>
-                        </div>
-                      </div>
-                    </div> */}
-                  </div>
-                  <div className="form-inner">
-                    <button className="primary-btn2 btn-hover" type="submit">
-                      Submit
-                      <svg
-                        width={12}
-                        height={12}
-                        viewBox="0 0 12 12"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z"></path>
-                      </svg>
-                      <span style={{ top: "50.5px", left: "83.75px" }} />
-                    </button>
-                  </div>
-                </form>
+                <ContactForm />
               </div>
             </div>
           </div>

@@ -1368,11 +1368,11 @@ export const allTeamMembers = [
     designation: "Marketing Consultant",
     imageSrc: "/assets/images/our-team/members/team-member.png",
   },
-  // {
-  //   name: "Tanay Doshi",
-  //   designation: "Software Developer",
-  //   imageSrc: "/assets/img/innerpage/team-img1.png",
-  // },
+  {
+    name: "Tanay Doshi",
+    designation: "Software Developer",
+    imageSrc: "/assets/images/our-team/members/team-member.png",
+  },
 ];
 
 export const allPartners = [
@@ -1823,4 +1823,13 @@ export const defaultMetaData = {
     maskIcon: "/safari-pinned-tab.svg",
     themeColor: "#ffffff",
   },
+};
+
+export const emailConfig = {
+  SMTP_HOST: process.env.SMTP_HOST,
+  SMTP_PORT: process.env.SMTP_PORT,
+  SMTP_USER: process.env.SMTP_USER,
+  EMAIL_FROM: process.env.EMAIL_FROM,
+  EMAIL_TO: process.env.EMAIL_TO,
+  SMTP_PASS: process.env.SMTP_PASS,
 };
