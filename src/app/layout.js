@@ -37,8 +37,8 @@ export default function RootLayout({ children }) {
         <ThemeSwitch />
         <SmoothPageScroll />
         <ScrollTopBtn />
+        <SpeedInsights />
       </body>
-      <SpeedInsights />
       <GoogleAnalytics gaId="G-PP6G83BBBL" />
     </html>
   );
