@@ -1428,28 +1428,38 @@ export const navBarData = [
   {
     name: "Home",
     path: "/",
+    priority: 1,
+    changefreq: "daily",
   },
   {
     name: "Services",
-    path: "#",
+    path: "/services",
     subPaths: allServices.map((data) => {
       return {
         name: data.name,
         path: data.path,
       };
     }),
+    priority: 0.8,
+    changefreq: "monthly",
   },
   // {
   //   name: "Our Work",
   //   path: "/our-work",
+  //   priority: 0.7,
+  //   changefreq: "monthly",
   // },
   {
     name: "Our Team",
     path: "/our-team",
+    priority: 0.7,
+    changefreq: "monthly",
   },
   {
     name: "Contact Us",
     path: "/contact",
+    priority: 0.7,
+    changefreq: "monthly",
   },
 ];
 
@@ -1843,3 +1853,27 @@ export const emailConfig = {
   EMAIL_TO: process.env.EMAIL_TO,
   SMTP_PASS: process.env.SMTP_PASS,
 };
+
+// ------------- Sitemaps ---------------
+
+const mainPaths = navBarData.map((data) => {
+  return {
+    url: "https://www.rudisn.com" + data.path,
+    lastModified: new Date(),
+    changeFrequency: data.changefreq,
+    priority: data.priority,
+  };
+});
+
+const servicesPaths = navBarData
+  .find((data) => data.name === "Services")
+  .subPaths.map((data) => {
+    return {
+      url: "https://www.rudisn.com" + data.path,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    };
+  });
+
+export const basePathsSitemap = [...mainPaths, ...servicesPaths];
