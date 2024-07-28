@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import Sidebar from "../common/Sidebar";
 import { contactInformation, logoUrl, navBarData } from "../../../data/data";
 
-const Header2 = () => {
+const NavBar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -125,4 +125,4 @@ const Header2 = () => {
   );
 };
 
-export default Header2;
+export default NavBar;

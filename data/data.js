@@ -4,7 +4,7 @@ export const allServices = [
   {
     slug: "ui-ux",
     name: "UI/UX Design",
-    path: "/service/ui-ux",
+    path: "/services/ui-ux",
     description:
       "Creating intuitive and engaging user interfaces and experiences through research and design.",
     tags: [
@@ -87,7 +87,7 @@ export const allServices = [
   {
     slug: "web-development",
     name: "Web Development",
-    path: "/service/web-development",
+    path: "/services/web-development",
     description:
       "Building and maintaining websites to ensure optimal performance and user experience.",
     tags: [
@@ -171,7 +171,7 @@ export const allServices = [
   {
     slug: "app-development",
     name: "App Development",
-    path: "/service/app-development",
+    path: "/services/app-development",
     description:
       "Developing mobile applications for various platforms to enhance user engagement and functionality.",
     tags: [
@@ -255,7 +255,7 @@ export const allServices = [
   {
     slug: "cloud",
     name: "Cloud Service",
-    path: "/service/cloud",
+    path: "/services/cloud",
     description:
       "Providing scalable cloud solutions to enhance business agility and performance.",
     tags: ["Migration", "Management", "Security", "DevOps"],
@@ -333,7 +333,7 @@ export const allServices = [
   {
     slug: "seo",
     name: "SEO",
-    path: "/service/seo",
+    path: "/services/seo",
     description:
       "Optimizing websites to rank higher on search engines and attract more organic traffic.",
     tags: [
@@ -416,7 +416,7 @@ export const allServices = [
   {
     slug: "cyber-security",
     name: "Cyber Security",
-    path: "/service/cyber-security",
+    path: "/services/cyber-security",
     description:
       "Protecting systems, networks, and programs from digital attacks.",
     tags: [

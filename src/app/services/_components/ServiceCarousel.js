@@ -9,7 +9,7 @@ import SwiperCore, {
 } from "swiper";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
-const ServiceDetails = ({ heroImages }) => {
+const ServiceCarousel = ({ heroImages }) => {
   const settings = useMemo(() => {
     return {
       slidesPerView: "auto",
@@ -101,4 +101,4 @@ const ServiceDetails = ({ heroImages }) => {
   );
 };
 
-export default ServiceDetails;
+export default ServiceCarousel;

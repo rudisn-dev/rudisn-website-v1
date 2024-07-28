@@ -3,9 +3,9 @@ import useScrollZoomAnimationImg from "@/hooks/useScrollZoomAnimationImg";
 import Link from "next/link";
 import React from "react";
 import CountUp from "react-countup";
-import { aboutUsData } from "../../../data/data";
+import { aboutUsData } from "../../../../data/data";
 
-const Home2About = () => {
+const About = () => {
   useScrollZoomAnimationImg();
   return (
     <>
@@ -187,4 +187,4 @@ const Home2About = () => {
   );
 };
 
-export default Home2About;
+export default About;

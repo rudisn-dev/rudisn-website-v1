@@ -1,7 +1,7 @@
 import React from "react";
-import { technologyData } from "../../../data/data";
+import { technologyData } from "../../../../data/data";
 
-const Home2TechnologySection = () => {
+const AllTechnologies = () => {
   return (
     <div className="home2-technology-section">
       <div className="container-lg container-fluid">
@@ -86,4 +86,4 @@ const Home2TechnologySection = () => {
   );
 };
 
-export default Home2TechnologySection;
+export default AllTechnologies;

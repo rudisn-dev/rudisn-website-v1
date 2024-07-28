@@ -9,9 +9,9 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import Link from "next/link";
-import { allPartners, testimonalsData } from "../../../data/data";
+import { allPartners, testimonalsData } from "../../../../data/data";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
-const Home2TestimonialSection = () => {
+const Testimonials = () => {
   const settings = useMemo(() => {
     return {
       slidesPerView: "auto",
@@ -202,4 +202,4 @@ const Home2TestimonialSection = () => {
   );
 };
 
-export default Home2TestimonialSection;
+export default Testimonials;

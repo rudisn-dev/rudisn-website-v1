@@ -1,9 +1,9 @@
 "use client";
 import { useEffect } from "react";
 import gsap from "gsap";
-import { solutionData } from "../../../data/data";
+import { solutionData } from "../../../../data/data";
 
-const Home2ProcessSection = () => {
+const OurProcess = () => {
   useEffect(() => {
     const allProcesses = document.querySelectorAll(
       ".home2-process-wrapper .single-process-static"
@@ -133,4 +133,4 @@ const Home2ProcessSection = () => {
   );
 };
 
-export default Home2ProcessSection;
+export default OurProcess;

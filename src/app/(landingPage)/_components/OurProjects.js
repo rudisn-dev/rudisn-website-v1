@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { projectsData } from "../../../data/data";
+import { projectsData } from "../../../../data/data";
 
-const Home2PortfolioSection = () => {
+const OurProjects = () => {
   return (
     <div className="home2-portfolio-section mb-130">
       <div className="container-lg container-fluid">
@@ -103,4 +103,4 @@ const Home2PortfolioSection = () => {
   );
 };
 
-export default Home2PortfolioSection;
+export default OurProjects;

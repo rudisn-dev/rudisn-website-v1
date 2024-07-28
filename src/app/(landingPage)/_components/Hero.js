@@ -1,8 +1,8 @@
 import React from "react";
-import { contactInformation, heroData } from "../../../data/data";
-import ServicesMarquee from "../marquee/ServicesMarquee";
+import { contactInformation, heroData } from "../../../../data/data";
+import ServicesMarquee from "@/components/common/ServicesMarquee";
 
-const Home2BannerSection = () => {
+const Hero = () => {
   return (
     <>
       <div className="home2-banner-area">
@@ -112,4 +112,4 @@ const Home2BannerSection = () => {
   );
 };
 
-export default Home2BannerSection;
+export default Hero;

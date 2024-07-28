@@ -6,10 +6,12 @@ import {
   logoUrl,
   navBarData,
 } from "../../../data/data";
+import SubFooter from "./SubFooter";
 
-const Footer2 = () => {
+const Footer = () => {
   return (
     <>
+      <SubFooter />
       <footer className="style-2">
         <div className="container-lg container-fluid">
           <div className="row">
@@ -164,4 +166,4 @@ const Footer2 = () => {
   );
 };
 
-export default Footer2;
+export default Footer;

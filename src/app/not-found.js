@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { defaultMetaData } from "../../data/data";
-import ServicesMarquee from "@/components/marquee/ServicesMarquee";
+import ServicesMarquee from "@/components/common/ServicesMarquee";
 
 export const metadata = {
   ...defaultMetaData,

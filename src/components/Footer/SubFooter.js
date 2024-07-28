@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { contactInformation, footerData } from "../../../data/data";
 
-const Home2ContactSection = () => {
+const SubFooter = () => {
   return (
     <>
       <div className="contact-section two">
@@ -69,4 +69,4 @@ const Home2ContactSection = () => {
   );
 };
 
-export default Home2ContactSection;
+export default SubFooter;

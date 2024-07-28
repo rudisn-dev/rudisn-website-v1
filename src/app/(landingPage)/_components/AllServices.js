@@ -1,8 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { servicesData } from "../../../data/data";
+import { servicesData } from "../../../../data/data";
 
-const Home2ServicesSection = () => {
+const AllServices = () => {
   return (
     <>
       <div className="home2-services-section mb-130">
@@ -63,4 +63,4 @@ const Home2ServicesSection = () => {
   );
 };
 
-export default Home2ServicesSection;
+export default AllServices;

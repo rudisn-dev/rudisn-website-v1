@@ -1,6 +1,6 @@
 import Link from "next/link";
-import ServiceDetails from "@/components/services-section/service-details";
-import ServicesMarquee from "@/components/marquee/ServicesMarquee";
+import ServiceCarousel from "./ServiceCarousel";
+import ServicesMarquee from "@/components/common/ServicesMarquee";
 
 const processIcons = [
   <svg
@@ -51,7 +51,7 @@ const ServicesWrapper = ({ serviceData, prevData, nextData }) => {
     <>
       <div className="details-page-wrapper service-details pt-130 mb-130">
         <div className="container-lg container-fluid">
-          <ServiceDetails heroImages={serviceData.heroImages} />
+          <ServiceCarousel heroImages={serviceData.heroImages} />
           <span className="line-break" />
           <span className="line-break" />
           <span className="line-break" />

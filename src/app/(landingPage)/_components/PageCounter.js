@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import CountUp from "react-countup";
-import { counterData } from "../../../data/data";
+import { counterData } from "../../../../data/data";
 
-const Home2CounterArea = () => {
+const PageCounter = () => {
   return (
     <>
       <div className="home2-counter-area mb-130">
@@ -63,4 +63,4 @@ const Home2CounterArea = () => {
   );
 };
 
-export default Home2CounterArea;
+export default PageCounter;
