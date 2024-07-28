@@ -1,4 +1,5 @@
 export const logoUrl = "/rudisn-logo.svg";
+export const baseUrl = "https://www.rudisn.com/";
 
 export const allServices = [
   {
@@ -1818,12 +1819,12 @@ export const defaultMetaData = {
   keywords:
     "web development, UI/UX design, app development, cloud services, SEO, cyber security",
   author: "Rudisn Agency",
-  canonical: "https://www.rudisn.com",
+  canonical: baseUrl,
   openGraph: {
     title: "Rudisn",
     description:
       "Rudisn is a full-service digital company dedicated to helping businesses grow and thrive in the digital age.",
-    url: "https://www.rudisn.com",
+    url: baseUrl,
     site_name: "Rudisn",
     image: logoUrl, // Replace with your image URL
     type: "website",
@@ -1912,7 +1913,7 @@ export const faqs = [
 
 const mainPaths = navBarData.map((data) => {
   return {
-    url: "https://www.rudisn.com" + data.path,
+    url: baseUrl + data.path,
     lastModified: new Date(),
     changeFrequency: data.changefreq,
     priority: data.priority,
@@ -1923,7 +1924,7 @@ const servicesPaths = navBarData
   .find((data) => data.name === "Services")
   .subPaths.map((data) => {
     return {
-      url: "https://www.rudisn.com" + data.path,
+      url: baseUrl + data.path,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
@@ -1934,13 +1935,13 @@ export const basePathsSitemap = [
   ...mainPaths,
   ...servicesPaths,
   {
-    url: "https://www.rudisn.com/terms-and-conditions",
+    url: baseUrl + "/terms-and-conditions",
     lastModified: new Date(),
     changeFrequency: "yearly",
     priority: 0.5,
   },
   {
-    url: "https://www.rudisn.com/faq",
+    url: baseUrl + "/faq",
     lastModified: new Date(),
     changeFrequency: "yearly",
     priority: 0.5,

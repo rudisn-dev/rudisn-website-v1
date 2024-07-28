@@ -1,5 +1,5 @@
 import React from "react";
-import { allServices, heroData } from "../../../data/data";
+import { allServices } from "../../../data/data";
 
 function ServicesMarquee() {
   return (
