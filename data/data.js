@@ -1855,6 +1855,59 @@ export const emailConfig = {
   SMTP_PASS: process.env.SMTP_PASS,
 };
 
+export const faqs = [
+  {
+    question: "What services does Rudisn offer?",
+    answer:
+      "Rudisn offers a wide range of services including UI/UX Design, Web Development, App Development, Cloud Services, SEO, and Cyber Security.",
+  },
+  {
+    question: "How do I get started with a project?",
+    answer:
+      "To get started, you can contact us via phone at +91 90752 74002 or email at rudisn2002@gmail.com. We'll schedule an initial consultation to understand your goals and requirements.",
+  },
+  {
+    question: "What are your payment methods?",
+    answer:
+      "We offer two payment plans: \nPlan 1: \n30% Advance Payment to initiate the work. \n40% Payment after Completing half of the Modules. \n30% Payment after Project Delivery. \nPlan 2: Divide the payment into monthly instalments.",
+  },
+  {
+    question: "How long does it take to complete a project?",
+    answer:
+      "The duration of a project depends on its complexity and requirements. After the initial consultation, we provide a timeline that outlines the key milestones and estimated completion date.",
+  },
+  {
+    question: "What is your process for developing a project?",
+    answer:
+      "Our process includes four steps: Discovery and Consultation, Design and Architecture, Development, and Documentation and Launch. We emphasize understanding client goals, creating user-centric designs, following best development practices, and providing comprehensive support.",
+  },
+  {
+    question: "Do you provide ongoing support and maintenance?",
+    answer:
+      "Yes, we offer ongoing support and maintenance services to ensure your project continues to perform optimally and meets your evolving needs.",
+  },
+  {
+    question: "How do you ensure the security of my project?",
+    answer:
+      "We implement advanced security measures and best practices to protect your project from digital attacks. Our cyber security services include vulnerability assessment, penetration testing, threat intelligence, security audits, and incident response.",
+  },
+  {
+    question: "Can you help with SEO for my website?",
+    answer:
+      "Yes, we offer comprehensive SEO services including keyword research, on-page SEO, off-page SEO, content optimization, and technical SEO to help your website rank higher on search engines and attract more organic traffic.",
+  },
+  {
+    question: "What platforms do you develop mobile apps for?",
+    answer:
+      "We develop mobile applications for iOS, Android, and cross-platform solutions. We also provide maintenance and user testing services to ensure the best performance and user experience.",
+  },
+  {
+    question: "How do you handle privacy and data protection?",
+    answer:
+      "Your privacy is important to us. We collect and use personal information only to provide and improve our services. We implement security measures to protect your information from unauthorized access and ensure compliance with privacy regulations.",
+  },
+];
+
 // ------------- Sitemaps ---------------
 
 const mainPaths = navBarData.map((data) => {
@@ -1877,4 +1930,19 @@ const servicesPaths = navBarData
     };
   });
 
-export const basePathsSitemap = [...mainPaths, ...servicesPaths];
+export const basePathsSitemap = [
+  ...mainPaths,
+  ...servicesPaths,
+  {
+    url: "https://www.rudisn.com/terms-and-conditions",
+    lastModified: new Date(),
+    changeFrequency: "yearly",
+    priority: 0.5,
+  },
+  {
+    url: "https://www.rudisn.com/faq",
+    lastModified: new Date(),
+    changeFrequency: "yearly",
+    priority: 0.5,
+  },
+];

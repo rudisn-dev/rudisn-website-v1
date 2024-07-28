@@ -7,10 +7,14 @@ import {
   navBarData,
 } from "../../../data/data";
 import SubFooter from "./SubFooter";
+import ServicesMarquee from "../common/ServicesMarquee";
 
 const Footer = () => {
   return (
     <>
+      <div className="text-slider-section two">
+        <ServicesMarquee />
+      </div>
       <SubFooter />
       <footer className="style-2">
         <div className="container-lg container-fluid">
@@ -47,7 +51,17 @@ const Footer = () => {
                       </div>
                       <div className="menu-container">
                         <ul>
-                          {navBarData
+                          {[
+                            ...navBarData,
+                            {
+                              name: "Terms and Conditions",
+                              path: "/terms-and-conditions",
+                            },
+                            {
+                              name: "Faq",
+                              path: "/faq",
+                            },
+                          ]
                             .filter((data) => !data?.subPaths)
                             .map((data, index) => {
                               return (
@@ -155,6 +169,14 @@ const Footer = () => {
                   <p>
                     Ⓒ <Link href="/">Rudisn</Link> {new Date().getFullYear()}.
                     All Right Reserved
+                  </p>
+                </div>
+                <div className="terms-condition">
+                  <p>
+                    Our Business{" "}
+                    <Link href="/terms-and-conditions">
+                      Policy, Terms &amp; Condition
+                    </Link>
                   </p>
                 </div>
               </div>

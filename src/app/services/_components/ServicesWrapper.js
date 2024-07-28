@@ -222,9 +222,6 @@ const ServicesWrapper = ({ serviceData, prevData, nextData }) => {
           </div>
         </div>
       </div>
-      <div className="text-slider-section two">
-        <ServicesMarquee />
-      </div>
     </>
   );
 };

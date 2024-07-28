@@ -109,8 +109,12 @@ const NavBar = () => {
             <div className="content">
               <span>To More Inquiry</span>
               <h6>
-                <a href={contactInformation.phoneNo.numberLink}>
-                  {contactInformation.phoneNo.number}
+                <a
+                  href={contactInformation.calendly}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Schedule a Call
                 </a>
               </h6>
             </div>
