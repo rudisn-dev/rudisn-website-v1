@@ -1623,7 +1623,7 @@ export const projectsData = {
 
 export const testimonalsData = [
   {
-    imageSrc: "/assets/img/home2/testimonial-img-01.png",
+    imageSrc: "/assets/images/testimonials/Dilipkumar-Jadhav.png",
     heading: "Website Maintenance",
     description:
       "Rudisn Agency has been great at keeping our website running smoothly and improving our SEO.",
@@ -1631,7 +1631,7 @@ export const testimonalsData = [
     post: "Head Of Marketing, Entytle",
   },
   {
-    imageSrc: "/assets/img/home2/testimonial-img-01.png",
+    imageSrc: "/assets/images/testimonials/testimonial.png",
     heading: "Landing Page",
     description:
       "Rudisn Agency made a beautiful and responsive landing page for us. Their work is fantastic.",
@@ -1639,7 +1639,7 @@ export const testimonalsData = [
     post: "Founder, Caves Studio",
   },
   {
-    imageSrc: "/assets/img/home2/testimonial-img-01.png",
+    imageSrc: "/assets/images/testimonials/testimonial.png",
     heading: "E-commerce Store",
     description:
       "Rudisn Agency created a wonderful e-commerce store for our lights business. We are very happy with their work.",
@@ -1647,7 +1647,7 @@ export const testimonalsData = [
     post: "Owner, Anand Industry",
   },
   {
-    imageSrc: "/assets/img/home2/testimonial-img-01.png",
+    imageSrc: "/assets/images/testimonials/testimonial.png",
     heading: "Online Store",
     description:
       "We love the e-commerce store Rudisn Agency built for our organic farm. It's both attractive and easy to use.",
@@ -1655,12 +1655,12 @@ export const testimonalsData = [
     post: "CTO, Richee Agrotech",
   },
   {
-    imageSrc: "/assets/img/home2/testimonial-img-01.png",
+    imageSrc: "/assets/images/testimonials/Prince-Kumar.png",
     heading: "B2B Landing Page",
     description:
       "Rudisn Agency made a great landing page for our B2B snacks company. Their work is top-notch.",
     person: "Prince Kumar",
-    post: "Software Engineer, Service Now",
+    post: "Founder, Quantum Labs",
   },
 ];
 

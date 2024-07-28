@@ -18,8 +18,8 @@ export default function Home() {
       <AllServices />
       <PageCounter />
       <OurProcess />
-      {/* <OurProjects />
-      <Testimonials /> */}
+      {/* <OurProjects /> */}
+      <Testimonials />
       <AllTechnologies />
     </main>
   );
