@@ -65,7 +65,11 @@ const Home2BannerSection = () => {
                   <div className="content-and-btn text-animation">
                     {heroData.description}
                     <div className="banner-btn">
-                      <a href={contactInformation.phoneNo.numberLink}>
+                      <a
+                        href={contactInformation.calendly}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         <span className="icon">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +80,7 @@ const Home2BannerSection = () => {
                             <path d="M10.0035 3.40804L1.41153 12L0 10.5885L8.59097 1.99651H1.01922V0H12V10.9808H10.0035V3.40804Z" />
                           </svg>
                         </span>
-                        <span className="content">Give a Call</span>
+                        <span className="content">Schedule a Call</span>
                         <span className="icon two">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"

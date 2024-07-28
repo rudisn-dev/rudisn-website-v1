@@ -1386,6 +1386,7 @@ export const allPartners = [
 ];
 
 export const contactInformation = {
+  calendly: "https://calendly.com/rudisn2002/30min",
   phoneNo: {
     number: "+91 90752 74002",
     numberLink: "tel:+919075274002",
