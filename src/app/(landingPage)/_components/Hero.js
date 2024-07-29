@@ -20,6 +20,7 @@ const Hero = () => {
                         href={contactInformation.calendly}
                         target="_blank"
                         rel="noreferrer"
+                        aria-label="Calendly"
                       >
                         <span className="icon">
                           <svg

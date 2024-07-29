@@ -115,7 +115,10 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                     <div className="contact">
                       <span>Phone</span>
                       <h6>
-                        <a href={contactInformation.phoneNo.numberLink}>
+                        <a
+                          href={contactInformation.phoneNo.numberLink}
+                          aria-label="Company Phone Number"
+                        >
                           {contactInformation.phoneNo.number}
                         </a>
                       </h6>
@@ -135,7 +138,10 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                     <div className="contact">
                       <span>Email Now</span>
                       <h6>
-                        <a href={contactInformation.email.emailLink}>
+                        <a
+                          href={contactInformation.email.emailLink}
+                          aria-label="Company Email"
+                        >
                           {contactInformation.email.email}
                         </a>
                       </h6>
@@ -156,7 +162,10 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                     <div className="contact">
                       <span>Office</span>
                       <h6>
-                        <a href={contactInformation.address.addressLink}>
+                        <a
+                          href={contactInformation.address.addressLink}
+                          aria-label="Company Address"
+                        >
                           {contactInformation.address.address}
                         </a>
                       </h6>
@@ -180,7 +189,12 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                   {contactInformation.socialLinks.map((data, index) => {
                     return (
                       <li key={index}>
-                        <a href={data.link} target="_blank" rel="noreferrer">
+                        <a
+                          href={data.link}
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-label="Social Media"
+                        >
                           {data.icon} {data.type}
                         </a>
                       </li>
@@ -202,7 +216,10 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                           state.activeMenu === "service" ? "active" : ""
                         }
                       >
-                        <a href="#"> {data.name}</a>
+                        <a href="#" aria-label="N/A Link">
+                          {" "}
+                          {data.name}
+                        </a>
                         <span
                           className={`dropdown-icon2 ${
                             state.activeMenu === "service" ? "active" : ""

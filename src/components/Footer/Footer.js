@@ -124,6 +124,7 @@ const Footer = () => {
                                 href={data.link}
                                 target="_blank"
                                 rel="noreferrer"
+                                aria-label="Social Media"
                               >
                                 {data.type}
                               </a>
@@ -146,7 +147,10 @@ const Footer = () => {
                         <li className="single-contact">
                           <span>Phone</span>
                           <h5>
-                            <a href={contactInformation.phoneNo.numberLink}>
+                            <a
+                              href={contactInformation.phoneNo.numberLink}
+                              aria-label="Company Phone Number"
+                            >
                               {contactInformation.phoneNo.number}
                             </a>
                           </h5>
@@ -154,7 +158,10 @@ const Footer = () => {
                         <li className="single-contact">
                           <span>Email</span>
                           <h5>
-                            <a href={contactInformation.email.emailLink}>
+                            <a
+                              href={contactInformation.email.emailLink}
+                              aria-label="Company Email"
+                            >
                               {contactInformation.email.email}
                             </a>
                           </h5>

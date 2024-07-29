@@ -113,6 +113,7 @@ const NavBar = () => {
                   href={contactInformation.calendly}
                   target="_blank"
                   rel="noreferrer"
+                  aria-label="Calendly"
                 >
                   Schedule a Call
                 </a>

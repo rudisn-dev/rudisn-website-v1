@@ -1,16 +1,17 @@
-"use client"
+"use client";
 import React from "react";
 import { usePathname } from "next/navigation";
-const Breadcrumb = ({bgImg="1",title="02", title2, }) => {
+const Breadcrumb = ({ bgImg = "1", title = "02", title2 }) => {
   const pathname = usePathname();
-  const formattedPathname = pathname.startsWith("/") ? pathname.substring(1) : pathname;
+  const formattedPathname = pathname.startsWith("/")
+    ? pathname.substring(1)
+    : pathname;
   return (
     <>
       <div
         className="breadcrumb-section"
         style={{
-          backgroundImage:`linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/img/innerpage/breadcrumb-bg${bgImg}.jpg)`
-         
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/img/innerpage/breadcrumb-bg${bgImg}.jpg)`,
         }}
       >
         <svg
@@ -33,7 +34,7 @@ const Breadcrumb = ({bgImg="1",title="02", title2, }) => {
                 <div className="col-lg-5">
                   <div className="section-title white">
                     <h1>
-                     {title} <span>{title2}</span>
+                      {title} <span>{title2}</span>
                     </h1>
                   </div>
                 </div>
@@ -57,7 +58,9 @@ const Breadcrumb = ({bgImg="1",title="02", title2, }) => {
             </div>
             <ul className="breadcrumb-list">
               <li>
-                <a href="/">Home</a>
+                <a href="/" aria-label="Breadcrumb">
+                  Home
+                </a>
               </li>
               <li>{formattedPathname}</li>
             </ul>

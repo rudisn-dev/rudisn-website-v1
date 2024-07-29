@@ -34,6 +34,7 @@ const SubFooter = () => {
                                 target="_blank"
                                 rel="noreferrer"
                                 className="p-3"
+                                aria-label="Social Media"
                               >
                                 {data.icon}
                               </a>

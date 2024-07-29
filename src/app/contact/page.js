@@ -45,7 +45,10 @@ const ContactPage = () => {
                           </svg>
                         </div>
                         <div className="info">
-                          <a href={contactInformation.phoneNo.numberLink}>
+                          <a
+                            href={contactInformation.phoneNo.numberLink}
+                            aria-label="Phone Number"
+                          >
                             {contactInformation.phoneNo.number}
                           </a>
                         </div>
@@ -62,7 +65,10 @@ const ContactPage = () => {
                           </svg>
                         </div>
                         <div className="info">
-                          <a href={contactInformation.email.emailLink}>
+                          <a
+                            href={contactInformation.email.emailLink}
+                            aria-label="Company Email"
+                          >
                             {contactInformation.email.email}
                           </a>
                         </div>
@@ -80,7 +86,10 @@ const ContactPage = () => {
                           </svg>
                         </div>
                         <div className="info">
-                          <a href={contactInformation.address.addressLink}>
+                          <a
+                            href={contactInformation.address.addressLink}
+                            aria-label="Company Address"
+                          >
                             {contactInformation.address.address}
                           </a>
                         </div>

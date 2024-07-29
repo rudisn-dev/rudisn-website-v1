@@ -61,7 +61,9 @@ const ServicesWrapper = ({ serviceData, prevData, nextData }) => {
               {serviceData.tags.map((data, index) => {
                 return (
                   <li key={index}>
-                    <a href="#">{data}</a>
+                    <a href="#" aria-label="N/A Link">
+                      {data}
+                    </a>
                   </li>
                 );
               })}

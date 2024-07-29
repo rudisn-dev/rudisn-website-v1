@@ -71,6 +71,7 @@ const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
                         href={projectData.metaData.url}
                         target="_blank"
                         rel="noreferrer"
+                        aria-label="Project Link"
                       >
                         {projectData.metaData.url}
                       </a>
@@ -83,22 +84,31 @@ const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
               <h6>Share:</h6>
               <ul className="social-link">
                 <li>
-                  <a href="https://www.facebook.com/">
+                  <a
+                    href="https://www.facebook.com/"
+                    aria-label="facebook Link"
+                  >
                     <i className="bx bxl-facebook" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://twitter.com/">
+                  <a href="https://twitter.com/" aria-label="twitter Link">
                     <i className="bx bxl-twitter" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.pinterest.com/">
+                  <a
+                    href="https://www.pinterest.com/"
+                    aria-label="pinterest Link"
+                  >
                     <i className="bx bxl-linkedin" />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/">
+                  <a
+                    href="https://www.instagram.com/"
+                    aria-label="instagram Link"
+                  >
                     <i className="bx bxl-instagram" />
                   </a>
                 </li>
