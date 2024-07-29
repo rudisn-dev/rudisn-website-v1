@@ -166,7 +166,7 @@ const Footer = () => {
               </div>
               <div className="footer-btm">
                 <div className="copyright-area">
-                  <p>
+                  <p style={{ color: "white" }}>
                     Ⓒ <Link href="/">Rudisn</Link> {new Date().getFullYear()}.
                     All Right Reserved
                   </p>

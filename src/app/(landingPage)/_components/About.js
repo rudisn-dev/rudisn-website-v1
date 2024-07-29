@@ -171,8 +171,9 @@ const About = () => {
                     <div className="about-img animet-images magnetic-item">
                       <Image
                         width={336}
-                        height={300}
+                        height={320}
                         src={aboutUsData.image1}
+                        style={{ objectFit: "cover" }}
                         alt="Company Logo"
                       />
                     </div>
