@@ -1472,7 +1472,7 @@ export const heroData = {
     </h1>
   ),
   description: (
-    <p>
+    <p style={{ color: "white" }}>
       Your business deserves the best—service without restrictions. We're here
       to facilitate <span>growth</span> with <span>attractive</span> and{" "}
       <span>practical</span> solutions.

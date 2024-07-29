@@ -4825,9 +4825,27 @@ footer{
  15. Home2 banner
 ========================================*/
 .home2-banner-area{
-    background-image: url(../images/hero/banner-bg.png), linear-gradient(#1A1A1A, #1A1A1A);
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-image: url(../images/hero/banner-bg.png), linear-gradient(#1A1A1A, #1A1A1A);
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    background-image: linear-gradient(
+        40deg,
+        hsl(345deg 6% 13%) 0%,
+        hsl(9deg 35% 22%) 7%,
+        hsl(9deg 48% 32%) 14%,
+        hsl(9deg 56% 41%) 21%,
+        hsl(11deg 47% 50%) 29%,
+        hsl(14deg 31% 56%) 36%,
+        hsl(40deg 5% 61%) 43%,
+        hsl(184deg 36% 63%) 50%,
+        hsl(156deg 23% 71%) 57%,
+        hsl(79deg 26% 75%) 64%,
+        hsl(50deg 54% 78%) 71%,
+        hsl(44deg 75% 81%) 79%,
+        hsl(42deg 68% 84%) 86%,
+        hsl(39deg 56% 87%) 93%,
+        hsl(30deg 36% 90%) 100%
+      );
     padding: 150px 0 56px;
     @include xxl-device(){
         padding: 200px 0 70px;

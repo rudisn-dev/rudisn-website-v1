@@ -154,7 +154,13 @@ const Testimonials = () => {
                       {allPartners.map((data, index) => {
                         return (
                           <span key={index}>
-                            <img src={data} alt="" />
+                            <Image
+                              width={150}
+                              height={36}
+                              style={{ objectFit: "contain" }}
+                              src={data}
+                              alt=""
+                            />
                           </span>
                         );
                       })}
@@ -165,7 +171,13 @@ const Testimonials = () => {
                       {allPartners.map((data, index) => {
                         return (
                           <span key={index}>
-                            <img src={data} alt="" />
+                            <Image
+                              width={150}
+                              height={36}
+                              style={{ objectFit: "contain" }}
+                              src={data}
+                              alt=""
+                            />
                           </span>
                         );
                       })}
@@ -178,7 +190,13 @@ const Testimonials = () => {
                       {allPartners.map((data, index) => {
                         return (
                           <span key={index}>
-                            <img src={data} alt="" />
+                            <Image
+                              width={150}
+                              height={36}
+                              style={{ objectFit: "contain" }}
+                              src={data}
+                              alt=""
+                            />
                           </span>
                         );
                       })}
@@ -189,7 +207,13 @@ const Testimonials = () => {
                       {allPartners.map((data, index) => {
                         return (
                           <span key={index}>
-                            <img src={data} alt="" />
+                            <Image
+                              width={150}
+                              height={36}
+                              style={{ objectFit: "contain" }}
+                              src={data}
+                              alt=""
+                            />
                           </span>
                         );
                       })}
