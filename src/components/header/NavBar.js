@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Sidebar from "../common/Sidebar";
 import { contactInformation, logoUrl, navBarData } from "../../../data/data";
+import Image from "next/image";
 
 const NavBar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -17,8 +18,10 @@ const NavBar = () => {
         <div className="logo-and-menu">
           <div className="header-logo">
             <Link href="/">
-              <img
-                alt="image"
+              <Image
+                width={100}
+                height={50}
+                alt="Logo"
                 className="img-fluid"
                 src={logoUrl}
                 style={{ height: "43px" }}
@@ -29,7 +32,7 @@ const NavBar = () => {
             <div className="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
               <div className="mobile-logo-wrap">
                 <Link href="/">
-                  <img alt="image" src={logoUrl} />
+                  <Image width={100} height={50} alt="Logo" src={logoUrl} />
                 </Link>
               </div>
             </div>
