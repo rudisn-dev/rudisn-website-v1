@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import CountUp from "react-countup";
 import { aboutUsData } from "../../../../data/data";
+import Image from "next/image";
 
 const About = () => {
   useScrollZoomAnimationImg();
@@ -168,14 +169,24 @@ const About = () => {
                 <div className="col-sm-5">
                   <div className="about-left">
                     <div className="about-img animet-images magnetic-item">
-                      <img src={aboutUsData.image1} alt="" />
+                      <Image
+                        width={336}
+                        height={300}
+                        src={aboutUsData.image1}
+                        alt="Company Logo"
+                      />
                     </div>
                     <p className="text-animation2">{aboutUsData.aboutUs2}</p>
                   </div>
                 </div>
                 <div className="col-sm-7 d-sm-flex  d-none">
                   <div className="about-right-img animet-images magnetic-item">
-                    <img src={aboutUsData.image2} alt="" />
+                    <Image
+                      width={424}
+                      height={534}
+                      src={aboutUsData.image2}
+                      alt="Company Name"
+                    />
                   </div>
                 </div>
               </div>

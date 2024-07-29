@@ -8646,7 +8646,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
  15. Home2 banner
 ========================================*/
 .home2-banner-area {
-  background-image: url(../img/home2/banner-bg.png), linear-gradient(#1A1A1A, #1A1A1A);
+  background-image: url(../images/hero/banner-bg.png), linear-gradient(#1A1A1A, #1A1A1A);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 150px 0 56px;

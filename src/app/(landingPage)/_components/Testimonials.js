@@ -10,6 +10,7 @@ import SwiperCore, {
 } from "swiper";
 import Link from "next/link";
 import { allPartners, testimonalsData } from "../../../../data/data";
+import Image from "next/image";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 const Testimonials = () => {
   const settings = useMemo(() => {
@@ -50,7 +51,12 @@ const Testimonials = () => {
                         <div className="row g-md-4 gy-5">
                           <div className="col-md-5 d-flex justify-content-md-center">
                             <div className="author-img magnetic-item">
-                              <img src={data.imageSrc} alt="" />
+                              <Image
+                                width={336}
+                                height={283}
+                                src={data.imageSrc}
+                                alt="Testimonial"
+                              />
                             </div>
                           </div>
                           <div className="col-md-7">

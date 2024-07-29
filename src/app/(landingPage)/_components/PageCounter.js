@@ -32,33 +32,6 @@ const PageCounter = () => {
           </div>
         </div>
       </div>
-      {/* <div
-        className="home2-inner-banner"
-        style={{
-          backgroundImage:
-            "linear-gradient(90deg, rgba(0, 0, 0, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%), url(assets/img/home2/inner-baner-bg.jpg)",
-        }}
-      >
-        <div className="clutch-logo btn_wrapper">
-          <img src="assets/img/home2/clitch-big.png" alt="" />
-        </div>
-        <div className="container-lg container-fluid">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="banner-content text-animation">
-                <h6>
-                  <span style={{ top: "50.5px", left: "83.75px" }} />
-                  Innovative Idea
-                </h6>
-                <h2>
-                  “ Drawing on the technical expertise of IT professionals to
-                  assess and address complex technical.”
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };

@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@cyriacbr/react-split-text": "^1.0.0",
     "@gsap/react": "^2.1.0",
     "@next/third-parties": "^14.2.5",
     "@vercel/speed-insights": "^1.0.12",
@@ -22,10 +21,8 @@
     "react-countup": "^6.5.0",
     "react-dom": "^18",
     "react-fast-marquee": "^1.6.4",
-    "react-modal-video": "^2.0.1",
     "sonner": "^1.5.0",
-    "swiper": "^8.3.2",
-    "yet-another-react-lightbox": "^3.17.1"
+    "swiper": "^8.3.2"
   },
   "devDependencies": {
     "eslint": "^8",

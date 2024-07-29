@@ -1,5 +1,6 @@
 import React from "react";
 import { technologyData } from "../../../../data/data";
+import Image from "next/image";
 
 const AllTechnologies = () => {
   return (
@@ -68,7 +69,12 @@ const AllTechnologies = () => {
                             } btn_wrapper`}
                           >
                             <div className="icon">
-                              <img src={tech.icon} alt="" />
+                              <Image
+                                width={60}
+                                height={50}
+                                src={tech.icon}
+                                alt="Technology Icon"
+                              />
                             </div>
                             <span>{tech.name}</span>
                           </div>

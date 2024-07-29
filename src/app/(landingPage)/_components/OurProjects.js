@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { projectsData } from "../../../../data/data";
+import Image from "next/image";
 
 const OurProjects = () => {
   return (
@@ -48,7 +49,13 @@ const OurProjects = () => {
                       })}
                     </ul>
                     <div className="portfolio-img">
-                      <img src={data.mainImgSrc} alt="" />
+                      <Image
+                        width={590}
+                        height={326}
+                        style={{ objectFit: "cover" }}
+                        src={data.mainImgSrc}
+                        alt="Project Banner"
+                      />
                       <Link className="details-btn" href={data.path}>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
