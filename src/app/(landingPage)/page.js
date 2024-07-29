@@ -18,7 +18,7 @@ export default function Home() {
       <AllServices />
       <PageCounter />
       <OurProcess />
-      {/* <OurProjects /> */}
+      <OurProjects />
       <Testimonials />
       <AllTechnologies />
     </main>
