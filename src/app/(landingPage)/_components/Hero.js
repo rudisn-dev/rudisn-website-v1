@@ -54,6 +54,7 @@ const Hero = () => {
                   src={heroData.heroImgSrc}
                   width={562}
                   height={677}
+                  style={{ objectFit: "contain" }}
                   alt="Main illustration"
                 />
               </div>
