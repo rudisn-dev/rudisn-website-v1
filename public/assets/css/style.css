@@ -1670,65 +1670,6 @@ body:not(.is-mobile) .tt-style-switch:hover {
   }
 }
 
-.nice-select {
-  width: 100%;
-  height: 50px;
-  line-height: 48px;
-  color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
-  font-size: 14px;
-  font-weight: 400;
-  background: var(---dark-white-color);
-  border-color: var(--border-color2);
-  border-radius: 5px;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-.nice-select:hover {
-  border-color: var(--border-color2);
-}
-.nice-select:focus {
-  border-color: var(--border-color2);
-}
-.nice-select.open {
-  border-radius: 5px 5px 0 0;
-}
-.nice-select.open::after {
-  transform: rotate(-180deg);
-}
-.nice-select:after {
-  border-bottom: none;
-  border-right: none;
-  content: "";
-  display: block;
-  height: 7px;
-  width: 10px;
-  background-color: #DFDFDF;
-  margin-top: -4px;
-  pointer-events: none;
-  position: absolute;
-  right: 25px;
-  -webkit-clip-path: polygon(100% 0, 0 0, 50% 100%);
-          clip-path: polygon(100% 0, 0 0, 50% 100%);
-  transform: rotate(0);
-}
-.nice-select .list {
-  width: 100%;
-  background: var(---dark-white-color);
-  margin-top: 0;
-  border-radius: 0 0 5px 5px;
-}
-.nice-select .list .option {
-  color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
-  font-size: 12px;
-  font-weight: 400;
-  border-bottom: 1px solid var(--border-color2);
-}
-.nice-select .list .option:last-child {
-  border-bottom: unset;
-}
-
 /*=====================================
  02. Header css 
 ========================================*/
@@ -9345,17 +9286,6 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .dark .primary-btn5.black:hover svg {
   fill: var(--white-color);
 }
-.dark .nice-select .list {
-  background-color: #161616;
-}
-.dark .nice-select .list .option.selected.focus {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-}
-.dark .nice-select .list .option:hover {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-}
 .dark .header-area.style-1 .header-logo .light {
   display: none;
 }
@@ -10031,17 +9961,6 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .dark .progress-wrapper:before {
   background-image: linear-gradient(to top, #F4CB0A 0%, #A6C1EE 100%);
   box-shadow: 0 0 20px #F4CB0A;
-}
-.dark .shop-page .show-item-and-filter .filter-area .nice-select .list {
-  background-color: #161616;
-}
-.dark .shop-page .show-item-and-filter .filter-area .nice-select .list .option.selected.focus {
-  background-color: var(--primary-color);
-  color: var(--white-color);
-}
-.dark .shop-page .show-item-and-filter .filter-area .nice-select .list .option:hover {
-  background-color: var(--primary-color);
-  color: var(--white-color);
 }
 .dark .product-details-page .product-details-content .product-quantity .quantity .quantity__minus, .dark .product-details-page .product-details-content .product-quantity .quantity .quantity__plus {
   background: transparent;

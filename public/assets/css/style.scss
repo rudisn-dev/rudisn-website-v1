@@ -1713,65 +1713,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
         }
     }
 }
-.nice-select{
-    width: 100%; 
-    height: 50px;
-    line-height: 48px;
-    color: var(--paragraph-color);
-    font-family: var(--font-unbounded);
-    font-size: 14px;
-    font-weight: 400;
-    background: var(---dark-white-color);
-    border-color: var(--border-color2);
-    border-radius: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
-    &:hover{
-        border-color: var(--border-color2);
-        // background: #F3F3F3;
-    }
-    &:focus{
-        border-color: var(--border-color2);
-    }
-    &.open{
-     border-radius: 5px 5px 0 0;
-     &::after {
-         transform: rotate(-180deg);
-     }
-    }
-    &:after{
-     border-bottom: none;
-     border-right: none;
-     content: '';
-     display: block;
-     height: 7px;
-     width: 10px;
-     background-color: #DFDFDF;
-     margin-top: -4px;
-     pointer-events: none;
-     position: absolute;
-     right: 25px;  
-     clip-path: polygon(100% 0, 0 0, 50% 100%);
-     transform: rotate(0);
-    }
-     .list{
-         width: 100%;
-         background: var(---dark-white-color);
-         margin-top: 0;
-         border-radius:  0 0 5px 5px;
-         .option{
-             color: var(--paragraph-color);
-             font-family: var(--font-unbounded);
-             font-size: 12px;
-             font-weight: 400;     
-             border-bottom: 1px solid var(--border-color2);  
-             &:last-child{
-                border-bottom: unset;
-             } 
-         }
 
-     }
- }
 /*=====================================
  02. Header css 
 ========================================*/
@@ -9183,23 +9125,6 @@ footer{
             }
         }
     }
-    .nice-select{
-        .list{
-            background-color: #161616;
-            .option{
-                &.selected{
-                    &.focus{
-                        background-color: var(--primary-color);
-                        color: var(--white-color);
-                    }
-                }
-                &:hover{
-                    background-color: var(--primary-color);
-                    color: var(--white-color); 
-                }
-            }
-        } 
-    }
     .header-area.style-1{
         .header-logo{
             .light{
@@ -10240,29 +10165,6 @@ footer{
         background-image: linear-gradient(to top, #F4CB0A 0%, #A6C1EE 100%);
         box-shadow: 0 0 20px #F4CB0A;
     }
-    .shop-page{
-        .show-item-and-filter{
-            .filter-area{
-                .nice-select{
-                    .list{
-                        background-color: #161616;
-                        .option{
-                            &.selected{
-                                &.focus{
-                                    background-color: var(--primary-color);
-                                    color: var(--white-color);
-                                }
-                            }
-                            &:hover{
-                                background-color: var(--primary-color);
-                                color: var(--white-color); 
-                            }
-                        }
-                    } 
-                }
-            } 
-        }
-    }
     .product-details-page{
         .product-details-content{
             .product-quantity{
@@ -10325,27 +10227,6 @@ footer{
     }
 }
 
-
-
-/* styles.css */
-// @keyframes fadeInWithPerspective {
-//     0% {
-//       opacity: 0;
-//       transform: perspective(400px) rotateX(-80deg) translateY(-50px);
-//     }
-//     100% {
-//       opacity: 1;
-//       transform: perspective(400px) rotateX(0deg) translateY(0);
-//     }
-//   }
-  
-//   .animated {
-//     animation: fadeInWithPerspective 1s ease forwards; /* Apply animation */
-//   }
-  
-  
-  
-/* styles.css */
 
 .light{
     .rfm-marquee{

@@ -85,31 +85,34 @@ const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
               <ul className="social-link">
                 <li>
                   <a
-                    href="https://www.facebook.com/"
+                    href="https://instagram.com/rudisn__/"
                     aria-label="facebook Link"
                   >
-                    <i className="bx bxl-facebook" />
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/" aria-label="twitter Link">
-                    <i className="bx bxl-twitter" />
+                    <i className="bi bi-instagram" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.pinterest.com/"
+                    href="https://www.behance.net/rudisn"
+                    aria-label="twitter Link"
+                  >
+                    <i className="bi bi-behance" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://dribbble.com/rudisn"
                     aria-label="pinterest Link"
                   >
-                    <i className="bx bxl-linkedin" />
+                    <i className="bi bi-dribbble" />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/"
+                    href="https://twitter.com/rudisn_twi"
                     aria-label="instagram Link"
                   >
-                    <i className="bx bxl-instagram" />
+                    <i className="bi bi-twitter-x" />
                   </a>
                 </li>
               </ul>
