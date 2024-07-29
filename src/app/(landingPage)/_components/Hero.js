@@ -14,13 +14,7 @@ const Hero = () => {
                 {heroData.heading}
                 <div className="banner-content">
                   <div className="content-and-btn text-animation">
-                    {/* {heroData.description} */}
-                    <p style={{ color: "white" }}>
-                      Your business deserves the best—service without
-                      restrictions. We're here to facilitate <span>growth</span>{" "}
-                      with <span>attractive</span> and <span>practical</span>{" "}
-                      solutions.
-                    </p>
+                    {heroData.description}
                     <div className="banner-btn">
                       <a
                         href={contactInformation.calendly}
