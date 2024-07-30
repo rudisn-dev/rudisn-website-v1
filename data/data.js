@@ -1,5 +1,5 @@
 export const logoUrl = "/rudisn-logo.svg";
-export const baseUrl = "https://www.rudisn.com/";
+export const baseUrl = "https://www.rudisn.com";
 
 export const allServices = [
   {
