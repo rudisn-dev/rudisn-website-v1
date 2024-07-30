@@ -114,7 +114,7 @@ const OurProcess = () => {
                             {data.options.map((option, optIndex) => {
                               return (
                                 <li key={optIndex}>
-                                  <i className="bi bi-plus" /> {option}
+                                  <i class="ri-add-line"></i> {option}
                                 </li>
                               );
                             })}

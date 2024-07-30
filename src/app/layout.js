@@ -1,6 +1,7 @@
 "use client";
-import "../../public/assets/css/bootstrap-icons.css";
-import "../../public/assets/css/swiper-bundle.min.css";
+import "swiper/css";
+import "swiper/css/effect-fade";
+import "remixicon/fonts/remixicon.css";
 import "../../public/assets/css/bootstrap.min.css";
 import "../../public/assets/css/style.css";
 import useMagneticHover from "@/hooks/useMagneticHover";

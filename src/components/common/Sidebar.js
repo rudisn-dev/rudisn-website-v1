@@ -226,10 +226,10 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
                           } `}
                         >
                           <i
-                            className={`bi ${
+                            className={`${
                               state.activeMenu === "service"
-                                ? "bi-dash"
-                                : "bi-plus"
+                                ? "ri-subtract-line"
+                                : "ri-add-line"
                             }`}
                             onClick={() => collapseMenu("service")}
                           />

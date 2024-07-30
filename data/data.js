@@ -1406,22 +1406,22 @@ export const contactInformation = {
     {
       type: "Instagram",
       link: "https://instagram.com/rudisn__/",
-      icon: <i className="bi bi-instagram" />,
+      icon: <i class="ri-instagram-line"></i>,
     },
     {
       type: "Behance",
       link: "https://www.behance.net/rudisn",
-      icon: <i className="bi bi-behance" />,
+      icon: <i class="ri-behance-line"></i>,
     },
     {
       type: "Dribble",
       link: "https://dribbble.com/rudisn",
-      icon: <i className="bi bi-dribbble" />,
+      icon: <i class="ri-dribbble-line"></i>,
     },
     {
       type: "Twitter",
       link: "https://twitter.com/rudisn_twi",
-      icon: <i className="bi bi-twitter-x" />,
+      icon: <i class="ri-twitter-x-line"></i>,
     },
   ],
 };

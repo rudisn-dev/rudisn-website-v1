@@ -44,7 +44,6 @@ const NavBar = () => {
                       <Link href="#" className="drop-down">
                         {data.name}
                       </Link>
-                      <i className="bi bi-plus dropdown-icon" />
                       <ul className="sub-menu">
                         {data.subPaths.map((subData, subIndex) => {
                           return (

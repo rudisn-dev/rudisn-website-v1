@@ -2938,7 +2938,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   color: var(--paragraph-color);
   transition: 0.35s;
 }
-.contact-section .section-title .dash-and-paragraph .social-area ul li a i.bi-twitter-x {
+.contact-section .section-title .dash-and-paragraph .social-area ul li a i.ri-twitter-x-line {
   font-size: 12px;
 }
 .contact-section .section-title .dash-and-paragraph .social-area ul li a:hover {

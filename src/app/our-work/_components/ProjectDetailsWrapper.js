@@ -8,6 +8,7 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import Link from "next/link";
+import { contactInformation } from "../../../../data/data";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
@@ -83,38 +84,15 @@ const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
             <div className="social-area">
               <h6>Share:</h6>
               <ul className="social-link">
-                <li>
-                  <a
-                    href="https://instagram.com/rudisn__/"
-                    aria-label="facebook Link"
-                  >
-                    <i className="bi bi-instagram" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.behance.net/rudisn"
-                    aria-label="twitter Link"
-                  >
-                    <i className="bi bi-behance" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://dribbble.com/rudisn"
-                    aria-label="pinterest Link"
-                  >
-                    <i className="bi bi-dribbble" />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://twitter.com/rudisn_twi"
-                    aria-label="instagram Link"
-                  >
-                    <i className="bi bi-twitter-x" />
-                  </a>
-                </li>
+                {contactInformation.socialLinks.map((data, index) => {
+                  return (
+                    <li key={index}>
+                      <a href={data.link} aria-label={data.type + " Link"}>
+                        {data.icon}
+                      </a>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
