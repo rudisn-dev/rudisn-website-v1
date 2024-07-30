@@ -65,7 +65,7 @@ const Testimonials = () => {
                               <p>{data.description}</p>
                               <div className="author-area">
                                 <div className="content">
-                                  <h6>{data.person}</h6>
+                                  <p>{data.person}</p>
                                   <span>{data.post}</span>
                                 </div>
                               </div>

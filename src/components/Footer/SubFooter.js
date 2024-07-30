@@ -16,7 +16,7 @@ const SubFooter = () => {
                   <div className="content-and-social">
                     <p>{footerData.description}</p>
                     <div className="social-area">
-                      <h6>Connect Us</h6>
+                      <span>Connect Us</span>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={50}

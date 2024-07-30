@@ -2768,7 +2768,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
     font-size: 22px;
   }
 }
-.testimonial-section .testimonial-slider .swiper-wrapper .swiper-slide .testimonal-content .author-area .content h6 {
+.testimonial-section .testimonial-slider .swiper-wrapper .swiper-slide .testimonal-content .author-area .content p {
   color: var(--title-color);
   font-family: var(--font-unbounded);
   font-size: 18px;
@@ -2909,7 +2909,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   gap: 20px;
   padding-top: 30px;
 }
-.contact-section .section-title .dash-and-paragraph .social-area h6 {
+.contact-section .section-title .dash-and-paragraph .social-area span {
   margin-bottom: 0;
   color: var(--title-color);
   font-family: var(--font-unbounded);
@@ -5821,7 +5821,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
     font-size: 22px;
   }
 }
-.home2-testimonial-section .testimonal-content .author-area .content h6 {
+.home2-testimonial-section .testimonal-content .author-area .content p {
   color: var(--title-color);
   font-family: var(--font-unbounded);
   font-size: 18px;
