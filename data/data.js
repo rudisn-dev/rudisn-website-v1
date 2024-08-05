@@ -1648,7 +1648,7 @@ export const testimonalsData = [
     post: "Owner, Anand Industry",
   },
   {
-    imageSrc: "/assets/images/testimonials/testimonial.png",
+    imageSrc: "/assets/images/testimonials/Nilesh-bang.png",
     heading: "Online Store",
     description:
       "We love the e-commerce store Rudisn Agency built for our organic farm. It's both attractive and easy to use.",
