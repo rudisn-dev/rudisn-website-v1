@@ -8,7 +8,7 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import Link from "next/link";
-import { contactInformation } from "../../../../data/data";
+import { contactInformation } from "../../../../../data/data";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {

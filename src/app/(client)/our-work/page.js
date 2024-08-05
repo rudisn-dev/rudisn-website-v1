@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import { projectsData } from "../../../data/data";
+import { projectsData } from "../../../../data/data";
 
 const Portfolioesonary = () => {
   const [visibleProjects, setVisibleProjects] = useState(4);

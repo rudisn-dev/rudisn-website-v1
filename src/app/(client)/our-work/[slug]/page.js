@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectDetailsWrapper from "../_components/ProjectDetailsWrapper";
-import { allProjects, defaultMetaData } from "../../../../data/data";
+import { allProjects, defaultMetaData } from "../../../../../data/data";
 
 export const metadata = {
   ...defaultMetaData,
