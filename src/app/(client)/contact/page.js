@@ -1,4 +1,4 @@
-import { contactInformation, defaultMetaData } from "../../../data/data";
+import { contactInformation, defaultMetaData } from "../../../../data/data";
 import ContactForm from "./_components/ContactForm";
 
 export const metadata = {

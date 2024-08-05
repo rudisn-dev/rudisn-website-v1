@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { projectsData } from "../../../../data/data";
+import { projectsData } from "../../../../../data/data";
 import Image from "next/image";
 
 const OurProjects = () => {

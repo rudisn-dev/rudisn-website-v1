@@ -1,6 +1,6 @@
 import ServicesMarquee from "@/components/common/ServicesMarquee";
 import React from "react";
-import { defaultMetaData } from "../../../data/data";
+import { defaultMetaData } from "../../../../data/data";
 
 export const metadata = {
   ...defaultMetaData,

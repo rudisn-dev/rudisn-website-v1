@@ -9,7 +9,7 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import Link from "next/link";
-import { allPartners, testimonalsData } from "../../../../data/data";
+import { allPartners, testimonalsData } from "../../../../../data/data";
 import Image from "next/image";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 const Testimonials = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import ContactForm from "../contact/_components/ContactForm";
-import { defaultMetaData, faqs } from "../../../data/data";
+import { defaultMetaData, faqs } from "../../../../data/data";
 
 export const metadata = {
   ...defaultMetaData,

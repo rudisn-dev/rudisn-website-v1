@@ -3,7 +3,7 @@ import useScrollZoomAnimationImg from "@/hooks/useScrollZoomAnimationImg";
 import Link from "next/link";
 import React from "react";
 import CountUp from "react-countup";
-import { aboutUsData } from "../../../../data/data";
+import { aboutUsData } from "../../../../../data/data";
 import Image from "next/image";
 
 const About = () => {

@@ -1,6 +1,6 @@
 import React from "react";
 import ServicesWrapper from "../_components/ServicesWrapper";
-import { allServices, defaultMetaData } from "../../../../data/data";
+import { allServices, defaultMetaData } from "../../../../../data/data";
 
 export const metadata = {
   ...defaultMetaData,

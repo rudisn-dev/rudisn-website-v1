@@ -1,4 +1,4 @@
-import { defaultMetaData } from "../../../data/data";
+import { defaultMetaData } from "../../../../data/data";
 import Hero from "./_components/Hero";
 import About from "./_components/About";
 import AllServices from "./_components/AllServices";
@@ -18,7 +18,7 @@ export default function Home() {
       <AllServices />
       <PageCounter />
       <OurProcess />
-      {/* <OurProjects /> */}
+      <OurProjects />
       <Testimonials />
       <AllTechnologies />
     </main>

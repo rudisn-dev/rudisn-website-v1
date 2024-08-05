@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { servicesData } from "../../../../data/data";
+import { servicesData } from "../../../../../data/data";
 
 const AllServices = () => {
   return (

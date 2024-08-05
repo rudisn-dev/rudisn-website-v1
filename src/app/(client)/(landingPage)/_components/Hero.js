@@ -1,5 +1,5 @@
 import React from "react";
-import { contactInformation, heroData } from "../../../../data/data";
+import { contactInformation, heroData } from "../../../../../data/data";
 import ServicesMarquee from "@/components/common/ServicesMarquee";
 import Image from "next/image";
 

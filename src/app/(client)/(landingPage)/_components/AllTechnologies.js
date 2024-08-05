@@ -1,5 +1,5 @@
 import React from "react";
-import { technologyData } from "../../../../data/data";
+import { technologyData } from "../../../../../data/data";
 import Image from "next/image";
 
 const AllTechnologies = () => {

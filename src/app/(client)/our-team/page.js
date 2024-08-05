@@ -1,5 +1,5 @@
 import React from "react";
-import { defaultMetaData, teamsData } from "../../../data/data";
+import { defaultMetaData, teamsData } from "../../../../data/data";
 
 export const metadata = {
   ...defaultMetaData,

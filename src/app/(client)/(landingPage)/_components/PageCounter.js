@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import CountUp from "react-countup";
-import { counterData } from "../../../../data/data";
+import { counterData } from "../../../../../data/data";
 
 const PageCounter = () => {
   return (

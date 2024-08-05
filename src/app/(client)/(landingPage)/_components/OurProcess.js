@@ -1,7 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import gsap from "gsap";
-import { solutionData } from "../../../../data/data";
+import { solutionData } from "../../../../../data/data";
 
 const OurProcess = () => {
   useEffect(() => {
