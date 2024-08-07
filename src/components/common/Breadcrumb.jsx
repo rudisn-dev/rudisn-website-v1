@@ -58,9 +58,7 @@ const Breadcrumb = ({ bgImg = "1", title = "02", title2 }) => {
             </div>
             <ul className="breadcrumb-list">
               <li>
-                <a href="/" aria-label="Breadcrumb">
-                  Home
-                </a>
+                <a href="/">Home</a>
               </li>
               <li>{formattedPathname}</li>
             </ul>

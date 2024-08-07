@@ -1406,22 +1406,22 @@ export const contactInformation = {
     {
       type: "Instagram",
       link: "https://instagram.com/rudisn__/",
-      icon: <i class="ri-instagram-line"></i>,
+      icon: <i className="ri-instagram-line"></i>,
     },
     {
       type: "Behance",
       link: "https://www.behance.net/rudisn",
-      icon: <i class="ri-behance-line"></i>,
+      icon: <i className="ri-behance-line"></i>,
     },
     {
       type: "Dribble",
       link: "https://dribbble.com/rudisn",
-      icon: <i class="ri-dribbble-line"></i>,
+      icon: <i className="ri-dribbble-line"></i>,
     },
     {
       type: "Twitter",
       link: "https://twitter.com/rudisn_twi",
-      icon: <i class="ri-twitter-x-line"></i>,
+      icon: <i className="ri-twitter-x-line"></i>,
     },
   ],
 };
@@ -1454,6 +1454,12 @@ export const navBarData = [
   {
     name: "Our Team",
     path: "/our-team",
+    priority: 0.7,
+    changefreq: "monthly",
+  },
+  {
+    name: "Blogs",
+    path: "/blogs",
     priority: 0.7,
     changefreq: "monthly",
   },
