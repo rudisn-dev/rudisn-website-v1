@@ -1,5 +1,12 @@
 export const logoUrl = "/rudisn-logo.svg";
 export const baseUrl = "https://www.rudisn.com";
+//  These are the constants for project categories
+// const uiDevelopment = { value: "ui-ux", label: "UI-UX" };
+// const cloud = { value: "cloud", label: "Cloud" };
+// const frontend = { value: "frontend", label: "Frontend" };
+// const backend = { value: "backend", label: "Backend" };
+const fullStack = { value: "fullstack", label: "Full Stack" };
+const eCommerce = { value: "e-commerce", label: "E-Commerce" };
 
 export const allServices = [
   {
@@ -501,16 +508,30 @@ export const allServices = [
 
 export const allProjects = [
   {
-    name: "project-1",
-    slug: "project-1",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-1",
+    projectCategory: fullStack.value,
+    name: "Caves Studio",
+    slug: "caves-studio",
+    tags: [
+      "Interior Design",
+      "Architecture",
+      "Furniture & Decor",
+      "Exterior design",
+    ],
+    path: "/our-work/caves-studio",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-6",
     metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
+      category: "Design and Architecture",
+      client: "Ar Vinayak Nikam",
+      links: [
+        {
+          type: "Website",
+          url: "https://cavesstudio.com/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/cVKfqWkckXUJgHv3vxR1tR/Caves-Studio-Nashik?t=jHcLhKUu55ugfui5-1&node-id=28-1317",
+        },
+      ],
     },
     sliderImages: [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
@@ -520,38 +541,55 @@ export const allProjects = [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
     ],
     projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+      "We created a custom full stack website for Caves Studio, an interior design company. The project aimed to create a landing page that effectively showcases the company's portfolio and services.",
+      "Key tasks included UI design, backend development, integrating a custom Content Management System (CMS), creating a custom admin dashboard, and adding a blog section. The design process focused on crafting a user-friendly interface that highlights the company's portfolio.",
     ],
-    challanges: {
+    challenges: {
       description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "The UI/UX design and development process for Caves Studio faced several key challenges:",
       points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
+        "Aligning the design with Caves Studio's brand identity and making it appealing to the target audience.",
+        "Ensuring the website is responsive and adaptive, providing a seamless user experience across various devices and screen sizes.",
+        "Creating an intuitive and easy-to-use custom dashboard for content management, making it simple for non-technical users to update and maintain the website.",
+        "Designing an engaging and user-friendly blog section to showcase the company's portfolio and services.",
+        "Implementing efficient data management using Google Sheets and MongoDB.",
+        "Ensuring the landing page is highly responsive and visually engaging.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
     },
     solution: {
       points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "Crafted a cohesive and visually appealing UI design that reflects Caves Studio's brand identity, using modern design principles to create a professional and engaging look that resonates with the target audience.",
+        "Designed a responsive layout using flexible grids and adaptive elements to ensure a consistent and smooth experience across all devices, from desktops to mobile phones.",
+        "Developed an intuitive and user-friendly custom dashboard interface, focusing on clear navigation and a streamlined user experience to facilitate content management for users with varying technical skills.",
+        "Created an interactive and engaging blog section layout, focusing on readability and user interaction, ensuring visitors find it easy to explore and engage with the content.",
+        "Enhanced data management through integration with Google Sheets and MongoDB, ensuring efficient handling of data.",
+        "Designed and developed a responsive and visually appealing landing page that highlights the company's portfolio, ensuring it is user-friendly across all devices.",
+        "Executed the project from UI design to full deployment, ensuring a robust and scalable backend for smooth performance and functionality.",
+        "Integrated a custom Content Management System (CMS) for efficient content updates and easy site management.",
+        "Created a custom admin dashboard for efficient site management, allowing for easy updates and maintenance.",
+        "Implemented a user-friendly blog section with a custom dashboard to streamline content creation and management, making it simple for non-technical users to update and maintain the blog.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
     footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
   {
-    name: "project-2",
-    slug: "project-2",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-2",
+    projectCategory: fullStack.value,
+    name: "Entytle",
+    slug: "entytle",
+    tags: ["OEMs", "Aftermarket growth", "Installed Base Intelligence"],
+    path: "/our-work/entytle",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-5",
     metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
+      category: "Aftermarket Growth",
+      client: "Vivek Joshi",
+      links: [
+        {
+          type: "Website",
+          url: "https://entytle.com/",
+        },
+      ],
     },
     sliderImages: [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
@@ -561,38 +599,49 @@ export const allProjects = [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
     ],
     projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+      "Our company played a crucial role in enhancing the website for Entytle.This project involved the development and maintenance of a WordPress website.",
+      "Entytle is a purpose-built, AI-enabled platform that optimizes asset management. It provides insights and analytics to enhance efficiency, drive customer engagement, and maximize product value.",
     ],
-    challanges: {
+    challenges: {
       description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "Entytle faced issues with website performance, content updates, and maintaining search engine rankings.",
       points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
+        "Website speed and performance metrics were suboptimal, causing slow load times and a poor user experience. Regular security vulnerabilities needed addressing.",
+        "Content was outdated and inconsistent, failing to reflect the latest products and services. Integration of new blog posts, case studies, and other resources was lacking.",
+        "Search engine rankings were not meeting expectations due to insufficient keyword research and on-page optimization. Tracking and analysis of website traffic and search rankings were inadequate.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
     },
     solution: {
       points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "Monitored and analyzed website speed and performance metrics regularly. Implemented improvements to reduce load times and enhance user experience. Conducted periodic security checks and updates to safeguard the website against vulnerabilities.",
+        "Updated website content to reflect the latest information, products, and services offered by Entytle. Ensured consistency and accuracy of content across all pages. Worked with the content team to integrate new blog posts, case studies, and other resources.",
+        "Performed keyword research to identify opportunities for improved search rankings. Optimized on-page elements such as meta tags, headers, and image alt text. Tracked and analyzed website traffic and search rankings to inform future SEO strategies.",
+        "Integrated plugins to enhance website functionality.",
+        "Updated the UI to improve user experience.",
+        "Integrated third-party scripts such as Google Analytics, Factors AI, and Tag Manager.",
+        "Implemented regular backups and recovery processes to ensure data integrity.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
     footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
   {
-    name: "project-3",
-    slug: "project-3",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-3",
+    projectCategory: eCommerce.value,
+    name: "Personal branding",
+    slug: "personal-branding",
+    tags: ["Portfolio", "Personal branding", "personal portfolio"],
+    path: "/our-work/personal-branding",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-5",
     metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
+      category: "Personal-branding",
+      client: "Kushal Gohil",
+      links: [
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/ZGXuHzPCrwTiIGRomtEIkY/Portfolio-Revamp?t=5sDeFd7dwQTGwcXu-1&node-id=26-184",
+        },
+      ],
     },
     sliderImages: [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
@@ -602,38 +651,55 @@ export const allProjects = [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
     ],
     projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+      "Designed and developed a personal portfolio website for Mr.Kushal, highlighting his professional achievements and showcasing his work.",
+      "Focused on creating a visually stunning and highly functional design that effectively communicates his personal brand.",
     ],
-    challanges: {
+    challenges: {
       description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "He needed a personal portfolio website that would stand out, effectively showcase his work, and provide a seamless user experience and should have advanced animations.",
       points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
+        "Creating visually stunning animations that enhance the user experience.",
+        "Ensuring the website remains highly responsive and performs well across devices.",
+        "Developing a design that effectively communicates the client's professional skills and work.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
     },
     solution: {
+      description:
+        "To overcome these challenges, we implemented the following solutions:",
       points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "Implemented advanced animations to create an engaging and dynamic user experience.",
+        "Developed a responsive design that works seamlessly across devices.",
+        "Crafted a portfolio layout that effectively showcases the client's work and professional achievements.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
     footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
   {
-    name: "project-4",
-    slug: "project-4",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-4",
+    projectCategory: fullStack.value,
+    name: "Penny Wise",
+    slug: "penny-wise",
+    tags: [
+      "Expense Tracking",
+      "Expense Tracking Dashboard",
+      "Finantial solutions",
+    ],
+    path: "/our-work/penny-wise",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-6",
     metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
+      category: "Expense Tracking",
+      client: "Open source Project",
+      links: [
+        {
+          type: "Website",
+          url: "https://pennywise.kushalgohil.com/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/0zMCxrGlYaUI2tlNX60KT1/Penny-Wise?t=6daIJrmzidmwXKij-1&node-id=24-1533",
+        },
+      ],
     },
     sliderImages: [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
@@ -643,39 +709,60 @@ export const allProjects = [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
     ],
     projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+      "Designed and developed a full fledged website for a open source project Penny Wise, an expense tracking website.",
+      "Implemented an end-to-end expense tracking portal using the MERN stack and ShadCN UI.",
+      "Built with Next.js, the project features a comprehensive dashboard for managing and analyzing expenses.",
+      "Includes advanced analytical tools such as charts and graphs, and offers a premium membership option for additional features.",
+      "This project is an open-source initiative.",
     ],
-    challanges: {
+    challenges: {
       description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "The Penny Wise project presented several challenges common in full-stack development and advanced web applications.",
       points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
+        "Integrating the MERN stack effectively, Coordinating the use of MongoDB, Express.js, React.js, and Node.js to create a seamless end-to-end application required careful planning and implementation to ensure all components worked together efficiently.",
+        "Designing and implementing a fully-fledged dashboard, Developing an interactive and user-friendly dashboard that includes various charts and graphs for expense analysis posed a challenge. Ensuring that the dashboard provided meaningful insights while remaining easy to use required thoughtful design and testing.",
+        "Implementing a premium membership system, Creating a subscription-based model with restricted access to premium features involved developing a secure and functional system for user authentication, payment processing, and feature management.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
     },
     solution: {
+      description:
+        "To address the challenges faced in the Penny Wise project, the following solutions were implemented:",
       points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "Balanced functionality with aesthetics, Employed a minimalist design approach that prioritized usability while incorporating advanced features. Ensured that the visual design complemented the functionality and enhanced user engagement.",
+        "Seamlessly integrated the MERN stack, Developed a cohesive application by leveraging MongoDB for data storage, Express.js for server-side logic, React.js for the front-end, and Node.js for the backend. Ensured smooth data flow and functionality across the stack.",
+        "Designed and implemented an advanced dashboard, Created a user-friendly and interactive dashboard using ShadCN UI components. Incorporated charts and graphs for effective data visualization, allowing users to analyze their expenses intuitively.",
+        "Developed a robust premium membership system, Implemented a secure subscription model with user authentication and payment processing. Developed features that are only accessible to premium members, enhancing the application's value and functionality.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
     footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
   {
-    name: "project-5",
-    slug: "project-5",
-    name: "Smart Design, Smarter Solutions.",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-5",
+    projectCategory: fullStack.value,
+    name: "Siddhidatri Aahar",
+    slug: "siddhidatri-aahar",
+    tags: [
+      "Food company website",
+      "Food Industry",
+      "Chips Company",
+      "Food Products",
+    ],
+    path: "/our-work/siddhidatri-aahar",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-6",
     metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
+      category: "Food Industry",
+      client: "Prince Kumar",
+      links: [
+        {
+          type: "Website",
+          url: "https://siddhidatriaahar.com/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/3XyLYKzZvH7nvgoqj04XqU/Siddhidatri-Aahar-(-UI-%2F-Landing-Page-)?t=33T7LO6WEJar8tSA-1&node-id=1-2",
+        },
+      ],
     },
     sliderImages: [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
@@ -685,38 +772,52 @@ export const allProjects = [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
     ],
     projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+      "Designed the UI/UX for Siddhidatri Aahar’s landing page, a company specializing in chips and other food products, to effectively showcase their offerings.",
+      "Focused on creating a visually appealing and user-friendly interface that highlights their products.",
     ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+    challenges: {
+      description: "The design process encountered several key challenges:",
       points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
+        "Creating a visually appealing design that effectively showcases the food products.",
+        "Meeting the client’s specific requirements and expectations.",
+        "Developing a responsive interface that works well across all devices.",
+        "Designing a professional look that builds trust and credibility with users.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
     },
     solution: {
+      description:
+        "To address these challenges, we implemented the following solutions:",
       points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "Designed a modern and professional UI that aligns with Siddhidatri Aahar's brand and effectively showcases their food products.",
+        "Worked closely with the client to ensure their specific needs and feedback were integrated into the final design.",
+        "Ensured the website is fully responsive, providing a seamless experience across desktops, tablets, and smartphones.",
+        "Implemented a clean and trustworthy design using high-quality images, consistent branding, and a user-friendly layout.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
     footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
   {
-    name: "project-6",
-    slug: "project-6",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-6",
+    projectCategory: eCommerce.value,
+    name: "Anand Industry",
+    slug: "anand-industry",
+    tags: ["Light Bulbs", "E-commerce", "Lighting Solutions"],
+    path: "/our-work/anand-industry",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-5",
     metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
+      category: "Light Bulbs Manufacturing",
+      client: "Vinayak More",
+      links: [
+        {
+          type: "Website",
+          url: "https://anandaindustry.com/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/zS26xz9GuPs9BZZRJoxRIU/Ananda-Industry?t=1OSY4H8ZrCw34vKp-1&node-id=2-2",
+        },
+      ],
     },
     sliderImages: [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
@@ -726,38 +827,59 @@ export const allProjects = [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
     ],
     projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+      "Designed and developed a comprehensive e-commerce platform for Anand Industry, a light bulb manufacturing company.",
+      "The project aimed to create an engaging and user-friendly online store that showcases their products and facilitates smooth transactions.",
+      "The design process focused on crafting an intuitive interface to enhance user interaction, while the development ensured a fully functional e-commerce system.",
     ],
-    challanges: {
+    challenges: {
       description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "Throughout the project, several challenges were encountered in both UI/UX design and development:",
       points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
+        "Creating a visually appealing design that effectively highlights light bulb products and aligns with the brand’s identity.",
+        "Ensuring the interface is intuitive and easy for users to navigate, which involved balancing aesthetic appeal with functionality.",
+        "Developing a responsive design to provide a consistent and seamless shopping experience across all devices.",
+        "Integrating robust e-commerce functionalities using WooCommerce to handle online transactions smoothly.",
+        "Ensuring the website performs well and remains responsive across various devices and screen sizes.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
     },
     solution: {
       points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "Crafted a clean and attractive UI design that effectively showcases the light bulb products in an engaging manner.",
+        "Implemented an intuitive layout that simplifies navigation, making it easy for users to find and purchase products.",
+        "Ensured a fully responsive design, providing a consistent look and feel on all devices to enhance user experience.",
+        "Developed a functional e-commerce platform with WooCommerce, ensuring smooth online transactions and user-friendly product management.",
+        "Focused on usability and performance, ensuring the website operates efficiently and remains user-friendly across different devices.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
     footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
   {
-    name: "project-7",
-    slug: "project-7",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-7",
+    projectCategory: eCommerce.value,
+    name: "Ghugrawala",
+    slug: "ghugra-wala",
+    tags: [
+      "Food Website",
+      "Food Product",
+      "Food Website Design",
+      "Food Industry",
+    ],
+    path: "/our-work/ghugra-wala",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-5",
     metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
+      category: "Food Industry",
+      client: "Tejas Rathore",
+      links: [
+        {
+          type: "Website",
+          url: "https://ghughrawala.netlify.app/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/TdeoGExFWhxg5fTmEFmuR9/Ghughrawala?t=SFn4JeITQgHakB97-1&node-id=1-2",
+        },
+      ],
     },
     sliderImages: [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
@@ -767,38 +889,51 @@ export const allProjects = [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
     ],
     projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+      "Designed and developed a comprehensive landing page for Ghugra Wala, a food business based in Gujarat.",
+      "The project focused on creating a visually appealing and user-friendly site that effectively highlights the company’s food offerings and engages visitors.",
     ],
-    challanges: {
+    challenges: {
       description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "The project faced several challenges during both the design and development phases:",
       points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
+        "Creating a design that effectively showcases the food in an attractive and appetizing way.",
+        "Ensuring the landing page is responsive and provides a seamless experience across different devices.",
+        "Balancing aesthetics with functionality to make the site easy to navigate and engaging for users.",
+        "Integrating features that highlight the company's offerings while maintaining a smooth user experience.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
     },
     solution: {
       points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "Designed a clean and engaging interface that highlights the food offerings in an appealing manner.",
+        "Used responsive design techniques to ensure the site looks great and functions well on all devices.",
+        "Developed a straightforward layout that makes it easy for users to navigate and find information about the food.",
+        "Implemented features that effectively communicate the company’s offerings and enhance the overall user experience.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
     footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
   {
-    name: "project-8",
-    slug: "project-8",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-8",
+    projectCategory: eCommerce.value,
+    name: "Richee Agrotech",
+    slug: "richee-agrotech",
+    tags: ["E-commerce", "Organic Products", "Shopify"],
+    path: "/our-work/richee-agrotech",
     mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-6",
     metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
+      category: "E-commerce",
+      client: "Richa Jain",
+      links: [
+        {
+          type: "Website",
+          url: "https://richeeagrotech.com/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/AXruRo71ZvnmrSiQkORmTZ/Richee-agrotech-Ecommerce-Website?t=zxBuh2zaxMij6hYb-1&node-id=1-2",
+        },
+      ],
     },
     sliderImages: [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
@@ -808,38 +943,51 @@ export const allProjects = [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
     ],
     projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+      "Richee Agrotech is an e-commerce website focused on selling organic products.",
+      "We designed the UI/UX and developed the entire e-commerce store using Shopify.",
+      "The goal was to create a visually appealing, user-friendly platform to enhance the shopping experience.",
     ],
-    challanges: {
+    challenges: {
       description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "The project faced several challenges during the design and development phases:",
       points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
+        "Creating a cohesive and visually appealing design that aligns with the brand’s organic product focus.",
+        "Ensuring the Shopify store integrates seamlessly with the design for smooth functionality.",
+        "Developing a responsive design that provides a consistent user experience across all devices.",
+        "Meeting the client's specific requirements and vision for the website.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
     },
     solution: {
+      description:
+        "To overcome these challenges, we implemented the following solutions:",
       points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "Developed a modern and engaging UI/UX design that highlights the organic products effectively.",
+        "Integrated Shopify to build a robust e-commerce platform with seamless functionality.",
+        "Ensured the design was fully responsive, offering a consistent user experience on all devices.",
+        "Worked closely with the client to understand and meet their specific requirements and vision.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
     footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
   },
   {
-    name: "project-9",
-    slug: "project-9",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-9",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-6",
+    projectCategory: eCommerce.value,
+
+    name: "Kinmin",
+    slug: "kinmin",
+    tags: ["Snacks", "E-Commerce", "B2B", "WordPress"],
+    path: "/our-work/kinmin",
+    mainImgSrc: "/assets/img/home2/portfolio-02.jpg",
     metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
+      category: "E-Commerce",
+      client: "Kinmin",
+      links: [
+        {
+          type: "Website",
+          url: "https://kinmin.co.in",
+        },
+      ],
     },
     sliderImages: [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
@@ -849,473 +997,27 @@ export const allProjects = [
       "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
     ],
     projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
+      "We built a comprehensive e-commerce website for Kinmin, a snacks company, using WordPress. The project focused on delivering a fully customized design that met the client's expectations and exceeded them, resulting in high client satisfaction.",
+      "The website features custom illustrations and banners, along with a complete B2B workflow and a backend dashboard. We handled the entire process from design to implementation, ensuring a smooth and user-friendly experience for both the client and the end-users.",
     ],
-    challanges: {
+    challenges: {
       description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "The development and design of the Kinmin website came with its own set of challenges:",
       points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
+        "Meeting and exceeding the client’s design expectations with fully custom illustrations and banners.",
+        "Developing a seamless e-commerce experience that caters to both B2B and B2C workflows.",
+        "Creating a user-friendly backend dashboard for efficient management and updates.",
+        "Ensuring the website's responsiveness and ease of navigation across various devices.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
     },
     solution: {
       points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    name: "project-10",
-    slug: "project-10",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-10",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-5",
-    metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
-    ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    name: "project-11",
-    slug: "project-11",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-11",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-5",
-    metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
-    ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    name: "project-12",
-    slug: "project-12",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-12",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-6",
-    metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
-    ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    name: "project-13",
-    slug: "project-13",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-13",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-6",
-    metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
-    ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    name: "project-14",
-    slug: "project-14",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-14",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-5",
-    metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
-    ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    name: "project-15",
-    slug: "project-15",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-15",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-5",
-    metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
-    ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    name: "project-16",
-    slug: "project-16",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-16",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-6",
-    metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
-    ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    name: "project-17",
-    slug: "project-17",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-17",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-6",
-    metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
-    ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    name: "project-18",
-    slug: "project-18",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-18",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-5",
-    metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
-    ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    name: "project-19",
-    slug: "project-19",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-19",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-5",
-    metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
-    ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    name: "project-20",
-    slug: "project-20",
-    tags: ["Logs", "Color", "Typography"],
-    path: "/our-work/project-20",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    showCaseColumnWidth: "col-lg-6",
-    metaData: {
-      category: "Fintect",
-      client: "Mr. Marko Paul",
-      url: "https://ui.visual.com",
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our UI/UX Design services aim to create seamless and engaging digital experiences. Through a combination of research, prototyping, and visual design, we ensure that every interaction is intuitive and enjoyable.",
-      "Our team works closely with clients to understand their needs and the needs of their users. This collaborative approach allows us to deliver designs that not only look great but also function perfectly.",
-    ],
-    challanges: {
-      description:
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
-      points: [
-        "The digital agency landscape is highly competitive, requiring agencies to differentiate themselves.",
-        "With a focus on technology, digital agencies have teams skilled in web development.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "When creating a detailed case study, it's important to provide comprehensive information that communicates.",
-        "It's important to provide comprehensive information that communicates the story of the project, including the challenges faced, the solutions implemented, and the achieved results.",
+        "Delivered a visually stunning and highly functional e-commerce website with custom illustrations and banners that aligned with the brand identity.",
+        "Developed a comprehensive B2B workflow that streamlined business processes, making it easy for the client to manage orders and inventory.",
+        "Created a robust backend dashboard that allows the client to manage content, orders, and customer interactions with ease.",
+        "Ensured the website is fully responsive, providing a seamless user experience across all devices, from desktops to mobile phones.",
+        "Handled the entire project from the initial design phase through to full implementation and deployment.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
@@ -1947,3 +1649,5 @@ export const basePathsSitemap = [
     priority: 0.5,
   },
 ];
+
+export const generateSharableLink = () => {};

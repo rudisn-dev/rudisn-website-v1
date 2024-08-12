@@ -36,7 +36,9 @@ const OurProjects = () => {
         <div className="row gy-lg-5 g-4 justify-content-between">
           {projectsData.allProjects.slice(0, 4).map((data, index) => {
             return (
-              <div className={`${data.showCaseColumnWidth} col-md-6 `}>
+              <div
+                className={`${index % 3 === 0 ? "col-lg-5" : "col-lg-6"} col-md-6 `}
+              >
                 <div className="portfolio-card magnetic-item">
                   <div className="image-and-tag">
                     <ul className="tag">
@@ -49,9 +51,9 @@ const OurProjects = () => {
                       })}
                     </ul>
                     <div className="portfolio-img">
-                      <Image
-                        width={590}
-                        height={326}
+                      <img
+                        // width={590}
+                        // height={326}
                         style={{ objectFit: "cover" }}
                         src={data.mainImgSrc}
                         alt="Project Banner"
