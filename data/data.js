@@ -800,6 +800,58 @@ export const allProjects = [
   },
   {
     projectCategory: eCommerce.value,
+
+    name: "Kinmin",
+    slug: "kinmin",
+    tags: ["Snacks", "E-Commerce", "B2B", "WordPress"],
+    path: "/our-work/kinmin",
+    mainImgSrc: "/assets/img/home2/portfolio-02.jpg",
+    metaData: {
+      category: "E-Commerce",
+      client: "Kinmin",
+      links: [
+        {
+          type: "Website",
+          url: "https://kinmin.co.in",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+    ],
+    projectOverview: [
+      "We built a comprehensive e-commerce website for Kinmin, a snacks company, using WordPress. The project focused on delivering a fully customized design that met the client's expectations and exceeded them, resulting in high client satisfaction.",
+      "The website features custom illustrations and banners, along with a complete B2B workflow and a backend dashboard. We handled the entire process from design to implementation, ensuring a smooth and user-friendly experience for both the client and the end-users.",
+    ],
+    challenges: {
+      description:
+        "The development and design of the Kinmin website came with its own set of challenges:",
+      points: [
+        "Meeting and exceeding the client’s design expectations with fully custom illustrations and banners.",
+        "Developing a seamless e-commerce experience that caters to both B2B and B2C workflows.",
+        "Creating a user-friendly backend dashboard for efficient management and updates.",
+        "Ensuring the website's responsiveness and ease of navigation across various devices.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+    },
+    solution: {
+      points: [
+        "Delivered a visually stunning and highly functional e-commerce website with custom illustrations and banners that aligned with the brand identity.",
+        "Developed a comprehensive B2B workflow that streamlined business processes, making it easy for the client to manage orders and inventory.",
+        "Created a robust backend dashboard that allows the client to manage content, orders, and customer interactions with ease.",
+        "Ensured the website is fully responsive, providing a seamless user experience across all devices, from desktops to mobile phones.",
+        "Handled the entire project from the initial design phase through to full implementation and deployment.",
+      ],
+      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+    },
+    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  },
+  {
+    projectCategory: eCommerce.value,
     name: "Anand Industry",
     slug: "anand-industry",
     tags: ["Light Bulbs", "E-commerce", "Lighting Solutions"],
@@ -966,58 +1018,6 @@ export const allProjects = [
         "Integrated Shopify to build a robust e-commerce platform with seamless functionality.",
         "Ensured the design was fully responsive, offering a consistent user experience on all devices.",
         "Worked closely with the client to understand and meet their specific requirements and vision.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    projectCategory: eCommerce.value,
-
-    name: "Kinmin",
-    slug: "kinmin",
-    tags: ["Snacks", "E-Commerce", "B2B", "WordPress"],
-    path: "/our-work/kinmin",
-    mainImgSrc: "/assets/img/home2/portfolio-02.jpg",
-    metaData: {
-      category: "E-Commerce",
-      client: "Kinmin",
-      links: [
-        {
-          type: "Website",
-          url: "https://kinmin.co.in",
-        },
-      ],
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "We built a comprehensive e-commerce website for Kinmin, a snacks company, using WordPress. The project focused on delivering a fully customized design that met the client's expectations and exceeded them, resulting in high client satisfaction.",
-      "The website features custom illustrations and banners, along with a complete B2B workflow and a backend dashboard. We handled the entire process from design to implementation, ensuring a smooth and user-friendly experience for both the client and the end-users.",
-    ],
-    challenges: {
-      description:
-        "The development and design of the Kinmin website came with its own set of challenges:",
-      points: [
-        "Meeting and exceeding the client’s design expectations with fully custom illustrations and banners.",
-        "Developing a seamless e-commerce experience that caters to both B2B and B2C workflows.",
-        "Creating a user-friendly backend dashboard for efficient management and updates.",
-        "Ensuring the website's responsiveness and ease of navigation across various devices.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "Delivered a visually stunning and highly functional e-commerce website with custom illustrations and banners that aligned with the brand identity.",
-        "Developed a comprehensive B2B workflow that streamlined business processes, making it easy for the client to manage orders and inventory.",
-        "Created a robust backend dashboard that allows the client to manage content, orders, and customer interactions with ease.",
-        "Ensured the website is fully responsive, providing a seamless user experience across all devices, from desktops to mobile phones.",
-        "Handled the entire project from the initial design phase through to full implementation and deployment.",
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
