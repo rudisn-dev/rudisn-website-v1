@@ -1095,8 +1095,8 @@ export const contactInformation = {
     numberLink: "tel:+919075274002",
   },
   email: {
-    email: "rudisn2002@gmail.com",
-    emailLink: "mailto:rudisn2002@gmail.com",
+    email: "hello@rudisn.com",
+    emailLink: "mailto:hello@rudisn.com",
   },
   address: {
     city: "Shrirampur, Maharashtra",
