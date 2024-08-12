@@ -14,6 +14,13 @@ const Portfolioesonary = () => {
   const allProjectsDisplayed =
     visibleProjects >= projectsData.allProjects.length;
 
+  const pattern = (index) => {
+    if (index === 0) return true;
+    const mod = (index - 1) % 8;
+    console.log("yes");
+    return mod === 2 || mod === 3 || mod === 6 || mod === 7;
+  };
+
   return (
     <div className="portfolio-page-area portfolio-masonery pt-130 mb-130">
       <div className="container-lg container-fluid">
@@ -29,7 +36,7 @@ const Portfolioesonary = () => {
                 </svg>
                 <div className="btn-and-paragraph">
                   {/* <span>Selected work * (2020-2024)</span> */}
-                  <span>Selected works</span>
+                  <span>Recent works</span>
                   <p>{projectsData.description}</p>
                 </div>
               </div>
@@ -41,7 +48,7 @@ const Portfolioesonary = () => {
             return (
               <div
                 key={index}
-                className={`${data.showCaseColumnWidth} col-md-6 `}
+                className={`${pattern(index) ? "col-lg-5" : "col-lg-6"} col-md-6 `}
               >
                 <div className="portfolio-card two magnetic-item">
                   <div className="image-and-tag">

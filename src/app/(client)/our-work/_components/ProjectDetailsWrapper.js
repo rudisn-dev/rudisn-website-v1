@@ -8,10 +8,47 @@ import SwiperCore, {
   Pagination,
 } from "swiper";
 import Link from "next/link";
-import { contactInformation } from "../../../../../data/data";
+import { baseUrl, contactInformation } from "../../../../data/data";
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
+  const basePath = baseUrl + projectData.path;
+  const baseMessage = `
+One of the projects done by RUDISN.
+  
+Project Overview: ${projectData.projectOverview[0]}
+  
+Click the link for more details:
+  `.trim();
+
+  const pageShareableLinks = [
+    {
+      type: "telegram",
+      icon: <i class="ri-telegram-line"></i>,
+      url: `https://telegram.me/share/url?text=${encodeURIComponent(basePath)}&url=${encodeURIComponent(basePath)}`,
+    },
+    {
+      type: "whatsapp",
+      icon: <i class="ri-whatsapp-line"></i>,
+      url: `https://api.whatsapp.com/send?text=${encodeURIComponent(baseMessage)} ${encodeURIComponent(basePath)}`,
+    },
+    {
+      type: "facebook",
+      icon: <i class="ri-facebook-line"></i>,
+      url: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(basePath)}&quote=${encodeURIComponent(baseMessage)}`,
+    },
+    {
+      type: "Twitter",
+      icon: <i class="ri-twitter-x-line"></i>,
+      url: `https://twitter.com/intent/tweet?text=${encodeURIComponent(baseMessage)}&url=${encodeURIComponent(basePath)}`,
+    },
+    {
+      type: "LinkedIn",
+      icon: <i class="ri-linkedin-line"></i>,
+      url: `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(basePath)}&title=${encodeURIComponent("One of the projects done by RUDISN.")}&summary=${encodeURIComponent("Project Overview")}`,
+    },
+  ];
+
   const settings = useMemo(() => {
     return {
       slidesPerView: 1,
@@ -35,21 +72,21 @@ const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
     <div className="details-page-wrapper portfolio-details pt-130 pb-130">
       <div className="container-lg container-fluid">
         <div className="row g-lg-4 gy-5">
-          <div className="col-lg-8">
+          <div className="col-lg-7">
             <div className="post-tag-and-title">
               <h1 className="post-title">{projectData.name}</h1>
               <ul className="post-category">
                 {projectData.tags.map((data, index) => {
                   return (
                     <li key={index}>
-                      <Link href="/portfolio-showcase">{data}</Link>
+                      <span>{data}</span>
                     </li>
                   );
                 })}
               </ul>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-5">
             <div className="portfolio-details-info-wrap">
               <table>
                 <tbody>
@@ -60,34 +97,41 @@ const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
                     </td>
                   </tr>
                   <tr>
-                    <td>Clients:</td>
+                    <td>Client:</td>
                     <td>
                       <span>{projectData.metaData.client}</span>
                     </td>
                   </tr>
-                  <tr>
-                    <td>Website:</td>
-                    <td>
-                      <a
-                        href={projectData.metaData.url}
-                        target="_blank"
-                        rel="noreferrer"
-                        aria-label="Project Link"
-                      >
-                        {projectData.metaData.url}
-                      </a>
-                    </td>
-                  </tr>
+                  {projectData.metaData.links.map((data, index) => (
+                    <tr>
+                      <td>{data.type}:</td>
+                      <td>
+                        <a
+                          href={data.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          aria-label="Project Link"
+                        >
+                          Visit {data.type} <i class="ri-share-box-fill"></i>
+                        </a>
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
             <div className="social-area">
               <h6>Share:</h6>
               <ul className="social-link">
-                {contactInformation.socialLinks.map((data, index) => {
+                {pageShareableLinks.map((data, index) => {
                   return (
                     <li key={index}>
-                      <a href={data.link} aria-label={data.type + " Link"}>
+                      <a
+                        href={data.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={data.type + " Link"}
+                      >
                         {data.icon}
                       </a>
                     </li>
@@ -190,10 +234,10 @@ const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-6">
               <h3>Challenges &amp; Constraints</h3>
-              <p>{projectData.challanges.description}</p>
+              <p>{projectData.challenges.description}</p>
               <br />
               <ul>
-                {projectData.challanges.points.map((data, index) => {
+                {projectData.challenges.points.map((data, index) => {
                   return (
                     <li key={index}>
                       <svg
@@ -214,20 +258,35 @@ const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
               </ul>
             </div>
             <div className="col-lg-6">
-              <img src={projectData.challanges.imageSrc} alt="" />
+              <img src={projectData.challenges.imageSrc} alt="" />
             </div>
           </div>
           <span className="line-break" />
           <span className="line-break" />
           <span className="line-break" />
           <div className="row g-4 align-items-center">
-            <div className="col-md-6">
+            <ul className="row g-lg-6">
               <h3>Projects Solution</h3>
               {projectData.solution.points.map((data, index) => {
-                return <p key={index}>{data}</p>;
+                return (
+                  <li key={index}>
+                    <svg
+                      width={16}
+                      height={16}
+                      viewBox="0 0 16 16"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g>
+                        <path d="M8 15C6.14348 15 4.36301 14.2625 3.05025 12.9497C1.7375 11.637 1 9.85652 1 8C1 6.14348 1.7375 4.36301 3.05025 3.05025C4.36301 1.7375 6.14348 1 8 1C9.85652 1 11.637 1.7375 12.9497 3.05025C14.2625 4.36301 15 6.14348 15 8C15 9.85652 14.2625 11.637 12.9497 12.9497C11.637 14.2625 9.85652 15 8 15ZM8 16C10.1217 16 12.1566 15.1571 13.6569 13.6569C15.1571 12.1566 16 10.1217 16 8C16 5.87827 15.1571 3.84344 13.6569 2.34315C12.1566 0.842855 10.1217 0 8 0C5.87827 0 3.84344 0.842855 2.34315 2.34315C0.842855 3.84344 0 5.87827 0 8C0 10.1217 0.842855 12.1566 2.34315 13.6569C3.84344 15.1571 5.87827 16 8 16Z" />
+                        <path d="M10.9684 4.96979C10.9613 4.9767 10.9546 4.98404 10.9484 4.99179L7.47539 9.41679L5.38239 7.32279C5.24021 7.19031 5.05216 7.11819 4.85786 7.12162C4.66356 7.12505 4.47818 7.20376 4.34076 7.34117C4.20335 7.47858 4.12464 7.66397 4.12121 7.85827C4.11778 8.05257 4.18991 8.24062 4.32239 8.38279L6.96839 11.0298C7.03967 11.1009 7.12455 11.157 7.21797 11.1946C7.31139 11.2323 7.41143 11.2507 7.51213 11.2488C7.61283 11.247 7.71212 11.2249 7.80408 11.1838C7.89604 11.1427 7.97879 11.0835 8.04739 11.0098L12.0394 6.01979C12.1753 5.87712 12.2496 5.68669 12.2463 5.48966C12.2429 5.29263 12.1622 5.10484 12.0214 4.96689C11.8807 4.82893 11.6914 4.7519 11.4943 4.75244C11.2973 4.75299 11.1083 4.83106 10.9684 4.96979Z" />
+                      </g>
+                    </svg>
+                    {data}
+                  </li>
+                );
               })}
-            </div>
-            <div className="col-md-6">
+            </ul>
+            {/* <div className="col-md-6">
               <img
                 src={projectData.solution.imageSrc}
                 alt=""
@@ -238,7 +297,7 @@ const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
                 alt=""
                 className="counter-dark"
               />
-            </div>
+            </div> */}
           </div>
           <span className="line-break" />
           <span className="line-break" />

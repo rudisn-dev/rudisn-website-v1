@@ -6439,7 +6439,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
     padding-top: 20px;
   }
 }
-.details-page-wrapper .post-tag-and-title .post-category li a {
+.details-page-wrapper .post-tag-and-title .post-category li span {
   color: var(--title-color);
   font-family: var(--font-unbounded);
   font-size: 14px;
@@ -7982,7 +7982,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   font-weight: 400;
   border-radius: 50px;
   border: 1px solid var(--border-color2);
-  background: #F8F8F8;
+  background: var(--primary-color2);
   line-height: 1;
   padding: 13px 20px;
   display: inline-flex;
