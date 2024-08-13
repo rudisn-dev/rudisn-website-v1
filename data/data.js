@@ -1633,9 +1633,19 @@ const servicesPaths = navBarData
     };
   });
 
+const projectsPaths = allProjects.map((data) => {
+  return {
+    url: baseUrl + data.path,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  };
+});
+
 export const basePathsSitemap = [
   ...mainPaths,
   ...servicesPaths,
+  ...projectsPaths,
   {
     url: baseUrl + "/terms-and-conditions",
     lastModified: new Date(),
