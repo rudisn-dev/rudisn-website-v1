@@ -1,15 +1,10 @@
 "use client";
 import React, { useMemo } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, {
-  Autoplay,
-  EffectFade,
-  Navigation,
-  Pagination,
-} from "swiper";
+import SwiperCore, { Autoplay, EffectFade, Navigation } from "swiper";
 import Link from "next/link";
 import { baseUrl, contactInformation } from "../../../../../data/data";
-SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
+SwiperCore.use([Autoplay, EffectFade, Navigation]);
 
 const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
   const basePath = baseUrl + projectData.path;
@@ -24,48 +19,44 @@ Click the link for more details:
   const pageShareableLinks = [
     {
       type: "telegram",
-      icon: <i class="ri-telegram-line"></i>,
+      icon: <i class="ri-telegram-fill"></i>,
       url: `https://telegram.me/share/url?text=${encodeURIComponent(basePath)}&url=${encodeURIComponent(basePath)}`,
     },
     {
       type: "whatsapp",
-      icon: <i class="ri-whatsapp-line"></i>,
+      icon: <i class="ri-whatsapp-fill"></i>,
       url: `https://api.whatsapp.com/send?text=${encodeURIComponent(baseMessage)} ${encodeURIComponent(basePath)}`,
     },
     {
       type: "facebook",
-      icon: <i class="ri-facebook-line"></i>,
+      icon: <i class="ri-facebook-fill"></i>,
       url: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(basePath)}&quote=${encodeURIComponent(baseMessage)}`,
     },
     {
       type: "Twitter",
-      icon: <i class="ri-twitter-x-line"></i>,
+      icon: <i class="ri-twitter-x-fill"></i>,
       url: `https://twitter.com/intent/tweet?text=${encodeURIComponent(baseMessage)}&url=${encodeURIComponent(basePath)}`,
     },
     {
       type: "LinkedIn",
-      icon: <i class="ri-linkedin-line"></i>,
+      icon: <i class="ri-linkedin-fill"></i>,
       url: `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(basePath)}&title=${encodeURIComponent("One of the projects done by RUDISN.")}&summary=${encodeURIComponent("Project Overview")}`,
     },
   ];
 
   const settings = useMemo(() => {
     return {
-      slidesPerView: 1,
-      speed: 1500,
-      spaceBetween: 25,
-      effect: "fade", // Use the fade effect
-      fadeEffect: {
-        crossFade: true, // Enable cross-fade transition
-      },
+      spaceBetween: 30,
+      centeredSlides: true,
       autoplay: {
-        delay: 2500, // Autoplay duration in milliseconds
-        disableOnInteraction: false,
+        delay: 2500,
+        disableOnInteraction: true,
       },
       navigation: {
         nextEl: ".next-5",
         prevEl: ".prev-5",
       },
+      modules: [Autoplay],
     };
   }, []);
   return (
@@ -149,13 +140,16 @@ Click the link for more details:
             <div className="col-lg-12">
               <Swiper
                 {...settings}
-                className="swiper service-post-thumb-slider"
+                className="swiper service-post-thumb-slider rounded"
               >
                 <div className="swiper-wrapper">
                   {projectData.sliderImages.map((data, index) => {
                     return (
-                      <SwiperSlide key={index} className="swiper-slide">
-                        <img src={data} alt="" />
+                      <SwiperSlide
+                        key={index}
+                        className="swiper-slide draggable"
+                      >
+                        <img src={data} alt="" className="rounded" />
                       </SwiperSlide>
                     );
                   })}
@@ -258,7 +252,11 @@ Click the link for more details:
               </ul>
             </div>
             <div className="col-lg-6">
-              <img src={projectData.challenges.imageSrc} alt="" />
+              <img
+                src={projectData.challenges.imageSrc}
+                alt=""
+                className="rounded"
+              />
             </div>
           </div>
           <span className="line-break" />
@@ -286,71 +284,64 @@ Click the link for more details:
                 );
               })}
             </ul>
-            {/* <div className="col-md-6">
-              <img
-                src={projectData.solution.imageSrc}
-                alt=""
-                className="counter-light"
-              />
-              <img
-                src={projectData.solution.imageSrc}
-                alt=""
-                className="counter-dark"
-              />
-            </div> */}
           </div>
           <span className="line-break" />
           <span className="line-break" />
           <span className="line-break" />
-          <img src={projectData.footerImage} alt="" />
+          <img src={projectData.footerImage} alt="" className="rounded" />
         </div>
-        <div className="details-navigation two">
-          {prevData ? (
-            <div className="single-navigation">
-              <Link className="arrow" href={prevData.path}>
-                <svg
-                  width={7}
-                  height={14}
-                  viewBox="0 0 8 13"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z" />
-                </svg>
-                Prev
-              </Link>
-              <div className="content">
-                <h6>
-                  <Link href={prevData.path}>{prevData.name}</Link>
-                </h6>
-              </div>
-            </div>
-          ) : (
-            <div />
-          )}
 
-          {nextData ? (
-            <div className="single-navigation two text-end">
-              <div className="content">
-                <h6>
-                  <Link href={nextData.path}>{nextData.name}</Link>
-                </h6>
-              </div>
-              <Link className="arrow" href={nextData.path}>
-                Next
-                <svg
-                  width={7}
-                  height={14}
-                  viewBox="0 0 8 13"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z" />
-                </svg>
-              </Link>
+        {(prevData || nextData) && (
+          <>
+            <div className="details-navigation two">
+              {prevData ? (
+                <div className="single-navigation">
+                  <Link className="arrow" href={prevData.path}>
+                    <svg
+                      width={7}
+                      height={14}
+                      viewBox="0 0 8 13"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M0 6.50008L8 0L2.90909 6.50008L8 13L0 6.50008Z" />
+                    </svg>
+                    Prev
+                  </Link>
+                  <div className="content">
+                    <h6>
+                      <Link href={prevData.path}>{prevData.name}</Link>
+                    </h6>
+                  </div>
+                </div>
+              ) : (
+                <div />
+              )}
+
+              {nextData ? (
+                <div className="single-navigation two text-end">
+                  <div className="content">
+                    <h6>
+                      <Link href={nextData.path}>{nextData.name}</Link>
+                    </h6>
+                  </div>
+                  <Link className="arrow" href={nextData.path}>
+                    Next
+                    <svg
+                      width={7}
+                      height={14}
+                      viewBox="0 0 8 13"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M8 6.50008L0 0L5.09091 6.50008L0 13L8 6.50008Z" />
+                    </svg>
+                  </Link>
+                </div>
+              ) : (
+                <div />
+              )}
             </div>
-          ) : (
-            <div />
-          )}
-        </div>
+          </>
+        )}
       </div>
     </div>
   );

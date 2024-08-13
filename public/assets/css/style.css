@@ -680,6 +680,13 @@ video {
   fill: var(--dark-title-color);
 }
 
+.draggable{
+  cursor: grab;
+}
+.draggable:active{
+  cursor: grabbing;
+}
+
 #magic-cursor {
   position: absolute;
   display: none;
@@ -2579,6 +2586,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   max-width: 100px;
   min-width: 100px;
   justify-content: space-between;
+  pointer-events: none;
 }
 .slider-btn-group .slider-btn {
   height: 40px;
@@ -2589,6 +2597,8 @@ body:not(.is-mobile) .tt-style-switch:hover {
   align-items: center;
   justify-content: center;
   transition: 0.35s;
+  pointer-events: fill;
+  cursor: pointer;
 }
 @media (max-width: 576px) {
   .slider-btn-group .slider-btn {
@@ -2608,6 +2618,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .slider-btn-group .slider-btn.swiper-button-disabled {
   opacity: 0.5;
+  cursor: not-allowed;
 }
 .slider-btn-group.two .slider-btn {
   border: 1px solid var(--border-color2);

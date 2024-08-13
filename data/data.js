@@ -518,7 +518,7 @@ export const allProjects = [
       "Exterior design",
     ],
     path: "/our-work/caves-studio",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+    mainImgSrc: "/assets/images/our-work/cave-studio-banner-1.png",
     metaData: {
       category: "Design and Architecture",
       client: "Ar Vinayak Nikam",
@@ -534,11 +534,11 @@ export const allProjects = [
       ],
     },
     sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/images/our-work/cave-studio-frame-1.png",
+      "/assets/images/our-work/cave-studio-frame-2.png",
+      "/assets/images/our-work/cave-studio-frame-3.png",
+      "/assets/images/our-work/cave-studio-frame-4.png",
+      "/assets/images/our-work/cave-studio-frame-5.png",
     ],
     projectOverview: [
       "We created a custom full stack website for Caves Studio, an interior design company. The project aimed to create a landing page that effectively showcases the company's portfolio and services.",
@@ -555,7 +555,7 @@ export const allProjects = [
         "Implementing efficient data management using Google Sheets and MongoDB.",
         "Ensuring the landing page is highly responsive and visually engaging.",
       ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+      imageSrc: "/assets/images/our-work/cave-studio-frame-6.png",
     },
     solution: {
       points: [
@@ -572,457 +572,457 @@ export const allProjects = [
       ],
       imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+    footerImage: "/assets/images/our-work/cave-studio-frame-7.png",
   },
-  {
-    projectCategory: fullStack.value,
-    name: "Entytle",
-    slug: "entytle",
-    tags: ["OEMs", "Aftermarket growth", "Installed Base Intelligence"],
-    path: "/our-work/entytle",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    metaData: {
-      category: "Aftermarket Growth",
-      client: "Vivek Joshi",
-      links: [
-        {
-          type: "Website",
-          url: "https://entytle.com/",
-        },
-      ],
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Our company played a crucial role in enhancing the website for Entytle.This project involved the development and maintenance of a WordPress website.",
-      "Entytle is a purpose-built, AI-enabled platform that optimizes asset management. It provides insights and analytics to enhance efficiency, drive customer engagement, and maximize product value.",
-    ],
-    challenges: {
-      description:
-        "Entytle faced issues with website performance, content updates, and maintaining search engine rankings.",
-      points: [
-        "Website speed and performance metrics were suboptimal, causing slow load times and a poor user experience. Regular security vulnerabilities needed addressing.",
-        "Content was outdated and inconsistent, failing to reflect the latest products and services. Integration of new blog posts, case studies, and other resources was lacking.",
-        "Search engine rankings were not meeting expectations due to insufficient keyword research and on-page optimization. Tracking and analysis of website traffic and search rankings were inadequate.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "Monitored and analyzed website speed and performance metrics regularly. Implemented improvements to reduce load times and enhance user experience. Conducted periodic security checks and updates to safeguard the website against vulnerabilities.",
-        "Updated website content to reflect the latest information, products, and services offered by Entytle. Ensured consistency and accuracy of content across all pages. Worked with the content team to integrate new blog posts, case studies, and other resources.",
-        "Performed keyword research to identify opportunities for improved search rankings. Optimized on-page elements such as meta tags, headers, and image alt text. Tracked and analyzed website traffic and search rankings to inform future SEO strategies.",
-        "Integrated plugins to enhance website functionality.",
-        "Updated the UI to improve user experience.",
-        "Integrated third-party scripts such as Google Analytics, Factors AI, and Tag Manager.",
-        "Implemented regular backups and recovery processes to ensure data integrity.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    projectCategory: eCommerce.value,
-    name: "Personal branding",
-    slug: "personal-branding",
-    tags: ["Portfolio", "Personal branding", "personal portfolio"],
-    path: "/our-work/personal-branding",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    metaData: {
-      category: "Personal-branding",
-      client: "Kushal Gohil",
-      links: [
-        {
-          type: "Design",
-          url: "https://www.figma.com/proto/ZGXuHzPCrwTiIGRomtEIkY/Portfolio-Revamp?t=5sDeFd7dwQTGwcXu-1&node-id=26-184",
-        },
-      ],
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Designed and developed a personal portfolio website for Mr.Kushal, highlighting his professional achievements and showcasing his work.",
-      "Focused on creating a visually stunning and highly functional design that effectively communicates his personal brand.",
-    ],
-    challenges: {
-      description:
-        "He needed a personal portfolio website that would stand out, effectively showcase his work, and provide a seamless user experience and should have advanced animations.",
-      points: [
-        "Creating visually stunning animations that enhance the user experience.",
-        "Ensuring the website remains highly responsive and performs well across devices.",
-        "Developing a design that effectively communicates the client's professional skills and work.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      description:
-        "To overcome these challenges, we implemented the following solutions:",
-      points: [
-        "Implemented advanced animations to create an engaging and dynamic user experience.",
-        "Developed a responsive design that works seamlessly across devices.",
-        "Crafted a portfolio layout that effectively showcases the client's work and professional achievements.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    projectCategory: fullStack.value,
-    name: "Penny Wise",
-    slug: "penny-wise",
-    tags: [
-      "Expense Tracking",
-      "Expense Tracking Dashboard",
-      "Finantial solutions",
-    ],
-    path: "/our-work/penny-wise",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    metaData: {
-      category: "Expense Tracking",
-      client: "Open source Project",
-      links: [
-        {
-          type: "Website",
-          url: "https://pennywise.kushalgohil.com/",
-        },
-        {
-          type: "Design",
-          url: "https://www.figma.com/proto/0zMCxrGlYaUI2tlNX60KT1/Penny-Wise?t=6daIJrmzidmwXKij-1&node-id=24-1533",
-        },
-      ],
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Designed and developed a full fledged website for a open source project Penny Wise, an expense tracking website.",
-      "Implemented an end-to-end expense tracking portal using the MERN stack and ShadCN UI.",
-      "Built with Next.js, the project features a comprehensive dashboard for managing and analyzing expenses.",
-      "Includes advanced analytical tools such as charts and graphs, and offers a premium membership option for additional features.",
-      "This project is an open-source initiative.",
-    ],
-    challenges: {
-      description:
-        "The Penny Wise project presented several challenges common in full-stack development and advanced web applications.",
-      points: [
-        "Integrating the MERN stack effectively, Coordinating the use of MongoDB, Express.js, React.js, and Node.js to create a seamless end-to-end application required careful planning and implementation to ensure all components worked together efficiently.",
-        "Designing and implementing a fully-fledged dashboard, Developing an interactive and user-friendly dashboard that includes various charts and graphs for expense analysis posed a challenge. Ensuring that the dashboard provided meaningful insights while remaining easy to use required thoughtful design and testing.",
-        "Implementing a premium membership system, Creating a subscription-based model with restricted access to premium features involved developing a secure and functional system for user authentication, payment processing, and feature management.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      description:
-        "To address the challenges faced in the Penny Wise project, the following solutions were implemented:",
-      points: [
-        "Balanced functionality with aesthetics, Employed a minimalist design approach that prioritized usability while incorporating advanced features. Ensured that the visual design complemented the functionality and enhanced user engagement.",
-        "Seamlessly integrated the MERN stack, Developed a cohesive application by leveraging MongoDB for data storage, Express.js for server-side logic, React.js for the front-end, and Node.js for the backend. Ensured smooth data flow and functionality across the stack.",
-        "Designed and implemented an advanced dashboard, Created a user-friendly and interactive dashboard using ShadCN UI components. Incorporated charts and graphs for effective data visualization, allowing users to analyze their expenses intuitively.",
-        "Developed a robust premium membership system, Implemented a secure subscription model with user authentication and payment processing. Developed features that are only accessible to premium members, enhancing the application's value and functionality.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    projectCategory: fullStack.value,
-    name: "Siddhidatri Aahar",
-    slug: "siddhidatri-aahar",
-    tags: [
-      "Food company website",
-      "Food Industry",
-      "Chips Company",
-      "Food Products",
-    ],
-    path: "/our-work/siddhidatri-aahar",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    metaData: {
-      category: "Food Industry",
-      client: "Prince Kumar",
-      links: [
-        {
-          type: "Website",
-          url: "https://siddhidatriaahar.com/",
-        },
-        {
-          type: "Design",
-          url: "https://www.figma.com/proto/3XyLYKzZvH7nvgoqj04XqU/Siddhidatri-Aahar-(-UI-%2F-Landing-Page-)?t=33T7LO6WEJar8tSA-1&node-id=1-2",
-        },
-      ],
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Designed the UI/UX for Siddhidatri Aahar’s landing page, a company specializing in chips and other food products, to effectively showcase their offerings.",
-      "Focused on creating a visually appealing and user-friendly interface that highlights their products.",
-    ],
-    challenges: {
-      description: "The design process encountered several key challenges:",
-      points: [
-        "Creating a visually appealing design that effectively showcases the food products.",
-        "Meeting the client’s specific requirements and expectations.",
-        "Developing a responsive interface that works well across all devices.",
-        "Designing a professional look that builds trust and credibility with users.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      description:
-        "To address these challenges, we implemented the following solutions:",
-      points: [
-        "Designed a modern and professional UI that aligns with Siddhidatri Aahar's brand and effectively showcases their food products.",
-        "Worked closely with the client to ensure their specific needs and feedback were integrated into the final design.",
-        "Ensured the website is fully responsive, providing a seamless experience across desktops, tablets, and smartphones.",
-        "Implemented a clean and trustworthy design using high-quality images, consistent branding, and a user-friendly layout.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    projectCategory: eCommerce.value,
+  // {
+  //   projectCategory: fullStack.value,
+  //   name: "Entytle",
+  //   slug: "entytle",
+  //   tags: ["OEMs", "Aftermarket growth", "Installed Base Intelligence"],
+  //   path: "/our-work/entytle",
+  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+  //   metaData: {
+  //     category: "Aftermarket Growth",
+  //     client: "Vivek Joshi",
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         url: "https://entytle.com/",
+  //       },
+  //     ],
+  //   },
+  //   sliderImages: [
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //   ],
+  //   projectOverview: [
+  //     "Our company played a crucial role in enhancing the website for Entytle.This project involved the development and maintenance of a WordPress website.",
+  //     "Entytle is a purpose-built, AI-enabled platform that optimizes asset management. It provides insights and analytics to enhance efficiency, drive customer engagement, and maximize product value.",
+  //   ],
+  //   challenges: {
+  //     description:
+  //       "Entytle faced issues with website performance, content updates, and maintaining search engine rankings.",
+  //     points: [
+  //       "Website speed and performance metrics were suboptimal, causing slow load times and a poor user experience. Regular security vulnerabilities needed addressing.",
+  //       "Content was outdated and inconsistent, failing to reflect the latest products and services. Integration of new blog posts, case studies, and other resources was lacking.",
+  //       "Search engine rankings were not meeting expectations due to insufficient keyword research and on-page optimization. Tracking and analysis of website traffic and search rankings were inadequate.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+  //   },
+  //   solution: {
+  //     points: [
+  //       "Monitored and analyzed website speed and performance metrics regularly. Implemented improvements to reduce load times and enhance user experience. Conducted periodic security checks and updates to safeguard the website against vulnerabilities.",
+  //       "Updated website content to reflect the latest information, products, and services offered by Entytle. Ensured consistency and accuracy of content across all pages. Worked with the content team to integrate new blog posts, case studies, and other resources.",
+  //       "Performed keyword research to identify opportunities for improved search rankings. Optimized on-page elements such as meta tags, headers, and image alt text. Tracked and analyzed website traffic and search rankings to inform future SEO strategies.",
+  //       "Integrated plugins to enhance website functionality.",
+  //       "Updated the UI to improve user experience.",
+  //       "Integrated third-party scripts such as Google Analytics, Factors AI, and Tag Manager.",
+  //       "Implemented regular backups and recovery processes to ensure data integrity.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+  //   },
+  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  // },
+  // {
+  //   projectCategory: eCommerce.value,
+  //   name: "Personal branding",
+  //   slug: "personal-branding",
+  //   tags: ["Portfolio", "Personal branding", "personal portfolio"],
+  //   path: "/our-work/personal-branding",
+  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+  //   metaData: {
+  //     category: "Personal-branding",
+  //     client: "Kushal Gohil",
+  //     links: [
+  //       {
+  //         type: "Design",
+  //         url: "https://www.figma.com/proto/ZGXuHzPCrwTiIGRomtEIkY/Portfolio-Revamp?t=5sDeFd7dwQTGwcXu-1&node-id=26-184",
+  //       },
+  //     ],
+  //   },
+  //   sliderImages: [
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //   ],
+  //   projectOverview: [
+  //     "Designed and developed a personal portfolio website for Mr.Kushal, highlighting his professional achievements and showcasing his work.",
+  //     "Focused on creating a visually stunning and highly functional design that effectively communicates his personal brand.",
+  //   ],
+  //   challenges: {
+  //     description:
+  //       "He needed a personal portfolio website that would stand out, effectively showcase his work, and provide a seamless user experience and should have advanced animations.",
+  //     points: [
+  //       "Creating visually stunning animations that enhance the user experience.",
+  //       "Ensuring the website remains highly responsive and performs well across devices.",
+  //       "Developing a design that effectively communicates the client's professional skills and work.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+  //   },
+  //   solution: {
+  //     description:
+  //       "To overcome these challenges, we implemented the following solutions:",
+  //     points: [
+  //       "Implemented advanced animations to create an engaging and dynamic user experience.",
+  //       "Developed a responsive design that works seamlessly across devices.",
+  //       "Crafted a portfolio layout that effectively showcases the client's work and professional achievements.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+  //   },
+  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  // },
+  // {
+  //   projectCategory: fullStack.value,
+  //   name: "Penny Wise",
+  //   slug: "penny-wise",
+  //   tags: [
+  //     "Expense Tracking",
+  //     "Expense Tracking Dashboard",
+  //     "Finantial solutions",
+  //   ],
+  //   path: "/our-work/penny-wise",
+  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+  //   metaData: {
+  //     category: "Expense Tracking",
+  //     client: "Open source Project",
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         url: "https://pennywise.kushalgohil.com/",
+  //       },
+  //       {
+  //         type: "Design",
+  //         url: "https://www.figma.com/proto/0zMCxrGlYaUI2tlNX60KT1/Penny-Wise?t=6daIJrmzidmwXKij-1&node-id=24-1533",
+  //       },
+  //     ],
+  //   },
+  //   sliderImages: [
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //   ],
+  //   projectOverview: [
+  //     "Designed and developed a full fledged website for a open source project Penny Wise, an expense tracking website.",
+  //     "Implemented an end-to-end expense tracking portal using the MERN stack and ShadCN UI.",
+  //     "Built with Next.js, the project features a comprehensive dashboard for managing and analyzing expenses.",
+  //     "Includes advanced analytical tools such as charts and graphs, and offers a premium membership option for additional features.",
+  //     "This project is an open-source initiative.",
+  //   ],
+  //   challenges: {
+  //     description:
+  //       "The Penny Wise project presented several challenges common in full-stack development and advanced web applications.",
+  //     points: [
+  //       "Integrating the MERN stack effectively, Coordinating the use of MongoDB, Express.js, React.js, and Node.js to create a seamless end-to-end application required careful planning and implementation to ensure all components worked together efficiently.",
+  //       "Designing and implementing a fully-fledged dashboard, Developing an interactive and user-friendly dashboard that includes various charts and graphs for expense analysis posed a challenge. Ensuring that the dashboard provided meaningful insights while remaining easy to use required thoughtful design and testing.",
+  //       "Implementing a premium membership system, Creating a subscription-based model with restricted access to premium features involved developing a secure and functional system for user authentication, payment processing, and feature management.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+  //   },
+  //   solution: {
+  //     description:
+  //       "To address the challenges faced in the Penny Wise project, the following solutions were implemented:",
+  //     points: [
+  //       "Balanced functionality with aesthetics, Employed a minimalist design approach that prioritized usability while incorporating advanced features. Ensured that the visual design complemented the functionality and enhanced user engagement.",
+  //       "Seamlessly integrated the MERN stack, Developed a cohesive application by leveraging MongoDB for data storage, Express.js for server-side logic, React.js for the front-end, and Node.js for the backend. Ensured smooth data flow and functionality across the stack.",
+  //       "Designed and implemented an advanced dashboard, Created a user-friendly and interactive dashboard using ShadCN UI components. Incorporated charts and graphs for effective data visualization, allowing users to analyze their expenses intuitively.",
+  //       "Developed a robust premium membership system, Implemented a secure subscription model with user authentication and payment processing. Developed features that are only accessible to premium members, enhancing the application's value and functionality.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+  //   },
+  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  // },
+  // {
+  //   projectCategory: fullStack.value,
+  //   name: "Siddhidatri Aahar",
+  //   slug: "siddhidatri-aahar",
+  //   tags: [
+  //     "Food company website",
+  //     "Food Industry",
+  //     "Chips Company",
+  //     "Food Products",
+  //   ],
+  //   path: "/our-work/siddhidatri-aahar",
+  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+  //   metaData: {
+  //     category: "Food Industry",
+  //     client: "Prince Kumar",
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         url: "https://siddhidatriaahar.com/",
+  //       },
+  //       {
+  //         type: "Design",
+  //         url: "https://www.figma.com/proto/3XyLYKzZvH7nvgoqj04XqU/Siddhidatri-Aahar-(-UI-%2F-Landing-Page-)?t=33T7LO6WEJar8tSA-1&node-id=1-2",
+  //       },
+  //     ],
+  //   },
+  //   sliderImages: [
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //   ],
+  //   projectOverview: [
+  //     "Designed the UI/UX for Siddhidatri Aahar’s landing page, a company specializing in chips and other food products, to effectively showcase their offerings.",
+  //     "Focused on creating a visually appealing and user-friendly interface that highlights their products.",
+  //   ],
+  //   challenges: {
+  //     description: "The design process encountered several key challenges:",
+  //     points: [
+  //       "Creating a visually appealing design that effectively showcases the food products.",
+  //       "Meeting the client’s specific requirements and expectations.",
+  //       "Developing a responsive interface that works well across all devices.",
+  //       "Designing a professional look that builds trust and credibility with users.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+  //   },
+  //   solution: {
+  //     description:
+  //       "To address these challenges, we implemented the following solutions:",
+  //     points: [
+  //       "Designed a modern and professional UI that aligns with Siddhidatri Aahar's brand and effectively showcases their food products.",
+  //       "Worked closely with the client to ensure their specific needs and feedback were integrated into the final design.",
+  //       "Ensured the website is fully responsive, providing a seamless experience across desktops, tablets, and smartphones.",
+  //       "Implemented a clean and trustworthy design using high-quality images, consistent branding, and a user-friendly layout.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+  //   },
+  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  // },
+  // {
+  //   projectCategory: eCommerce.value,
 
-    name: "Kinmin",
-    slug: "kinmin",
-    tags: ["Snacks", "E-Commerce", "B2B", "WordPress"],
-    path: "/our-work/kinmin",
-    mainImgSrc: "/assets/img/home2/portfolio-02.jpg",
-    metaData: {
-      category: "E-Commerce",
-      client: "Kinmin",
-      links: [
-        {
-          type: "Website",
-          url: "https://kinmin.co.in",
-        },
-      ],
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "We built a comprehensive e-commerce website for Kinmin, a snacks company, using WordPress. The project focused on delivering a fully customized design that met the client's expectations and exceeded them, resulting in high client satisfaction.",
-      "The website features custom illustrations and banners, along with a complete B2B workflow and a backend dashboard. We handled the entire process from design to implementation, ensuring a smooth and user-friendly experience for both the client and the end-users.",
-    ],
-    challenges: {
-      description:
-        "The development and design of the Kinmin website came with its own set of challenges:",
-      points: [
-        "Meeting and exceeding the client’s design expectations with fully custom illustrations and banners.",
-        "Developing a seamless e-commerce experience that caters to both B2B and B2C workflows.",
-        "Creating a user-friendly backend dashboard for efficient management and updates.",
-        "Ensuring the website's responsiveness and ease of navigation across various devices.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "Delivered a visually stunning and highly functional e-commerce website with custom illustrations and banners that aligned with the brand identity.",
-        "Developed a comprehensive B2B workflow that streamlined business processes, making it easy for the client to manage orders and inventory.",
-        "Created a robust backend dashboard that allows the client to manage content, orders, and customer interactions with ease.",
-        "Ensured the website is fully responsive, providing a seamless user experience across all devices, from desktops to mobile phones.",
-        "Handled the entire project from the initial design phase through to full implementation and deployment.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    projectCategory: eCommerce.value,
-    name: "Anand Industry",
-    slug: "anand-industry",
-    tags: ["Light Bulbs", "E-commerce", "Lighting Solutions"],
-    path: "/our-work/anand-industry",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    metaData: {
-      category: "Light Bulbs Manufacturing",
-      client: "Vinayak More",
-      links: [
-        {
-          type: "Website",
-          url: "https://anandaindustry.com/",
-        },
-        {
-          type: "Design",
-          url: "https://www.figma.com/proto/zS26xz9GuPs9BZZRJoxRIU/Ananda-Industry?t=1OSY4H8ZrCw34vKp-1&node-id=2-2",
-        },
-      ],
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Designed and developed a comprehensive e-commerce platform for Anand Industry, a light bulb manufacturing company.",
-      "The project aimed to create an engaging and user-friendly online store that showcases their products and facilitates smooth transactions.",
-      "The design process focused on crafting an intuitive interface to enhance user interaction, while the development ensured a fully functional e-commerce system.",
-    ],
-    challenges: {
-      description:
-        "Throughout the project, several challenges were encountered in both UI/UX design and development:",
-      points: [
-        "Creating a visually appealing design that effectively highlights light bulb products and aligns with the brand’s identity.",
-        "Ensuring the interface is intuitive and easy for users to navigate, which involved balancing aesthetic appeal with functionality.",
-        "Developing a responsive design to provide a consistent and seamless shopping experience across all devices.",
-        "Integrating robust e-commerce functionalities using WooCommerce to handle online transactions smoothly.",
-        "Ensuring the website performs well and remains responsive across various devices and screen sizes.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "Crafted a clean and attractive UI design that effectively showcases the light bulb products in an engaging manner.",
-        "Implemented an intuitive layout that simplifies navigation, making it easy for users to find and purchase products.",
-        "Ensured a fully responsive design, providing a consistent look and feel on all devices to enhance user experience.",
-        "Developed a functional e-commerce platform with WooCommerce, ensuring smooth online transactions and user-friendly product management.",
-        "Focused on usability and performance, ensuring the website operates efficiently and remains user-friendly across different devices.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    projectCategory: eCommerce.value,
-    name: "Ghugrawala",
-    slug: "ghugra-wala",
-    tags: [
-      "Food Website",
-      "Food Product",
-      "Food Website Design",
-      "Food Industry",
-    ],
-    path: "/our-work/ghugra-wala",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    metaData: {
-      category: "Food Industry",
-      client: "Tejas Rathore",
-      links: [
-        {
-          type: "Website",
-          url: "https://ghughrawala.netlify.app/",
-        },
-        {
-          type: "Design",
-          url: "https://www.figma.com/proto/TdeoGExFWhxg5fTmEFmuR9/Ghughrawala?t=SFn4JeITQgHakB97-1&node-id=1-2",
-        },
-      ],
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Designed and developed a comprehensive landing page for Ghugra Wala, a food business based in Gujarat.",
-      "The project focused on creating a visually appealing and user-friendly site that effectively highlights the company’s food offerings and engages visitors.",
-    ],
-    challenges: {
-      description:
-        "The project faced several challenges during both the design and development phases:",
-      points: [
-        "Creating a design that effectively showcases the food in an attractive and appetizing way.",
-        "Ensuring the landing page is responsive and provides a seamless experience across different devices.",
-        "Balancing aesthetics with functionality to make the site easy to navigate and engaging for users.",
-        "Integrating features that highlight the company's offerings while maintaining a smooth user experience.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      points: [
-        "Designed a clean and engaging interface that highlights the food offerings in an appealing manner.",
-        "Used responsive design techniques to ensure the site looks great and functions well on all devices.",
-        "Developed a straightforward layout that makes it easy for users to navigate and find information about the food.",
-        "Implemented features that effectively communicate the company’s offerings and enhance the overall user experience.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
-  {
-    projectCategory: eCommerce.value,
-    name: "Richee Agrotech",
-    slug: "richee-agrotech",
-    tags: ["E-commerce", "Organic Products", "Shopify"],
-    path: "/our-work/richee-agrotech",
-    mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-    metaData: {
-      category: "E-commerce",
-      client: "Richa Jain",
-      links: [
-        {
-          type: "Website",
-          url: "https://richeeagrotech.com/",
-        },
-        {
-          type: "Design",
-          url: "https://www.figma.com/proto/AXruRo71ZvnmrSiQkORmTZ/Richee-agrotech-Ecommerce-Website?t=zxBuh2zaxMij6hYb-1&node-id=1-2",
-        },
-      ],
-    },
-    sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-    ],
-    projectOverview: [
-      "Richee Agrotech is an e-commerce website focused on selling organic products.",
-      "We designed the UI/UX and developed the entire e-commerce store using Shopify.",
-      "The goal was to create a visually appealing, user-friendly platform to enhance the shopping experience.",
-    ],
-    challenges: {
-      description:
-        "The project faced several challenges during the design and development phases:",
-      points: [
-        "Creating a cohesive and visually appealing design that aligns with the brand’s organic product focus.",
-        "Ensuring the Shopify store integrates seamlessly with the design for smooth functionality.",
-        "Developing a responsive design that provides a consistent user experience across all devices.",
-        "Meeting the client's specific requirements and vision for the website.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-    },
-    solution: {
-      description:
-        "To overcome these challenges, we implemented the following solutions:",
-      points: [
-        "Developed a modern and engaging UI/UX design that highlights the organic products effectively.",
-        "Integrated Shopify to build a robust e-commerce platform with seamless functionality.",
-        "Ensured the design was fully responsive, offering a consistent user experience on all devices.",
-        "Worked closely with the client to understand and meet their specific requirements and vision.",
-      ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-    },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  },
+  //   name: "Kinmin",
+  //   slug: "kinmin",
+  //   tags: ["Snacks", "E-Commerce", "B2B", "WordPress"],
+  //   path: "/our-work/kinmin",
+  //   mainImgSrc: "/assets/img/home2/portfolio-02.jpg",
+  //   metaData: {
+  //     category: "E-Commerce",
+  //     client: "Kinmin",
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         url: "https://kinmin.co.in",
+  //       },
+  //     ],
+  //   },
+  //   sliderImages: [
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //   ],
+  //   projectOverview: [
+  //     "We built a comprehensive e-commerce website for Kinmin, a snacks company, using WordPress. The project focused on delivering a fully customized design that met the client's expectations and exceeded them, resulting in high client satisfaction.",
+  //     "The website features custom illustrations and banners, along with a complete B2B workflow and a backend dashboard. We handled the entire process from design to implementation, ensuring a smooth and user-friendly experience for both the client and the end-users.",
+  //   ],
+  //   challenges: {
+  //     description:
+  //       "The development and design of the Kinmin website came with its own set of challenges:",
+  //     points: [
+  //       "Meeting and exceeding the client’s design expectations with fully custom illustrations and banners.",
+  //       "Developing a seamless e-commerce experience that caters to both B2B and B2C workflows.",
+  //       "Creating a user-friendly backend dashboard for efficient management and updates.",
+  //       "Ensuring the website's responsiveness and ease of navigation across various devices.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+  //   },
+  //   solution: {
+  //     points: [
+  //       "Delivered a visually stunning and highly functional e-commerce website with custom illustrations and banners that aligned with the brand identity.",
+  //       "Developed a comprehensive B2B workflow that streamlined business processes, making it easy for the client to manage orders and inventory.",
+  //       "Created a robust backend dashboard that allows the client to manage content, orders, and customer interactions with ease.",
+  //       "Ensured the website is fully responsive, providing a seamless user experience across all devices, from desktops to mobile phones.",
+  //       "Handled the entire project from the initial design phase through to full implementation and deployment.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+  //   },
+  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  // },
+  // {
+  //   projectCategory: eCommerce.value,
+  //   name: "Anand Industry",
+  //   slug: "anand-industry",
+  //   tags: ["Light Bulbs", "E-commerce", "Lighting Solutions"],
+  //   path: "/our-work/anand-industry",
+  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+  //   metaData: {
+  //     category: "Light Bulbs Manufacturing",
+  //     client: "Vinayak More",
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         url: "https://anandaindustry.com/",
+  //       },
+  //       {
+  //         type: "Design",
+  //         url: "https://www.figma.com/proto/zS26xz9GuPs9BZZRJoxRIU/Ananda-Industry?t=1OSY4H8ZrCw34vKp-1&node-id=2-2",
+  //       },
+  //     ],
+  //   },
+  //   sliderImages: [
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //   ],
+  //   projectOverview: [
+  //     "Designed and developed a comprehensive e-commerce platform for Anand Industry, a light bulb manufacturing company.",
+  //     "The project aimed to create an engaging and user-friendly online store that showcases their products and facilitates smooth transactions.",
+  //     "The design process focused on crafting an intuitive interface to enhance user interaction, while the development ensured a fully functional e-commerce system.",
+  //   ],
+  //   challenges: {
+  //     description:
+  //       "Throughout the project, several challenges were encountered in both UI/UX design and development:",
+  //     points: [
+  //       "Creating a visually appealing design that effectively highlights light bulb products and aligns with the brand’s identity.",
+  //       "Ensuring the interface is intuitive and easy for users to navigate, which involved balancing aesthetic appeal with functionality.",
+  //       "Developing a responsive design to provide a consistent and seamless shopping experience across all devices.",
+  //       "Integrating robust e-commerce functionalities using WooCommerce to handle online transactions smoothly.",
+  //       "Ensuring the website performs well and remains responsive across various devices and screen sizes.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+  //   },
+  //   solution: {
+  //     points: [
+  //       "Crafted a clean and attractive UI design that effectively showcases the light bulb products in an engaging manner.",
+  //       "Implemented an intuitive layout that simplifies navigation, making it easy for users to find and purchase products.",
+  //       "Ensured a fully responsive design, providing a consistent look and feel on all devices to enhance user experience.",
+  //       "Developed a functional e-commerce platform with WooCommerce, ensuring smooth online transactions and user-friendly product management.",
+  //       "Focused on usability and performance, ensuring the website operates efficiently and remains user-friendly across different devices.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+  //   },
+  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  // },
+  // {
+  //   projectCategory: eCommerce.value,
+  //   name: "Ghugrawala",
+  //   slug: "ghugra-wala",
+  //   tags: [
+  //     "Food Website",
+  //     "Food Product",
+  //     "Food Website Design",
+  //     "Food Industry",
+  //   ],
+  //   path: "/our-work/ghugra-wala",
+  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+  //   metaData: {
+  //     category: "Food Industry",
+  //     client: "Tejas Rathore",
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         url: "https://ghughrawala.netlify.app/",
+  //       },
+  //       {
+  //         type: "Design",
+  //         url: "https://www.figma.com/proto/TdeoGExFWhxg5fTmEFmuR9/Ghughrawala?t=SFn4JeITQgHakB97-1&node-id=1-2",
+  //       },
+  //     ],
+  //   },
+  //   sliderImages: [
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //   ],
+  //   projectOverview: [
+  //     "Designed and developed a comprehensive landing page for Ghugra Wala, a food business based in Gujarat.",
+  //     "The project focused on creating a visually appealing and user-friendly site that effectively highlights the company’s food offerings and engages visitors.",
+  //   ],
+  //   challenges: {
+  //     description:
+  //       "The project faced several challenges during both the design and development phases:",
+  //     points: [
+  //       "Creating a design that effectively showcases the food in an attractive and appetizing way.",
+  //       "Ensuring the landing page is responsive and provides a seamless experience across different devices.",
+  //       "Balancing aesthetics with functionality to make the site easy to navigate and engaging for users.",
+  //       "Integrating features that highlight the company's offerings while maintaining a smooth user experience.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+  //   },
+  //   solution: {
+  //     points: [
+  //       "Designed a clean and engaging interface that highlights the food offerings in an appealing manner.",
+  //       "Used responsive design techniques to ensure the site looks great and functions well on all devices.",
+  //       "Developed a straightforward layout that makes it easy for users to navigate and find information about the food.",
+  //       "Implemented features that effectively communicate the company’s offerings and enhance the overall user experience.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+  //   },
+  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  // },
+  // {
+  //   projectCategory: eCommerce.value,
+  //   name: "Richee Agrotech",
+  //   slug: "richee-agrotech",
+  //   tags: ["E-commerce", "Organic Products", "Shopify"],
+  //   path: "/our-work/richee-agrotech",
+  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
+  //   metaData: {
+  //     category: "E-commerce",
+  //     client: "Richa Jain",
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         url: "https://richeeagrotech.com/",
+  //       },
+  //       {
+  //         type: "Design",
+  //         url: "https://www.figma.com/proto/AXruRo71ZvnmrSiQkORmTZ/Richee-agrotech-Ecommerce-Website?t=zxBuh2zaxMij6hYb-1&node-id=1-2",
+  //       },
+  //     ],
+  //   },
+  //   sliderImages: [
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+  //   ],
+  //   projectOverview: [
+  //     "Richee Agrotech is an e-commerce website focused on selling organic products.",
+  //     "We designed the UI/UX and developed the entire e-commerce store using Shopify.",
+  //     "The goal was to create a visually appealing, user-friendly platform to enhance the shopping experience.",
+  //   ],
+  //   challenges: {
+  //     description:
+  //       "The project faced several challenges during the design and development phases:",
+  //     points: [
+  //       "Creating a cohesive and visually appealing design that aligns with the brand’s organic product focus.",
+  //       "Ensuring the Shopify store integrates seamlessly with the design for smooth functionality.",
+  //       "Developing a responsive design that provides a consistent user experience across all devices.",
+  //       "Meeting the client's specific requirements and vision for the website.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+  //   },
+  //   solution: {
+  //     description:
+  //       "To overcome these challenges, we implemented the following solutions:",
+  //     points: [
+  //       "Developed a modern and engaging UI/UX design that highlights the organic products effectively.",
+  //       "Integrated Shopify to build a robust e-commerce platform with seamless functionality.",
+  //       "Ensured the design was fully responsive, offering a consistent user experience on all devices.",
+  //       "Worked closely with the client to understand and meet their specific requirements and vision.",
+  //     ],
+  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
+  //   },
+  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+  // },
 ];
 
 export const allTeamMembers = [
@@ -1147,12 +1147,12 @@ export const navBarData = [
     priority: 0.8,
     changefreq: "monthly",
   },
-  // {
-  //   name: "Our Work",
-  //   path: "/our-work",
-  //   priority: 0.7,
-  //   changefreq: "monthly",
-  // },
+  {
+    name: "Our Work",
+    path: "/our-work",
+    priority: 0.7,
+    changefreq: "monthly",
+  },
   {
     name: "Our Team",
     path: "/our-team",

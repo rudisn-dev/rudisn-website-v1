@@ -2,10 +2,15 @@ import React from "react";
 import ProjectDetailsWrapper from "../_components/ProjectDetailsWrapper";
 import { allProjects, defaultMetaData } from "../../../../../data/data";
 
-export const metadata = {
-  ...defaultMetaData,
-  title: defaultMetaData.title + " | " + "Project",
-};
+export function generateMetadata({ params: { slug } }) {
+  const currentIndex = allProjects.findIndex((data) => data.slug === slug);
+  const data = currentIndex !== -1 ? allProjects[currentIndex] : allProjects[0];
+
+  return {
+    ...defaultMetaData,
+    title: `${defaultMetaData.title} | Project | ${data.name}`,
+  };
+}
 
 function Page({ params: { slug } }) {
   const currentIndex = allProjects.findIndex((data) => data.slug === slug);

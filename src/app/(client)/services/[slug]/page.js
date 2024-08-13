@@ -2,10 +2,16 @@ import React from "react";
 import ServicesWrapper from "../_components/ServicesWrapper";
 import { allServices, defaultMetaData } from "../../../../../data/data";
 
-export const metadata = {
-  ...defaultMetaData,
-  title: defaultMetaData.title + " | " + "Service",
-};
+// Function to generate dynamic metadata based on the service slug
+export async function generateMetadata({ params: { slug } }) {
+  const currentIndex = allServices.findIndex((data) => data.slug === slug);
+  const data = currentIndex !== -1 ? allServices[currentIndex] : allServices[0];
+
+  return {
+    ...defaultMetaData,
+    title: `${defaultMetaData.title} | Service | ${data.name}`,
+  };
+}
 
 function Page({ params: { slug } }) {
   const currentIndex = allServices.findIndex((data) => data.slug === slug);
