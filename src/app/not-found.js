@@ -602,7 +602,7 @@ export default function NotFound() {
                   </p>
                   <div className="back-btn">
                     <Link href="/" className="primary-btn3 btn-hover">
-                      <i class="ri-home-4-line"></i>
+                      <i className="ri-home-4-line"></i>
                       Back To Home
                       <span style={{ top: "50.5px", left: "83.75px" }} />
                     </Link>

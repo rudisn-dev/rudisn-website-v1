@@ -23,7 +23,7 @@ function TermsAndConditions() {
             <div className="col-lg-12 ">
               <div className="update-date mb-30">
                 <h6>
-                  <i class="ri-arrow-drop-right-fill"></i> Last Updated
+                  <i className="ri-arrow-drop-right-fill"></i> Last Updated
                 </h6>
                 <p>28 July, 2024</p>
               </div>
