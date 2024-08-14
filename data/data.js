@@ -673,68 +673,62 @@ export const allProjects = [
     footerImage:
       "/assets/images/our-work/kushal-portfolio/portfolio-frame-6.png",
   },
-  // {
-  //   projectCategory: fullStack.value,
-  //   name: "Penny Wise",
-  //   slug: "penny-wise",
-  //   tags: [
-  //     "Expense Tracking",
-  //     "Expense Tracking Dashboard",
-  //     "Finantial solutions",
-  //   ],
-  //   path: "/our-work/penny-wise",
-  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-  //   metaData: {
-  //     category: "Expense Tracking",
-  //     client: "Open source Project",
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         url: "https://pennywise.kushalgohil.com/",
-  //       },
-  //       {
-  //         type: "Design",
-  //         url: "https://www.figma.com/proto/0zMCxrGlYaUI2tlNX60KT1/Penny-Wise?t=6daIJrmzidmwXKij-1&node-id=24-1533",
-  //       },
-  //     ],
-  //   },
-  //   sliderImages: [
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //   ],
-  //   projectOverview: [
-  //     "Designed and developed a full fledged website for a open source project Penny Wise, an expense tracking website.",
-  //     "Implemented an end-to-end expense tracking portal using the MERN stack and ShadCN UI.",
-  //     "Built with Next.js, the project features a comprehensive dashboard for managing and analyzing expenses.",
-  //     "Includes advanced analytical tools such as charts and graphs, and offers a premium membership option for additional features.",
-  //     "This project is an open-source initiative.",
-  //   ],
-  //   challenges: {
-  //     description:
-  //       "The Penny Wise project presented several challenges common in full-stack development and advanced web applications.",
-  //     points: [
-  //       "Integrating the MERN stack effectively, Coordinating the use of MongoDB, Express.js, React.js, and Node.js to create a seamless end-to-end application required careful planning and implementation to ensure all components worked together efficiently.",
-  //       "Designing and implementing a fully-fledged dashboard, Developing an interactive and user-friendly dashboard that includes various charts and graphs for expense analysis posed a challenge. Ensuring that the dashboard provided meaningful insights while remaining easy to use required thoughtful design and testing.",
-  //       "Implementing a premium membership system, Creating a subscription-based model with restricted access to premium features involved developing a secure and functional system for user authentication, payment processing, and feature management.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-  //   },
-  //   solution: {
-  //     description:
-  //       "To address the challenges faced in the Penny Wise project, the following solutions were implemented:",
-  //     points: [
-  //       "Balanced functionality with aesthetics, Employed a minimalist design approach that prioritized usability while incorporating advanced features. Ensured that the visual design complemented the functionality and enhanced user engagement.",
-  //       "Seamlessly integrated the MERN stack, Developed a cohesive application by leveraging MongoDB for data storage, Express.js for server-side logic, React.js for the front-end, and Node.js for the backend. Ensured smooth data flow and functionality across the stack.",
-  //       "Designed and implemented an advanced dashboard, Created a user-friendly and interactive dashboard using ShadCN UI components. Incorporated charts and graphs for effective data visualization, allowing users to analyze their expenses intuitively.",
-  //       "Developed a robust premium membership system, Implemented a secure subscription model with user authentication and payment processing. Developed features that are only accessible to premium members, enhancing the application's value and functionality.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-  //   },
-  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  // },
+  {
+    projectCategory: fullStack.value,
+    name: "Penny Wise",
+    slug: "penny-wise",
+    tags: ["Expense Tracking", "Dashboard", "Finantial solutions"],
+    path: "/our-work/penny-wise",
+    mainImgSrc: "/assets/images/our-work/penny-wise/penny-wise-banner.png",
+    metaData: {
+      category: "Expense Tracking",
+      client: "Open source Project",
+      links: [
+        {
+          type: "Website",
+          url: "https://pennywise.kushalgohil.com/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/0zMCxrGlYaUI2tlNX60KT1/Penny-Wise?t=6daIJrmzidmwXKij-1&node-id=24-1533",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/penny-wise/penny-wise-frame-1.png",
+      "/assets/images/our-work/penny-wise/penny-wise-frame-2.png",
+      "/assets/images/our-work/penny-wise/penny-wise-frame-3.png",
+      "/assets/images/our-work/penny-wise/penny-wise-frame-4.png",
+    ],
+    projectOverview: [
+      "Designed and developed a full fledged website for a open source project Penny Wise, an expense tracking website.",
+      "Implemented an end-to-end expense tracking portal using the MERN stack and ShadCN UI.",
+      "Built with Next.js, the project features a comprehensive dashboard for managing and analyzing expenses.",
+      "Includes advanced analytical tools such as charts and graphs, and offers a premium membership option for additional features.",
+      "This project is an open-source initiative.",
+    ],
+    challenges: {
+      description:
+        "The Penny Wise project presented several challenges common in full-stack development and advanced web applications.",
+      points: [
+        "Integrating the MERN stack effectively, Coordinating the use of MongoDB, Express.js, React.js, and Node.js to create a seamless end-to-end application required careful planning and implementation to ensure all components worked together efficiently.",
+        "Designing and implementing a fully-fledged dashboard, Developing an interactive and user-friendly dashboard that includes various charts and graphs for expense analysis posed a challenge. Ensuring that the dashboard provided meaningful insights while remaining easy to use required thoughtful design and testing.",
+        "Implementing a premium membership system, Creating a subscription-based model with restricted access to premium features involved developing a secure and functional system for user authentication, payment processing, and feature management.",
+      ],
+      imageSrc: "/assets/images/our-work/penny-wise/penny-wise-frame-5.png",
+    },
+    solution: {
+      description:
+        "To address the challenges faced in the Penny Wise project, the following solutions were implemented:",
+      points: [
+        "Balanced functionality with aesthetics, Employed a minimalist design approach that prioritized usability while incorporating advanced features. Ensured that the visual design complemented the functionality and enhanced user engagement.",
+        "Seamlessly integrated the MERN stack, Developed a cohesive application by leveraging MongoDB for data storage, Express.js for server-side logic, React.js for the front-end, and Node.js for the backend. Ensured smooth data flow and functionality across the stack.",
+        "Designed and implemented an advanced dashboard, Created a user-friendly and interactive dashboard using ShadCN UI components. Incorporated charts and graphs for effective data visualization, allowing users to analyze their expenses intuitively.",
+        "Developed a robust premium membership system, Implemented a secure subscription model with user authentication and payment processing. Developed features that are only accessible to premium members, enhancing the application's value and functionality.",
+      ],
+    },
+    footerImage: "/assets/images/our-work/penny-wise/penny-wise-frame-6.png",
+  },
   // {
   //   projectCategory: fullStack.value,
   //   name: "Siddhidatri Aahar",
