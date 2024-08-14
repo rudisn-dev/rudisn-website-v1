@@ -729,66 +729,67 @@ export const allProjects = [
     },
     footerImage: "/assets/images/our-work/penny-wise/penny-wise-frame-6.png",
   },
-  // {
-  //   projectCategory: fullStack.value,
-  //   name: "Siddhidatri Aahar",
-  //   slug: "siddhidatri-aahar",
-  //   tags: [
-  //     "Food company website",
-  //     "Food Industry",
-  //     "Chips Company",
-  //     "Food Products",
-  //   ],
-  //   path: "/our-work/siddhidatri-aahar",
-  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-  //   metaData: {
-  //     category: "Food Industry",
-  //     client: "Prince Kumar",
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         url: "https://siddhidatriaahar.com/",
-  //       },
-  //       {
-  //         type: "Design",
-  //         url: "https://www.figma.com/proto/3XyLYKzZvH7nvgoqj04XqU/Siddhidatri-Aahar-(-UI-%2F-Landing-Page-)?t=33T7LO6WEJar8tSA-1&node-id=1-2",
-  //       },
-  //     ],
-  //   },
-  //   sliderImages: [
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //   ],
-  //   projectOverview: [
-  //     "Designed the UI/UX for Siddhidatri Aahar’s landing page, a company specializing in chips and other food products, to effectively showcase their offerings.",
-  //     "Focused on creating a visually appealing and user-friendly interface that highlights their products.",
-  //   ],
-  //   challenges: {
-  //     description: "The design process encountered several key challenges:",
-  //     points: [
-  //       "Creating a visually appealing design that effectively showcases the food products.",
-  //       "Meeting the client’s specific requirements and expectations.",
-  //       "Developing a responsive interface that works well across all devices.",
-  //       "Designing a professional look that builds trust and credibility with users.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-  //   },
-  //   solution: {
-  //     description:
-  //       "To address these challenges, we implemented the following solutions:",
-  //     points: [
-  //       "Designed a modern and professional UI that aligns with Siddhidatri Aahar's brand and effectively showcases their food products.",
-  //       "Worked closely with the client to ensure their specific needs and feedback were integrated into the final design.",
-  //       "Ensured the website is fully responsive, providing a seamless experience across desktops, tablets, and smartphones.",
-  //       "Implemented a clean and trustworthy design using high-quality images, consistent branding, and a user-friendly layout.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-  //   },
-  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  // },
+  {
+    projectCategory: fullStack.value,
+    name: "Siddhidatri Aahar",
+    slug: "siddhidatri-aahar",
+    tags: [
+      "Food company website",
+      "Food Industry",
+      "Chips Company",
+      "Food Products",
+    ],
+    path: "/our-work/siddhidatri-aahar",
+    mainImgSrc:
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-banner.png",
+    metaData: {
+      category: "Food Industry",
+      client: "Prince Kumar",
+      links: [
+        {
+          type: "Website",
+          url: "https://siddhidatriaahar.com/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/3XyLYKzZvH7nvgoqj04XqU/Siddhidatri-Aahar-(-UI-%2F-Landing-Page-)?t=33T7LO6WEJar8tSA-1&node-id=1-2",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-1.png",
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-2.png",
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-3.png",
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-4.png",
+    ],
+    projectOverview: [
+      "Designed the UI/UX for Siddhidatri Aahar’s landing page, a company specializing in chips and other food products, to effectively showcase their offerings.",
+      "Focused on creating a visually appealing and user-friendly interface that highlights their products.",
+    ],
+    challenges: {
+      description: "The design process encountered several key challenges:",
+      points: [
+        "Creating a visually appealing design that effectively showcases the food products.",
+        "Meeting the client’s specific requirements and expectations.",
+        "Developing a responsive interface that works well across all devices.",
+        "Designing a professional look that builds trust and credibility with users.",
+      ],
+      imageSrc:
+        "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-5.png",
+    },
+    solution: {
+      description:
+        "To address these challenges, we implemented the following solutions:",
+      points: [
+        "Designed a modern and professional UI that aligns with Siddhidatri Aahar's brand and effectively showcases their food products.",
+        "Worked closely with the client to ensure their specific needs and feedback were integrated into the final design.",
+        "Ensured the website is fully responsive, providing a seamless experience across desktops, tablets, and smartphones.",
+        "Implemented a clean and trustworthy design using high-quality images, consistent branding, and a user-friendly layout.",
+      ],
+    },
+    footerImage:
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-6.png",
+  },
   // {
   //   projectCategory: eCommerce.value,
 
