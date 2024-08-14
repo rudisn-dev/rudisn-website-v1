@@ -3,11 +3,10 @@ import React, { useMemo } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, EffectFade, Navigation } from "swiper";
 import Link from "next/link";
-import { baseUrl, contactInformation } from "../../../../../data/data";
+import { getSharableLinks } from "../../../../../data/data";
 SwiperCore.use([Autoplay, EffectFade, Navigation]);
 
 const ProjectDetailsWrapper = ({ projectData, prevData, nextData }) => {
-  const basePath = baseUrl + projectData.path;
   const baseMessage = `
 One of the projects done by RUDISN.
   
@@ -15,34 +14,6 @@ Project Overview: ${projectData.projectOverview[0]}
   
 Click the link for more details:
   `.trim();
-
-  const pageShareableLinks = [
-    {
-      type: "telegram",
-      icon: <i class="ri-telegram-fill"></i>,
-      url: `https://telegram.me/share/url?text=${encodeURIComponent(basePath)}&url=${encodeURIComponent(basePath)}`,
-    },
-    {
-      type: "whatsapp",
-      icon: <i class="ri-whatsapp-fill"></i>,
-      url: `https://api.whatsapp.com/send?text=${encodeURIComponent(baseMessage)} ${encodeURIComponent(basePath)}`,
-    },
-    {
-      type: "facebook",
-      icon: <i class="ri-facebook-fill"></i>,
-      url: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(basePath)}&quote=${encodeURIComponent(baseMessage)}`,
-    },
-    {
-      type: "Twitter",
-      icon: <i class="ri-twitter-x-fill"></i>,
-      url: `https://twitter.com/intent/tweet?text=${encodeURIComponent(baseMessage)}&url=${encodeURIComponent(basePath)}`,
-    },
-    {
-      type: "LinkedIn",
-      icon: <i class="ri-linkedin-fill"></i>,
-      url: `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(basePath)}&title=${encodeURIComponent("One of the projects done by RUDISN.")}&summary=${encodeURIComponent("Project Overview")}`,
-    },
-  ];
 
   const settings = useMemo(() => {
     return {
@@ -59,6 +30,9 @@ Click the link for more details:
       modules: [Autoplay],
     };
   }, []);
+
+  const sharableLinks = getSharableLinks(projectData.path, baseMessage);
+
   return (
     <div className="details-page-wrapper portfolio-details pt-130 pb-130">
       <div className="container-lg container-fluid">
@@ -114,7 +88,7 @@ Click the link for more details:
             <div className="social-area">
               <h6>Share:</h6>
               <ul className="social-link">
-                {pageShareableLinks.map((data, index) => {
+                {sharableLinks.map((data, index) => {
                   return (
                     <li key={index}>
                       <a
