@@ -518,7 +518,7 @@ export const allProjects = [
       "Exterior design",
     ],
     path: "/our-work/caves-studio",
-    mainImgSrc: "/assets/images/our-work/cave-studio-banner-1.png",
+    mainImgSrc: "/assets/images/our-work/caves-studio/cave-studio-banner-1.png",
     metaData: {
       category: "Design and Architecture",
       client: "Ar Vinayak Nikam",
@@ -534,11 +534,11 @@ export const allProjects = [
       ],
     },
     sliderImages: [
-      "/assets/images/our-work/cave-studio-frame-1.png",
-      "/assets/images/our-work/cave-studio-frame-2.png",
-      "/assets/images/our-work/cave-studio-frame-3.png",
-      "/assets/images/our-work/cave-studio-frame-4.png",
-      "/assets/images/our-work/cave-studio-frame-5.png",
+      "/assets/images/our-work/caves-studio/cave-studio-frame-1.png",
+      "/assets/images/our-work/caves-studio/cave-studio-frame-2.png",
+      "/assets/images/our-work/caves-studio/cave-studio-frame-3.png",
+      "/assets/images/our-work/caves-studio/cave-studio-frame-4.png",
+      "/assets/images/our-work/caves-studio/cave-studio-frame-5.png",
     ],
     projectOverview: [
       "We created a custom full stack website for Caves Studio, an interior design company. The project aimed to create a landing page that effectively showcases the company's portfolio and services.",
@@ -555,7 +555,7 @@ export const allProjects = [
         "Implementing efficient data management using Google Sheets and MongoDB.",
         "Ensuring the landing page is highly responsive and visually engaging.",
       ],
-      imageSrc: "/assets/images/our-work/cave-studio-frame-6.png",
+      imageSrc: "/assets/images/our-work/caves-studio/cave-studio-frame-6.png",
     },
     solution: {
       points: [
@@ -570,112 +570,109 @@ export const allProjects = [
         "Created a custom admin dashboard for efficient site management, allowing for easy updates and maintenance.",
         "Implemented a user-friendly blog section with a custom dashboard to streamline content creation and management, making it simple for non-technical users to update and maintain the blog.",
       ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
-    footerImage: "/assets/images/our-work/cave-studio-frame-7.png",
+    footerImage: "/assets/images/our-work/caves-studio/cave-studio-frame-7.png",
   },
-  // {
-  //   projectCategory: fullStack.value,
-  //   name: "Entytle",
-  //   slug: "entytle",
-  //   tags: ["OEMs", "Aftermarket growth", "Installed Base Intelligence"],
-  //   path: "/our-work/entytle",
-  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-  //   metaData: {
-  //     category: "Aftermarket Growth",
-  //     client: "Vivek Joshi",
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         url: "https://entytle.com/",
-  //       },
-  //     ],
-  //   },
-  //   sliderImages: [
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //   ],
-  //   projectOverview: [
-  //     "Our company played a crucial role in enhancing the website for Entytle.This project involved the development and maintenance of a WordPress website.",
-  //     "Entytle is a purpose-built, AI-enabled platform that optimizes asset management. It provides insights and analytics to enhance efficiency, drive customer engagement, and maximize product value.",
-  //   ],
-  //   challenges: {
-  //     description:
-  //       "Entytle faced issues with website performance, content updates, and maintaining search engine rankings.",
-  //     points: [
-  //       "Website speed and performance metrics were suboptimal, causing slow load times and a poor user experience. Regular security vulnerabilities needed addressing.",
-  //       "Content was outdated and inconsistent, failing to reflect the latest products and services. Integration of new blog posts, case studies, and other resources was lacking.",
-  //       "Search engine rankings were not meeting expectations due to insufficient keyword research and on-page optimization. Tracking and analysis of website traffic and search rankings were inadequate.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-  //   },
-  //   solution: {
-  //     points: [
-  //       "Monitored and analyzed website speed and performance metrics regularly. Implemented improvements to reduce load times and enhance user experience. Conducted periodic security checks and updates to safeguard the website against vulnerabilities.",
-  //       "Updated website content to reflect the latest information, products, and services offered by Entytle. Ensured consistency and accuracy of content across all pages. Worked with the content team to integrate new blog posts, case studies, and other resources.",
-  //       "Performed keyword research to identify opportunities for improved search rankings. Optimized on-page elements such as meta tags, headers, and image alt text. Tracked and analyzed website traffic and search rankings to inform future SEO strategies.",
-  //       "Integrated plugins to enhance website functionality.",
-  //       "Updated the UI to improve user experience.",
-  //       "Integrated third-party scripts such as Google Analytics, Factors AI, and Tag Manager.",
-  //       "Implemented regular backups and recovery processes to ensure data integrity.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-  //   },
-  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  // },
-  // {
-  //   projectCategory: eCommerce.value,
-  //   name: "Personal branding",
-  //   slug: "personal-branding",
-  //   tags: ["Portfolio", "Personal branding", "personal portfolio"],
-  //   path: "/our-work/personal-branding",
-  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-  //   metaData: {
-  //     category: "Personal-branding",
-  //     client: "Kushal Gohil",
-  //     links: [
-  //       {
-  //         type: "Design",
-  //         url: "https://www.figma.com/proto/ZGXuHzPCrwTiIGRomtEIkY/Portfolio-Revamp?t=5sDeFd7dwQTGwcXu-1&node-id=26-184",
-  //       },
-  //     ],
-  //   },
-  //   sliderImages: [
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //   ],
-  //   projectOverview: [
-  //     "Designed and developed a personal portfolio website for Mr.Kushal, highlighting his professional achievements and showcasing his work.",
-  //     "Focused on creating a visually stunning and highly functional design that effectively communicates his personal brand.",
-  //   ],
-  //   challenges: {
-  //     description:
-  //       "He needed a personal portfolio website that would stand out, effectively showcase his work, and provide a seamless user experience and should have advanced animations.",
-  //     points: [
-  //       "Creating visually stunning animations that enhance the user experience.",
-  //       "Ensuring the website remains highly responsive and performs well across devices.",
-  //       "Developing a design that effectively communicates the client's professional skills and work.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-  //   },
-  //   solution: {
-  //     description:
-  //       "To overcome these challenges, we implemented the following solutions:",
-  //     points: [
-  //       "Implemented advanced animations to create an engaging and dynamic user experience.",
-  //       "Developed a responsive design that works seamlessly across devices.",
-  //       "Crafted a portfolio layout that effectively showcases the client's work and professional achievements.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-  //   },
-  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  // },
+  {
+    projectCategory: fullStack.value,
+    name: "Entytle",
+    slug: "entytle",
+    tags: ["OEMs", "Aftermarket growth", "Installed Base Intelligence"],
+    path: "/our-work/entytle",
+    mainImgSrc: "/assets/images/our-work/entytle/entytle-banner.png",
+    metaData: {
+      category: "Aftermarket Growth",
+      client: "Vivek Joshi",
+      links: [
+        {
+          type: "Website",
+          url: "https://entytle.com/",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/entytle/entytle-frame-1.png",
+      "/assets/images/our-work/entytle/entytle-frame-2.png",
+      "/assets/images/our-work/entytle/entytle-frame-3.png",
+      "/assets/images/our-work/entytle/entytle-frame-4.png",
+    ],
+    projectOverview: [
+      "Our company played a crucial role in enhancing the website for Entytle.This project involved the development and maintenance of a WordPress website.",
+      "Entytle is a purpose-built, AI-enabled platform that optimizes asset management. It provides insights and analytics to enhance efficiency, drive customer engagement, and maximize product value.",
+    ],
+    challenges: {
+      description:
+        "Entytle faced issues with website performance, content updates, and maintaining search engine rankings.",
+      points: [
+        "Website speed and performance metrics were suboptimal, causing slow load times and a poor user experience. Regular security vulnerabilities needed addressing.",
+        "Content was outdated and inconsistent, failing to reflect the latest products and services. Integration of new blog posts, case studies, and other resources was lacking.",
+        "Search engine rankings were not meeting expectations due to insufficient keyword research and on-page optimization. Tracking and analysis of website traffic and search rankings were inadequate.",
+      ],
+      imageSrc: "/assets/images/our-work/entytle/entytle-frame-5.png",
+    },
+    solution: {
+      points: [
+        "Monitored and analyzed website speed and performance metrics regularly. Implemented improvements to reduce load times and enhance user experience. Conducted periodic security checks and updates to safeguard the website against vulnerabilities.",
+        "Updated website content to reflect the latest information, products, and services offered by Entytle. Ensured consistency and accuracy of content across all pages. Worked with the content team to integrate new blog posts, case studies, and other resources.",
+        "Performed keyword research to identify opportunities for improved search rankings. Optimized on-page elements such as meta tags, headers, and image alt text. Tracked and analyzed website traffic and search rankings to inform future SEO strategies.",
+        "Integrated plugins to enhance website functionality.",
+        "Updated the UI to improve user experience.",
+        "Integrated third-party scripts such as Google Analytics, Factors AI, and Tag Manager.",
+        "Implemented regular backups and recovery processes to ensure data integrity.",
+      ],
+    },
+    footerImage: "/assets/images/our-work/entytle/entytle-frame-6.png",
+  },
+  {
+    projectCategory: eCommerce.value,
+    name: "Portfolio website",
+    slug: "portfolio-website",
+    tags: ["Portfolio", "Personal branding", "personal portfolio"],
+    path: "/our-work/portfolio-website",
+    mainImgSrc: "/assets/images/our-work/kushal-portfolio/portfolio-banner.png",
+    metaData: {
+      category: "Personal Branding",
+      client: "Kushal Gohil",
+      links: [
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/ZGXuHzPCrwTiIGRomtEIkY/Portfolio-Revamp?t=5sDeFd7dwQTGwcXu-1&node-id=26-184",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/kushal-portfolio/portfolio-frame-1.png",
+      "/assets/images/our-work/kushal-portfolio/portfolio-frame-2.png",
+      "/assets/images/our-work/kushal-portfolio/portfolio-frame-3.png",
+      "/assets/images/our-work/kushal-portfolio/portfolio-frame-4.png",
+    ],
+    projectOverview: [
+      "Designed and developed a personal portfolio website for Mr.Kushal, highlighting his professional achievements and showcasing his work.",
+      "Focused on creating a visually stunning and highly functional design that effectively communicates his personal brand.",
+    ],
+    challenges: {
+      description:
+        "He needed a personal portfolio website that would stand out, effectively showcase his work, and provide a seamless user experience and should have advanced animations.",
+      points: [
+        "Creating visually stunning animations that enhance the user experience.",
+        "Ensuring the website remains highly responsive and performs well across devices.",
+        "Developing a design that effectively communicates the client's professional skills and work.",
+      ],
+      imageSrc:
+        "/assets/images/our-work/kushal-portfolio/portfolio-frame-5.png",
+    },
+    solution: {
+      description:
+        "To overcome these challenges, we implemented the following solutions:",
+      points: [
+        "Implemented advanced animations to create an engaging and dynamic user experience.",
+        "Developed a responsive design that works seamlessly across devices.",
+        "Crafted a portfolio layout that effectively showcases the client's work and professional achievements.",
+      ],
+    },
+    footerImage:
+      "/assets/images/our-work/kushal-portfolio/portfolio-frame-6.png",
+  },
   // {
   //   projectCategory: fullStack.value,
   //   name: "Penny Wise",
