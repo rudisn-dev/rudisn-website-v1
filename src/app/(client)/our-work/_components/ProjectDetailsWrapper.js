@@ -59,6 +59,7 @@ Click the link for more details:
       modules: [Autoplay],
     };
   }, []);
+
   return (
     <div className="details-page-wrapper portfolio-details pt-130 pb-130">
       <div className="container-lg container-fluid">

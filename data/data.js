@@ -571,7 +571,7 @@ export const allProjects = [
         "Implemented a user-friendly blog section with a custom dashboard to streamline content creation and management, making it simple for non-technical users to update and maintain the blog.",
       ],
     },
-    footerImage: "/assets/images/our-work/cave-studio/cave-studio-frame-7.png",
+    footerImage: "/assets/images/our-work/caves-studio/cave-studio-frame-7.png",
   },
   {
     projectCategory: fullStack.value,
@@ -591,11 +591,10 @@ export const allProjects = [
       ],
     },
     sliderImages: [
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-      "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
+      "/assets/images/our-work/entytle/entytle-frame-1.png",
+      "/assets/images/our-work/entytle/entytle-frame-2.png",
+      "/assets/images/our-work/entytle/entytle-frame-3.png",
+      "/assets/images/our-work/entytle/entytle-frame-4.png",
     ],
     projectOverview: [
       "Our company played a crucial role in enhancing the website for Entytle.This project involved the development and maintenance of a WordPress website.",
@@ -609,7 +608,7 @@ export const allProjects = [
         "Content was outdated and inconsistent, failing to reflect the latest products and services. Integration of new blog posts, case studies, and other resources was lacking.",
         "Search engine rankings were not meeting expectations due to insufficient keyword research and on-page optimization. Tracking and analysis of website traffic and search rankings were inadequate.",
       ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
+      imageSrc: "/assets/images/our-work/entytle/entytle-frame-5.png",
     },
     solution: {
       points: [
@@ -621,60 +620,59 @@ export const allProjects = [
         "Integrated third-party scripts such as Google Analytics, Factors AI, and Tag Manager.",
         "Implemented regular backups and recovery processes to ensure data integrity.",
       ],
-      imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
     },
-    footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
+    footerImage: "/assets/images/our-work/entytle/entytle-frame-6.png",
   },
-  // {
-  //   projectCategory: eCommerce.value,
-  //   name: "Personal branding",
-  //   slug: "personal-branding",
-  //   tags: ["Portfolio", "Personal branding", "personal portfolio"],
-  //   path: "/our-work/personal-branding",
-  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-  //   metaData: {
-  //     category: "Personal-branding",
-  //     client: "Kushal Gohil",
-  //     links: [
-  //       {
-  //         type: "Design",
-  //         url: "https://www.figma.com/proto/ZGXuHzPCrwTiIGRomtEIkY/Portfolio-Revamp?t=5sDeFd7dwQTGwcXu-1&node-id=26-184",
-  //       },
-  //     ],
-  //   },
-  //   sliderImages: [
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //   ],
-  //   projectOverview: [
-  //     "Designed and developed a personal portfolio website for Mr.Kushal, highlighting his professional achievements and showcasing his work.",
-  //     "Focused on creating a visually stunning and highly functional design that effectively communicates his personal brand.",
-  //   ],
-  //   challenges: {
-  //     description:
-  //       "He needed a personal portfolio website that would stand out, effectively showcase his work, and provide a seamless user experience and should have advanced animations.",
-  //     points: [
-  //       "Creating visually stunning animations that enhance the user experience.",
-  //       "Ensuring the website remains highly responsive and performs well across devices.",
-  //       "Developing a design that effectively communicates the client's professional skills and work.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-  //   },
-  //   solution: {
-  //     description:
-  //       "To overcome these challenges, we implemented the following solutions:",
-  //     points: [
-  //       "Implemented advanced animations to create an engaging and dynamic user experience.",
-  //       "Developed a responsive design that works seamlessly across devices.",
-  //       "Crafted a portfolio layout that effectively showcases the client's work and professional achievements.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-  //   },
-  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  // },
+  {
+    projectCategory: eCommerce.value,
+    name: "Portfolio website",
+    slug: "portfolio-website",
+    tags: ["Portfolio", "Personal branding", "personal portfolio"],
+    path: "/our-work/portfolio-website",
+    mainImgSrc: "/assets/images/our-work/kushal-portfolio/portfolio-banner.png",
+    metaData: {
+      category: "Personal Branding",
+      client: "Kushal Gohil",
+      links: [
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/ZGXuHzPCrwTiIGRomtEIkY/Portfolio-Revamp?t=5sDeFd7dwQTGwcXu-1&node-id=26-184",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/kushal-portfolio/portfolio-frame-1.png",
+      "/assets/images/our-work/kushal-portfolio/portfolio-frame-2.png",
+      "/assets/images/our-work/kushal-portfolio/portfolio-frame-3.png",
+      "/assets/images/our-work/kushal-portfolio/portfolio-frame-4.png",
+    ],
+    projectOverview: [
+      "Designed and developed a personal portfolio website for Mr.Kushal, highlighting his professional achievements and showcasing his work.",
+      "Focused on creating a visually stunning and highly functional design that effectively communicates his personal brand.",
+    ],
+    challenges: {
+      description:
+        "He needed a personal portfolio website that would stand out, effectively showcase his work, and provide a seamless user experience and should have advanced animations.",
+      points: [
+        "Creating visually stunning animations that enhance the user experience.",
+        "Ensuring the website remains highly responsive and performs well across devices.",
+        "Developing a design that effectively communicates the client's professional skills and work.",
+      ],
+      imageSrc:
+        "/assets/images/our-work/kushal-portfolio/portfolio-frame-5.png",
+    },
+    solution: {
+      description:
+        "To overcome these challenges, we implemented the following solutions:",
+      points: [
+        "Implemented advanced animations to create an engaging and dynamic user experience.",
+        "Developed a responsive design that works seamlessly across devices.",
+        "Crafted a portfolio layout that effectively showcases the client's work and professional achievements.",
+      ],
+    },
+    footerImage:
+      "/assets/images/our-work/kushal-portfolio/portfolio-frame-6.png",
+  },
   // {
   //   projectCategory: fullStack.value,
   //   name: "Penny Wise",
