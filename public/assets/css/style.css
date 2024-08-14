@@ -2,9 +2,155 @@
      01.COMMON CSS 
 ===========================*/
 @import url("https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm21lVGdeOYktMqlap.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLm21lVF9eOYktMqg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiGyp8kv8JHgFVrJJLufntAOvWDSHFF.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiGyp8kv8JHgFVrJJLucHtAOvWDSA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmg1hVGdeOYktMqlap.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmg1hVF9eOYktMqg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmr19VGdeOYktMqlap.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmr19VF9eOYktMqg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDz8Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDz8Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins-Bold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6Z1JlFd2JQEl8qw.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins-Bold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 :root {
-  --font-fahkwang: "Fahkwang", sans-serif;
-  --font-unbounded: "Unbounded", sans-serif;
+  --font-normal: "Poppins", sans-serif;
+  --font-bold: "Poppins-Bold", sans-serif;
   --primary-color: #BB4430;
   --primary-color2: #F3DFA2 ;
   --primary-color3: #7EBDC2;
@@ -44,80 +190,11 @@ body.dark {
   background-color: #161616 !important;
 }
 
-@font-face {
-  font-family: "Fahkwang";
-  src: url(../fonts/Fahkwang-Bold.ttf) format("truetype");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Fahkwang";
-  src: url(../fonts/Fahkwang-SemiBold.ttf) format("truetype");
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Fahkwang";
-  src: url(../fonts/Fahkwang-Medium.ttf) format("truetype");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Fahkwang";
-  src: url(../fonts/Fahkwang-Regular.ttf) format("truetype");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Fahkwang";
-  src: url(../fonts/Fahkwang-Light.ttf) format("truetype");
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Fahkwang";
-  src: url(../fonts/Fahkwang-ExtraLight.ttf) format("truetype");
-  font-weight: 200;
-}
-@font-face {
-  font-family: "Unbounded";
-  src: url(../fonts/Unbounded-Black.ttf) format("truetype");
-  font-weight: 900;
-}
-@font-face {
-  font-family: "Unbounded";
-  src: url(../fonts/Unbounded-ExtraBold.ttf) format("truetype");
-  font-weight: 800;
-}
-@font-face {
-  font-family: "Unbounded";
-  src: url(../fonts/Unbounded-Bold.ttf) format("truetype");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Unbounded";
-  src: url(../fonts/Unbounded-SemiBold.ttf) format("truetype");
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Unbounded";
-  src: url(../fonts/Unbounded-Medium.ttf) format("truetype");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Unbounded";
-  src: url(../fonts/Unbounded-Regular.ttf) format("truetype");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Unbounded";
-  src: url(../fonts/Unbounded-Light.ttf) format("truetype");
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Unbounded";
-  src: url(../fonts/Unbounded-ExtraLight.ttf) format("truetype");
-  font-weight: 200;
-}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-normal);
 }
 
 a:focus,
@@ -139,7 +216,7 @@ body {
 
 body {
   font-size: 16px;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-weight: 400;
   overflow-x: hidden;
 }
@@ -153,7 +230,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-weight: 500;
   margin-bottom: 15px;
 }
@@ -737,70 +814,6 @@ body.tt-magic-cursor #magic-cursor {
   font-size: 24px;
 }
 
-/* Ball drag 
-============= */
-#ball .ball-drag {
-  position: absolute;
-  display: block;
-  width: 100%;
-  padding: 0 5px;
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--title-color);
-  line-height: 1.2;
-  text-align: center;
-  transition: all 0.3s;
-}
-
-#ball .ball-drag::before,
-#ball .ball-drag::after {
-  position: absolute;
-  top: 50%;
-  margin-top: -5px;
-  font-size: 16px;
-  color: var(--primary-color);
-  height: 10px;
-  line-height: 10px;
-  /* Font Awesome */
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-#ball .ball-drag::before {
-  content: "\f060"; /* Font Awesome */
-  left: 0;
-  transform: translate3d(-30px, 0, 0);
-  transition: all 0.25s;
-}
-
-#ball .ball-drag::after {
-  content: "\f061"; /* Font Awesome */
-  right: 0;
-  transform: translate3d(30px, 0, 0);
-  transition: all 0.25s;
-}
-
-/* Ball close 
-============== */
-#ball.ball-close-enabled {
-  opacity: 1 !important;
-}
-
-#ball .ball-close {
-  position: absolute;
-  padding: 0 5px;
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--primary-color);
-  line-height: 1;
-  text-align: center;
-}
-
 /* ------------------------------------------------------------- *
  * Template style switch button
 /* ------------------------------------------------------------- */
@@ -874,7 +887,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 
 .sub-title h6 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 0;
@@ -901,7 +914,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .sub-title2 h6 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   border-radius: 50px;
@@ -919,7 +932,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 
 .section-title h1, .section-title h2 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 45px;
   font-weight: 500;
   line-height: 1.35;
@@ -931,7 +944,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   font-weight: 500;
 }
 .section-title h1 span, .section-title h2 span {
-  font-family: var(--font-fahkwang);
+  font-family: var(--font-normal);
   display: block;
 }
 @media (max-width: 1399px) {
@@ -981,7 +994,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .section-title .dash-and-paragraph p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -1030,7 +1043,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .section-title .dash-and-paragraph.three .btn-and-paragraph a {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   display: flex;
@@ -1128,7 +1141,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   margin-top: 0;
 }
 .section-title.five h2 span {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   color: var(--paragraph-color);
 }
 .section-title.six h2 {
@@ -1184,7 +1197,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 .section-title-2 h2 {
   color: var(--title-color);
   text-align: center;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 130px;
   font-style: normal;
   font-weight: 500;
@@ -1227,7 +1240,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 
 .section-title3 h2 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 45px;
   font-weight: 500;
   line-height: 1.35;
@@ -1250,7 +1263,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .section-title3 p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1269,7 +1282,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .paragraph-and-btn-area p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -1280,7 +1293,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 
 .explore-btn {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   line-height: 25px;
@@ -1301,7 +1314,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   background-color: #EAEAEA;
   color: var(--title-color);
   text-align: center;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
@@ -1383,7 +1396,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 
 .primary-btn2 {
   color: var(---dark-white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   background-color: var(--title-color);
@@ -1430,7 +1443,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 
 .primary-btn3 {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   background-color: var(--primary-color);
@@ -1478,7 +1491,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 
 .primary-btn4 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   background-color: transparent;
@@ -1527,7 +1540,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 
 .primary-btn5 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   border: 1px solid var(--title-color);
@@ -1594,7 +1607,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .form-inner label {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   display: block;
@@ -1603,7 +1616,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 .form-inner input {
   background: var(---dark-white-color);
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   height: 50px;
@@ -1624,7 +1637,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 .form-inner textarea {
   background: var(---dark-white-color);
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   width: 100%;
@@ -1667,7 +1680,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 .form-inner2 .form-check .form-check-label {
   cursor: pointer;
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
 }
@@ -1805,7 +1818,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .header-area.style-2 .nav-right .hotline-area .content span {
   color: #C4C4C4;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 7px;
@@ -1816,7 +1829,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .header-area.style-2 .nav-right .hotline-area .content h6 a {
   color: #FFF;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
@@ -1828,7 +1841,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .header-area.style-2 .nav-right .header-btn {
   color: var(--dark-title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   border: 1px solid var(--white-color);
@@ -1962,7 +1975,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   text-transform: capitalize;
   padding: 34px 30px;
   position: relative;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-weight: 500;
   font-size: 14px;
   transition: all 0.5s ease-out 0s;
@@ -2061,7 +2074,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 .header-area.style-2 .main-menu ul > li ul.sub-menu > li > a {
   display: block;
   padding: 14px 20px;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   color: var(--title-color);
   font-weight: 500;
   text-transform: capitalize;
@@ -2304,7 +2317,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   }
   .header-area.style-2 .main-menu .topbar-right li {
     color: var(--title-color);
-    font-family: var(--font-fahkwang);
+    font-family: var(--font-normal);
     font-size: 13px;
     font-weight: 500;
     line-height: 1;
@@ -2371,7 +2384,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 .partner-area .partner-wrap .title1 h6 {
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
@@ -2404,7 +2417,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 .partner-area .partner-wrap .title2 h6 {
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
@@ -2483,7 +2496,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .partner-area.three .partner-title h6 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   line-height: 28px;
@@ -2509,7 +2522,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .partner-area.four .partner-title h6 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -2551,7 +2564,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
   align-items: center;
   gap: 30px;
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
 }
@@ -2755,7 +2768,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .testimonial-section .testimonial-slider .swiper-wrapper .swiper-slide .testimonal-content > span {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   display: inline-block;
@@ -2763,7 +2776,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .testimonial-section .testimonial-slider .swiper-wrapper .swiper-slide .testimonal-content p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 400;
   line-height: 1.4;
@@ -2781,14 +2794,14 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .testimonial-section .testimonial-slider .swiper-wrapper .swiper-slide .testimonal-content .author-area .content p {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 0;
 }
 .testimonial-section .testimonial-slider .swiper-wrapper .swiper-slide .testimonal-content .author-area .content span {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
 }
@@ -2815,7 +2828,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .testimonial-section .slider-btn-area .franctional-pagi1 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 24px;
   font-weight: 500;
 }
@@ -2900,7 +2913,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .blog-card1 .blog-content ul li a {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   transition: 0.35s;
@@ -2913,7 +2926,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .blog-card1 .blog-content h4 a {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -2940,7 +2953,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .blog-card1 .blog-content p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -2966,7 +2979,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 }
 .contact-section .section-title h2 strong {
   font-weight: 500;
-  font-family: var(--font-fahkwang);
+  font-family: var(--font-normal);
   display: inline;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -3047,7 +3060,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
 .contact-section .section-title .dash-and-paragraph .social-area span {
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
 }
@@ -3182,7 +3195,7 @@ footer .widget-title {
 }
 footer .widget-title h4 {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 0;
@@ -3200,7 +3213,7 @@ footer .menu-container ul li:last-child {
 }
 footer .menu-container ul li a {
   color: #DFDFDF;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   display: flex;
@@ -3236,7 +3249,7 @@ footer .footer-top .footer-widget .subscribed-area {
 }
 footer .footer-top .footer-widget .subscribed-area h3 {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 35px;
@@ -3260,7 +3273,7 @@ footer .footer-top .footer-widget .subscribed-area .form-inner {
 footer .footer-top .footer-widget .subscribed-area .form-inner input {
   width: 100%;
   color: #C4C4C4;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   background-color: transparent;
@@ -3317,7 +3330,7 @@ footer .footer-top .footer-widget .social-link-area .social-area li a {
   align-items: center;
   gap: 8px;
   color: var(--paragraph-color-dark);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -3392,7 +3405,7 @@ footer .footer-top .solial-account ul li:last-child:after {
 }
 footer .footer-top .solial-account ul li a {
   color: #AAA;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   transition: 0.35s;
@@ -3477,7 +3490,7 @@ footer .footer-top .footer-logo-contact-wrap .footer-contact .single-contact:las
 }
 footer .footer-top .footer-logo-contact-wrap .footer-contact .single-contact span {
   color: #AAA;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
 }
@@ -3487,7 +3500,7 @@ footer .footer-top .footer-logo-contact-wrap .footer-contact .single-contact h5 
 }
 footer .footer-top .footer-logo-contact-wrap .footer-contact .single-contact h5 a {
   color: #DFDFDF;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   transition: 0.35s;
@@ -3510,7 +3523,7 @@ footer .footer-btm {
 }
 footer .footer-btm .copyright-area p {
   color: #CACACA;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 12px;
   font-weight: 400;
   margin-bottom: 0;
@@ -3524,7 +3537,7 @@ footer .footer-btm .copyright-area p a:hover {
 }
 footer .footer-btm .terms-condition p {
   color: #DFDFDF;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 12px;
   font-weight: 400;
 }
@@ -3554,7 +3567,7 @@ footer.style-2 .footer-top .footer-widget .widget-title {
 }
 footer.style-2 .footer-top .footer-widget .widget-title h4 {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 0;
@@ -3599,7 +3612,7 @@ footer.home5-footer .footer-top .contact-area {
 }
 footer.home5-footer .footer-top .contact-area h2 {
   color: var(--white-color);
-  font-family: var(--font-fahkwang);
+  font-family: var(--font-normal);
   font-size: 130px;
   font-weight: 500;
   line-height: 1.1;
@@ -3765,7 +3778,7 @@ footer.home5-footer .footer-top .contact-area .email-address a {
   margin: 0 auto;
   display: inline-block;
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   line-height: 1;
@@ -3809,7 +3822,7 @@ footer.home5-footer .footer-top .social-area {
 }
 footer.home5-footer .footer-top .social-area h3 {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   line-height: 1.5;
@@ -3843,7 +3856,7 @@ footer.home5-footer .footer-top .social-area .social-list li {
 }
 footer.home5-footer .footer-top .social-area .social-list li a {
   color: var(--paragraph-color-dark);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -3912,7 +3925,7 @@ footer.home5-footer .footer-top .footer-menu-wrap .footer-menu li:last-child {
 }
 footer.home5-footer .footer-top .footer-menu-wrap .footer-menu li a {
   color: var(--paragraph-color-dark);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   transition: 0.35s;
@@ -3957,7 +3970,7 @@ footer.home6-footer .footer-top {
 }
 footer.home6-footer .footer-top h4 {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 45px;
   font-weight: 500;
   line-height: 1.4;
@@ -3965,7 +3978,7 @@ footer.home6-footer .footer-top h4 {
 }
 footer.home6-footer .footer-top p {
   color: #dfdfdf;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -4050,7 +4063,7 @@ footer.home6-footer .footer-top .contact-area ul li {
   align-items: center;
   gap: 8px;
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1.2;
@@ -4098,7 +4111,7 @@ footer.home6-footer .footer-menu-wrap .footer-widget .footer-content {
 }
 footer.home6-footer .footer-menu-wrap .footer-widget .footer-content p {
   color: var(--paragraph-color-dark);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 400;
   line-height: 26px;
@@ -4257,7 +4270,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .sidebar-area .sidebar-menu-top-area .nav-right .header-btn {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   border: 1px solid var(--primary-color);
@@ -4331,7 +4344,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .sidebar-area .sidebar-contact .getin-touch-area h4 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 35px;
@@ -4381,13 +4394,13 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .sidebar-area .sidebar-contact .getin-touch-area ul .single-contact .contact span {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
 }
 .sidebar-area .sidebar-contact .getin-touch-area ul .single-contact .contact h6 {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
@@ -4408,7 +4421,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .sidebar-area .sidebar-contact .social-link-area h6 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 600;
   margin-bottom: 0;
@@ -4435,7 +4448,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   align-items: center;
   gap: 8px;
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -4481,7 +4494,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .sidebar-area .sidebar-menu-wrap .main-menu > li > a {
   border-bottom: 1px solid var(--border-color2);
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 500;
@@ -4744,7 +4757,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .sidebar-area .sidebar-menu-wrap .main-menu > li .submenu-list li > a {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   transition: 0.35s;
@@ -4837,7 +4850,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-banner-area .banner-content-wrap h1 {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 90px;
   font-weight: 500;
   line-height: 1.2;
@@ -4867,7 +4880,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   }
 }
 .home2-banner-area .banner-content-wrap h1 span {
-  font-family: var(--font-fahkwang);
+  font-family: var(--font-normal);
   font-weight: 400;
   display: block;
 }
@@ -4905,7 +4918,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-banner-area .banner-content-wrap .banner-content .content-and-btn p {
   color: #C4C4C4;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -4922,7 +4935,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-banner-area .banner-content-wrap .banner-content .content-and-btn .banner-btn a .content {
   color: var(--dark-title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   background-color: var(--primary-color2);
@@ -4975,7 +4988,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .rating-area .review span {
   color: #DFDFDF;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 12px;
   font-weight: 500;
   line-height: 1;
@@ -5001,7 +5014,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .rating-area .rating span {
   color: #DFDFDF;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
@@ -5037,7 +5050,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-about-section .counter-and-btn a .content {
   color: var(---dark-white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   background-color: var(--title-color);
@@ -5101,7 +5114,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-about-section .counter-wrap .single-counter .content .number .counter {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   line-height: 1;
@@ -5109,7 +5122,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-about-section .counter-wrap .single-counter .content .number span {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   line-height: 1;
@@ -5117,7 +5130,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .home2-about-section .counter-wrap .single-counter .content p {
   margin-bottom: 0;
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -5132,7 +5145,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-about-section .about-left p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -5210,7 +5223,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-services-section .service-card h3 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 28px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -5222,7 +5235,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-services-section .service-card p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -5246,7 +5259,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .home2-services-section .service-card ul li span {
   line-height: 1;
   color: #1A1A1A;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   background-color: var(--white-color);
@@ -5360,7 +5373,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .home2-counter-area .single-counter .content .number h2 {
   color: var(--title-color);
   text-align: center;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 45px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -5369,7 +5382,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   margin-bottom: 0;
   color: var(--paragraph-color);
   text-align: center;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
 }
@@ -5427,7 +5440,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-inner-banner .banner-content h6 {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 18px;
   font-weight: 500;
   display: flex;
@@ -5471,7 +5484,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-inner-banner .banner-content h2 {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 45px;
   font-weight: 500;
   line-height: 1.35;
@@ -5560,7 +5573,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-process-section .single-process .content h3 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 16px;
@@ -5572,7 +5585,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-process-section .single-process .content p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -5592,7 +5605,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   display: flex;
   align-items: center;
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -5611,14 +5624,14 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   justify-content: center;
 }
 .home2-process-section .progress-wrapper .steps {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   color: var(--title-color);
   line-height: 1;
 }
 .home2-process-section .progress-wrapper #pageIndicator {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 600;
   color: var(--title-color);
@@ -5730,7 +5743,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-portfolio-section .section-title h2 span {
   color: var(--dark-title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   width: 50px;
   height: 50px;
@@ -5814,7 +5827,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .portfolio-card .image-and-tag .tag li span {
   line-height: 1;
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   background-color: rgba(0, 0, 0, 0.5);
@@ -5882,7 +5895,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .portfolio-card .portfolio-content h4 a {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   line-height: 1.4;
@@ -5932,7 +5945,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-testimonial-section .testimonal-content span {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   display: inline-block;
@@ -5940,7 +5953,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-testimonial-section .testimonal-content p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 400;
   line-height: 1.4;
@@ -5958,14 +5971,14 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-testimonial-section .testimonal-content .author-area .content p {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 2px;
 }
 .home2-testimonial-section .testimonal-content .author-area .content span {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 0;
@@ -6000,7 +6013,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-testimonial-section .slider-btn-area .franctional-pagi2 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 24px;
   font-weight: 500;
   width: unset;
@@ -6009,7 +6022,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: 400;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
 }
 
 /*=====================================
@@ -6042,7 +6055,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .home2-technology-section .technology-tab-wrap ul li button {
   color: #FFF;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -6116,7 +6129,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .home2-technology-section .technology-tab-wrap .single-technology span {
   color: #C4C4C4;
   text-align: center;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
 }
@@ -6200,7 +6213,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .breadcrumb-section .banner-wrapper .banner-content .dash-and-paragraph p {
   color: var(--paragraph-color-dark);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -6237,7 +6250,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .breadcrumb-section .banner-wrapper .breadcrumb-list li {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.39px;
@@ -6314,7 +6327,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .breadcrumb-section.style-2 .banner-wrapper .banner-content .single-counter .content .number {
   display: flex;
   align-items: center;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 60px;
   font-weight: 600;
   line-height: 1;
@@ -6323,7 +6336,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   margin-bottom: 12px;
 }
 .breadcrumb-section.style-2 .banner-wrapper .banner-content .single-counter .content .number .counter {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 60px;
   font-weight: 600;
   line-height: 1;
@@ -6335,7 +6348,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   line-height: 1;
 }
 .breadcrumb-section.style-2 .banner-wrapper .banner-content .single-counter .content p {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -6400,7 +6413,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   justify-content: center;
   gap: 4px;
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   line-height: 1;
@@ -6434,7 +6447,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-navigation .single-navigation .content h6 a {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
@@ -6525,7 +6538,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .post-tag-and-title .post-tag span {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -6533,7 +6546,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .post-tag-and-title h1 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 60px;
   font-weight: 500;
   line-height: 1.3;
@@ -6576,7 +6589,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .post-tag-and-title .post-category li span {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -6662,7 +6675,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .post-author-meta .author-and-date .author-area .author-name-desig span {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -6680,7 +6693,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .post-author-meta .author-and-date .author-area .author-name-desig h6 a {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
@@ -6692,7 +6705,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .post-author-meta .author-and-date .date span {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -6707,7 +6720,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .post-author-meta .author-and-date .date h6 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
@@ -6730,7 +6743,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .social-area h6 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
@@ -6765,7 +6778,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .details-page-content h3 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   line-height: 1.2;
@@ -6779,7 +6792,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .details-page-content p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 300;
   line-height: 29px;
@@ -6798,7 +6811,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .details-page-content h4 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   line-height: 1.2;
@@ -6818,7 +6831,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   display: flex;
   gap: 10px;
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
@@ -6894,7 +6907,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .details-page-content blockquote p {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   line-height: 34px;
@@ -6913,7 +6926,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .details-page-content blockquote cite {
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
@@ -6953,7 +6966,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .details-page-content .blog-tag h6 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
@@ -6974,7 +6987,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .details-page-wrapper .details-page-content .blog-tag ul li a {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -7022,7 +7035,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .comment-and-form-area .comment-area .comment-title h4 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 0;
@@ -7071,7 +7084,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   line-height: 1;
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
 }
@@ -7082,14 +7095,14 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .comment-and-form-area .comment-area .comment .single-comment-area .comment-content .author-name-deg span {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 12px;
   font-weight: 500;
   line-height: 1;
 }
 .comment-and-form-area .comment-area .comment .single-comment-area .comment-content p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 300;
   line-height: 29px;
@@ -7102,7 +7115,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .comment-and-form-area .comment-area .comment .single-comment-area .comment-content .replay-btn {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 600;
   display: inline-flex;
@@ -7167,7 +7180,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .comment-and-form-area .inquiry-form .title h4 {
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 0;
@@ -7204,7 +7217,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .comment-and-form-area .inquiry-form .form-check .form-check-label {
   cursor: pointer;
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
 }
@@ -7247,7 +7260,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .pagination-area .paginations .page-item a {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -7286,7 +7299,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   justify-content: center;
   gap: 4px;
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   line-height: 1;
@@ -7353,7 +7366,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .blog-sidebar .single-widgets.widget_search .wp-block-search__inside-wrapper input {
   background-color: transparent;
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   border: none;
@@ -7412,7 +7425,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .blog-sidebar .single-widgets .widget-title h4 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 0;
@@ -7440,7 +7453,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   align-items: center;
   justify-content: space-between;
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   transition: 0.35s;
@@ -7495,7 +7508,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .blog-sidebar .single-widgets .widget-cnt .wc > a {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 12px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -7532,7 +7545,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .blog-sidebar .single-widgets .widget-cnt .wc h5 a {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   transition: 0.35s;
@@ -7564,7 +7577,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .blog-sidebar .single-widgets .wp-block-tag-cloud a {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   transition: 0.35s;
@@ -7615,7 +7628,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .portfolio-details .portfolio-details-info-wrap table tbody tr td {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -7683,7 +7696,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .portfolio-details .social-area h6 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 600;
   line-height: 1;
@@ -7743,7 +7756,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   }
 }
 .interactive-banner-section .social-icon li a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0em;
@@ -7870,7 +7883,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   transition: transform 0.5s;
 }
 .interactive-banner-section .interactive-list .ineteractive-single-item .card-content .catgory-and-title > a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -7897,7 +7910,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   margin-bottom: 0;
 }
 .interactive-banner-section .interactive-list .ineteractive-single-item .card-content .catgory-and-title h3 a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   line-height: 1.6;
@@ -7920,7 +7933,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .interactive-banner-section .interactive-list .ineteractive-single-item .card-content p {
   margin-bottom: 0;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -7985,7 +7998,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   }
 }
 .pf-showcase-slider-section .social-area-group .social-icon li a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0em;
@@ -8025,7 +8038,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   justify-content: center;
   gap: 4px;
   color: var(--white-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 400;
   line-height: 1;
@@ -8112,7 +8125,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   gap: 20px;
 }
 .pf-showcase-slider-section .single-pf-showcase .pf-img-and-content .pf-content .sn-and-title .sn {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 0em;
@@ -8150,7 +8163,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   }
 }
 .pf-showcase-slider-section .single-pf-showcase .pf-img-and-content .pf-content .sn-and-title h3 a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 0em;
@@ -8166,7 +8179,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   color: var(--primary-color);
 }
 .pf-showcase-slider-section .single-pf-showcase .pf-img-and-content .pf-content .year {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0em;
@@ -8230,7 +8243,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   }
 }
 .pf-showcase-carosule-section .social-area-group .social-icon li a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0em;
@@ -8260,7 +8273,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   margin-bottom: 30px;
 }
 .pf-showcase-carosule-section .pf-shocase-carosule-wrap .view-all-btn a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 500;
   line-height: 1;
@@ -8376,7 +8389,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   transition: opacity 0.3s, transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .pf-showcase-carosule-section .pf-shocase-carosule-wrap .pf-shocase-carosule-group .single-shocase-carosule .shocase-carasole-content > a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
@@ -8392,7 +8405,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   line-height: 1;
 }
 .pf-showcase-carosule-section .pf-shocase-carosule-wrap .pf-shocase-carosule-group .single-shocase-carosule .shocase-carasole-content h6 a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -8451,7 +8464,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   align-items: center;
   justify-content: center;
   background-color: var(--primary-color2);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0em;
@@ -8481,7 +8494,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .portfolio-page-area .section-title .dash-and-paragraph .btn-and-paragraph span {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   border-radius: 50px;
@@ -8514,7 +8527,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .portfolio-page-area.portfolio-showcase-horizental .filter-button-group ul li {
   cursor: pointer;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -8565,7 +8578,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   }
 }
 .portfolio-page-area.portfolio-showcase-horizental .single-work .work-name .sn {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 0em;
@@ -8584,7 +8597,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   transition: 0.35s;
 }
 .portfolio-page-area.portfolio-showcase-horizental .single-work .work-name h3 a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   line-height: 1.4;
@@ -8612,7 +8625,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   }
 }
 .portfolio-page-area.portfolio-showcase-horizental .single-work .work-discription p {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -8632,7 +8645,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .portfolio-page-area.portfolio-showcase-horizental .single-work .work-discription ul li a {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
@@ -8735,7 +8748,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   position: relative;
 }
 .portfolio-page-area .interactive-link-wrapper .single-interactive-link a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 500;
   line-height: 37px;
@@ -8755,7 +8768,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 12px;
   font-weight: 500;
   line-height: 15px;
@@ -8821,7 +8834,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   min-width: 312px;
 }
 .portfolio-page-area .social-wrapper .social-area p {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -8845,7 +8858,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   align-items: center;
   gap: 8px;
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -8925,7 +8938,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   transition: opacity 0.3s, transform 0.7s cubic-bezier(0.23, 1, 0.32, 1);
 }
 .portfolio-page-area .vrt-item .snigle-vertica-item .vertica-item-content > a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
@@ -8941,7 +8954,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   line-height: 1;
 }
 .portfolio-page-area .vrt-item .snigle-vertica-item .vertica-item-content h6 a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
@@ -8993,7 +9006,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .pf-shoecase-page .filter-button-group ul li {
   cursor: pointer;
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -9035,7 +9048,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   }
 }
 .pf-shoecase-page .single-portfolio-sw .pf-shw-content-wrap .publish-date {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
@@ -9059,7 +9072,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   margin-bottom: 16px;
 }
 .pf-shoecase-page .single-portfolio-sw .pf-shw-content-wrap .pf-shw-content h4 a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   line-height: 1.4;
@@ -9076,7 +9089,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   color: var(--primary-color);
 }
 .pf-shoecase-page .single-portfolio-sw .pf-shw-content-wrap .pf-shw-content > a {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
@@ -9150,7 +9163,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .process-card .process-content h4 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   line-height: 1.3;
@@ -9164,7 +9177,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .process-card .process-content p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 400;
   line-height: 26px;
@@ -9214,7 +9227,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .faq-wrap .single-faq h6 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 18px;
   font-weight: 500;
   line-height: 1.7;
@@ -9228,7 +9241,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .faq-wrap .single-faq p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 400;
   line-height: 26px;
@@ -9365,7 +9378,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .contact-page .contact-info-wrap .single-location .title h4 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 22px;
   font-weight: 500;
   margin-bottom: 0;
@@ -9409,7 +9422,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .contact-page .contact-info-wrap .single-location ul li .info a {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 26px;
@@ -9567,7 +9580,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .team-card-1 .team-content h6 {
   margin-bottom: 2px;
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 18px;
   font-weight: 600;
 }
@@ -9578,7 +9591,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .team-card-1 .team-content span {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
 }
@@ -9626,7 +9639,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .terms-and-conditions-page .update-date h6 {
   margin-bottom: 0;
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
@@ -9653,14 +9666,14 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .terms-and-conditions-page .update-date p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 0;
 }
 .terms-and-conditions-page .terms-and-conditions h4 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 15px;
@@ -9673,7 +9686,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .terms-and-conditions-page .terms-and-conditions p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -9702,7 +9715,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .terms-and-conditions-page .terms-and-conditions ul li {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -9715,7 +9728,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .terms-and-conditions-page .terms-and-conditions ul li strong {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 600;
   line-height: 30px;
@@ -9744,7 +9757,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .error-page .error-wrapper .error-content h1 {
   color: var(--title-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 12px;
@@ -9756,7 +9769,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 }
 .error-page .error-wrapper .error-content p {
   color: var(--paragraph-color);
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 35px;
@@ -10317,7 +10330,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   }
 }
 .dark .portfolio-page-area.portfolio-showcase-horizental .single-work .work-discription p {
-  font-family: var(--font-unbounded);
+  font-family: var(--font-bold);
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
