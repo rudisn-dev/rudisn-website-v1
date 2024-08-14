@@ -626,9 +626,9 @@ export const allProjects = [
   {
     projectCategory: eCommerce.value,
     name: "Portfolio website",
-    slug: "portfolio-website",
+    slug: "kushal-portfolio-website",
     tags: ["Portfolio", "Personal branding", "personal portfolio"],
-    path: "/our-work/portfolio-website",
+    path: "/our-work/kushal-portfolio-website",
     mainImgSrc: "/assets/images/our-work/kushal-portfolio/portfolio-banner.png",
     metaData: {
       category: "Personal Branding",
