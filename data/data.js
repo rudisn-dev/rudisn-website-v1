@@ -954,61 +954,61 @@ export const allProjects = [
     },
     footerImage: "/assets/images/our-work/ghughrawala/ghughrawala-frame-6.png",
   },
-  {
-    projectCategory: eCommerce.value,
-    name: "Richee Agrotech",
-    slug: "richee-agrotech",
-    tags: ["E-commerce", "Organic Products", "Shopify"],
-    path: "/our-work/richee-agrotech",
-    mainImgSrc: "/assets/images/our-work/richee-agrotech/richee-banner.png",
-    metaData: {
-      category: "E-commerce",
-      client: "Richa Jain",
-      links: [
-        {
-          type: "Website",
-          url: "https://richeeagrotech.com/",
-        },
-        {
-          type: "Design",
-          url: "https://www.figma.com/proto/AXruRo71ZvnmrSiQkORmTZ/Richee-agrotech-Ecommerce-Website?t=zxBuh2zaxMij6hYb-1&node-id=1-2",
-        },
-      ],
-    },
-    sliderImages: [
-      "/assets/images/our-work/richee-agrotech/richee-frame-1.png",
-      "/assets/images/our-work/richee-agrotech/richee-frame-2.png",
-      "/assets/images/our-work/richee-agrotech/richee-frame-3.png",
-      "/assets/images/our-work/richee-agrotech/richee-frame-4.png",
-    ],
-    projectOverview: [
-      "Richee Agrotech is an e-commerce website focused on selling organic products.",
-      "We designed the UI/UX and developed the entire e-commerce store using Shopify.",
-      "The goal was to create a visually appealing, user-friendly platform to enhance the shopping experience.",
-    ],
-    challenges: {
-      description:
-        "The project faced several challenges during the design and development phases:",
-      points: [
-        "Creating a cohesive and visually appealing design that aligns with the brand’s organic product focus.",
-        "Ensuring the Shopify store integrates seamlessly with the design for smooth functionality.",
-        "Developing a responsive design that provides a consistent user experience across all devices.",
-        "Meeting the client's specific requirements and vision for the website.",
-      ],
-      imageSrc: "/assets/images/our-work/richee-agrotech/richee-frame-5.png",
-    },
-    solution: {
-      description:
-        "To overcome these challenges, we implemented the following solutions:",
-      points: [
-        "Developed a modern and engaging UI/UX design that highlights the organic products effectively.",
-        "Integrated Shopify to build a robust e-commerce platform with seamless functionality.",
-        "Ensured the design was fully responsive, offering a consistent user experience on all devices.",
-        "Worked closely with the client to understand and meet their specific requirements and vision.",
-      ],
-    },
-    footerImage: "/assets/images/our-work/richee-agrotech/richee-frame-6.png",
-  },
+  // {
+  //   projectCategory: eCommerce.value,
+  //   name: "Richee Agrotech",
+  //   slug: "richee-agrotech",
+  //   tags: ["E-commerce", "Organic Products", "Shopify"],
+  //   path: "/our-work/richee-agrotech",
+  //   mainImgSrc: "/assets/images/our-work/richee-agrotech/richee-banner.png",
+  //   metaData: {
+  //     category: "E-commerce",
+  //     client: "Richa Jain",
+  //     links: [
+  //       {
+  //         type: "Website",
+  //         url: "https://richeeagrotech.com/",
+  //       },
+  //       {
+  //         type: "Design",
+  //         url: "https://www.figma.com/proto/AXruRo71ZvnmrSiQkORmTZ/Richee-agrotech-Ecommerce-Website?t=zxBuh2zaxMij6hYb-1&node-id=1-2",
+  //       },
+  //     ],
+  //   },
+  //   sliderImages: [
+  //     "/assets/images/our-work/richee-agrotech/richee-frame-1.png",
+  //     "/assets/images/our-work/richee-agrotech/richee-frame-2.png",
+  //     "/assets/images/our-work/richee-agrotech/richee-frame-3.png",
+  //     "/assets/images/our-work/richee-agrotech/richee-frame-4.png",
+  //   ],
+  //   projectOverview: [
+  //     "Richee Agrotech is an e-commerce website focused on selling organic products.",
+  //     "We designed the UI/UX and developed the entire e-commerce store using Shopify.",
+  //     "The goal was to create a visually appealing, user-friendly platform to enhance the shopping experience.",
+  //   ],
+  //   challenges: {
+  //     description:
+  //       "The project faced several challenges during the design and development phases:",
+  //     points: [
+  //       "Creating a cohesive and visually appealing design that aligns with the brand’s organic product focus.",
+  //       "Ensuring the Shopify store integrates seamlessly with the design for smooth functionality.",
+  //       "Developing a responsive design that provides a consistent user experience across all devices.",
+  //       "Meeting the client's specific requirements and vision for the website.",
+  //     ],
+  //     imageSrc: "/assets/images/our-work/richee-agrotech/richee-frame-5.png",
+  //   },
+  //   solution: {
+  //     description:
+  //       "To overcome these challenges, we implemented the following solutions:",
+  //     points: [
+  //       "Developed a modern and engaging UI/UX design that highlights the organic products effectively.",
+  //       "Integrated Shopify to build a robust e-commerce platform with seamless functionality.",
+  //       "Ensured the design was fully responsive, offering a consistent user experience on all devices.",
+  //       "Worked closely with the client to understand and meet their specific requirements and vision.",
+  //     ],
+  //   },
+  //   footerImage: "/assets/images/our-work/richee-agrotech/richee-frame-6.png",
+  // },
 ];
 
 export const allTeamMembers = [
