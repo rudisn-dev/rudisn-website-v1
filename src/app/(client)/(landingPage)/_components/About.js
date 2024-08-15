@@ -186,6 +186,7 @@ const About = () => {
                       width={424}
                       height={534}
                       src={aboutUsData.image2}
+                      style={{ objectFit: "cover" }}
                       alt="Company Name"
                     />
                   </div>

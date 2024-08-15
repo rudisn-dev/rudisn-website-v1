@@ -1,11 +1,9 @@
-import Breadcrumb from "@/components/common/Breadcrumb";
 import Link from "next/link";
 import React from "react";
 
 const BlogDetail = () => {
   return (
     <>
-      <Breadcrumb bgImg="3" title2="SMART SERVICE" title="WE PROVIDE" />
       <div className="details-page-wrapper pt-130 pb-130">
         <div className="container-lg container-fluid">
           <div className="row justify-content-center">

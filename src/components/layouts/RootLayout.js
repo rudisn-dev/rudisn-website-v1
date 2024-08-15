@@ -13,11 +13,25 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import NavBar from "@/components/header/NavBar";
 import Footer from "@/components/Footer/Footer";
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, isClient }) {
   useMagneticHover();
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
+
+  if (isClient) {
+    return (
+      <>
+        <NavBar />
+        {children}
+        <Footer />
+        <ThemeSwitch />
+        <ScrollTopBtn />
+        <SpeedInsights />
+        <GoogleAnalytics gaId="G-PP6G83BBBL" />
+      </>
+    );
+  }
 
   return (
     <html lang="en">
