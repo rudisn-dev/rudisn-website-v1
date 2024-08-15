@@ -729,291 +729,286 @@ export const allProjects = [
     },
     footerImage: "/assets/images/our-work/penny-wise/penny-wise-frame-6.png",
   },
-  // {
-  //   projectCategory: fullStack.value,
-  //   name: "Siddhidatri Aahar",
-  //   slug: "siddhidatri-aahar",
-  //   tags: [
-  //     "Food company website",
-  //     "Food Industry",
-  //     "Chips Company",
-  //     "Food Products",
-  //   ],
-  //   path: "/our-work/siddhidatri-aahar",
-  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-  //   metaData: {
-  //     category: "Food Industry",
-  //     client: "Prince Kumar",
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         url: "https://siddhidatriaahar.com/",
-  //       },
-  //       {
-  //         type: "Design",
-  //         url: "https://www.figma.com/proto/3XyLYKzZvH7nvgoqj04XqU/Siddhidatri-Aahar-(-UI-%2F-Landing-Page-)?t=33T7LO6WEJar8tSA-1&node-id=1-2",
-  //       },
-  //     ],
-  //   },
-  //   sliderImages: [
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //   ],
-  //   projectOverview: [
-  //     "Designed the UI/UX for Siddhidatri Aahar’s landing page, a company specializing in chips and other food products, to effectively showcase their offerings.",
-  //     "Focused on creating a visually appealing and user-friendly interface that highlights their products.",
-  //   ],
-  //   challenges: {
-  //     description: "The design process encountered several key challenges:",
-  //     points: [
-  //       "Creating a visually appealing design that effectively showcases the food products.",
-  //       "Meeting the client’s specific requirements and expectations.",
-  //       "Developing a responsive interface that works well across all devices.",
-  //       "Designing a professional look that builds trust and credibility with users.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-  //   },
-  //   solution: {
-  //     description:
-  //       "To address these challenges, we implemented the following solutions:",
-  //     points: [
-  //       "Designed a modern and professional UI that aligns with Siddhidatri Aahar's brand and effectively showcases their food products.",
-  //       "Worked closely with the client to ensure their specific needs and feedback were integrated into the final design.",
-  //       "Ensured the website is fully responsive, providing a seamless experience across desktops, tablets, and smartphones.",
-  //       "Implemented a clean and trustworthy design using high-quality images, consistent branding, and a user-friendly layout.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-  //   },
-  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  // },
-  // {
-  //   projectCategory: eCommerce.value,
-
-  //   name: "Kinmin",
-  //   slug: "kinmin",
-  //   tags: ["Snacks", "E-Commerce", "B2B", "WordPress"],
-  //   path: "/our-work/kinmin",
-  //   mainImgSrc: "/assets/img/home2/portfolio-02.jpg",
-  //   metaData: {
-  //     category: "E-Commerce",
-  //     client: "Kinmin",
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         url: "https://kinmin.co.in",
-  //       },
-  //     ],
-  //   },
-  //   sliderImages: [
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //   ],
-  //   projectOverview: [
-  //     "We built a comprehensive e-commerce website for Kinmin, a snacks company, using WordPress. The project focused on delivering a fully customized design that met the client's expectations and exceeded them, resulting in high client satisfaction.",
-  //     "The website features custom illustrations and banners, along with a complete B2B workflow and a backend dashboard. We handled the entire process from design to implementation, ensuring a smooth and user-friendly experience for both the client and the end-users.",
-  //   ],
-  //   challenges: {
-  //     description:
-  //       "The development and design of the Kinmin website came with its own set of challenges:",
-  //     points: [
-  //       "Meeting and exceeding the client’s design expectations with fully custom illustrations and banners.",
-  //       "Developing a seamless e-commerce experience that caters to both B2B and B2C workflows.",
-  //       "Creating a user-friendly backend dashboard for efficient management and updates.",
-  //       "Ensuring the website's responsiveness and ease of navigation across various devices.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-  //   },
-  //   solution: {
-  //     points: [
-  //       "Delivered a visually stunning and highly functional e-commerce website with custom illustrations and banners that aligned with the brand identity.",
-  //       "Developed a comprehensive B2B workflow that streamlined business processes, making it easy for the client to manage orders and inventory.",
-  //       "Created a robust backend dashboard that allows the client to manage content, orders, and customer interactions with ease.",
-  //       "Ensured the website is fully responsive, providing a seamless user experience across all devices, from desktops to mobile phones.",
-  //       "Handled the entire project from the initial design phase through to full implementation and deployment.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-  //   },
-  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  // },
-  // {
-  //   projectCategory: eCommerce.value,
-  //   name: "Anand Industry",
-  //   slug: "anand-industry",
-  //   tags: ["Light Bulbs", "E-commerce", "Lighting Solutions"],
-  //   path: "/our-work/anand-industry",
-  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-  //   metaData: {
-  //     category: "Light Bulbs Manufacturing",
-  //     client: "Vinayak More",
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         url: "https://anandaindustry.com/",
-  //       },
-  //       {
-  //         type: "Design",
-  //         url: "https://www.figma.com/proto/zS26xz9GuPs9BZZRJoxRIU/Ananda-Industry?t=1OSY4H8ZrCw34vKp-1&node-id=2-2",
-  //       },
-  //     ],
-  //   },
-  //   sliderImages: [
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //   ],
-  //   projectOverview: [
-  //     "Designed and developed a comprehensive e-commerce platform for Anand Industry, a light bulb manufacturing company.",
-  //     "The project aimed to create an engaging and user-friendly online store that showcases their products and facilitates smooth transactions.",
-  //     "The design process focused on crafting an intuitive interface to enhance user interaction, while the development ensured a fully functional e-commerce system.",
-  //   ],
-  //   challenges: {
-  //     description:
-  //       "Throughout the project, several challenges were encountered in both UI/UX design and development:",
-  //     points: [
-  //       "Creating a visually appealing design that effectively highlights light bulb products and aligns with the brand’s identity.",
-  //       "Ensuring the interface is intuitive and easy for users to navigate, which involved balancing aesthetic appeal with functionality.",
-  //       "Developing a responsive design to provide a consistent and seamless shopping experience across all devices.",
-  //       "Integrating robust e-commerce functionalities using WooCommerce to handle online transactions smoothly.",
-  //       "Ensuring the website performs well and remains responsive across various devices and screen sizes.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-  //   },
-  //   solution: {
-  //     points: [
-  //       "Crafted a clean and attractive UI design that effectively showcases the light bulb products in an engaging manner.",
-  //       "Implemented an intuitive layout that simplifies navigation, making it easy for users to find and purchase products.",
-  //       "Ensured a fully responsive design, providing a consistent look and feel on all devices to enhance user experience.",
-  //       "Developed a functional e-commerce platform with WooCommerce, ensuring smooth online transactions and user-friendly product management.",
-  //       "Focused on usability and performance, ensuring the website operates efficiently and remains user-friendly across different devices.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-  //   },
-  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  // },
-  // {
-  //   projectCategory: eCommerce.value,
-  //   name: "Ghugrawala",
-  //   slug: "ghugra-wala",
-  //   tags: [
-  //     "Food Website",
-  //     "Food Product",
-  //     "Food Website Design",
-  //     "Food Industry",
-  //   ],
-  //   path: "/our-work/ghugra-wala",
-  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-  //   metaData: {
-  //     category: "Food Industry",
-  //     client: "Tejas Rathore",
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         url: "https://ghughrawala.netlify.app/",
-  //       },
-  //       {
-  //         type: "Design",
-  //         url: "https://www.figma.com/proto/TdeoGExFWhxg5fTmEFmuR9/Ghughrawala?t=SFn4JeITQgHakB97-1&node-id=1-2",
-  //       },
-  //     ],
-  //   },
-  //   sliderImages: [
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //   ],
-  //   projectOverview: [
-  //     "Designed and developed a comprehensive landing page for Ghugra Wala, a food business based in Gujarat.",
-  //     "The project focused on creating a visually appealing and user-friendly site that effectively highlights the company’s food offerings and engages visitors.",
-  //   ],
-  //   challenges: {
-  //     description:
-  //       "The project faced several challenges during both the design and development phases:",
-  //     points: [
-  //       "Creating a design that effectively showcases the food in an attractive and appetizing way.",
-  //       "Ensuring the landing page is responsive and provides a seamless experience across different devices.",
-  //       "Balancing aesthetics with functionality to make the site easy to navigate and engaging for users.",
-  //       "Integrating features that highlight the company's offerings while maintaining a smooth user experience.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-  //   },
-  //   solution: {
-  //     points: [
-  //       "Designed a clean and engaging interface that highlights the food offerings in an appealing manner.",
-  //       "Used responsive design techniques to ensure the site looks great and functions well on all devices.",
-  //       "Developed a straightforward layout that makes it easy for users to navigate and find information about the food.",
-  //       "Implemented features that effectively communicate the company’s offerings and enhance the overall user experience.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-  //   },
-  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  // },
-  // {
-  //   projectCategory: eCommerce.value,
-  //   name: "Richee Agrotech",
-  //   slug: "richee-agrotech",
-  //   tags: ["E-commerce", "Organic Products", "Shopify"],
-  //   path: "/our-work/richee-agrotech",
-  //   mainImgSrc: "/assets/img/home2/portfolio-01.jpg",
-  //   metaData: {
-  //     category: "E-commerce",
-  //     client: "Richa Jain",
-  //     links: [
-  //       {
-  //         type: "Website",
-  //         url: "https://richeeagrotech.com/",
-  //       },
-  //       {
-  //         type: "Design",
-  //         url: "https://www.figma.com/proto/AXruRo71ZvnmrSiQkORmTZ/Richee-agrotech-Ecommerce-Website?t=zxBuh2zaxMij6hYb-1&node-id=1-2",
-  //       },
-  //     ],
-  //   },
-  //   sliderImages: [
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //     "/assets/img/innerpage/portfolio-details-thumb-img.jpg",
-  //   ],
-  //   projectOverview: [
-  //     "Richee Agrotech is an e-commerce website focused on selling organic products.",
-  //     "We designed the UI/UX and developed the entire e-commerce store using Shopify.",
-  //     "The goal was to create a visually appealing, user-friendly platform to enhance the shopping experience.",
-  //   ],
-  //   challenges: {
-  //     description:
-  //       "The project faced several challenges during the design and development phases:",
-  //     points: [
-  //       "Creating a cohesive and visually appealing design that aligns with the brand’s organic product focus.",
-  //       "Ensuring the Shopify store integrates seamlessly with the design for smooth functionality.",
-  //       "Developing a responsive design that provides a consistent user experience across all devices.",
-  //       "Meeting the client's specific requirements and vision for the website.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-page-img1.jpg",
-  //   },
-  //   solution: {
-  //     description:
-  //       "To overcome these challenges, we implemented the following solutions:",
-  //     points: [
-  //       "Developed a modern and engaging UI/UX design that highlights the organic products effectively.",
-  //       "Integrated Shopify to build a robust e-commerce platform with seamless functionality.",
-  //       "Ensured the design was fully responsive, offering a consistent user experience on all devices.",
-  //       "Worked closely with the client to understand and meet their specific requirements and vision.",
-  //     ],
-  //     imageSrc: "/assets/img/innerpage/portfolio-details-counter-img.png",
-  //   },
-  //   footerImage: "/assets/img/innerpage/portfolio-details-page-img2.jpg",
-  // },
+  {
+    projectCategory: fullStack.value,
+    name: "Siddhidatri Aahar",
+    slug: "siddhidatri-aahar",
+    tags: [
+      "Food company website",
+      "Food Industry",
+      "Chips Company",
+      "Food Products",
+    ],
+    path: "/our-work/siddhidatri-aahar",
+    mainImgSrc:
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-banner.png",
+    metaData: {
+      category: "Food Industry",
+      client: "Prince Kumar",
+      links: [
+        {
+          type: "Website",
+          url: "https://siddhidatriaahar.com/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/3XyLYKzZvH7nvgoqj04XqU/Siddhidatri-Aahar-(-UI-%2F-Landing-Page-)?t=33T7LO6WEJar8tSA-1&node-id=1-2",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-1.png",
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-2.png",
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-3.png",
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-4.png",
+    ],
+    projectOverview: [
+      "Designed the UI/UX for Siddhidatri Aahar’s landing page, a company specializing in chips and other food products, to effectively showcase their offerings.",
+      "Focused on creating a visually appealing and user-friendly interface that highlights their products.",
+    ],
+    challenges: {
+      description: "The design process encountered several key challenges:",
+      points: [
+        "Creating a visually appealing design that effectively showcases the food products.",
+        "Meeting the client’s specific requirements and expectations.",
+        "Developing a responsive interface that works well across all devices.",
+        "Designing a professional look that builds trust and credibility with users.",
+      ],
+      imageSrc:
+        "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-5.png",
+    },
+    solution: {
+      description:
+        "To address these challenges, we implemented the following solutions:",
+      points: [
+        "Designed a modern and professional UI that aligns with Siddhidatri Aahar's brand and effectively showcases their food products.",
+        "Worked closely with the client to ensure their specific needs and feedback were integrated into the final design.",
+        "Ensured the website is fully responsive, providing a seamless experience across desktops, tablets, and smartphones.",
+        "Implemented a clean and trustworthy design using high-quality images, consistent branding, and a user-friendly layout.",
+      ],
+    },
+    footerImage:
+      "/assets/images/our-work/siddhidatri-aahar/siddhidatri-aahar-frame-6.png",
+  },
+  {
+    projectCategory: eCommerce.value,
+    name: "Kinmin",
+    slug: "kinmin",
+    tags: ["Snacks", "E-Commerce", "B2B", "WordPress"],
+    path: "/our-work/kinmin",
+    mainImgSrc: "/assets/images/our-work/kinmin/kinmin-banner.png",
+    metaData: {
+      category: "E-Commerce",
+      client: "Kinmin",
+      links: [
+        {
+          type: "Website",
+          url: "https://kinmin.co.in",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/kinmin/kinmin-frame-1.png",
+      "/assets/images/our-work/kinmin/kinmin-frame-2.png",
+      "/assets/images/our-work/kinmin/kinmin-frame-3.png",
+      "/assets/images/our-work/kinmin/kinmin-frame-4.png",
+    ],
+    projectOverview: [
+      "We built a comprehensive e-commerce website for Kinmin, a snacks company, using WordPress. The project focused on delivering a fully customized design that met the client's expectations and exceeded them, resulting in high client satisfaction.",
+      "The website features custom illustrations and banners, along with a complete B2B workflow and a backend dashboard. We handled the entire process from design to implementation, ensuring a smooth and user-friendly experience for both the client and the end-users.",
+    ],
+    challenges: {
+      description:
+        "The development and design of the Kinmin website came with its own set of challenges:",
+      points: [
+        "Meeting and exceeding the client’s design expectations with fully custom illustrations and banners.",
+        "Developing a seamless e-commerce experience that caters to both B2B and B2C workflows.",
+        "Creating a user-friendly backend dashboard for efficient management and updates.",
+        "Ensuring the website's responsiveness and ease of navigation across various devices.",
+      ],
+      imageSrc: "/assets/images/our-work/kinmin/kinmin-frame-5.png",
+    },
+    solution: {
+      points: [
+        "Delivered a visually stunning and highly functional e-commerce website with custom illustrations and banners that aligned with the brand identity.",
+        "Developed a comprehensive B2B workflow that streamlined business processes, making it easy for the client to manage orders and inventory.",
+        "Created a robust backend dashboard that allows the client to manage content, orders, and customer interactions with ease.",
+        "Ensured the website is fully responsive, providing a seamless user experience across all devices, from desktops to mobile phones.",
+        "Handled the entire project from the initial design phase through to full implementation and deployment.",
+      ],
+    },
+    footerImage: "/assets/images/our-work/kinmin/kinmin-frame-6.png",
+  },
+  {
+    projectCategory: eCommerce.value,
+    name: "Anand Industry",
+    slug: "anand-industry",
+    tags: ["Light Bulbs", "E-commerce", "Lighting Solutions"],
+    path: "/our-work/anand-industry",
+    mainImgSrc:
+      "/assets/images/our-work/anand-industry/anand-industry-banner.png",
+    metaData: {
+      category: "Light Bulbs Manufacturing",
+      client: "Vinayak More",
+      links: [
+        {
+          type: "Website",
+          url: "https://anandaindustry.com/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/zS26xz9GuPs9BZZRJoxRIU/Ananda-Industry?t=1OSY4H8ZrCw34vKp-1&node-id=2-2",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/anand-industry/anand-industry-frame-1.png",
+      "/assets/images/our-work/anand-industry/anand-industry-frame-2.png",
+      "/assets/images/our-work/anand-industry/anand-industry-frame-3.png",
+      "/assets/images/our-work/anand-industry/anand-industry-frame-4.png",
+    ],
+    projectOverview: [
+      "Designed and developed a comprehensive e-commerce platform for Anand Industry, a light bulb manufacturing company.",
+      "The project aimed to create an engaging and user-friendly online store that showcases their products and facilitates smooth transactions.",
+      "The design process focused on crafting an intuitive interface to enhance user interaction, while the development ensured a fully functional e-commerce system.",
+    ],
+    challenges: {
+      description:
+        "Throughout the project, several challenges were encountered in both UI/UX design and development:",
+      points: [
+        "Creating a visually appealing design that effectively highlights light bulb products and aligns with the brand’s identity.",
+        "Ensuring the interface is intuitive and easy for users to navigate, which involved balancing aesthetic appeal with functionality.",
+        "Developing a responsive design to provide a consistent and seamless shopping experience across all devices.",
+        "Integrating robust e-commerce functionalities using WooCommerce to handle online transactions smoothly.",
+        "Ensuring the website performs well and remains responsive across various devices and screen sizes.",
+      ],
+      imageSrc:
+        "/assets/images/our-work/anand-industry/anand-industry-frame-5.png",
+    },
+    solution: {
+      points: [
+        "Crafted a clean and attractive UI design that effectively showcases the light bulb products in an engaging manner.",
+        "Implemented an intuitive layout that simplifies navigation, making it easy for users to find and purchase products.",
+        "Ensured a fully responsive design, providing a consistent look and feel on all devices to enhance user experience.",
+        "Developed a functional e-commerce platform with WooCommerce, ensuring smooth online transactions and user-friendly product management.",
+        "Focused on usability and performance, ensuring the website operates efficiently and remains user-friendly across different devices.",
+      ],
+    },
+    footerImage:
+      "/assets/images/our-work/anand-industry/anand-industry-frame-6.png",
+  },
+  {
+    projectCategory: eCommerce.value,
+    name: "Ghugrawala",
+    slug: "ghugra-wala",
+    tags: [
+      "Food Website",
+      "Food Product",
+      "Food Website Design",
+      "Food Industry",
+    ],
+    path: "/our-work/ghugra-wala",
+    mainImgSrc: "/assets/images/our-work/ghughrawala/ghughrawala-banner.png",
+    metaData: {
+      category: "Food Industry",
+      client: "Tejas Rathore",
+      links: [
+        {
+          type: "Website",
+          url: "https://ghughrawala.netlify.app/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/TdeoGExFWhxg5fTmEFmuR9/Ghughrawala?t=SFn4JeITQgHakB97-1&node-id=1-2",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/ghughrawala/ghughrawala-frame-1.png",
+      "/assets/images/our-work/ghughrawala/ghughrawala-frame-2.png",
+      "/assets/images/our-work/ghughrawala/ghughrawala-frame-3.png",
+      "/assets/images/our-work/ghughrawala/ghughrawala-frame-4.png",
+    ],
+    projectOverview: [
+      "Designed and developed a comprehensive landing page for Ghugra Wala, a food business based in Gujarat.",
+      "The project focused on creating a visually appealing and user-friendly site that effectively highlights the company’s food offerings and engages visitors.",
+    ],
+    challenges: {
+      description:
+        "The project faced several challenges during both the design and development phases:",
+      points: [
+        "Creating a design that effectively showcases the food in an attractive and appetizing way.",
+        "Ensuring the landing page is responsive and provides a seamless experience across different devices.",
+        "Balancing aesthetics with functionality to make the site easy to navigate and engaging for users.",
+        "Integrating features that highlight the company's offerings while maintaining a smooth user experience.",
+      ],
+      imageSrc: "/assets/images/our-work/ghughrawala/ghughrawala-frame-5.png",
+    },
+    solution: {
+      points: [
+        "Designed a clean and engaging interface that highlights the food offerings in an appealing manner.",
+        "Used responsive design techniques to ensure the site looks great and functions well on all devices.",
+        "Developed a straightforward layout that makes it easy for users to navigate and find information about the food.",
+        "Implemented features that effectively communicate the company’s offerings and enhance the overall user experience.",
+      ],
+    },
+    footerImage: "/assets/images/our-work/ghughrawala/ghughrawala-frame-6.png",
+  },
+  {
+    projectCategory: eCommerce.value,
+    name: "Richee Agrotech",
+    slug: "richee-agrotech",
+    tags: ["E-commerce", "Organic Products", "Shopify"],
+    path: "/our-work/richee-agrotech",
+    mainImgSrc: "/assets/images/our-work/richee-agrotech/richee-banner.png",
+    metaData: {
+      category: "E-commerce",
+      client: "Richa Jain",
+      links: [
+        {
+          type: "Website",
+          url: "https://richeeagrotech.com/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/AXruRo71ZvnmrSiQkORmTZ/Richee-agrotech-Ecommerce-Website?t=zxBuh2zaxMij6hYb-1&node-id=1-2",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/richee-agrotech/richee-frame-1.png",
+      "/assets/images/our-work/richee-agrotech/richee-frame-2.png",
+      "/assets/images/our-work/richee-agrotech/richee-frame-3.png",
+      "/assets/images/our-work/richee-agrotech/richee-frame-4.png",
+    ],
+    projectOverview: [
+      "Richee Agrotech is an e-commerce website focused on selling organic products.",
+      "We designed the UI/UX and developed the entire e-commerce store using Shopify.",
+      "The goal was to create a visually appealing, user-friendly platform to enhance the shopping experience.",
+    ],
+    challenges: {
+      description:
+        "The project faced several challenges during the design and development phases:",
+      points: [
+        "Creating a cohesive and visually appealing design that aligns with the brand’s organic product focus.",
+        "Ensuring the Shopify store integrates seamlessly with the design for smooth functionality.",
+        "Developing a responsive design that provides a consistent user experience across all devices.",
+        "Meeting the client's specific requirements and vision for the website.",
+      ],
+      imageSrc: "/assets/images/our-work/richee-agrotech/richee-frame-5.png",
+    },
+    solution: {
+      description:
+        "To overcome these challenges, we implemented the following solutions:",
+      points: [
+        "Developed a modern and engaging UI/UX design that highlights the organic products effectively.",
+        "Integrated Shopify to build a robust e-commerce platform with seamless functionality.",
+        "Ensured the design was fully responsive, offering a consistent user experience on all devices.",
+        "Worked closely with the client to understand and meet their specific requirements and vision.",
+      ],
+    },
+    footerImage: "/assets/images/our-work/richee-agrotech/richee-frame-6.png",
+  },
 ];
 
 export const allTeamMembers = [
