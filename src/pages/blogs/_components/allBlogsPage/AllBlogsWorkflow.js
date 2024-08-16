@@ -4,7 +4,7 @@ import Pagination from "./Pagination";
 import Blogs from "./Blogs";
 import { allBlogsData } from "../../../../../data/data";
 
-const AllBlogsWorkflow = () => {
+const AllBlogsWorkflow = ({ posts }) => {
   return (
     <>
       <div
@@ -51,8 +51,8 @@ const AllBlogsWorkflow = () => {
         <div className="container-lg container-fluid">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-8">
-              <Blogs />
-              <Pagination />
+              <Blogs posts={posts} />
+              {/* <Pagination /> */}
             </div>
             <Sidebar />
           </div>

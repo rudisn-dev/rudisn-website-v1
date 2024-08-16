@@ -2837,14 +2837,14 @@ body:not(.is-mobile) .tt-style-switch:hover {
   display: none;
   visibility: hidden;
 }
-.blog-card1 .blog-content ul li a {
+.blog-card1 .blog-content ul li {
   color: var(--paragraph-color);
   font-family: var(--font-poppins);
   font-size: 14px;
   font-weight: 400;
   transition: 0.35s;
 }
-.blog-card1 .blog-content ul li a:hover {
+.blog-card1 .blog-content ul li:hover {
   color: var(--title-color);
 }
 .blog-card1 .blog-content h4 {
