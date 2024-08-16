@@ -21,7 +21,7 @@ function Blogs({ posts }) {
               </Link>
               <div className="blog-content">
                 <ul className="mete">
-                  <li>{data?.category}</li>
+                  <li>{data?.category?.join(", ")}</li>
                   <li>{dayjs(data?.date).format("DD MMMM, YYYY")}</li>
                 </ul>
                 <h4>

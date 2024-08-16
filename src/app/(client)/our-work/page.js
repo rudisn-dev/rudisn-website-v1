@@ -17,7 +17,6 @@ const Portfolioesonary = () => {
   const pattern = (index) => {
     if (index === 0) return true;
     const mod = (index - 1) % 8;
-    console.log("yes");
     return mod === 2 || mod === 3 || mod === 6 || mod === 7;
   };
 

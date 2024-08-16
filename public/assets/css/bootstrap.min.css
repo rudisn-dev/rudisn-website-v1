@@ -319,9 +319,6 @@ dd {
   margin-bottom: 0.5rem;
   margin-left: 0;
 }
-blockquote {
-  margin: 0 0 1rem;
-}
 b,
 strong {
   font-weight: bolder;
@@ -635,22 +632,6 @@ progress {
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
-}
-.blockquote {
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
-}
-.blockquote > :last-child {
-  margin-bottom: 0;
-}
-.blockquote-footer {
-  margin-top: -1rem;
-  margin-bottom: 1rem;
-  font-size: 0.875em;
-  color: #6c757d;
-}
-.blockquote-footer::before {
-  content: "— ";
 }
 .img-fluid {
   max-width: 100%;

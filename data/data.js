@@ -1145,12 +1145,12 @@ export const navBarData = [
     priority: 0.7,
     changefreq: "monthly",
   },
-  {
-    name: "Blogs",
-    path: "/blogs",
-    priority: 0.7,
-    changefreq: "monthly",
-  },
+  // {
+  //   name: "Blogs",
+  //   path: "/blogs",
+  //   priority: 0.7,
+  //   changefreq: "monthly",
+  // },
   {
     name: "Contact Us",
     path: "/contact",
@@ -1615,10 +1615,10 @@ export const allBlogsData = {
 };
 
 export const getSharableLinks = (
-  path = "",
+  path = basePath,
   baseMessage = "Visit Our Website"
 ) => {
-  const basePath = baseUrl + path;
+  const basePath = path;
   return [
     {
       type: "telegram",

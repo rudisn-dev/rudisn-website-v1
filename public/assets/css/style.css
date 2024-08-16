@@ -6702,20 +6702,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   border-color: var(--primary-color2);
   color: var(--title-color);
 }
-.details-page-wrapper .details-page-content h3 {
-  color: var(--title-color);
-  font-family: var(--font-poppins);
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-bottom: 20px;
-}
-@media (max-width: 576px) {
-  .details-page-wrapper .details-page-content h3 {
-    font-size: 25px;
-    margin-bottom: 15px;
-  }
-}
+
 .details-page-wrapper .details-page-content p {
   color: var(--paragraph-color);
   font-family: var(--font-poppins);
@@ -6787,87 +6774,6 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   min-width: 16px;
   max-width: 16px;
   margin-top: 7px;
-}
-.details-page-wrapper .details-page-content blockquote {
-  background-color: var(--paragraph-color3);
-  padding: 42px 85px;
-  position: relative;
-  margin-bottom: 0;
-}
-@media (max-width: 991px) {
-  .details-page-wrapper .details-page-content blockquote {
-    padding: 35px 75px;
-  }
-}
-@media (max-width: 767px) {
-  .details-page-wrapper .details-page-content blockquote {
-    padding: 40px;
-  }
-}
-@media (max-width: 576px) {
-  .details-page-wrapper .details-page-content blockquote {
-    padding: 35px 30px;
-  }
-}
-.details-page-wrapper .details-page-content blockquote::before {
-  content: url(../img/innerpage/vector/blockquote-arrow-left.svg);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-@media (max-width: 767px) {
-  .details-page-wrapper .details-page-content blockquote::before {
-    display: none;
-  }
-}
-.details-page-wrapper .details-page-content blockquote::after {
-  content: url(../img/innerpage/vector/blockquote-arrow-right.svg);
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-@media (max-width: 767px) {
-  .details-page-wrapper .details-page-content blockquote::after {
-    display: none;
-  }
-}
-.details-page-wrapper .details-page-content blockquote p {
-  color: var(--white-color);
-  font-family: var(--font-poppins);
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 34px;
-  margin-bottom: 20px;
-}
-@media (max-width: 1199px) {
-  .details-page-wrapper .details-page-content blockquote p {
-    font-size: 18px;
-  }
-}
-@media (max-width: 991px) {
-  .details-page-wrapper .details-page-content blockquote p {
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-}
-.details-page-wrapper .details-page-content blockquote cite {
-  color: var(--white-color);
-  font-family: var(--font-poppins);
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 20px;
-  padding-left: 50px;
-  position: relative;
-}
-.details-page-wrapper .details-page-content blockquote cite::before {
-  content: "";
-  height: 1px;
-  width: 40px;
-  background-color: var(--white-color);
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 .details-page-wrapper .details-page-content .blog-tag {
   display: inline-flex;
