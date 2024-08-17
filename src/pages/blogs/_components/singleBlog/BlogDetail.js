@@ -23,6 +23,10 @@ const BlogDetail = ({ blogData, seo }) => {
 
   const sharableLinks = getSharableLinks(blogPath, title);
 
+  if (!blogData || !seo) {
+    return <></>;
+  }
+
   return (
     <>
       <Head>
