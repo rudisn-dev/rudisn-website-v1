@@ -77,7 +77,8 @@ Click the link for more details:
                           rel="noreferrer"
                           aria-label="Project Link"
                         >
-                          Visit {data.type} <i class="ri-share-box-fill"></i>
+                          Visit {data.type}{" "}
+                          <i className="ri-share-box-fill"></i>
                         </a>
                       </td>
                     </tr>

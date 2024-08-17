@@ -4,6 +4,7 @@ import React from "react";
 import { baseUrl, getSharableLinks } from "../../../../../data/data";
 import { PortableText } from "next-sanity";
 import { SanityImage } from "@/components/common/SanityImage";
+import Head from "next/head";
 
 const myPortableTextComponents = {
   types: {
@@ -13,7 +14,7 @@ const myPortableTextComponents = {
   },
 };
 
-const BlogDetail = ({ blogData, morePosts }) => {
+const BlogDetail = ({ blogData, seo }) => {
   const { author, title } = blogData;
   const { name: authorName, image: authorImage } = author;
 
@@ -23,6 +24,50 @@ const BlogDetail = ({ blogData, morePosts }) => {
 
   return (
     <>
+      <Head>
+        <title>{seo.title}</title>
+        <meta name="description" content={seo.description} />
+        <meta name="keywords" content={seo.keywords} />
+        <meta name="author" content={seo.author} />
+        <link rel="canonical" href={seo.canonical} />
+
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content={seo.openGraph.title} />
+        <meta property="og:description" content={seo.openGraph.description} />
+        <meta property="og:url" content={seo.openGraph.url} />
+        <meta property="og:site_name" content={seo.openGraph.site_name} />
+        <meta property="og:image" content={seo.openGraph.image} />
+        <meta property="og:type" content={seo.openGraph.type} />
+
+        {/* Twitter Card Meta Tags */}
+        <meta name="twitter:card" content={seo.twitter.card} />
+        <meta name="twitter:site" content={seo.twitter.site} />
+        <meta name="twitter:title" content={seo.twitter.title} />
+        <meta name="twitter:description" content={seo.twitter.description} />
+        <meta name="twitter:image" content={seo.twitter.image} />
+
+        {/* Icons */}
+        <link rel="icon" href={seo.icons.icon} />
+        <link rel="apple-touch-icon" href={seo.icons.appleTouchIcon} />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href={seo.icons.favicon32}
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href={seo.icons.favicon16}
+        />
+        <link
+          rel="mask-icon"
+          href={seo.icons.maskIcon}
+          color={seo.icons.themeColor}
+        />
+        <meta name="theme-color" content={seo.icons.themeColor} />
+      </Head>
       <div className="details-page-wrapper pt-130 pb-130">
         <div className="container-lg container-fluid">
           <div className="row justify-content-center">
@@ -88,7 +133,24 @@ const BlogDetail = ({ blogData, morePosts }) => {
               <span className="line-break" />
               <span className="line-break" />
               <span className="line-break" />
-              <div className="mb-130">
+
+              <div className="post-thumb">
+                <img
+                  src={blogData?.mainCoverImage}
+                  style={{
+                    width: "100%",
+                    height: "400px",
+                    objectFit: "cover",
+                    borderRadius: "5px",
+                  }}
+                />
+              </div>
+
+              <span className="line-break" />
+              <span className="line-break" />
+              <span className="line-break" />
+
+              <div className="custom-blog-section">
                 <PortableText
                   value={blogData?.body}
                   components={myPortableTextComponents}
