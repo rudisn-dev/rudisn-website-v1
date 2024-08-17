@@ -15,8 +15,9 @@ const myPortableTextComponents = {
 };
 
 const BlogDetail = ({ blogData, seo }) => {
-  const { author, title } = blogData;
-  const { name: authorName, image: authorImage } = author;
+  const title = blogData?.title;
+  const authorName = blogData?.author?.name;
+  const authorImage = blogData?.author?.image;
 
   const blogPath = baseUrl + "/blogs/" + blogData.slug;
 
