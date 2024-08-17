@@ -21,7 +21,7 @@ export default function RootLayout({ children, isClient }) {
 
   if (isClient) {
     return (
-      <html lang="en">
+      <>
         <NavBar />
         {children}
         <Footer />
@@ -29,7 +29,7 @@ export default function RootLayout({ children, isClient }) {
         <ScrollTopBtn />
         <SpeedInsights />
         <GoogleAnalytics gaId="G-PP6G83BBBL" />
-      </html>
+      </>
     );
   }
 
