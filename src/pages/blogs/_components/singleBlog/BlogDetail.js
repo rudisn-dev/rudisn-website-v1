@@ -19,7 +19,7 @@ const BlogDetail = ({ blogData, seo }) => {
   const authorName = blogData?.author?.name;
   const authorImage = blogData?.author?.image;
 
-  const blogPath = baseUrl + "/blogs/" + blogData.slug;
+  const blogPath = baseUrl + "/blogs/" + blogData?.slug;
 
   const sharableLinks = getSharableLinks(blogPath, title);
 
