@@ -1334,7 +1334,7 @@ export const testimonalsData = [
     post: "Founder, Caves Studio",
   },
   {
-    imageSrc: "/assets/images/testimonials/testimonial.png",
+    imageSrc: "/assets/images/testimonials/Anand-industry.png",
     heading: "E-commerce Store",
     description:
       "Rudisn Agency created a wonderful e-commerce store for our lights business. We are very happy with their work.",
