@@ -1145,12 +1145,12 @@ export const navBarData = [
     priority: 0.7,
     changefreq: "monthly",
   },
-  // {
-  //   name: "Blogs",
-  //   path: "/blogs",
-  //   priority: 0.7,
-  //   changefreq: "monthly",
-  // },
+  {
+    name: "Blogs",
+    path: "/blogs",
+    priority: 0.7,
+    changefreq: "monthly",
+  },
   {
     name: "Contact Us",
     path: "/contact",
@@ -1615,34 +1615,34 @@ export const allBlogsData = {
 };
 
 export const getSharableLinks = (
-  path = "",
+  path = basePath,
   baseMessage = "Visit Our Website"
 ) => {
-  const basePath = baseUrl + path;
+  const basePath = path;
   return [
     {
       type: "telegram",
-      icon: <i class="ri-telegram-fill"></i>,
+      icon: <i className="ri-telegram-fill"></i>,
       url: `https://telegram.me/share/url?text=${encodeURIComponent(basePath)}&url=${encodeURIComponent(basePath)}`,
     },
     {
       type: "whatsapp",
-      icon: <i class="ri-whatsapp-fill"></i>,
+      icon: <i className="ri-whatsapp-fill"></i>,
       url: `https://api.whatsapp.com/send?text=${encodeURIComponent(baseMessage)} ${encodeURIComponent(basePath)}`,
     },
     {
       type: "facebook",
-      icon: <i class="ri-facebook-fill"></i>,
+      icon: <i className="ri-facebook-fill"></i>,
       url: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(basePath)}&quote=${encodeURIComponent(baseMessage)}`,
     },
     {
       type: "Twitter",
-      icon: <i class="ri-twitter-x-fill"></i>,
+      icon: <i className="ri-twitter-x-fill"></i>,
       url: `https://twitter.com/intent/tweet?text=${encodeURIComponent(baseMessage)}&url=${encodeURIComponent(basePath)}`,
     },
     {
       type: "LinkedIn",
-      icon: <i class="ri-linkedin-fill"></i>,
+      icon: <i className="ri-linkedin-fill"></i>,
       url: `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(basePath)}&title=${encodeURIComponent("One of the projects done by RUDISN.")}&summary=${encodeURIComponent("Project Overview")}`,
     },
   ];

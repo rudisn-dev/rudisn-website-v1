@@ -2837,14 +2837,14 @@ body:not(.is-mobile) .tt-style-switch:hover {
   display: none;
   visibility: hidden;
 }
-.blog-card1 .blog-content ul li a {
+.blog-card1 .blog-content ul li {
   color: var(--paragraph-color);
   font-family: var(--font-poppins);
   font-size: 14px;
   font-weight: 400;
   transition: 0.35s;
 }
-.blog-card1 .blog-content ul li a:hover {
+.blog-card1 .blog-content ul li:hover {
   color: var(--title-color);
 }
 .blog-card1 .blog-content h4 {
@@ -6702,21 +6702,8 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   border-color: var(--primary-color2);
   color: var(--title-color);
 }
-.details-page-wrapper .details-page-content h3 {
-  color: var(--title-color);
-  font-family: var(--font-poppins);
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 1.2;
-  margin-bottom: 20px;
-}
-@media (max-width: 576px) {
-  .details-page-wrapper .details-page-content h3 {
-    font-size: 25px;
-    margin-bottom: 15px;
-  }
-}
-.details-page-wrapper .details-page-content p {
+
+.details-page-wrapper .details-page-content p,.custom-blog-section p {
   color: var(--paragraph-color);
   font-family: var(--font-poppins);
   font-size: 16px;
@@ -6725,7 +6712,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   margin-bottom: 0;
 }
 @media (max-width: 576px) {
-  .details-page-wrapper .details-page-content p {
+  .details-page-wrapper .details-page-content p, .custom-blog-section p {
     font-size: 15px;
   }
 }
@@ -6735,7 +6722,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
 .details-page-wrapper .details-page-content p.first-para::first-letter {
   font-size: 30px;
 }
-.details-page-wrapper .details-page-content h4 {
+.details-page-wrapper .details-page-content h4,.custom-blog-section h4 {
   color: var(--title-color);
   font-family: var(--font-poppins);
   font-size: 22px;
@@ -6744,7 +6731,7 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   margin-bottom: 25px;
 }
 @media (max-width: 576px) {
-  .details-page-wrapper .details-page-content h4 {
+  .details-page-wrapper .details-page-content h4,.custom-blog-section h4 {
     margin-bottom: 20px;
   }
 }
@@ -6787,87 +6774,6 @@ footer.home6-footer .footer-btm .terms-condition p a:hover {
   min-width: 16px;
   max-width: 16px;
   margin-top: 7px;
-}
-.details-page-wrapper .details-page-content blockquote {
-  background-color: var(--paragraph-color3);
-  padding: 42px 85px;
-  position: relative;
-  margin-bottom: 0;
-}
-@media (max-width: 991px) {
-  .details-page-wrapper .details-page-content blockquote {
-    padding: 35px 75px;
-  }
-}
-@media (max-width: 767px) {
-  .details-page-wrapper .details-page-content blockquote {
-    padding: 40px;
-  }
-}
-@media (max-width: 576px) {
-  .details-page-wrapper .details-page-content blockquote {
-    padding: 35px 30px;
-  }
-}
-.details-page-wrapper .details-page-content blockquote::before {
-  content: url(../img/innerpage/vector/blockquote-arrow-left.svg);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-@media (max-width: 767px) {
-  .details-page-wrapper .details-page-content blockquote::before {
-    display: none;
-  }
-}
-.details-page-wrapper .details-page-content blockquote::after {
-  content: url(../img/innerpage/vector/blockquote-arrow-right.svg);
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-@media (max-width: 767px) {
-  .details-page-wrapper .details-page-content blockquote::after {
-    display: none;
-  }
-}
-.details-page-wrapper .details-page-content blockquote p {
-  color: var(--white-color);
-  font-family: var(--font-poppins);
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 34px;
-  margin-bottom: 20px;
-}
-@media (max-width: 1199px) {
-  .details-page-wrapper .details-page-content blockquote p {
-    font-size: 18px;
-  }
-}
-@media (max-width: 991px) {
-  .details-page-wrapper .details-page-content blockquote p {
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-}
-.details-page-wrapper .details-page-content blockquote cite {
-  color: var(--white-color);
-  font-family: var(--font-poppins);
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 20px;
-  padding-left: 50px;
-  position: relative;
-}
-.details-page-wrapper .details-page-content blockquote cite::before {
-  content: "";
-  height: 1px;
-  width: 40px;
-  background-color: var(--white-color);
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
 }
 .details-page-wrapper .details-page-content .blog-tag {
   display: inline-flex;

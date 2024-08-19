@@ -1,29 +1,31 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import dayjs from "dayjs";
 
-function Blogs() {
+function Blogs({ posts }) {
   return (
     <div className="row gy-5 mb-70">
-      {Array.from({ length: 6 }).map((_, index) => {
+      {posts?.map((data, index) => {
+        const detailsLink = "/blogs/" + data?.slug;
         return (
           <div key={index} className="col-md-6">
             <div className="blog-card1 magnetic-item">
-              <Link href="/blogs/test" className="blog-img">
-                <img src="assets/img/home2/blog-img-01.jpg" alt="blog-img-01" />
+              <Link href={detailsLink} className="blog-img">
+                <Image
+                  width={872}
+                  height={389}
+                  style={{ objectFit: "cover" }}
+                  src={data?.mainCoverImage}
+                />
               </Link>
               <div className="blog-content">
                 <ul className="mete">
-                  <li>
-                    <Link href="/blogs">Creative Design</Link>
-                  </li>
-                  <li>
-                    <Link href="/blogs">02 April, 2023</Link>
-                  </li>
+                  <li>{data?.category?.join(", ")}</li>
+                  <li>{dayjs(data?.date).format("DD MMMM, YYYY")}</li>
                 </ul>
                 <h4>
-                  <Link href="/blogs/test">
-                    Celebrates Major Milestone in Digital Services
-                  </Link>
+                  <Link href={detailsLink}>{data?.title}</Link>
                 </h4>
               </div>
             </div>
