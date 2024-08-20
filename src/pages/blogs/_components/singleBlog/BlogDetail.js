@@ -5,6 +5,7 @@ import { baseUrl, getSharableLinks } from "../../../../../data/data";
 import { PortableText } from "next-sanity";
 import { SanityImage } from "@/components/common/SanityImage";
 import Head from "next/head";
+import ContactForm from "@/app/(client)/contact/_components/ContactForm";
 
 const myPortableTextComponents = {
   types: {
@@ -162,8 +163,16 @@ const BlogDetail = ({ blogData, seo }) => {
                   components={myPortableTextComponents}
                 />
                 <span className="line-break" />
-                <span className="line-break" />
-                <span className="line-break" />
+              </div>
+
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="comment-and-form-area">
+                    <div className="inquiry-form">
+                      <ContactForm />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

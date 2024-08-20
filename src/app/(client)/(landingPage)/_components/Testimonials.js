@@ -184,42 +184,6 @@ const Testimonials = () => {
                     </Marquee>
                   </div>
                 </div>
-                <div className="marquee dark">
-                  <div className="marquee__group">
-                    <Marquee>
-                      {allPartners.map((data, index) => {
-                        return (
-                          <span key={index}>
-                            <Image
-                              width={150}
-                              height={36}
-                              style={{ objectFit: "contain" }}
-                              src={data}
-                              alt=""
-                            />
-                          </span>
-                        );
-                      })}
-                    </Marquee>
-                  </div>
-                  <div aria-hidden="true" className="marquee__group">
-                    <Marquee>
-                      {allPartners.map((data, index) => {
-                        return (
-                          <span key={index}>
-                            <Image
-                              width={150}
-                              height={36}
-                              style={{ objectFit: "contain" }}
-                              src={data}
-                              alt=""
-                            />
-                          </span>
-                        );
-                      })}
-                    </Marquee>
-                  </div>
-                </div>
                 <div className="title2">
                   <h6>We have almost {allPartners.length}+ Partner</h6>
                 </div>

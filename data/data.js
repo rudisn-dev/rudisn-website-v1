@@ -1369,54 +1369,54 @@ export const technologyData = {
       technologies: [
         {
           name: "Figma",
-          icon: "/assets/img/home2/icon/figma.svg",
+          icon: "/assets/icons/figma.svg",
           big: true,
         },
-        { name: "HTML", icon: "/assets/img/home2/icon/html.svg" },
-        { name: "CSS", icon: "/assets/img/home2/icon/css.svg" },
+        { name: "HTML", icon: "/assets/icons/html.svg" },
+        { name: "CSS", icon: "/assets/icons/css.svg" },
         {
           name: "Tailwind CSS",
-          icon: "/assets/img/home2/icon/tailwindCSS.svg",
+          icon: "/assets/icons/tailwindCSS.svg",
         },
         {
           name: "Bootstrap",
-          icon: "/assets/img/home2/icon/bootstrap.svg",
+          icon: "/assets/icons/bootstrap.svg",
         },
         {
           name: "Ant Design",
-          icon: "/assets/img/home2/icon/ant-design.svg",
+          icon: "/assets/icons/ant-design.svg",
           big: true,
         },
         {
           name: "Material-UI",
-          icon: "/assets/img/home2/icon/material-ui.svg",
+          icon: "/assets/icons/material-ui.svg",
         },
         {
           name: "shadcn-UI",
-          icon: "/assets/img/home2/icon/shadcn-ui.svg",
+          icon: "/assets/icons/shadcn-ui.svg",
         },
         {
           name: "Framer Motion",
-          icon: "/assets/img/home2/icon/framer-motion.svg",
+          icon: "/assets/icons/framer-motion.svg",
         },
         {
           name: "GSAP",
-          icon: "/assets/img/home2/icon/gsap.svg",
+          icon: "/assets/icons/gsap.svg",
         },
-        { name: "JavaScript", icon: "/assets/img/home2/icon/javascript.svg" },
-        { name: "TypeScript", icon: "/assets/img/home2/icon/typescript.svg" },
-        { name: "React JS", icon: "/assets/img/home2/icon/react.svg" },
+        { name: "JavaScript", icon: "/assets/icons/javascript.svg" },
+        { name: "TypeScript", icon: "/assets/icons/typescript.svg" },
+        { name: "React JS", icon: "/assets/icons/react.svg" },
         {
           name: "Next JS",
-          icon: "/assets/img/home2/icon/nextjs.svg",
+          icon: "/assets/icons/nextjs.svg",
         },
         {
           name: "Redux",
-          icon: "/assets/img/home2/icon/redux.svg",
+          icon: "/assets/icons/redux.svg",
         },
         {
           name: "Angular JS",
-          icon: "/assets/img/home2/icon/angular.svg",
+          icon: "/assets/icons/angular.svg",
         },
       ],
     },
@@ -1426,19 +1426,19 @@ export const technologyData = {
       technologies: [
         {
           name: "Node Js",
-          icon: "/assets/img/home2/icon/node-js.svg",
+          icon: "/assets/icons/node-js.svg",
           big: true,
         },
-        { name: "Django", icon: "/assets/img/home2/icon/django.svg" },
-        { name: "Express Js", icon: "/assets/img/home2/icon/express-js.svg" },
-        { name: "Nest JS", icon: "/assets/img/home2/icon/nestjs.svg" },
-        { name: "Firebase", icon: "/assets/img/home2/icon/firebase.svg" },
+        { name: "Django", icon: "/assets/icons/django.svg" },
+        { name: "Express Js", icon: "/assets/icons/express-js.svg" },
+        { name: "Nest JS", icon: "/assets/icons/nestjs.svg" },
+        { name: "Firebase", icon: "/assets/icons/firebase.svg" },
         {
           name: "MongoDB",
-          icon: "/assets/img/home2/icon/mongoDB.svg",
+          icon: "/assets/icons/mongoDB.svg",
           big: true,
         },
-        { name: "MySQL", icon: "/assets/img/home2/icon/mySQL.svg" },
+        { name: "MySQL", icon: "/assets/icons/mySQL.svg" },
       ],
     },
     {
@@ -1447,16 +1447,16 @@ export const technologyData = {
       technologies: [
         {
           name: "Android",
-          icon: "/assets/img/home2/icon/android.svg",
+          icon: "/assets/icons/android.svg",
           big: true,
         },
-        { name: "IOS App", icon: "/assets/img/home2/icon/ios.svg" },
-        { name: "React Native", icon: "/assets/img/home2/icon/react.svg" },
+        { name: "IOS App", icon: "/assets/icons/ios.svg" },
+        { name: "React Native", icon: "/assets/icons/react.svg" },
         {
           name: "Flutter",
-          icon: "/assets/img/home2/icon/flutter.svg",
+          icon: "/assets/icons/flutter.svg",
         },
-        { name: "Electron JS", icon: "/assets/img/home2/icon/electronjs.svg" },
+        { name: "Electron JS", icon: "/assets/icons/electronjs.svg" },
       ],
     },
     {
@@ -1465,20 +1465,20 @@ export const technologyData = {
       technologies: [
         {
           name: "WordPress",
-          icon: "/assets/img/home2/icon/wordpress.svg",
+          icon: "/assets/icons/wordpress.svg",
           big: true,
         },
         {
           name: "Shopify",
-          icon: "/assets/img/home2/icon/shopify.svg",
+          icon: "/assets/icons/shopify.svg",
         },
         {
           name: "Webflow",
-          icon: "/assets/img/home2/icon/webflow.svg",
+          icon: "/assets/icons/webflow.svg",
         },
         {
           name: "Framer",
-          icon: "/assets/img/home2/icon/framer.svg",
+          icon: "/assets/icons/framer.svg",
         },
       ],
     },

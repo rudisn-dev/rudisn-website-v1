@@ -50,14 +50,6 @@ function Sidebar({ isMenuOpen, toggleMenu }) {
     <div className={`sidebar-area ${isMenuOpen ? "active" : ""}`}>
       <div className="sidebar-menu-top-area">
         <div className="sidebar-menu-logo">
-          <Link className="logo-dark" href="/">
-            <img
-              alt="image"
-              className="img-fluid"
-              src={logoUrl}
-              style={{ height: "43px" }}
-            />
-          </Link>
           <Link className="logo-light" href="/">
             <img
               alt="image"
