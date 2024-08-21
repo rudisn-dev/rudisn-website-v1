@@ -1162,7 +1162,7 @@ export const navBarData = [
 export const heroData = {
   heading: (
     <h1 className="text-animation2">
-      We are a <span>Full-Service</span> Company.
+      We are a <span>Full-Service</span> Agency.
     </h1>
   ),
   description: (
@@ -1178,7 +1178,7 @@ export const heroData = {
 
 export const aboutUsData = {
   aboutUs:
-    "Rudisn is a full-service digital company dedicated to helping businesses grow and thrive in the digital age.",
+    "Rudisn is a full-service digital agency dedicated to helping businesses grow and thrive in the digital age.",
   aboutUs2:
     "Our mission is to deliver exceptional service without restrictions, ensuring our clients receive attractive and practical solutions tailored to their unique needs.",
   totalProjects: allProjects.length,
@@ -1509,7 +1509,7 @@ export const teamsData = {
 export const defaultMetaData = {
   title: "Rudisn",
   description:
-    "Rudisn is a full-service digital company dedicated to helping businesses grow and thrive in the digital age.",
+    "Rudisn is a full-service digital agency dedicated to helping businesses grow and thrive in the digital age.",
   keywords:
     "web development, UI/UX design, app development, cloud services, SEO, cyber security",
   author: "Rudisn Agency",
@@ -1517,7 +1517,7 @@ export const defaultMetaData = {
   openGraph: {
     title: "Rudisn",
     description:
-      "Rudisn is a full-service digital company dedicated to helping businesses grow and thrive in the digital age.",
+      "Rudisn is a full-service digital agency dedicated to helping businesses grow and thrive in the digital age.",
     url: baseUrl,
     site_name: "Rudisn",
     image: logoUrl, // Replace with your image URL
@@ -1528,7 +1528,7 @@ export const defaultMetaData = {
     site: "@rudisn_twi", // Replace with your Twitter handle
     title: "Rudisn",
     description:
-      "Rudisn is a full-service digital company dedicated to helping businesses grow and thrive in the digital age.",
+      "Rudisn is a full-service digital agency dedicated to helping businesses grow and thrive in the digital age.",
     image: logoUrl, // Replace with your Twitter image URL
   },
   icons: {

@@ -18,7 +18,7 @@ const About = () => {
                 <h2>
                   ABOUT OUR
                   <br />
-                  <span>COMPANY</span>
+                  <span>AGENCY</span>
                 </h2>
                 <div className="dash-and-paragraph three">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477 65">

@@ -3,7 +3,7 @@ export default function manifest() {
     name: "Rudisn Agency",
     short_name: "Rudisn",
     description:
-      "Rudisn is a full-service digital company dedicated to helping businesses grow and thrive in the digital age.",
+      "Rudisn is a full-service agency dedicated to helping businesses grow and thrive in the digital age.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",
