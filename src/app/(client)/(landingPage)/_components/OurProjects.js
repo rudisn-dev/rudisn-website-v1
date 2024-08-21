@@ -16,7 +16,7 @@ const OurProjects = () => {
               <div className="dash-and-paragraph three">
                 <div className="dash" />
                 <div className="btn-and-paragraph">
-                  <Link href="/our-work">
+                  <Link href="/our-work" aria-label="Explore More Projects">
                     Explore More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -51,14 +51,18 @@ const OurProjects = () => {
                       })}
                     </ul>
                     <div className="portfolio-img">
-                      <img
-                        // width={590}
-                        // height={326}
+                      <Image
+                        width={590}
+                        height={326}
                         style={{ objectFit: "cover" }}
                         src={data.mainImgSrc}
                         alt="Project Banner"
                       />
-                      <Link className="details-btn" href={data.path}>
+                      <Link
+                        className="details-btn"
+                        href={data.path}
+                        aria-label="Project Detail"
+                      >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width={12}
@@ -72,7 +76,9 @@ const OurProjects = () => {
                   </div>
                   <div className="portfolio-content">
                     <h4>
-                      <Link href={data.path}>{data.name}</Link>
+                      <Link href={data.path} aria-label="Project Details">
+                        {data.name}
+                      </Link>
                     </h4>
                   </div>
                 </div>
