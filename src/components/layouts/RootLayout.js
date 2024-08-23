@@ -11,6 +11,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import NavBar from "@/components/header/NavBar";
 import Footer from "@/components/Footer/Footer";
+import GoogleAdsense from "../common/GoogleAdsense";
 
 export default function RootLayout({ children, isClient }) {
   useMagneticHover();
@@ -21,6 +22,7 @@ export default function RootLayout({ children, isClient }) {
   if (isClient) {
     return (
       <>
+        <GoogleAdsense />
         <NavBar />
         {children}
         <Footer />
@@ -34,6 +36,7 @@ export default function RootLayout({ children, isClient }) {
   return (
     <html lang="en">
       <body>
+        <GoogleAdsense />
         <NavBar />
         {children}
         <Footer />
