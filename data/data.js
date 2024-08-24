@@ -1,7 +1,7 @@
 export const logoUrl = "/rudisn-logo.svg";
 export const baseUrl = "https://www.rudisn.com";
 //  These are the constants for project categories
-// const uiDevelopment = { value: "ui-ux", label: "UI-UX" };
+const uiUxDevelopment = { value: "ui-ux", label: "UI-UX" };
 // const cloud = { value: "cloud", label: "Cloud" };
 // const frontend = { value: "frontend", label: "Frontend" };
 // const backend = { value: "backend", label: "Backend" };
@@ -1008,6 +1008,55 @@ export const allProjects = [
       ],
     },
     footerImage: "/assets/images/our-work/richee-agrotech/richee-frame-6.png",
+  },
+  {
+    projectCategory: uiUxDevelopment.value,
+    name: "Future - Digital Agency",
+    slug: "digital-agency",
+    tags: ["IT Services", "Digital Solutions", "Full Service Agency"],
+    path: "/our-work/digital-agency",
+    mainImgSrc:
+      "/assets/images/our-work/digital-agency/digital-agency-banner.png",
+    metaData: {
+      category: "Digital Solutions",
+      client: "Future - Digital Agency",
+      links: [
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/7VBhWpHrYV1wKfudxrHxJH/Digital-Agency?node-id=22-5&t=ww8CT24VAhS2mEat-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/digital-agency/digital-agency-frame-1.png",
+      "/assets/images/our-work/digital-agency/digital-agency-frame-2.png",
+      "/assets/images/our-work/digital-agency/digital-agency-frame-3.png",
+      "/assets/images/our-work/digital-agency/digital-agency-frame-4.png",
+    ],
+    projectOverview: [
+      "Our team crafted a high-level UI design for Future, a full-service IT company providing comprehensive digital solutions. The focus was on creating a visually engaging and interactive landing page.",
+      "We designed the UI using Figma, ensuring that it met the client's needs for advanced animations, including scrolling animations and other dynamic elements, to create a cutting-edge user experience.",
+    ],
+    challenges: {
+      description:
+        "The project presented several challenges in achieving the client's vision for a highly animated and interactive landing page:",
+      points: [
+        "Incorporating complex animations while maintaining a smooth and seamless user experience.",
+        "Aligning the design with Future's brand identity and ensuring the animations enhanced rather than distracted from the content.",
+        "Ensuring that the high-level animations and scrolling effects were optimized for performance across different devices and screen sizes.",
+      ],
+      imageSrc:
+        "/assets/images/our-work/digital-agency/digital-agency-frame-5.png",
+    },
+    solution: {
+      points: [
+        "Designed a visually striking UI that balances high-level animations with a clean and modern layout, ensuring that the animations enhance the overall user experience.",
+        "Implemented advanced scrolling animations and interactive UI elements using Figma, creating an engaging and dynamic landing page that aligns with Future's brand identity.",
+        "Optimized the animations for performance, ensuring a smooth user experience across various devices and screen sizes, from desktops to mobile devices.",
+      ],
+    },
+    footerImage:
+      "/assets/images/our-work/digital-agency/digital-agency-frame-6.png",
   },
 ];
 
