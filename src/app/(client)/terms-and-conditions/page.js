@@ -25,7 +25,7 @@ function TermsAndConditions() {
                 <h6>
                   <i className="ri-arrow-drop-right-fill"></i> Last Updated
                 </h6>
-                <p>28 July, 2024</p>
+                <p>24 August, 2024</p>
               </div>
             </div>
             <div className="col-lg-12 mb-40">
@@ -93,7 +93,7 @@ function TermsAndConditions() {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-12">
+            <div className="col-lg-12 mb-40">
               <div className="terms-and-conditions">
                 <h4>2. Privacy Policy</h4>
                 <p>
@@ -125,6 +125,71 @@ function TermsAndConditions() {
                   this privacy policy from time to time. Any changes will be
                   posted on this page, and we encourage you to review it
                   periodically.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-12 mb-40">
+              <div className="terms-and-conditions">
+                <h4>3. GDPR Compliance</h4>
+                <p>
+                  We are committed to protecting your personal data in
+                  accordance with the General Data Protection Regulation (GDPR).
+                </p>
+                <p>
+                  <strong>Data Subject Rights:</strong> You have the right to
+                  access, rectify, or erase your personal data, restrict or
+                  object to its processing, and obtain a copy of your data. You
+                  also have the right to withdraw consent at any time.
+                </p>
+                <p>
+                  <strong>Data Processing:</strong> We only process your data
+                  when we have a lawful basis to do so, such as your consent,
+                  the performance of a contract, or compliance with legal
+                  obligations.
+                </p>
+                <p>
+                  <strong>Data Retention:</strong> We retain your personal data
+                  only for as long as necessary to fulfill the purposes for
+                  which it was collected, in accordance with applicable laws.
+                </p>
+                <p>
+                  <strong>Data Transfers:</strong> If we transfer your data
+                  outside the European Economic Area (EEA), we ensure it is
+                  protected by appropriate safeguards.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-12">
+              <div className="terms-and-conditions">
+                <h4>4. CPRA Compliance</h4>
+                <p>
+                  We adhere to the California Privacy Rights Act (CPRA) to
+                  ensure the protection of personal information for residents of
+                  California.
+                </p>
+                <p>
+                  <strong>Right to Know:</strong> California residents have the
+                  right to know what personal information we collect, use,
+                  disclose, and sell.
+                </p>
+                <p>
+                  <strong>Right to Delete:</strong> You have the right to
+                  request the deletion of your personal information, subject to
+                  certain exceptions.
+                </p>
+                <p>
+                  <strong>Right to Opt-Out:</strong> You have the right to opt
+                  out of the sale of your personal information. We do not sell
+                  your personal information to third parties.
+                </p>
+                <p>
+                  <strong>Non-Discrimination:</strong> We do not discriminate
+                  against you for exercising your privacy rights under the CPRA.
+                </p>
+                <p>
+                  <strong>Data Security:</strong> We implement appropriate
+                  technical and organizational measures to protect your personal
+                  information from unauthorized access, use, or disclosure.
                 </p>
               </div>
             </div>
