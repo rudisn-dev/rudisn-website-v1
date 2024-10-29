@@ -1149,7 +1149,7 @@ export const allTeamMembers = [
   {
     name: "Sachin",
     designation: "Software Engineer",
-    imageSrc: "/assets/images/our-team/members/team-member.png",
+    imageSrc: "/assets/images/our-team/members/sachin.png",
   },
   {
     name: "Atharva",
