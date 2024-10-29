@@ -899,6 +899,61 @@ export const allProjects = [
   },
   {
     projectCategory: eCommerce.value,
+    name: "Natraj Retail",
+    slug: "natraj-retail",
+    tags: ["Purses", "Jewellery", "E-commerce", "Retail"],
+    path: "/our-work/natraj-retail",
+    mainImgSrc: "/assets/images/our-work/natraj-retail/natraj-banner.png",
+    metaData: {
+      category: "Retail for Purses and Jewellery",
+      client: "Sambhav Shah",
+      links: [
+        {
+          type: "Website",
+          url: "https://natrajretail.in/",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/25nlBU5pAWASdp2YFDPmsB/Natraj-Retail?node-id=1-3&t=NXwvElQdSOPIwFbs-1",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/natraj-retail/natraj-frame-1.png",
+      "/assets/images/our-work/natraj-retail/natraj-frame-2.png",
+      "/assets/images/our-work/natraj-retail/natraj-frame-3.png",
+      "/assets/images/our-work/natraj-retail/natraj-frame-4.png",
+    ],
+    projectOverview: [
+      "Designed and developed a customized e-commerce platform for Natraj Retail, a retailer specializing in purses and jewellery.",
+      "The project focused on creating a visually appealing online store that highlights high-quality products and facilitates a smooth shopping experience.",
+      "The design aimed to deliver an elegant interface that enhances user interaction, while the development focused on a fully functional e-commerce system.",
+    ],
+    challenges: {
+      description:
+        "Several challenges were encountered in UI/UX design and development:",
+      points: [
+        "Developing a design that highlights the elegance of jewellery and purses, while aligning with the brand’s aesthetic.",
+        "Balancing aesthetics with a user-friendly interface to ensure smooth navigation.",
+        "Creating a responsive design for a consistent shopping experience across all devices.",
+        "Implementing e-commerce functionalities using Shopify to handle transactions seamlessly.",
+        "Optimizing website performance and ensuring compatibility across various devices and screen sizes.",
+      ],
+      imageSrc: "/assets/images/our-work/natraj-retail/natraj-frame-5.png",
+    },
+    solution: {
+      points: [
+        "Crafted a clean and visually pleasing UI that showcases purses and jewellery in an engaging manner.",
+        "Designed an intuitive layout that simplifies navigation for users.",
+        "Ensured full responsiveness for a consistent experience on all devices.",
+        "Built a functional e-commerce platform with Shopify for smooth transactions and easy product management.",
+        "Focused on usability and performance to provide an efficient and user-friendly shopping experience across devices.",
+      ],
+    },
+    footerImage: "/assets/images/our-work/natraj-retail/natraj-frame-6.png",
+  },
+  {
+    projectCategory: eCommerce.value,
     name: "Ghugrawala",
     slug: "ghugra-wala",
     tags: [
