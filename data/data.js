@@ -596,7 +596,7 @@ export const allProjects = [
         },
         {
           type: "Design",
-          url: "https://www.figma.com/proto/QuantumCloudLabsDesign?t=example-proto-id",
+          url: "https://www.figma.com/proto/EbB78z47xz3tr9fyKJKRmp/Quantum-labs?node-id=65-99&node-type=canvas&t=eW6yJ0tgIVVfvZ4s-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
         },
       ],
     },
