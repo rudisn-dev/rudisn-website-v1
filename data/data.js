@@ -3,7 +3,7 @@ export const baseUrl = "https://www.rudisn.com";
 //  These are the constants for project categories
 const uiUxDevelopment = { value: "ui-ux", label: "UI-UX" };
 // const cloud = { value: "cloud", label: "Cloud" };
-// const frontend = { value: "frontend", label: "Frontend" };
+const frontend = { value: "frontend", label: "Frontend" };
 // const backend = { value: "backend", label: "Backend" };
 const fullStack = { value: "fullstack", label: "Full Stack" };
 const eCommerce = { value: "e-commerce", label: "E-Commerce" };
@@ -572,6 +572,66 @@ export const allProjects = [
       ],
     },
     footerImage: "/assets/images/our-work/caves-studio/cave-studio-frame-7.png",
+  },
+  {
+    projectCategory: frontend.value,
+    name: "Quantum Cloud Labs",
+    slug: "quantum-cloud-labs",
+    tags: [
+      "Digital Agency Website",
+      "Landing Page",
+      "UI/UX Design",
+      "Digital Agency",
+    ],
+    path: "/our-work/quantum-cloud-labs",
+    mainImgSrc:
+      "/assets/images/our-work/quantum-cloud-labs/quantum-cloud-labs-banner.png",
+    metaData: {
+      category: "Digital Agency",
+      client: "Mr. Prince Kumar",
+      links: [
+        {
+          type: "Website",
+          url: "https://quantumcloudlabs.com",
+        },
+        {
+          type: "Design",
+          url: "https://www.figma.com/proto/QuantumCloudLabsDesign?t=example-proto-id",
+        },
+      ],
+    },
+    sliderImages: [
+      "/assets/images/our-work/quantum-cloud-labs/quantum-cloud-labs-frame-1.png",
+      "/assets/images/our-work/quantum-cloud-labs/quantum-cloud-labs-frame-2.png",
+      "/assets/images/our-work/quantum-cloud-labs/quantum-cloud-labs-frame-3.png",
+      "/assets/images/our-work/quantum-cloud-labs/quantum-cloud-labs-frame-4.png",
+    ],
+    projectOverview: [
+      "Designed and developed a landing page from scratch for Quantum Cloud Labs, a digital agency.",
+      "The project emphasized creating an appealing and intuitive interface that effectively represents the company’s digital services.",
+    ],
+    challenges: {
+      description:
+        "This project presented unique challenges during the design and development phases:",
+      points: [
+        "Creating a modern and professional design that resonates with Quantum Cloud Labs' branding.",
+        "Ensuring responsive design for an optimal user experience on various devices.",
+        "Balancing functionality with visual appeal to keep the landing page engaging and informative.",
+        "Developing a streamlined layout that simplifies navigation and highlights the company's offerings.",
+      ],
+      imageSrc:
+        "/assets/images/our-work/quantum-cloud-labs/quantum-cloud-labs-frame-5.png",
+    },
+    solution: {
+      points: [
+        "Crafted a clean and professional UI/UX design that aligns with the company's branding.",
+        "Developed the landing page from scratch using Next.js, React.js, and Tailwind CSS to ensure optimal performance and responsiveness.",
+        "Implemented a user-friendly layout that facilitates easy navigation and effectively showcases the company’s digital services.",
+        "Utilized modern design principles to create an aesthetically pleasing and engaging landing page.",
+      ],
+    },
+    footerImage:
+      "/assets/images/our-work/quantum-cloud-labs/quantum-cloud-labs-frame-6.png",
   },
   {
     projectCategory: fullStack.value,
