@@ -529,7 +529,11 @@ export const allProjects = [
         },
         {
           type: "Design",
-          url: "https://www.figma.com/proto/cVKfqWkckXUJgHv3vxR1tR/Caves-Studio-Nashik?t=jHcLhKUu55ugfui5-1&node-id=28-1317",
+          url: "https://www.behance.net/gallery/206272421/Interior-Designer-Landing-Page",
+        },
+        {
+          type: "Outsourcing Design",
+          url: "https://www.behance.net/gallery/206272567/Interior-Designer-Outsourcing-Landing-Page",
         },
       ],
     },
@@ -596,7 +600,7 @@ export const allProjects = [
         },
         {
           type: "Design",
-          url: "https://www.figma.com/proto/EbB78z47xz3tr9fyKJKRmp/Quantum-labs?node-id=65-99&node-type=canvas&t=eW6yJ0tgIVVfvZ4s-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+          url: "https://www.behance.net/gallery/212383747/Digital-Agency-Landing-Page",
         },
       ],
     },
@@ -696,7 +700,11 @@ export const allProjects = [
       links: [
         {
           type: "Design",
-          url: "https://www.figma.com/proto/ZGXuHzPCrwTiIGRomtEIkY/Portfolio-Revamp?t=5sDeFd7dwQTGwcXu-1&node-id=26-184",
+          url: "https://www.behance.net/gallery/206272791/Portfolio-Website",
+        },
+        {
+          type: "Design",
+          url: "https://www.behance.net/gallery/206272791/Portfolio-Website",
         },
       ],
     },
@@ -750,7 +758,7 @@ export const allProjects = [
         },
         {
           type: "Design",
-          url: "https://www.figma.com/proto/0zMCxrGlYaUI2tlNX60KT1/Penny-Wise?t=6daIJrmzidmwXKij-1&node-id=24-1533",
+          url: "https://www.behance.net/gallery/206272911/Budget-Tracker-Landing-Page",
         },
       ],
     },
@@ -812,7 +820,7 @@ export const allProjects = [
         },
         {
           type: "Design",
-          url: "https://www.figma.com/proto/3XyLYKzZvH7nvgoqj04XqU/Siddhidatri-Aahar-(-UI-%2F-Landing-Page-)?t=33T7LO6WEJar8tSA-1&node-id=1-2",
+          url: "https://www.behance.net/gallery/206273067/B2B-Chips-Landing-Page",
         },
       ],
     },
@@ -915,10 +923,6 @@ export const allProjects = [
           type: "Website",
           url: "https://anandaindustry.com/",
         },
-        {
-          type: "Design",
-          url: "https://www.figma.com/proto/zS26xz9GuPs9BZZRJoxRIU/Ananda-Industry?t=1OSY4H8ZrCw34vKp-1&node-id=2-2",
-        },
       ],
     },
     sliderImages: [
@@ -974,7 +978,7 @@ export const allProjects = [
         },
         {
           type: "Design",
-          url: "https://www.figma.com/proto/25nlBU5pAWASdp2YFDPmsB/Natraj-Retail?node-id=1-3&t=NXwvElQdSOPIwFbs-1",
+          url: "https://www.behance.net/gallery/212383511/E-Commerce-Landing-Page",
         },
       ],
     },
@@ -1034,7 +1038,11 @@ export const allProjects = [
         },
         {
           type: "Design",
-          url: "https://www.figma.com/proto/TdeoGExFWhxg5fTmEFmuR9/Ghughrawala?t=SFn4JeITQgHakB97-1&node-id=1-2",
+          url: "https://www.behance.net/gallery/206273229/Snacks-Landing-Page",
+        },
+        {
+          type: "Menu Design",
+          url: "https://www.behance.net/gallery/206273309/Restaurant-Menu-Card",
         },
       ],
     },
@@ -1083,10 +1091,6 @@ export const allProjects = [
         {
           type: "Website",
           url: "https://richeeagrotech.com/",
-        },
-        {
-          type: "Design",
-          url: "https://www.figma.com/proto/AXruRo71ZvnmrSiQkORmTZ/Richee-agrotech-Ecommerce-Website?t=zxBuh2zaxMij6hYb-1&node-id=1-2",
         },
       ],
     },
@@ -1138,7 +1142,7 @@ export const allProjects = [
       links: [
         {
           type: "Design",
-          url: "https://www.figma.com/proto/7VBhWpHrYV1wKfudxrHxJH/Digital-Agency?node-id=22-5&t=ww8CT24VAhS2mEat-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+          url: "https://www.behance.net/gallery/206284013/Digital-Agency-Landing-Page",
         },
       ],
     },
