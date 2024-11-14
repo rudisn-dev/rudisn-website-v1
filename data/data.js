@@ -1254,7 +1254,7 @@ export const contactInformation = {
   },
   address: {
     city: "Shrirampur, Maharashtra",
-    address: "Harikamal Plaza, First Floor, Shrirampur Maharashtra, 413709",
+    address: "Gohil Niwas near Bank Of India Ward no 6, Shrirampur Maharashtra, 413709",
     addressLink:
       "https://www.google.com/maps/place/Bhagwati+Sugar+Sales/@19.616699,74.6563539,20.42z/data=!4m6!3m5!1s0x3bdc8bf65b2c50e1:0xec2894f6dd7dc7bb!8m2!3d19.6170315!4d74.6561317!16s%2Fg%2F11vt2zxnd1?entry=ttu",
   },
