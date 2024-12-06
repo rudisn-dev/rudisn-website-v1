@@ -1307,12 +1307,12 @@ export const navBarData = [
     priority: 0.7,
     changefreq: "monthly",
   },
-  {
-    name: "Our Team",
-    path: "/our-team",
-    priority: 0.7,
-    changefreq: "monthly",
-  },
+  // {
+  //   name: "Our Team",
+  //   path: "/our-team",
+  //   priority: 0.7,
+  //   changefreq: "monthly",
+  // },
   {
     name: "Blogs",
     path: "/blogs",

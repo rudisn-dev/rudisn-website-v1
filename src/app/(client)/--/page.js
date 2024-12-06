@@ -1,5 +1,6 @@
 import React from "react";
 import { defaultMetaData, teamsData } from "../../../../data/data";
+import Link from "next/link";
 
 export const metadata = {
   ...defaultMetaData,
@@ -9,7 +10,7 @@ export const metadata = {
 const OurTeam3 = () => {
   return (
     <>
-      <div
+      {/* <div
         className="breadcrumb-section style-2"
         style={{
           backgroundImage: `linear-gradient(rgba(248, 248, 248, 0.5), rgba(248, 248, 248, 0.5)), url(${teamsData.backgroundSrc})`,
@@ -44,7 +45,7 @@ const OurTeam3 = () => {
                     <p>{teamsData.description}</p>
                   </div>
                 </div>
-                {/* <div className="col-lg-5 d-flex justify-content-xxl-center">
+                <div className="col-lg-5 d-flex justify-content-xxl-center">
                   <Link className="circle-btn btn-hover" href="/career-list">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +58,7 @@ const OurTeam3 = () => {
                     Join Our <br /> Team
                     <span style={{ top: "50.5px", left: "83.75px" }} />
                   </Link>
-                </div> */}
+                </div>
               </div>
             </div>
             <ul className="breadcrumb-list">
@@ -86,7 +87,7 @@ const OurTeam3 = () => {
             })}
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
