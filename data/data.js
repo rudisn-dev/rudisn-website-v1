@@ -734,7 +734,7 @@ export const allProjects = [
         "To overcome these challenges, we implemented the following solutions:",
       points: [
         "Implemented advanced animations to create an engaging and dynamic user experience.",
-        "Developed a responsive design that works seamlessly across devices.",
+        "Developed a responsive design that works seamlessly across various devices.",
         "Crafted a portfolio layout that effectively showcases the client's work and professional achievements.",
       ],
     },
