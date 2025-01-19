@@ -40,7 +40,7 @@ export default function RootLayout({ children, isClient }) {
         <NavBar />
         {children}
         <Footer />
-        <ScrollTopBtn />
+        {/* <ScrollTopBtn /> */}
         <SpeedInsights />
       </body>
       <GoogleAnalytics gaId="G-PP6G83BBBL" />
