@@ -5,7 +5,7 @@ import "remixicon/fonts/remixicon.css";
 import "../../../public/assets/css/bootstrap.min.css";
 import "../../../public/assets/css/style.css";
 import useMagneticHover from "@/hooks/useMagneticHover";
-import ScrollTopBtn from "@/utils/ScrollTopBtn";
+// import ScrollTopBtn from "@/utils/ScrollTopBtn";
 import { useEffect } from "react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
@@ -26,7 +26,7 @@ export default function RootLayout({ children, isClient }) {
         <NavBar />
         {children}
         <Footer />
-        <ScrollTopBtn />
+        {/* <ScrollTopBtn /> */}
         <SpeedInsights />
         <GoogleAnalytics gaId="G-PP6G83BBBL" />
       </>
